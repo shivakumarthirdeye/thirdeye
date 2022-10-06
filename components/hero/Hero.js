@@ -4,7 +4,7 @@ import HeroVideo from './HeroVideo';
 
 const Hero = () => {
   return (
-    <section className='py-16  relative '>
+    <section className=' relative  overflow-hidden'>
       <div className=' container mx-auto px-4 '>
         <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] z-10'>
           We are a design, <br className='hidden lg:block ' /> development &
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className='absolute right-0 top-[-100px] z-[-10] '>
           <GreenRight />
         </div>
-        <HeroVideo />
+        {/* <HeroVideo /> */}
 
         <div className='my-20'>
           <h2 className='text-3xl lg:text-4xl text-black text-opacity-80 font-light leading-[40px] lg:leading-[48.6px] z-10'>
@@ -32,7 +32,7 @@ const Hero = () => {
           </h2>
         </div>
       </div>
-      <div className='absolute right-0 top-[70%] z-[-10] '>
+      <div className='absolute right-0 top-[80%] z-[-10] '>
         <GreenRight />
       </div>
     </section>

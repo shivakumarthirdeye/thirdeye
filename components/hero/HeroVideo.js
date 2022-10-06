@@ -4,14 +4,14 @@ const HeroVideo = () => {
   return (
     <div className='lg:bg-[#D2ECED] z-10 rounded-md mt-56 w-full h-full'>
       <video
-        src='/assets/sample.mp4'
+        src='/assets/videos/sample.webm'
         className='lg:h-[665px] w-full bg-cover rounded-md '
-        autoPlay
+        // autoPlay
         muted
-        loop
+        // loop
       ></video>
 
-      <div className='absolute top-[45%] left-0 z-0'>
+      <div className='absolute top-[45%] left-0 z-[-10]'>
         <VioletLeft />
       </div>
     </div>

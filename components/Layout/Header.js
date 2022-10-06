@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className='container mx-auto flex justify-between h-[100px] items-center'>
+    <header className='container mx-auto flex justify-between h-[100px] items-center px-4'>
       <div>
         <button>
           <svg

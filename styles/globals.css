@@ -14,9 +14,14 @@ body {
   color: black;
   background: #f5f5f5;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 svg {
   pointer-events: none;
   z-index: -10;
+}
+
+section {
+  @apply my-16 lg:my-36;
 }
