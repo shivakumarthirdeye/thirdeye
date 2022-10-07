@@ -4,20 +4,20 @@ import HeroVideo from './HeroVideo';
 
 const Hero = () => {
   return (
-    <section className=' relative  overflow-hidden'>
-      <div className=' container mx-auto px-4 '>
+    <section className=' relative overflow-x-clip'>
+      <div className=' container mx-auto px-4  '>
         <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] z-10'>
           We are a design, <br className='hidden lg:block ' /> development &
           marketing <br className='hidden lg:block  ' /> studio creating an
           impact
         </h1>
-        <div className='absolute right-[-45%] sm:right-[-32%]  lg:right-[-10%] xl:right-40 top-[260px] z-[-10] '>
+        <div className='absolute right-[-45%]  sm:right-[-32%]  lg:right-[-10%] xl:right-40 top-[210px] z-[-10] '>
           <HeroTextSVG />
         </div>
         <div className='absolute right-0 top-[-100px] z-[-10] '>
           <GreenRight />
         </div>
-        {/* <HeroVideo /> */}
+        <HeroVideo />
 
         <div className='my-20'>
           <h2 className='text-3xl lg:text-4xl text-black text-opacity-80 font-light leading-[40px] lg:leading-[48.6px] z-10'>

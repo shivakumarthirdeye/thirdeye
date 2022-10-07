@@ -8,7 +8,7 @@ export const GreenRight = () => {
       xmlns='http://www.w3.org/2000/svg'
     >
       <g filter='url(#filter0_f_101_16)'>
-        <circle cx='560' cy='354' r='185' fill='#00FFE0' fill-opacity='0.52' />
+        <circle cx='560' cy='354' r='185' fill='#00FFE0' fillOpacity='0.52' />
       </g>
       <defs>
         <filter
@@ -18,9 +18,9 @@ export const GreenRight = () => {
           width='1120'
           height='1120'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feBlend
             mode='normal'
             in='SourceGraphic'
@@ -52,7 +52,7 @@ export const VioletLeft = () => {
           cy='592.5'
           r='217.5'
           fill='#0029FF'
-          fill-opacity='0.62'
+          fillOpacity='0.62'
         />
       </g>
       <defs>
@@ -63,9 +63,9 @@ export const VioletLeft = () => {
           width='1185'
           height='1185'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feBlend
             mode='normal'
             in='SourceGraphic'
@@ -96,7 +96,7 @@ export const GreenLeft = () => {
         cy='564.5'
         r='189.5'
         fill='#00FFE0'
-        fill-opacity='0.52'
+        fillOpacity='0.52'
       />
     </g>
     <defs>
@@ -107,9 +107,9 @@ export const GreenLeft = () => {
         width='1129'
         height='1129'
         filterUnits='userSpaceOnUse'
-        color-interpolation-filters='sRGB'
+        colorInterpolationFilters='sRGB'
       >
-        <feFlood flood-opacity='0' result='BackgroundImageFix' />
+        <feFlood floodOpacity='0' result='BackgroundImageFix' />
         <feBlend
           mode='normal'
           in='SourceGraphic'
@@ -137,7 +137,7 @@ export const GreenLeft = () => {
           cy='564.5'
           r='189.5'
           fill='#00FFE0'
-          fill-opacity='0.52'
+          fillOpacity='0.52'
         />
       </g>
       <defs>
@@ -148,9 +148,9 @@ export const GreenLeft = () => {
           width='1129'
           height='1129'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feBlend
             mode='normal'
             in='SourceGraphic'

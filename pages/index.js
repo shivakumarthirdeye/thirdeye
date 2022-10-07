@@ -1,4 +1,6 @@
+import Clients from '@/components/Clients';
 import Hero from '@/components/hero/Hero';
+import HowWeWork from '@/components/HowWeWork';
 import Layout from '@/components/Layout';
 import OurWork from '@/components/OurWork';
 
@@ -17,6 +19,8 @@ export default function Home() {
     >
       <Hero />
       <OurWork />
+      <Clients />
+      <HowWeWork />
     </Layout>
   );
 }
