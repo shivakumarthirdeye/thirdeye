@@ -1,7 +1,7 @@
-import work1 from '../public/assets/images/ourWork1.png';
-import work2 from '../public/assets/images/ourWork2.png';
-import work3 from '../public/assets/images/ourWork3.png';
-import work4 from '../public/assets/images/ourWork4.png';
+import work1 from '/public/assets/images/ourWork1.png';
+import work2 from '/public/assets/images/ourWork2.png';
+import work3 from '/public/assets/images/ourWork3.png';
+import work4 from '/public/assets/images/ourWork4.png';
 
 const works = [
   {
@@ -44,7 +44,7 @@ const works = [
 
 const OurWork = () => {
   return (
-    <section>
+    <section id='projects'>
       <div className='container mx-auto px-4'>
         <div>
           <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] '>

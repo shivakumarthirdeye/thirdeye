@@ -1,8 +1,10 @@
-import Clients from '@/components/Clients';
-import Hero from '@/components/hero/Hero';
-import HowWeWork from '@/components/HowWeWork';
+import Clients from '@/components/homePage/Clients';
+import Hero from '@/components/homePage/hero/Hero';
+import HowWeWork from '@/components/homePage/HowWeWork';
 import Layout from '@/components/Layout';
-import OurWork from '@/components/OurWork';
+import OurWork from '@/components/homePage/OurWork';
+import TechStack from '@/components/homePage/TechStack';
+import Testimonial from '@/components/common/Testimonial';
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <OurWork />
       <Clients />
       <HowWeWork />
+      <TechStack />
+      <Testimonial />
     </Layout>
   );
 }

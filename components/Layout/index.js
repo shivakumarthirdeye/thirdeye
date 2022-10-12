@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Footer from './Footer';
-import Header from './Header';
+import Header from './header/Header';
 
 const Layout = ({ title, keywords, description, children }) => {
   return (

@@ -1,4 +1,8 @@
-import { GreenRight, VioletLeft } from './ShadeSVGs';
+import {
+  GreenRight,
+  LeftCircle,
+  VioletLeft,
+} from '@/components/common/ShadeSVGs';
 
 const howWork = [
   {
@@ -32,7 +36,7 @@ const HowWeWork = () => {
         </h1>
 
         <div className='max-w-7xl mx-auto my-10'>
-          {howWork.map(item => {
+          {howWork.map((item, idx) => {
             const { id, title, description } = item;
 
             return (
@@ -42,8 +46,12 @@ const HowWeWork = () => {
                 </div>
                 <div className='flex-1'>
                   <h1 className='text-[96px]'>{title}</h1>
-                  <p className='my-5 text-2xl'>{description}</p>
-                  <div className='bg-black bg-opacity-20  w-full h-[1px] my-10'></div>
+                  <p className='my-5 text-2xl max-w-[583px] text-black text-opacity-80'>
+                    {description}
+                  </p>
+                  {idx !== howWork.length - 1 && (
+                    <div className='bg-black bg-opacity-20  w-full h-[1px] my-10'></div>
+                  )}
                 </div>
               </div>
             );
@@ -55,6 +63,9 @@ const HowWeWork = () => {
       </div>
       <div className='absolute top-[-200px] left-0 z-[-10]'>
         <VioletLeft />
+      </div>
+      <div className='absolute top-[75%] left-0 z-[-10]'>
+        <LeftCircle />
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import { VioletLeft } from '../ShadeSVGs';
+import { VioletLeft } from '../../common/ShadeSVGs';
 
 const HeroVideo = () => {
   return (

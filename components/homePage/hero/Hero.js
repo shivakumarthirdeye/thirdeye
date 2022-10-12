@@ -1,4 +1,4 @@
-import { GreenRight } from '../ShadeSVGs';
+import { GreenRight } from '../../common/ShadeSVGs';
 import { HeroTextSVG } from './heroSVG';
 import HeroVideo from './HeroVideo';
 

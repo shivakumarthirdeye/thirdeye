@@ -166,3 +166,21 @@ export const GreenLeft = () => {
     </svg>
   );
 };
+
+export const LeftCircle = () => {
+  return (
+    <svg
+      width='442'
+      height='605'
+      viewBox='0 0 442 605'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M441 302.5C441 469.046 310.46 604 149.5 604C-11.4596 604 -142 469.046 -142 302.5C-142 135.954 -11.4596 1 149.5 1C310.46 1 441 135.954 441 302.5Z'
+        stroke='#B1C7FF'
+        stroke-width='2'
+      />
+    </svg>
+  );
+};

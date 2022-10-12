@@ -8,6 +8,9 @@
   --inter: 'Inter', sans-serif;
   --poppins: 'Poppins', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: var(--inter);
