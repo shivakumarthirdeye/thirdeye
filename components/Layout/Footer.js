@@ -140,9 +140,13 @@ const Footer = () => {
             Let’s build something <br /> great together
           </h1>
           <div className='my-10'>
-            <button className='max-w-[211px] w-full py-4 text-base rounded  bg-white text-[#364BD2]'>
-              Get in touch
-            </button>
+            <Link href='/contact'>
+              <a>
+                <button className='max-w-[211px] w-full py-4 text-base rounded  bg-white text-[#364BD2]'>
+                  Get in touch
+                </button>
+              </a>
+            </Link>
           </div>
         </div>
         <div className='flex-[0.5] text-base md:text-lg my-5 md:my-0'>

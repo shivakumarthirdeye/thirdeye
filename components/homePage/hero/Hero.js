@@ -1,25 +1,28 @@
 import { GreenRight } from '../../common/ShadeSVGs';
-import { HeroTextSVG } from './heroSVG';
+import { HeroTextSVG } from '../../common/heroSVG';
 import HeroVideo from './HeroVideo';
+import HeroSection from '@/components/common/HeroSection';
 
 const Hero = () => {
   return (
-    <section className=' relative overflow-x-clip'>
-      <div className=' container mx-auto px-4  '>
-        <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] z-10'>
-          We are a design, <br className='hidden lg:block ' /> development &
-          marketing <br className='hidden lg:block  ' /> studio creating an
-          impact
-        </h1>
-        <div className='absolute right-[-45%]  sm:right-[-32%]  lg:right-[-10%] xl:right-40 top-[210px] z-[-10] '>
-          <HeroTextSVG />
-        </div>
-        <div className='absolute right-0 top-[-100px] z-[-10] '>
-          <GreenRight />
-        </div>
-        <HeroVideo />
+    <>
+      <section className=' relative overflow-x-clip'>
+        <div className=' container mx-auto px-4  '>
+          <HeroSection
+            content={
+              <>
+                We are a design, <br className='hidden lg:block ' /> development
+                & marketing <br className='hidden lg:block  ' /> studio creating
+                an impact
+              </>
+            }
+          />
 
-        <div className='my-20'>
+          {/* <HeroVideo /> */}
+        </div>
+      </section>
+      <section className='my-36  md:my-30'>
+        <div className=' container mx-auto px-4  '>
           <h2 className='text-3xl lg:text-4xl text-black text-opacity-80 font-light leading-[40px] lg:leading-[48.6px] z-10'>
             At Third Eye, we’re all about action. What are the{' '}
             <br className='hidden lg:block  ' /> specific actions that fuel your
@@ -31,11 +34,8 @@ const Hero = () => {
             actions you&apos;re targeting, Third Eye can help.
           </h2>
         </div>
-      </div>
-      <div className='absolute right-0 top-[80%] z-[-10] '>
-        <GreenRight />
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

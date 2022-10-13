@@ -2,25 +2,31 @@ export const GreenRight = () => {
   return (
     <svg
       width='569'
-      height='914'
-      viewBox='0 0 569 914'
+      height='1129'
+      viewBox='0 0 569 1129'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <g filter='url(#filter0_f_101_16)'>
-        <circle cx='560' cy='354' r='185' fill='#00FFE0' fillOpacity='0.52' />
+      <g filter='url(#filter0_f_136_1318)'>
+        <circle
+          cx='564.5'
+          cy='564.5'
+          r='189.5'
+          fill='#00FFE0'
+          fill-opacity='0.52'
+        />
       </g>
       <defs>
         <filter
-          id='filter0_f_101_16'
+          id='filter0_f_136_1318'
           x='0'
-          y='-206'
-          width='1120'
-          height='1120'
+          y='0'
+          width='1129'
+          height='1129'
           filterUnits='userSpaceOnUse'
-          colorInterpolationFilters='sRGB'
+          color-interpolation-filters='sRGB'
         >
-          <feFlood floodOpacity='0' result='BackgroundImageFix' />
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
           <feBlend
             mode='normal'
             in='SourceGraphic'
@@ -29,7 +35,7 @@ export const GreenRight = () => {
           />
           <feGaussianBlur
             stdDeviation='187.5'
-            result='effect1_foregroundBlur_101_16'
+            result='effect1_foregroundBlur_136_1318'
           />
         </filter>
       </defs>
@@ -179,7 +185,7 @@ export const LeftCircle = () => {
       <path
         d='M441 302.5C441 469.046 310.46 604 149.5 604C-11.4596 604 -142 469.046 -142 302.5C-142 135.954 -11.4596 1 149.5 1C310.46 1 441 135.954 441 302.5Z'
         stroke='#B1C7FF'
-        stroke-width='2'
+        strokeWidth='2'
       />
     </svg>
   );

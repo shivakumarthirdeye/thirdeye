@@ -47,10 +47,10 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
         showSidebar
           ? 'translate-x-0 z-50 opacity-100'
           : '-translate-x-full opacity-0'
-      } transition-all fixed top-0 left-0 bg-white h-screen w-screen`}
+      } transition-all fixed top-0 left-0 bg-white h-screen w-screen overflow-hidden`}
     >
       <button
-        className='absolute top-16 left-16'
+        className='absolute top-10 left-10 sm:top-16 sm:left-16'
         onClick={() => {
           setShowSidebar(false);
         }}
@@ -81,7 +81,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
         </svg>
       </button>
 
-      <div className='absolute bottom-16 left-16'>
+      <div className='absolute bottom-28 sm:bottom-16 left-10 sm:left-16'>
         {sidebarItems.map(item => {
           const { id, title, to } = item;
 
@@ -95,7 +95,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
               >
                 <div className='text-black text-opacity-40'>0{id}</div>
                 <div className=' flex gap-2 items-center '>
-                  <h1 className='group-hover:underline peer text-[77px]'>
+                  <h1 className='group-hover:underline peer text-[50px] md:text-[60px] xl:text-[68px] 2xl:text-[77px]'>
                     {title}
                   </h1>
                   <svg
@@ -118,10 +118,9 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
         })}
       </div>
 
-      <div className='absolute top-0 right-0'>
+      <div className='absolute top-0 right-0 z-[-10]'>
         <svg
-          width='493'
-          height='471'
+          className='w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[493px] md:h-[471px]'
           viewBox='0 0 493 471'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -131,7 +130,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
             cy='178.5'
             r='290.5'
             stroke='#B1C7FF'
-            stroke-width='4'
+            strokeWidth='4'
           />
         </svg>
       </div>

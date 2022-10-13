@@ -27,7 +27,7 @@ const TechStack = () => {
           })}
         </div>
       </div>
-      <div className='absolute left-0 top-[-200px] z-[-10] '>
+      <div className='absolute left-0 top-[-200px] z-[-10] overflow-hidden '>
         <GreenLeft />
       </div>
     </section>

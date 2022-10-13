@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Sidebar from './Sidebar';
@@ -50,12 +51,14 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        {route !== '/contact' && (
-          <div>
-            <button className='bg-black text-white  text-xl px-7 py-3 rounded'>
-              Let’s talk
-            </button>
-          </div>
+        {route === '/' && (
+          <Link href='/contact'>
+            <a>
+              <button className='bg-black text-white  text-xl px-7 py-3 rounded'>
+                Let’s talk
+              </button>
+            </a>
+          </Link>
         )}
       </header>
       <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />

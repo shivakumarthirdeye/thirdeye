@@ -1,10 +1,11 @@
-import Clients from '@/components/homePage/Clients';
-import Hero from '@/components/homePage/hero/Hero';
-import HowWeWork from '@/components/homePage/HowWeWork';
 import Layout from '@/components/Layout';
 import OurWork from '@/components/homePage/OurWork';
 import TechStack from '@/components/homePage/TechStack';
 import Testimonial from '@/components/common/Testimonial';
+import Clients from '@/components/common/Clients';
+import Hero from '@/components/homePage/hero/Hero';
+import OurHelp from '@/components/homePage/OurHelp';
+import HowWeWork from '@/components/common/HowWeWork';
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
       <Hero />
       <OurWork />
       <Clients />
-      <HowWeWork />
+      <OurHelp />
+      <HowWeWork title='How we work' />
       <TechStack />
       <Testimonial />
     </Layout>
