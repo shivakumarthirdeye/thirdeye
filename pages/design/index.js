@@ -1,6 +1,7 @@
 import Clients from '@/components/common/Clients';
 import HeroSection from '@/components/common/HeroSection';
 import HowWeWork from '@/components/common/HowWeWork';
+import OurWorks from '@/components/common/OurWorks';
 import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 
@@ -30,14 +31,13 @@ const ourWorks = [
 const design = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-60'>
+      <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
             content={
               <>
                 Good <span className='bg-black text-white'>design</span> is like{' '}
-                <br className='hidden sm:block' /> clear thinking made{' '}
-                <br className='hidden sm:block' /> visual
+                <br /> clear thinking made <br /> visual
               </>
             }
           />
@@ -46,6 +46,7 @@ const design = () => {
       <Clients />
       <HowWeWork steps={ourWorks} title='How we design amazing products ' />
       <Testimonial />
+      <OurWorks />
     </Layout>
   );
 };

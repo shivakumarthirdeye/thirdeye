@@ -47,9 +47,7 @@ const OurWork = () => {
     <section id='projects'>
       <div className='container mx-auto px-4'>
         <div>
-          <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] '>
-            Our Works
-          </h1>
+          <h1 className='heading '>Our Works</h1>
         </div>
         <div>
           {works.map(work => {
@@ -68,15 +66,15 @@ const OurWork = () => {
                   />
                 </div>
                 <div className='flex-1 my-10 lg:my-0 flex  flex-col justify-start'>
-                  <h4 className='text-[#4E53B7] text-xl lg:text-2xl'>{tag}</h4>
-                  <h1 className=' text-5xl lg:text-6xl xl:text-[64px]  leading-[65.4px] lg:leading-[86.4px] my-5'>
-                    {title}
-                  </h1>
-                  <p className='text-xl lg:text-2xl  text-black text-opacity-60'>
+                  <h4 className='text-[#4E53B7] font-semibold sm:text-lg md:text-xl lg:text-2xl'>
+                    {tag}
+                  </h4>
+                  <h1 className='heading'>{title}</h1>
+                  <p className='sm:text-lg md:text-xl  lg:text-2xl  text-black text-opacity-60'>
                     {description}
                   </p>
                   <div className='my-8 '>
-                    <button className=' text-xl lg:text-2xl    text-black text-opacity-80 '>
+                    <button className='sm:text-lg md:text-xl lg:text-2xl    text-black text-opacity-80 '>
                       Case Study
                       <div className='bg-[#5FC7EC] rounded-full my-1 h-[5px]'></div>
                     </button>

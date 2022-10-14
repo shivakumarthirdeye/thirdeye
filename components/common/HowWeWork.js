@@ -32,9 +32,7 @@ const HowWeWork = ({ steps, title }) => {
   return (
     <section className=' relative px-4 '>
       <div className='container mx-auto'>
-        <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] '>
-          {title}
-        </h1>
+        <h1 className='heading'>{title}</h1>
 
         <div className='max-w-7xl mx-auto my-10'>
           {ourWorks.map((item, idx) => {

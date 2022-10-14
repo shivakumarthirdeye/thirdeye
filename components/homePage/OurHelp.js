@@ -10,9 +10,7 @@ const OurHelp = () => {
       className='text-white py-16 md:py-28    px-4'
     >
       <div className='container mx-auto'>
-        <h1 className='text-5xl lg:text-7xl  font-light leading-[70px] lg:leading-[87.14px] '>
-          How can we help you
-        </h1>
+        <h1 className='heading !text-white'>How can we help you</h1>
 
         <div className='my-20 flex flex-col lg:flex-row justify-between'>
           <div className='flex-1'>

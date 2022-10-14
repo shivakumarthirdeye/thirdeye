@@ -3,9 +3,8 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Sidebar from './Sidebar';
 
-const Header = () => {
+const Header = ({ showHeaderBtn = true }) => {
   const [showSidebar, setShowSidebar] = useState(false);
-  const { route } = useRouter();
 
   return (
     <>
@@ -51,7 +50,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        {route === '/' && (
+        {showHeaderBtn && (
           <Link href='/contact'>
             <a>
               <button className='bg-black text-white  text-xl px-7 py-3 rounded'>

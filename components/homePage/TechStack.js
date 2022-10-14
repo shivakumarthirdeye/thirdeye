@@ -15,9 +15,7 @@ const TechStack = () => {
     <section className='mt-64 mb-40 relative'>
       <div className='container   mx-auto px-4'>
         <div>
-          <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] '>
-            Tech stack used
-          </h1>
+          <h1 className='heading'>Tech stack used</h1>
         </div>
         <div className='my-20 grid sm:grid-cols-2 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
           {stacks.map(item => {

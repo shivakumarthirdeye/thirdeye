@@ -28,28 +28,29 @@ const clientImg = [
   },
 ];
 
-const Clients = () => {
+const Clients = ({ svg }) => {
   return (
     <div className='relative py-20  overflow-hidden'>
-      <svg
-        className='absolute left-0  top-[-250px] xl:top-[-300px] z-[-10]  w-[200px] h-[500px] xl:w-[271px] xl:h-[585px]'
-        viewBox='0 0 271 585'
-        fill='none'
-        xmlns='http://www.w3.org/2000/svg'
-      >
-        <circle
-          cx='-21.5'
-          cy='292.5'
-          r='291.5'
-          stroke='#B1C7FF'
-          strokeWidth='2'
-        />
-      </svg>
+      {svg && (
+        <svg
+          className='absolute left-0  top-[-250px] xl:top-[-300px] z-[-10]  w-[200px] h-[500px] xl:w-[271px] xl:h-[585px]'
+          viewBox='0 0 271 585'
+          fill='none'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <circle
+            cx='-21.5'
+            cy='292.5'
+            r='291.5'
+            stroke='#B1C7FF'
+            strokeWidth='2'
+          />
+        </svg>
+      )}
+
       <div className='container mx-auto  px-4'>
-        <h1 className='text-5xl lg:text-7xl text-black text-opacity-80 font-light leading-[70px] lg:leading-[87.14px] '>
-          Selected Clients
-        </h1>
-        <div className='my-20 flex flex-wrap  justify-center lg:justify-between'>
+        <h1 className='heading '>Selected Clients</h1>
+        <div className='my-10 lg:my-20 flex flex-wrap  justify-center lg:justify-between'>
           {clientImg.map(item => {
             const { id, img } = item;
 

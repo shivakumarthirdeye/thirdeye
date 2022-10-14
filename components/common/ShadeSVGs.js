@@ -13,7 +13,7 @@ export const GreenRight = () => {
           cy='564.5'
           r='189.5'
           fill='#00FFE0'
-          fill-opacity='0.52'
+          fillOpacity='0.52'
         />
       </g>
       <defs>
@@ -24,9 +24,9 @@ export const GreenRight = () => {
           width='1129'
           height='1129'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feBlend
             mode='normal'
             in='SourceGraphic'

@@ -11,16 +11,14 @@ const Hero = () => {
           <HeroSection
             content={
               <>
-                We are a design, <br className='hidden lg:block ' /> development
-                & marketing <br className='hidden lg:block  ' /> studio creating
-                an impact
+                We are a design, <br className='block ' /> development &
+                marketing <br className='block  ' /> studio creating an impact
               </>
             }
           />
-
-          {/* <HeroVideo /> */}
         </div>
       </section>
+      <HeroVideo />
       <section className='my-36  md:my-30'>
         <div className=' container mx-auto px-4  '>
           <h2 className='text-3xl lg:text-4xl text-black text-opacity-80 font-light leading-[40px] lg:leading-[48.6px] z-10'>

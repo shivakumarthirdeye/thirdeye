@@ -31,3 +31,21 @@ svg {
 section {
   @apply my-16 lg:my-36;
 }
+
+.heading {
+  @apply text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80   !leading-[45px] sm:!leading-[60px] md:!leading-[70px] lg:!leading-[87.14px] font-medium;
+}
+
+br {
+  @apply hidden sm:block;
+}
+
+.ourWorkSwiper {
+  user-select: none;
+  overflow: visible !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: '' !important;
+}

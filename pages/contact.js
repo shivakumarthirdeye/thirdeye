@@ -19,7 +19,7 @@ const contact = () => {
     message: Yup.string().required('Message is required'),
   });
   return (
-    <Layout>
+    <Layout showHeaderBtn={false}>
       <section className='my-14'>
         <div className='container max-w-7xl mx-auto flex justify-between'>
           <div className='flex-1'>

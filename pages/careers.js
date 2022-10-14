@@ -26,7 +26,7 @@ const careerOptions = [
 
 const careers = () => {
   return (
-    <Layout>
+    <Layout showHeaderBtn={false}>
       <section className='my-14 px-4'>
         <div className='container max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between'>
           <div className='flex-1'>
@@ -46,7 +46,10 @@ const careers = () => {
               const { id, description, title } = item;
 
               return (
-                <div key={id} className='max-w-[522px] border rounded-xl border-[#00000019] p-6'>
+                <div
+                  key={id}
+                  className='max-w-[522px] border rounded-xl border-[#00000019] p-6'
+                >
                   <h1 className='text-2xl font-medium'>{title}</h1>
                   <p className='text-sm my-3 text-black  text-opacity-80 leading-[18.9px]'>
                     {description}
@@ -65,16 +68,16 @@ const careers = () => {
                         <path
                           d='M3.34375 9.5L17.3438 9.5'
                           stroke='black'
-                          stroke-width='0.78125'
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
+                          strokeWidth='0.78125'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
                         />
                         <path
                           d='M12.625 4.03125L18.0938 9.5L12.625 14.9688'
                           stroke='black'
-                          stroke-width='0.78125'
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
+                          strokeWidth='0.78125'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
                         />
                       </svg>
                     </button>
