@@ -6,6 +6,7 @@ import work3 from '/public/assets/images/ourWork3.png';
 import work4 from '/public/assets/images/ourWork4.png';
 import { Navigation } from 'swiper';
 import 'swiper/css/navigation';
+import { VioletLeft } from './ShadeSVGs';
 
 const works = [
   {
@@ -48,7 +49,7 @@ const works = [
 
 const OurWorks = ({ title }) => {
   return (
-    <section className='my-20'>
+    <section className='my-20 relative'>
       <div className='container mx-auto px-4 overflow-hidden'>
         <h1 className='heading'>{title || 'Our Works'}</h1>
         <div className='my-20  sm:px-0 container  mx-auto'>
@@ -170,6 +171,9 @@ const OurWorks = ({ title }) => {
             })}
           </Swiper>
         </div>
+      </div>
+      <div className='absolute  left-0 top-0'>
+        <VioletLeft />
       </div>
     </section>
   );

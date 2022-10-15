@@ -12,13 +12,13 @@ import hero1 from '/public/assets/images/subServices/ui/Hero1.png';
 import hero2 from '/public/assets/images/subServices/ui/Hero2.png';
 import hero3 from '/public/assets/images/subServices/ui/Hero3.png';
 
-const UIDesign = () => {
+const Illustrations = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
-            content={<span className='text-8xl'>UI Design</span>}
+            content={<span className='text-8xl'>Illustrations</span>}
             description={
               <>
                 At Third Eye, we’re all about action. What are the <br />{' '}
@@ -59,4 +59,4 @@ const UIDesign = () => {
   );
 };
 
-export default UIDesign;
+export default Illustrations;
