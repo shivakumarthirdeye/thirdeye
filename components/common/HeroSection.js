@@ -8,7 +8,11 @@ const HeroSection = ({ content, description }) => {
       <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80 font-light !leading-[48px] md:!leading-[70px] lg:!leading-[87.14px] z-10'>
         {content}
       </h1>
-      <p className='mt-6 text-2xl text-black text-opacity-80'>{description}</p>
+      {description && (
+        <p className='mt-6 text-2xl text-black text-opacity-80'>
+          {description}
+        </p>
+      )}
       <div className='absolute  top-[60%] md:top-[75%] z-[-10] right-[-5%] lg:right-0  '>
         <HeroTextSVG />
       </div>

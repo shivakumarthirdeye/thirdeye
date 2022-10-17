@@ -10,12 +10,17 @@ const stacks = [
   { id: 4, name: 'React Native', img: reactIcon.src },
 ];
 
-const TechStack = () => {
+const TechStack = ({ description, classes }) => {
   return (
-    <section className='mt-64 mb-40 relative'>
-      <div className='container   mx-auto px-4'>
+    <section className=' relative'>
+      <div className={`container   mx-auto px-4 ${classes}`}>
         <div>
           <h1 className='heading'>Tech stack used</h1>
+          {description && (
+            <p className='text-4xl leading-[48.6px] text-black text-opacity-80 my-5'>
+              {description}
+            </p>
+          )}
         </div>
         <div className='my-20 grid sm:grid-cols-2 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
           {stacks.map(item => {
