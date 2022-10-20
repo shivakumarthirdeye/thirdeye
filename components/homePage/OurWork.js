@@ -3,7 +3,7 @@ import work2 from '/public/assets/images/ourWork2.png';
 import work3 from '/public/assets/images/ourWork3.png';
 import work4 from '/public/assets/images/ourWork4.png';
 
-const works = [
+const worksMain = [
   {
     id: 1,
     image: work1,
@@ -42,7 +42,8 @@ const works = [
   },
 ];
 
-const OurWork = () => {
+const OurWork = ({ ourWorks = worksMain }) => {
+  const works = ourWorks;
   return (
     <section id='projects'>
       <div className='container mx-auto px-4'>
@@ -61,7 +62,7 @@ const OurWork = () => {
                 <div className={`${id % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}>
                   <img
                     src={image.src}
-                    className='lg:h-[675px] w-full h-full object-cover  rounded-[32px]'
+                    className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[579px]  object-cover  rounded-[32px]'
                     alt=''
                   />
                 </div>

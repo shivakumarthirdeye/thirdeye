@@ -39,17 +39,17 @@ const HowWeWork = ({ steps, title }) => {
             const { id, title, description } = item;
 
             return (
-              <div className='flex my-20' key={id}>
-                <div className='flex-[0.18] mt-28'>
+              <div className='flex  sm:my-10 lg:my-20' key={id}>
+                <div className='flex-[0.18] mt-28 hidden sm:block'>
                   <h3 className='text-xl sm:text-3xl md:text-4xl xl:text-5xl'>
                     0{id}
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-4xl sm:text-6xl md:text-7xl xl:text-8xl'>
+                  <h1 className='text-3xl sm:text-6xl md:text-7xl xl:text-8xl'>
                     {title}
                   </h1>
-                  <p className='my-5 text-lg sm:text-xl lg:text-2xl max-w-[583px] text-black text-opacity-80'>
+                  <p className='my-5  sm:text-xl lg:text-2xl max-w-[583px] text-black text-opacity-80'>
                     {description}
                   </p>
                   {idx !== howWork.length - 1 && (

@@ -6,6 +6,7 @@ import Hero from '@/components/homePage/hero/Hero';
 import OurHelp from '@/components/homePage/OurHelp';
 import HowWeWork from '@/components/common/HowWeWork';
 import TechStack from '@/components/homePage/TechStack';
+import OurCapabilities from '@/components/homePage/OurCapabilities';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     >
       <Hero />
       <OurWork />
+      {/* <OurCapabilities /> */}
       <Clients svg />
       <OurHelp />
       <HowWeWork title='How we work' />

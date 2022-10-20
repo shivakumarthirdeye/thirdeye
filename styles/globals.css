@@ -33,12 +33,12 @@ section {
 }
 
 .heading {
-  @apply text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80   !leading-[45px] sm:!leading-[60px] md:!leading-[70px] lg:!leading-[87.14px] font-medium;
+  @apply text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80   !leading-[35.4px] sm:!leading-[60px] md:!leading-[70px] lg:!leading-[87.14px] font-medium;
 }
 
-br {
+/* br {
   @apply hidden sm:block;
-}
+} */
 
 .ourWorkSwiper {
   user-select: none;
@@ -48,4 +48,25 @@ br {
 .swiper-button-next:after,
 .swiper-button-prev:after {
   content: '' !important;
+}
+
+svg {
+  pointer-events: none;
+}
+/* 
+body::-webkit-scrollbar {
+  width: 8px;
+  @apply bg-gray-200 rounded dark:bg-gray-600;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-transparent rounded;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 border-2 border-gray-300 rounded dark:bg-gray-400;
+} */
+
+li::marker {
+  font-size: 1.5rem;
 }

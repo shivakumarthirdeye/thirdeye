@@ -11,16 +11,16 @@ const ImpactCreated = () => {
   return (
     <div className='relative '>
       <div className='container max-w-7xl mx-auto px-4 overflow-hidden'>
-        <h1 className='heading'>{'Our Works'}</h1>
+        <h1 className='heading'>Impact Created</h1>
 
-        <div className='grid grid-cols-4 my-10 lg:my-20'>
+        <div className='grid grid-cols-2 gap-y-5 lg:grid-cols-4 my-10 lg:my-20'>
           {impacts.map(impact => {
             const { id, amount, description } = impact;
 
             return (
               <div key={id}>
-                <h1 className='text-5xl'>{amount}+</h1>
-                <h3 className='text-black text-opacity-80 text-2xl my-2'>
+                <h1 className='text-3xl md:text-4xl lg:text-5xl'>{amount}+</h1>
+                <h3 className='text-black text-opacity-80  text-sm sm:text-base md:text-xl lg:text-2xl my-2'>
                   {description}
                 </h3>
               </div>
@@ -28,7 +28,7 @@ const ImpactCreated = () => {
           })}
         </div>
       </div>
-      <div className='absolute right-0 top-[-250px]'>
+      <div className='absolute right-0 top-[-250px] z-[-10]'>
         <GreenRight />
       </div>
     </div>

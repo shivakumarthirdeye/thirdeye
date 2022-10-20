@@ -91,15 +91,19 @@ const testimonialInfo = [
 
 const Testimonial = () => {
   return (
-    <section className='my-20 mb-52'>
+    <section className='my-20'>
       <div className='container mx-auto px-4'>
         <h1 className='heading'>What people say about us</h1>
       </div>{' '}
       <div className='my-20 px-4 sm:px-0'>
         <Swiper
-          spaceBetween={30}
+          spaceBetween={10}
           slidesPerView={1}
           breakpoints={{
+            350: {
+              slidesPerView: 1.2,
+              spaceBetween: 15,
+            },
             640: {
               slidesPerView: 2,
               spaceBetween: 20,
@@ -119,7 +123,7 @@ const Testimonial = () => {
             const { id, img, review, name, userId, date } = item;
             return (
               <SwiperSlide key={id} className=' w-full select-none'>
-                <div className='border p-5 rounded-xl font-poppins'>
+                <div className='border p-4 sm:p-5 rounded-xl font-poppins'>
                   <div className='flex gap-4'>
                     <div>
                       <img src={img} className='w-10 h-10' alt='' />
@@ -131,7 +135,7 @@ const Testimonial = () => {
                       <h4 className='text-[#8093B3] text-sm'>{userId}</h4>
                     </div>
                   </div>
-                  <div className='my-10 text-[#355386] leading-[24px]'>
+                  <div className='my-5 sm:my-10 text-sm md:text-base text-[#355386] leading-[24px]'>
                     {review}
                   </div>
                   <div>

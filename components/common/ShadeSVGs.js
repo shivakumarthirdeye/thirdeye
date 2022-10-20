@@ -1,6 +1,7 @@
 export const GreenRight = () => {
   return (
     <svg
+      className='hidden sm:block'
       width='569'
       height='1129'
       viewBox='0 0 569 1129'
@@ -46,6 +47,7 @@ export const GreenRight = () => {
 export const VioletLeft = () => {
   return (
     <svg
+      className='hidden sm:block'
       width='625'
       height='1185'
       viewBox='0 0 625 1185'
@@ -90,6 +92,7 @@ export const VioletLeft = () => {
 
 export const GreenLeft = () => {
   <svg
+    className='hidden sm:block'
     width='524'
     height='1129'
     viewBox='0 0 524 1129'
@@ -131,6 +134,7 @@ export const GreenLeft = () => {
   </svg>;
   return (
     <svg
+      className='hidden sm:block'
       width='524'
       height='1129'
       viewBox='0 0 524 1129'
@@ -176,6 +180,7 @@ export const GreenLeft = () => {
 export const LeftCircle = () => {
   return (
     <svg
+      className='hidden sm:block'
       width='442'
       height='605'
       viewBox='0 0 442 605'

@@ -19,7 +19,7 @@ const Awards = () => {
     <div>
       <div className='container mx-auto pb-10  px-4'>
         <h1 className='heading '>Selected Clients</h1>
-        <div className='grid grid-cols-2 sm:grid-cols-3 gap-y-8 lg:grid-cols-6 my-16'>
+        <div className='grid grid-cols-3 gap-5 gap-y-8 lg:grid-cols-6 my-16'>
           {allAwards.map(award => {
             const { id, name, img } = award;
 
@@ -31,9 +31,13 @@ const Awards = () => {
                 <img
                   src={img}
                   alt=''
-                  className='min-w-[110.19px] min-h-[110.19px] object-cover max-h-[110.19px] max-w-[110.19px]'
+                  className='
+                  min-w-[60px] min-h-[60px] max-h-[60px] max-w-[60px]
+                   sm:min-w-[110.19px] sm:min-h-[110.19px] sm:max-h-[110.19px] sm:max-w-[110.19px]  object-cover'
                 />
-                <h1 className='max-w-[200.94px] my-4 text-center'>{name}</h1>
+                <h1 className='text-[10px] sm:text-base max-w-[200.94px] my-4 text-center'>
+                  {name}
+                </h1>
               </div>
             );
           })}

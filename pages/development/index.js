@@ -34,8 +34,7 @@ const ourProcess = [
     icon: (
       <>
         <svg
-          width='64'
-          height='64'
+          className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
           viewBox='0 0 64 64'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -88,8 +87,7 @@ const ourProcess = [
     icon: (
       <>
         <svg
-          width='64'
-          height='64'
+          className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
           viewBox='0 0 64 64'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -121,8 +119,7 @@ const ourProcess = [
     icon: (
       <>
         <svg
-          width='64'
-          height='64'
+          className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
           viewBox='0 0 64 64'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -154,8 +151,7 @@ const ourProcess = [
     icon: (
       <>
         <svg
-          width='64'
-          height='64'
+          className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
           viewBox='0 0 64 64'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -194,14 +190,16 @@ const ourProcess = [
 const development = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-24 md: lg:mb-60'>
+      <section className='my-5 sm:my-10 lg:my-20 relative overflow-x-clip mb-10 sm:mb-24 md: lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
             content={
               <>
-                We believe to use <br /> modern tech stacks for <br /> all our
+                We believe to use <br />
+                modern tech stacks for <br />
+                all our&nbsp;
                 <span className='bg-black text-white'>development</span>
-                <br /> work
+                <br className='hidden sm:block' /> work
               </>
             }
           />
