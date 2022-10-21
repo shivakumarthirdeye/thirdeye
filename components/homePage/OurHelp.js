@@ -1,25 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiArrowRight } from 'react-icons/hi';
 
 const helps = [
   {
     id: 1,
     title: 'MVP for Startups',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more cMVP for Startups `,
   },
   {
     id: 2,
     title: 'Agile Product team for scaleups',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more Agile Product team for scaleups `,
   },
   {
     id: 3,
     title: 'Enterprise Digital Transformation',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more Enterprise Digital Transformation `,
   },
 ];
 
 const OurHelp = () => {
+  const [activeHelp, setActiveHelp] = useState(1);
+  console.log(
+    '🚀 ~ file: OurHelp.js ~ line 24 ~ OurHelp ~ activeHelp',
+    activeHelp
+  );
   return (
     <>
       <div
@@ -35,7 +40,7 @@ const OurHelp = () => {
               const { id, description, title } = help;
 
               return (
-                <div className='grid gap-4'>
+                <div key={id} className='grid gap-4'>
                   <h1 className='font-semibold underline sm:text-lg md:text-xl'>
                     {title}
                   </h1>
@@ -53,14 +58,14 @@ const OurHelp = () => {
                         cy='19.7266'
                         r='12.0482'
                         stroke='white'
-                        stroke-width='0.903614'
+                        strokeWidth='0.903614'
                       />
                       <circle
                         cx='12.5002'
                         cy='7.07831'
                         r='6.62651'
                         stroke='white'
-                        stroke-width='0.903614'
+                        strokeWidth='0.903614'
                       />
                     </svg>
                   </div>
@@ -85,6 +90,37 @@ const OurHelp = () => {
 
           <div className='my-20 flex flex-col lg:flex-row justify-between'>
             <div className='flex-1'>
+              {helps.map(item => {
+                const { description, id, title } = item;
+
+                return (
+                  <div
+                    key={id}
+                    className='cursor-pointer my-7'
+                    onClick={() => {
+                      setActiveHelp(id);
+                    }}
+                  >
+                    <h1 className='text-3xl xl:text-4xl font-semibold flex items-center '>
+                      {activeHelp === id && (
+                        <span>
+                          <HiArrowRight className='inline' />
+                        </span>
+                      )}
+
+                      <span className=' ml-2 relative py-1'>
+                        {title}
+                        {activeHelp === id && (
+                          <div className='absolute bottom-0 w-full bg-white h-1'></div>
+                        )}
+                      </span>
+                    </h1>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* <div className='flex-1'>
               <h1 className='text-3xl lg:text-4xl font-semibold flex items-center '>
                 <span>
                   <HiArrowRight className='inline' />
@@ -98,7 +134,7 @@ const OurHelp = () => {
                 <li className='my-10'>Agile Product team for scaleups</li>
                 <li className='my-10'>Enterprise Digital Transformation</li>
               </ul>
-            </div>
+            </div> */}
             <div className='flex-1'>
               <svg
                 width='55'
@@ -124,9 +160,7 @@ const OurHelp = () => {
               </svg>
 
               <p className='my-10 text-xl lg:text-2xl font-light'>
-                At Third Eye, we&apos;re all about action. What are the specific
-                actions that fuel your company&apos;s growth? Do you need more
-                consumers to buy your product?
+                {helps[activeHelp - 1].description}
               </p>
             </div>
           </div>

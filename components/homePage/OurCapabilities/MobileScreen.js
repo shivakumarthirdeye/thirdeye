@@ -103,7 +103,7 @@ const MobileScreen = () => {
           </Link>
           <div className='flex justify-center flex-col items-center my-8'>
             {subDesign.map(item => {
-              return <Item item={item} />;
+              return <Item key={item.id} item={item} />;
             })}
           </div>
         </div>
@@ -127,7 +127,7 @@ const MobileScreen = () => {
           </Link>
           <div className='flex justify-center flex-col items-center my-8'>
             {subDevelopment.map(item => {
-              return <Item item={item} />;
+              return <Item key={item.id} item={item} />;
             })}
           </div>
         </div>
@@ -151,7 +151,7 @@ const MobileScreen = () => {
           </Link>
           <div className='flex justify-center flex-col items-center my-8'>
             {subMarketing.map(item => {
-              return <Item item={item} />;
+              return <Item key={item.id} item={item} />;
             })}
           </div>
         </div>
