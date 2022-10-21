@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const megaMenuItems = [
   {
     id: 1,
@@ -31,11 +33,11 @@ const megaMenuItems = [
     subItem: [
       {
         id: 1,
-        name: 'Social media management',
+        name: 'UI-Design',
       },
       {
         id: 2,
-        name: 'SEO',
+        name: 'UX-Design',
       },
       {
         id: 3,
@@ -57,11 +59,11 @@ const megaMenuItems = [
     subItem: [
       {
         id: 1,
-        name: 'Social media management',
+        name: 'Front-End',
       },
       {
         id: 2,
-        name: 'SEO',
+        name: 'Back-End',
       },
       {
         id: 3,
@@ -106,7 +108,9 @@ const MegaMenu = () => {
         const { id, subItem, title } = menu;
         return (
           <div key={id} className=''>
-            <h3 className='font-semibold mb-2 text-lg'>{title}</h3>
+            <h3 className='font-semibold mb-2 text-lg'>
+              <Link href={`/${title.toLowerCase()}`}>{title}</Link>
+            </h3>
             <ul>
               {subItem.map(item => {
                 return (
@@ -114,7 +118,11 @@ const MegaMenu = () => {
                     className='my-1 cursor-pointer text-black text-opacity-80 '
                     key={item.id}
                   >
-                    {item.name}
+                    <Link
+                      href={`/${title.toLowerCase()}/${item.name.toLowerCase()}`}
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 );
               })}

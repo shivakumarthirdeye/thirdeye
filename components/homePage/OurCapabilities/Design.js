@@ -35,32 +35,32 @@ const subDesign = [
 ];
 
 const Design = () => {
-  useEffect(() => {
-    const container = document.getElementById('design-container');
-    const scrollTl = gsap.timeline({
-      scrollTrigger: {
-        trigger: container,
-        start: 'top 0%',
-        end: '1500px',
-        pin: true,
-        scrub: true,
-        markers: {
-          startColor: '#ff0000',
-          endColor: 'green',
-        },
-      },
-    });
+  // useEffect(() => {
+  //   const container = document.getElementById('design-container');
+  //   const scrollTl = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: container,
+  //       start: 'top 0%',
+  //       end: '1500px',
+  //       pin: true,
+  //       scrub: true,
+  //       markers: {
+  //         startColor: '#ff0000',
+  //         endColor: 'green',
+  //       },
+  //     },
+  //   });
 
-    scrollTl.from(
-      '#design-items',
-      {
-        x: 0,
-      },
-      {
-        x: 1000,
-      }
-    );
-  }, []);
+  //   scrollTl.from(
+  //     '#design-items',
+  //     {
+  //       x: 0,
+  //     },
+  //     {
+  //       x: 1000,
+  //     }
+  //   );
+  // }, []);
 
   return (
     <div

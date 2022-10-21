@@ -22,11 +22,21 @@ const TechStack = ({ description, classes }) => {
             </p>
           )}
         </div>
-        <div className='my-20 grid sm:grid-cols-2 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
+        <div className='my-20 grid grid-cols-3 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
           {stacks.map(item => {
             const { id, img, name } = item;
 
-            return <img src={img} title={name} alt={name} key={id} />;
+            return (
+              <img
+                src={img}
+                className={`${
+                  id === 4 ? 'hidden md:block' : ''
+                } w-[70px]  h-[60px] sm:w-auto sm:h-auto`}
+                title={name}
+                alt={name}
+                key={id}
+              />
+            );
           })}
         </div>
       </div>

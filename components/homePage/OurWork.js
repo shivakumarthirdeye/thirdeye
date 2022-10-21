@@ -57,7 +57,7 @@ const OurWork = ({ ourWorks = worksMain }) => {
             return (
               <div
                 key={id}
-                className='flex flex-col  lg:flex-row gap-16 lg:gap-32 my-10 md:my-20 lg:my-40 items-center'
+                className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16 lg:my-40 items-center'
               >
                 <div className={`${id % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}>
                   <img
@@ -66,8 +66,8 @@ const OurWork = ({ ourWorks = worksMain }) => {
                     alt=''
                   />
                 </div>
-                <div className='flex-1 my-10 lg:my-0 flex  flex-col justify-start'>
-                  <h4 className='text-[#4E53B7] font-semibold sm:text-lg md:text-xl lg:text-2xl'>
+                <div className='flex-1 my-5 lg:my-0 flex  flex-col justify-start'>
+                  <h4 className='text-[#4E53B7] font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
                     {tag}
                   </h4>
                   <h1 className='heading'>{title}</h1>

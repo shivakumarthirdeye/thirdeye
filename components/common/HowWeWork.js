@@ -39,8 +39,8 @@ const HowWeWork = ({ steps, title }) => {
             const { id, title, description } = item;
 
             return (
-              <div className='flex  sm:my-10 lg:my-20' key={id}>
-                <div className='flex-[0.18] mt-28 hidden sm:block'>
+              <div className='flex  sm:my-8 lg:my-16' key={id}>
+                <div className='flex-[0.18]  hidden sm:block'>
                   <h3 className='text-xl sm:text-3xl md:text-4xl xl:text-5xl'>
                     0{id}
                   </h3>
@@ -53,7 +53,7 @@ const HowWeWork = ({ steps, title }) => {
                     {description}
                   </p>
                   {idx !== howWork.length - 1 && (
-                    <div className='bg-black bg-opacity-20  w-full h-[1px] my-10'></div>
+                    <div className='bg-black bg-opacity-10 sm:bg-opacity-20  w-full h-[1px] my-10'></div>
                   )}
                 </div>
               </div>
