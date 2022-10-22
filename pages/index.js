@@ -24,7 +24,7 @@ export default function Home() {
     >
       <Hero />
       <OurWork />
-      {/* <OurCapabilities /> */}
+      <OurCapabilities />
       <Clients svg />
       <IndustriesWeServe />
       <OurHelp />
