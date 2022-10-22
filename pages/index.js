@@ -7,6 +7,7 @@ import OurHelp from '@/components/homePage/OurHelp';
 import HowWeWork from '@/components/common/HowWeWork';
 import TechStack from '@/components/homePage/TechStack';
 import OurCapabilities from '@/components/homePage/OurCapabilities';
+import IndustriesWeServe from '@/components/homePage/IndustriesWeServe';
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
     >
       <Hero />
       <OurWork />
-      <OurCapabilities />
+      {/* <OurCapabilities /> */}
       <Clients svg />
+      <IndustriesWeServe />
       <OurHelp />
       <HowWeWork title='How we work' />
       <TechStack />

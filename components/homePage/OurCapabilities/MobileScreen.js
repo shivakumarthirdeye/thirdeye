@@ -87,9 +87,9 @@ const MobileScreen = () => {
         style={{
           background: `linear-gradient(42.36deg, #7CE7FF 1.63%, #3E4FA8 100%), #FFFFFF`,
         }}
-        className='px-4 py-10'
+        className='px-4 py-20'
       >
-        <h1 className='text-xl'>Our Capabilities</h1>
+        <h1 className='text-xl md:text-3xl'>Our Capabilities</h1>
         <div className='my-5'>
           <h2 className='text-3xl'>Design</h2>
           <Link href='/design'>
