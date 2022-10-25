@@ -34,7 +34,9 @@ const OurHelp = () => {
         className='text-white  lg:hidden py-10    px-4'
       >
         <div className='container mx-auto'>
-          <h1 className='heading !text-white'>How can we help you</h1>
+          <h1 className='heading lg:text-[64px] !text-white'>
+            How can we help you
+          </h1>
           <div className='grid gap-8 my-10'>
             {helps.map(help => {
               const { id, description, title } = help;
@@ -86,7 +88,9 @@ const OurHelp = () => {
         className='text-white hidden lg:block py-16 md:py-28    px-4'
       >
         <div className='container mx-auto'>
-          <h1 className='heading !text-white'>How can we help you</h1>
+          <h1 className='heading !text-white lg:text-[64px]'>
+            How can we help you
+          </h1>
 
           <div className='my-20 flex flex-col lg:flex-row justify-between'>
             <div className='flex-1'>
@@ -101,7 +105,7 @@ const OurHelp = () => {
                       setActiveHelp(id);
                     }}
                   >
-                    <h1 className='text-3xl xl:text-4xl font-semibold flex items-center '>
+                    <h1 className='text-3xl   :text-[32px] font-semibold flex items-center '>
                       {activeHelp === id && (
                         <span>
                           <HiArrowRight className='inline' />

@@ -15,9 +15,9 @@ const TechStack = ({ description, classes }) => {
     <section className=' relative'>
       <div className={`container   mx-auto px-4 ${classes}`}>
         <div>
-          <h1 className='heading'>Tech stack used</h1>
+          <h1 className='heading lg:text-[62px]'>Tech stack used</h1>
           {description && (
-            <p className='text-4xl leading-[48.6px] text-black text-opacity-80 my-5'>
+            <p className=' text-base sm:text-xl md:text-2xl lg:text-4xl lg:leading-[48.6px] text-black text-opacity-80 my-5'>
               {description}
             </p>
           )}

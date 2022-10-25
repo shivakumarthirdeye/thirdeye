@@ -93,7 +93,7 @@ const Testimonial = () => {
   return (
     <section className='my-20'>
       <div className='container mx-auto px-4'>
-        <h1 className='heading'>What people say about us</h1>
+        <h1 className='heading lg:[64px]'>What people say about us</h1>
       </div>{' '}
       <div className='my-20 px-4 sm:px-0'>
         <Swiper

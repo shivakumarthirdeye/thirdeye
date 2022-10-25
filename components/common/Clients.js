@@ -28,9 +28,9 @@ const clientImg = [
   },
 ];
 
-const Clients = ({ svg }) => {
+const Clients = ({ svg, title = 'Selected Clients' }) => {
   return (
-    <div className='relative py-10 lg:py-20  overflow-hidden'>
+    <div className='relative py-10   overflow-hidden'>
       {svg && (
         <svg
           className='absolute left-0  top-[-250px] xl:top-[-300px] z-[-10]  w-[200px] h-[500px] xl:w-[271px] xl:h-[585px]'
@@ -49,7 +49,7 @@ const Clients = ({ svg }) => {
       )}
 
       <div className='container mx-auto  px-4'>
-        <h1 className='heading '>Selected Clients</h1>
+        <h1 className='heading lg:text-[64px] '>{title}</h1>
         <div className='my-10 lg:my-20  flex flex-wrap justify-center lg:justify-around'>
           {clientImg.map(item => {
             const { id, img } = item;

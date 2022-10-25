@@ -64,16 +64,16 @@ const contact = () => {
                 <Field
                   as='textarea'
                   name='message'
-                  placeholder='What’s your name?'
+                  placeholder='Tell us about your project :)'
                   className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full h-[150px] resize-none'
                 />
-                <ErrorMessage name='email'>
+                <ErrorMessage name='message'>
                   {msg => <p className='text-red-500 py-3'>{msg}*</p>}
                 </ErrorMessage>
               </div>
               <div className='flex justify-end '>
                 <button
-                  className='bg-black px-4 py-4 text-white max-w-[135px] w-full text-2xl  rounded-lg'
+                  className='bg-black h-[64px] text-white max-w-[135px] w-full text-2xl  rounded-[4px]'
                   type='submit'
                 >
                   Send

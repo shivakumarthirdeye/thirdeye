@@ -95,7 +95,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
               >
                 <div className='text-black text-opacity-40'>0{id}</div>
                 <div className=' flex gap-2 items-center '>
-                  <h1 className='group-hover:underline peer text-[50px] md:text-[60px] xl:text-[68px] 2xl:text-[77px]'>
+                  <h1 className='group-hover:underline peer text-[50px] md:text-6xl 2xl:text-[64px] leading-[77.45px] py-2 md:py-5'>
                     {title}
                   </h1>
                   <svg

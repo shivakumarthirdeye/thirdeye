@@ -1,3 +1,4 @@
+import Clients from '@/components/common/Clients';
 import HeroSection from '@/components/common/HeroSection';
 import HowWeWork from '@/components/common/HowWeWork';
 import OurWorks from '@/components/common/OurWorks';
@@ -201,13 +202,17 @@ const marketing = () => {
               <>
                 The best <span className='bg-black text-white'>marketing</span>
                 <br /> doesn’t feel like <br />
-                marketing marketing{' '}
+                marketing
               </>
             }
           />
         </div>
       </section>
+      <Clients />
+
       <HowWeWork steps={ourWorks} title='How we develop amazing products ' />
+      <ServicesProcess />
+
       <ServicesProcess works={ourProcess} />
       <Testimonial />
       <OurWorks />

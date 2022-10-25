@@ -49,7 +49,7 @@ const Illustrations = () => {
           Third Eye can help.
         </h3>
       </div>
-      <Clients />
+      <Clients title='Awards & Recognition' />
       <Awards />
       <OurWorks title={'UI Design Works'} />
       <ImpactCreated />
