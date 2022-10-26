@@ -18,7 +18,7 @@ const Item = ({ item }) => {
       <div className='md:pt-5'>
         <Link href={to}>
           <a className='text-sm md:text-base text-[#31A2CA]'>
-            <span className=' relative'>Learn more</span> {'->'}
+            <span className=' relative'>Learn more</span> &nbsp; {'->'}
           </a>
         </Link>
       </div>

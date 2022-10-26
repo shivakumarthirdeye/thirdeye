@@ -78,7 +78,7 @@ const IndustriesWeServe = () => {
               cy='24.5'
               r='202.5'
               fill='#00FFE0'
-              fill-opacity='0.24'
+              fillOpacity='0.24'
             />
           </g>
           <defs>
@@ -89,9 +89,9 @@ const IndustriesWeServe = () => {
               width='645'
               height='645'
               filterUnits='userSpaceOnUse'
-              color-interpolation-filters='sRGB'
+              colorInterpolationFilters='sRGB'
             >
-              <feFlood flood-opacity='0' result='BackgroundImageFix' />
+              <feFlood floodOpacity='0' result='BackgroundImageFix' />
               <feBlend
                 mode='normal'
                 in='SourceGraphic'
@@ -120,7 +120,7 @@ const IndustriesWeServe = () => {
               cy='525.5'
               r='150.5'
               fill='#0029FF'
-              fill-opacity='0.48'
+              fillOpacity='0.48'
             />
           </g>
           <defs>
@@ -131,9 +131,9 @@ const IndustriesWeServe = () => {
               width='1051'
               height='1051'
               filterUnits='userSpaceOnUse'
-              color-interpolation-filters='sRGB'
+              colorInterpolationFilters='sRGB'
             >
-              <feFlood flood-opacity='0' result='BackgroundImageFix' />
+              <feFlood floodOpacity='0' result='BackgroundImageFix' />
               <feBlend
                 mode='normal'
                 in='SourceGraphic'

@@ -268,7 +268,7 @@ const OurCapabilities = () => {
   }, []);
   return (
     <>
-      <div className='hidden lg:block'>
+      <div className='hidden overflow-hidden lg:block'>
         <div id='container' className='relative pt-20'>
           <div className='container mx-auto px-4 text-white   relative'>
             <div id='pinSection' className='relative h-[90vh]'>
