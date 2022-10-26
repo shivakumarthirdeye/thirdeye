@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Design from './Design';
+import { useEffect } from 'react';
 import MobileScreen from './MobileScreen';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
