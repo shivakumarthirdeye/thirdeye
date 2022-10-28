@@ -28,7 +28,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
     {
       id: 3,
       title: 'Process',
-      to: '/#process',
+      to: '/process',
     },
     {
       id: 5,

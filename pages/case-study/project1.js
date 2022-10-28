@@ -3,10 +3,16 @@ import Hero from '@/components/casestudy/Hero';
 import SummaryProblems from '@/components/casestudy/SummaryProblems';
 import OurWorks from '@/components/common/OurWorks';
 import Layout from '@/components/Layout';
+import ClientReview from '@/components/casestudy/ClientReview';
+import TypoTech from '@/components/casestudy/TypoTech';
+import Functionality from '@/components/casestudy/Functionality';
+
 import summaryImg from '/public/assets/images/case-study/project1/summary.png';
 import goal1 from '/public/assets/images/case-study/project1/goal1.png';
 import goal2 from '/public/assets/images/case-study/project1/goal2.png';
 import goal3 from '/public/assets/images/case-study/project1/goal3.png';
+import typo from '/public/assets/images/case-study/project1/typo.png';
+import features from '/public/assets/images/case-study/project1/features.png';
 
 const ProjectOne = () => {
   return (
@@ -100,6 +106,43 @@ const ProjectOne = () => {
             img: goal3,
           },
         ]}
+      />
+      <Functionality
+        title={'FUNCTIONAL ADMIN PANEL'}
+        highlight='Full control over all features and functions. Customizable website content allowing perform changes without external help'
+        features={[
+          {
+            id: 1,
+            img: features,
+            title: 'Admin Panel',
+            points: [
+              {
+                id: 1,
+                point: 'Functional dashboard',
+              },
+              {
+                id: 2,
+                point: 'Multiple website administrator roles',
+              },
+              {
+                id: 3,
+                point: 'No personalized approach for customers',
+              },
+              {
+                id: 4,
+                point: 'Widget administration',
+              },
+              {
+                id: 5,
+                point: 'Newsletter and SMS management',
+              },
+            ],
+          },
+        ]}
+      />
+      <TypoTech fontImg={typo} techImg={typo} />
+      <ClientReview
+        review={`"They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website"`}
       />
       <OurWorks />
     </Layout>

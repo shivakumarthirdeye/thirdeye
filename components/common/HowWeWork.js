@@ -41,7 +41,7 @@ const HowWeWork = ({ steps, title }) => {
             return (
               <div className='flex  sm:my-8 lg:my-16' key={id}>
                 <div className='flex-[0.18]  hidden sm:block'>
-                  <h3 className='text-xl sm:text-3xl md:text-4xl xl:text-5xl'>
+                  <h3 className='text-xl mt-14 sm:text-3xl md:text-4xl xl:text-5xl'>
                     0{id}
                   </h3>
                 </div>

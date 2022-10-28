@@ -1,3 +1,4 @@
+import { GreenRight, VioletLeft } from '../common/ShadeSVGs';
 import work1 from '/public/assets/images/ourWork1.png';
 import work2 from '/public/assets/images/ourWork2.png';
 import work3 from '/public/assets/images/ourWork3.png';
@@ -45,7 +46,11 @@ const worksMain = [
 const OurWork = ({ ourWorks = worksMain }) => {
   const works = ourWorks;
   return (
-    <section id='projects'>
+    <section id='projects' className='relative'>
+      <div className='absolute right-0 top-[-20%] z-[-10] overflow-hidden '>
+        <GreenRight />
+      </div>
+
       <div className='container mx-auto px-4'>
         <div>
           <h1 className='heading '>Our Works</h1>
@@ -57,7 +62,7 @@ const OurWork = ({ ourWorks = worksMain }) => {
             return (
               <div
                 key={id}
-                className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16 lg:my-40 items-center'
+                className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16 lg:my-28 items-center'
               >
                 <div className={`${id % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}>
                   <img
