@@ -99,37 +99,39 @@ const subItem = [
 const MegaMenu = () => {
   return (
     <div
-      className='flex scale-0 z-50 space-x-5 rounded-lg bg-white p-8 absolute w-[719px] right-0 top-10 resourse-items'
+      className='scale-0 z-50 min-w-[300px]  rounded-lg bg-white p-8 absolute w-[55vw] max-w-[719px] lg:w-[45vw] right-[-90%] md:right-[-50%] top-10 resourse-items'
       style={{
         boxShadow: `0px 4px 11px rgba(0, 0, 0, 0.13)`,
       }}
     >
-      {megaMenuItems.map(menu => {
-        const { id, subItem, title } = menu;
-        return (
-          <div key={id} className=''>
-            <h3 className='font-semibold mb-2 text-lg'>
-              <Link href={`/${title.toLowerCase()}`}>{title}</Link>
-            </h3>
-            <ul>
-              {subItem.map(item => {
-                return (
-                  <li
-                    className='my-1 cursor-pointer text-black text-opacity-80 '
-                    key={item.id}
-                  >
-                    <Link
-                      href={`/${title.toLowerCase()}/${item.name.toLowerCase()}`}
+      <div className='md:flex md:space-x-8'>
+        {megaMenuItems.map(menu => {
+          const { id, subItem, title } = menu;
+          return (
+            <div key={id} className='my-3 md:my-0'>
+              <h3 className='font-semibold mb-2 text-lg'>
+                <Link href={`/${title.toLowerCase()}`}>{title}</Link>
+              </h3>
+              <ul>
+                {subItem.map(item => {
+                  return (
+                    <li
+                      className='my-1 cursor-pointer text-black text-opacity-80 '
+                      key={item.id}
                     >
-                      {item.name}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        );
-      })}
+                      <Link
+                        href={`/${title.toLowerCase()}/${item.name.toLowerCase()}`}
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
       {/* {subItem && (
         <div
           class={`

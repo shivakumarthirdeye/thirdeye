@@ -21,10 +21,7 @@ const helps = [
 
 const OurHelp = () => {
   const [activeHelp, setActiveHelp] = useState(1);
-  console.log(
-    '🚀 ~ file: OurHelp.js ~ line 24 ~ OurHelp ~ activeHelp',
-    activeHelp
-  );
+
   return (
     <>
       <div

@@ -33,7 +33,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
     {
       id: 5,
       title: 'About',
-      to: '/#about',
+      to: '/about-us',
     },
     {
       id: 6,

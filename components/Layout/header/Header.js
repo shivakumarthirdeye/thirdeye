@@ -19,7 +19,7 @@ const Header = ({ showHeaderBtn = true }) => {
       .fromTo(
         '.resourse-items',
         {
-          transformOrigin: 'top right',
+          transformOrigin: 'top center',
           scale: 0,
           display: 'none',
         },
@@ -51,22 +51,17 @@ const Header = ({ showHeaderBtn = true }) => {
           duration: 0.5,
         }
       );
-    document.addEventListener('click', e => {
-      console.log(
-        '🚀 ~ file: Header.js ~ line 58 ~ useEffect ~ e',
-        e.target.classList
-      );
-
-      if (!e.target.classList.contains('resources')) {
-        menuAni.current.timeScale(2).reverse();
-      }
-    });
-    btnRef.current.addEventListener('mouseenter', e => {
-      menuAni.current.timeScale(1).play();
-    });
-    btnRef.current.addEventListener('mouseleave', e => {
-      menuAni.current.timeScale(2).reverse();
-    });
+    // document.addEventListener('click', e => {
+    //   if (!e.target.classList.contains('resources')) {
+    //     menuAni.current.timeScale(2).reverse();
+    //   }
+    // });
+    // btnRef.current.addEventListener('mouseenter', e => {
+    //   menuAni.current.timeScale(1).play();
+    // });
+    // btnRef.current.addEventListener('mouseleave', e => {
+    //   menuAni.current.timeScale(2).reverse();
+    // });
   }, []);
 
   return (
@@ -117,12 +112,12 @@ const Header = ({ showHeaderBtn = true }) => {
         <div className='flex space-x-5 sm:space-x-10 lg:space-x-20  items-center'>
           <div className='relative resources' ref={btnRef}>
             <button
-              className='text-2xl flex items-center resources'
-              // onClick={() => {
-              //   menuAni.current.reversed()
-              //     ? menuAni.current.timeScale(1).play()
-              //     : menuAni.current.timeScale(2).reverse();
-              // }}
+              className='text-sm sm:text-base lg:text-xl flex  items-center resources'
+              onClick={() => {
+                menuAni.current.reversed()
+                  ? menuAni.current.timeScale(1).play()
+                  : menuAni.current.timeScale(2).reverse();
+              }}
             >
               Services
               <FiChevronDown className='ml-1' />
@@ -133,7 +128,7 @@ const Header = ({ showHeaderBtn = true }) => {
           {showHeaderBtn && (
             <Link href='/contact'>
               <a>
-                <button className='bg-black text-white  text-xl px-7 py-3 rounded'>
+                <button className='bg-black text-white  text-sm sm:text-base lg:text-xl px-4 lg:px-7 py-3 rounded'>
                   Let’s talk
                 </button>
               </a>
