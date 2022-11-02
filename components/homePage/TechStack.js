@@ -10,10 +10,10 @@ const stacks = [
   { id: 4, name: 'React Native', img: reactIcon.src },
 ];
 
-const TechStack = ({ description, classes }) => {
+const TechStack = ({ description, classes, homePage }) => {
   return (
-    <section className=' relative'>
-      <div className={`container   mx-auto px-4 ${classes}`}>
+    <div className='my-10 md:my-20 relative'>
+      <div className={`container   mx-auto px-4`}>
         <div>
           <h1 className='heading lg:text-[62px]'>Tech stack used</h1>
           {description && (
@@ -22,28 +22,52 @@ const TechStack = ({ description, classes }) => {
             </p>
           )}
         </div>
-        <div className='my-20 grid grid-cols-3 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
-          {stacks.map(item => {
-            const { id, img, name } = item;
+        {homePage ? (
+          <div className='my-20 grid grid-cols-3 md:grid-cols-4 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
+            {stacks.map(item => {
+              const { id, img, name } = item;
 
-            return (
-              <img
-                src={img}
-                className={`${
-                  id === 4 ? 'hidden md:block' : ''
-                } w-[70px]  h-[60px] sm:w-auto sm:h-auto`}
-                title={name}
-                alt={name}
-                key={id}
-              />
-            );
-          })}
-        </div>
+              return (
+                <>
+                  <img
+                    src={img}
+                    className={`${
+                      id === 4 ? 'hidden md:block' : ''
+                    } w-[70px]  h-[60px] sm:w-auto sm:h-auto`}
+                    title={name}
+                    alt={name}
+                    key={id}
+                  />
+                </>
+              );
+            })}
+          </div>
+        ) : (
+          <div className='my-20 grid grid-cols-3 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
+            {stacks.slice(0, 3).map(item => {
+              const { id, img, name } = item;
+
+              return (
+                <>
+                  <img
+                    src={img}
+                    className={`${
+                      id === 4 ? 'hidden md:block' : ''
+                    } w-[70px]  h-[60px] md:w-auto md:h-auto`}
+                    title={name}
+                    alt={name}
+                    key={id}
+                  />
+                </>
+              );
+            })}
+          </div>
+        )}
       </div>
       <div className='absolute left-0 top-[-200px] z-[-10] overflow-hidden '>
         <GreenLeft />
       </div>
-    </section>
+    </div>
   );
 };
 

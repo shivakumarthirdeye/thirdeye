@@ -18,7 +18,11 @@ const UIDesign = () => {
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
-            content={<span className='text-8xl'>UX Design</span>}
+            content={
+              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
+                UX Design
+              </span>
+            }
             description={
               <>
                 At Third Eye, we’re all about action. What are the <br />{' '}

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { GreenRight, VioletLeft } from '../common/ShadeSVGs';
 import work1 from '/public/assets/images/ourWork1.png';
 import work2 from '/public/assets/images/ourWork2.png';
@@ -79,12 +80,14 @@ const OurWork = ({ ourWorks = worksMain }) => {
                   <p className='sm:text-lg md:text-xl  lg:text-2xl  text-black text-opacity-60'>
                     {description}
                   </p>
-                  <div className='my-8 '>
-                    <button className='sm:text-lg md:text-xl lg:text-2xl    text-black text-opacity-80 '>
-                      Case Study
-                      <div className='bg-[#5FC7EC] rounded-full my-1 h-[5px]'></div>
-                    </button>
-                  </div>
+                  <Link href='case-study/project1'>
+                    <a className='my-8 '>
+                      <button className='sm:text-lg md:text-xl lg:text-2xl    text-black text-opacity-80 '>
+                        Case Study
+                        <div className='bg-[#5FC7EC] rounded-full my-1 h-[5px]'></div>
+                      </button>
+                    </a>
+                  </Link>
                 </div>
               </div>
             );

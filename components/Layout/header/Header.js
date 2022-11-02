@@ -51,11 +51,11 @@ const Header = ({ showHeaderBtn = true }) => {
           duration: 0.5,
         }
       );
-    // document.addEventListener('click', e => {
-    //   if (!e.target.classList.contains('resources')) {
-    //     menuAni.current.timeScale(2).reverse();
-    //   }
-    // });
+    document.addEventListener('click', e => {
+      if (!e.target.classList.contains('resources')) {
+        menuAni.current.timeScale(2).reverse();
+      }
+    });
     // btnRef.current.addEventListener('mouseenter', e => {
     //   menuAni.current.timeScale(1).play();
     // });
@@ -74,6 +74,7 @@ const Header = ({ showHeaderBtn = true }) => {
             }}
           >
             <svg
+              className='w-[24px] h-[16px] sm:w-[44px] sm:h-[25px]'
               width='44'
               height='25'
               viewBox='0 0 44 25'

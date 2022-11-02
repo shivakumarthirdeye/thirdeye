@@ -50,7 +50,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
       } transition-all fixed top-0 left-0 bg-white h-screen w-screen overflow-hidden`}
     >
       <button
-        className='absolute top-10 left-10 sm:top-16 sm:left-16'
+        className='absolute top-10 left-10 '
         onClick={() => {
           setShowSidebar(false);
         }}

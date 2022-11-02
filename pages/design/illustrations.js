@@ -18,11 +18,16 @@ const Illustrations = () => {
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
-            content={<span className='text-8xl'>Illustrations</span>}
+            content={
+              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
+                Illustrations
+              </span>
+            }
             description={
               <>
-                At Third Eye, we’re all about action. What are the <br />{' '}
-                specific actions that fuel your company's growth? Do <br /> you
+                At Third Eye, we’re all about action. What are the{' '}
+                <br className='hidden sm:block' /> specific actions that fuel
+                your company's growth? Do <br className='hidden sm:block' /> you
                 need more consumers to buy your product?
               </>
             }

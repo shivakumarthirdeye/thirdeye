@@ -29,7 +29,7 @@ export default function Home() {
       <IndustriesWeServe />
       <OurHelp />
       <HowWeWork title='How we work' />
-      <TechStack />
+      <TechStack homePage />
       <Testimonial />
     </Layout>
   );
