@@ -96,10 +96,14 @@ const subItem = [
   },
 ];
 
-const MegaMenu = () => {
+const MegaMenu = ({ showHeaderBtn }) => {
   return (
     <div
-      className='scale-0 z-50 min-w-[300px]  rounded-lg bg-white p-8 absolute w-[55vw] max-w-[719px] lg:w-[45vw] right-[-125%] md:right-[-50%] md:min-w-[580px] top-10 resourse-items'
+      className={`${
+        showHeaderBtn
+          ? 'right-[-125%] md:right-[-50%]'
+          : 'right-[-25%] md:right-[-50%]'
+      } scale-0 z-50 min-w-[300px]  rounded-lg bg-white p-8 absolute w-[55vw] max-w-[719px] lg:w-[45vw]  md:min-w-[580px] top-10 resourse-items`}
       style={{
         boxShadow: `0px 4px 11px rgba(0, 0, 0, 0.13)`,
       }}

@@ -123,7 +123,7 @@ const Header = ({ showHeaderBtn = true }) => {
               Services
               <FiChevronDown className='ml-1' />
             </button>
-            <MegaMenu />
+            <MegaMenu showHeaderBtn={showHeaderBtn} />
           </div>
 
           {showHeaderBtn && (
