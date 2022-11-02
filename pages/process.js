@@ -34,6 +34,7 @@ const process = () => {
 
             return (
               <div
+                key={id}
                 style={{
                   background,
                 }}
