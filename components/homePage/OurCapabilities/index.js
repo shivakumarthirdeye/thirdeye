@@ -278,7 +278,7 @@ const OurCapabilities = () => {
       document.getElementById('pinSection'),
       document.getElementById('design-section')
     );
-  }, [width]);
+  }, []);
   return (
     <>
       <div className='hidden overflow-hidden lg:block'>
