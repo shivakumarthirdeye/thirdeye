@@ -16,7 +16,7 @@ const Functionality = ({ title, highlight, features }) => {
           return (
             <div
               key={id}
-              className='flex flex-col sm:flex-row max-w-4xl mx-auto sm:space-x-4 my-10 justify-center items-center sm:justify-between sm:items-start'
+              className='flex flex-col sm:flex-row max-w-5xl sm:space-x-8 my-10  sm:justify-between sm:items-start'
             >
               <div>
                 <img

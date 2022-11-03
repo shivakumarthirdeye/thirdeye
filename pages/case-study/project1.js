@@ -12,6 +12,7 @@ import goal1 from '/public/assets/images/case-study/project1/goal1.png';
 import goal2 from '/public/assets/images/case-study/project1/goal2.png';
 import goal3 from '/public/assets/images/case-study/project1/goal3.png';
 import typo from '/public/assets/images/case-study/project1/typo.png';
+import tech from '/public/assets/images/case-study/project1/tech.png';
 import features from '/public/assets/images/case-study/project1/features.png';
 
 const ProjectOne = () => {
@@ -140,7 +141,7 @@ const ProjectOne = () => {
           },
         ]}
       />
-      <TypoTech fontImg={typo} techImg={typo} />
+      <TypoTech fontImg={typo} techImg={tech} />
       <ClientReview
         review={`"They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website"`}
       />

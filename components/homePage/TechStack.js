@@ -28,17 +28,15 @@ const TechStack = ({ description, classes, homePage }) => {
               const { id, img, name } = item;
 
               return (
-                <>
-                  <img
-                    src={img}
-                    className={`${
-                      id === 4 ? 'hidden md:block' : ''
-                    } w-[70px]  h-[60px] sm:w-auto sm:h-auto`}
-                    title={name}
-                    alt={name}
-                    key={id}
-                  />
-                </>
+                <img
+                  src={img}
+                  className={`${
+                    id === 4 ? 'hidden md:block' : ''
+                  } w-[70px]  h-[60px] sm:w-auto sm:h-auto`}
+                  title={name}
+                  alt={name}
+                  key={id}
+                />
               );
             })}
           </div>
@@ -48,17 +46,15 @@ const TechStack = ({ description, classes, homePage }) => {
               const { id, img, name } = item;
 
               return (
-                <>
-                  <img
-                    src={img}
-                    className={`${
-                      id === 4 ? 'hidden md:block' : ''
-                    } w-[70px]  h-[60px] md:w-auto md:h-auto`}
-                    title={name}
-                    alt={name}
-                    key={id}
-                  />
-                </>
+                <img
+                  src={img}
+                  className={`${
+                    id === 4 ? 'hidden md:block' : ''
+                  } w-[70px]  h-[60px] md:w-auto md:h-auto`}
+                  title={name}
+                  alt={name}
+                  key={id}
+                />
               );
             })}
           </div>

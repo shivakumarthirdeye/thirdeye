@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import MobileScreen from './MobileScreen';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
@@ -87,7 +87,21 @@ const subMarketing = [
   },
 ];
 
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
 const OurCapabilities = () => {
+  const [width, height] = useWindowSize();
+
   useEffect(() => {
     const scrollAnim = (totalItems, pinSec, nextSec) => {
       ScrollTrigger.create({
@@ -264,7 +278,7 @@ const OurCapabilities = () => {
       document.getElementById('pinSection'),
       document.getElementById('design-section')
     );
-  }, []);
+  }, [width]);
   return (
     <>
       <div className='hidden overflow-hidden lg:block'>
@@ -274,11 +288,11 @@ const OurCapabilities = () => {
               <h1 id='mainHeading' className='heading !text-white'>
                 Our Capabilities
               </h1>
-              <div className='max-w-3xl justify-items-end mx-auto my-20 grid grid-cols-[auto_1fr] relative'>
+              <div className=' ml-[5%] justify-items-end mx-auto my-20 grid grid-cols-[auto_1fr] relative'>
                 <div className='text-right'>
                   <div className='relative'>
                     <h2
-                      className='text-3xl xl:text-5xl pb-4 absolute top-0'
+                      className='text-3xl xl:text-5xl pb-4 absolute  top-0'
                       id='titleText1'
                     >
                       Design
@@ -304,7 +318,7 @@ const OurCapabilities = () => {
                       >
                         <span className='relative'>
                           Learn more
-                          <div className='w-full absolute bottom-0 bg-white h-[2px] left-0' />
+                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
                           -&gt;
                         </span>
                       </a>
@@ -313,11 +327,11 @@ const OurCapabilities = () => {
                     <Link href='/development'>
                       <a
                         id='link2'
-                        className='text-right text-lg hidden my-20 absolute w-[120px] left-0'
+                        className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
                       >
                         <span className='relative'>
                           Learn more
-                          <div className='w-full absolute bottom-0 bg-white h-[2px] left-0' />
+                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
                           -&gt;
                         </span>
                       </a>
@@ -325,11 +339,11 @@ const OurCapabilities = () => {
                     <Link href='/marketing'>
                       <a
                         id='link3'
-                        className='text-right text-lg hidden my-20 absolute w-[120px] left-0'
+                        className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
                       >
                         <span className='relative'>
                           Learn more
-                          <div className='w-full absolute bottom-0 bg-white h-[2px] left-0' />
+                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
                           -&gt;
                         </span>
                       </a>
