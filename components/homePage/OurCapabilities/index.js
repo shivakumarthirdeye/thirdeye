@@ -87,21 +87,7 @@ const subMarketing = [
   },
 ];
 
-function useWindowSize() {
-  const [size, setSize] = useState([0, 0]);
-  useLayoutEffect(() => {
-    function updateSize() {
-      setSize([window.innerWidth, window.innerHeight]);
-    }
-    window.addEventListener('resize', updateSize);
-    updateSize();
-    return () => window.removeEventListener('resize', updateSize);
-  }, []);
-  return size;
-}
 const OurCapabilities = () => {
-  const [width, height] = useWindowSize();
-
   useEffect(() => {
     const scrollAnim = (totalItems, pinSec, nextSec) => {
       ScrollTrigger.create({
@@ -288,7 +274,7 @@ const OurCapabilities = () => {
               <h1 id='mainHeading' className='heading !text-white'>
                 Our Capabilities
               </h1>
-              <div className=' ml-[5%] justify-items-end mx-auto my-20 grid grid-cols-[auto_1fr] relative'>
+              <div className='max-w-xl justify-items-end mx-auto my-20  relative'>
                 <div className='text-right'>
                   <div className='relative'>
                     <h2
@@ -362,7 +348,7 @@ const OurCapabilities = () => {
             </div>
             <div
               id='total-items'
-              className='absolute right-[5vw] xl:right-[10vw] top-52'
+              className='absolute right-[5vw] xl:right-[10vw] top-48'
             >
               <div className='grid gap-96'>
                 <div id='design-section'>
