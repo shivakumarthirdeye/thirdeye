@@ -33,7 +33,7 @@ section {
 }
 
 .heading {
-  @apply text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80   !leading-[35.4px] sm:!leading-[60px] md:!leading-[70px] lg:!leading-[87.14px];
+  @apply text-2xl sm:text-4xl md:text-5xl lg:text-[64px] text-black text-opacity-80   !leading-[35.4px] sm:!leading-[60px] md:!leading-[70px] lg:!leading-[87.14px];
 }
 
 /* br {

@@ -10,7 +10,7 @@ const impacts = [
 const ImpactCreated = () => {
   return (
     <div className='relative '>
-      <div className='container max-w-7xl mx-auto px-4 overflow-hidden'>
+      <div className='container mx-auto px-4 overflow-hidden'>
         <h1 className='heading'>Impact Created</h1>
 
         <div className='grid grid-cols-2 gap-y-5 lg:grid-cols-4 my-10 lg:my-20'>

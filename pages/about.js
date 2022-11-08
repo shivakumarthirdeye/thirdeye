@@ -137,7 +137,6 @@ const AboutUs = () => {
             <h1 className='text-2xl py-1 sm:text-3xl md:text-4xl lg:text-5xl '>
               What gets us out of bed every morning
             </h1>
-            <div className='w-full absolute   h-[1px] md:h-[2px] bg-black bg-opacity-80 '></div>
           </div>
           <div className='grid md:grid-cols-2 my-5 md:my-10 lg:my-20 gap-10'>
             {values.map(item => {

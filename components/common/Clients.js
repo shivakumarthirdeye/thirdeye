@@ -50,7 +50,7 @@ const Clients = ({ svg, title = 'Selected Clients' }) => {
 
       <div className='container mx-auto  px-4'>
         <h1 className='heading lg:text-[64px] '>{title}</h1>
-        <div className='my-10 lg:my-20  flex flex-wrap justify-center lg:justify-around'>
+        <div className='my-10 lg:my-20  flex flex-wrap justify-center lg:justify-between'>
           {clientImg.map(item => {
             const { id, img } = item;
 

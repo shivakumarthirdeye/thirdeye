@@ -1,4 +1,5 @@
 import Awards from '@/components/common/Awards';
+import Blogs from '@/components/common/Blogs';
 import Clients from '@/components/common/Clients';
 import FAQs from '@/components/common/FAQ/FAQs';
 import HeroSection from '@/components/common/HeroSection';
@@ -54,10 +55,12 @@ const Illustrations = () => {
           Third Eye can help.
         </h3>
       </div>
-      <Clients title='Awards & Recognition' />
+      <Clients title='Selected Clients' />
       <Awards />
       <OurWorks title={'UI Design Works'} />
       <ImpactCreated />
+      <Blogs />
+
       <Testimonial />
       <FAQs />
     </Layout>

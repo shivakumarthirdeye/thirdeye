@@ -102,7 +102,11 @@ const OurHelp = () => {
                       setActiveHelp(id);
                     }}
                   >
-                    <h1 className='text-3xl   :text-[32px] font-semibold flex items-center '>
+                    <h1
+                      className={`${
+                        activeHelp === id && 'font-semibold'
+                      } text-3xl   md:text-[32px] flex items-center`}
+                    >
                       {activeHelp === id && (
                         <span>
                           <HiArrowRight className='inline' />
