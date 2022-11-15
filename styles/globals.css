@@ -70,3 +70,7 @@ body::-webkit-scrollbar-thumb {
 li::marker {
   font-size: 1.5rem;
 }
+
+.sitemap li::marker {
+  font-size: 1.2rem;
+}

@@ -2,7 +2,14 @@ import Head from 'next/head';
 import Footer from './Footer';
 import Header from './header/Header';
 
-const Layout = ({ title, keywords, description, children, showHeaderBtn }) => {
+const Layout = ({
+  title,
+  keywords,
+  description,
+  children,
+  showHeaderBtn,
+  noFooter,
+}) => {
   return (
     <div>
       <Head>
@@ -14,7 +21,7 @@ const Layout = ({ title, keywords, description, children, showHeaderBtn }) => {
       </Head>
       <Header showHeaderBtn={showHeaderBtn} />
       <main>{children}</main>
-      <Footer />
+      {!noFooter && <Footer />}
     </div>
   );
 };

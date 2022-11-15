@@ -278,19 +278,19 @@ const OurCapabilities = () => {
                 <div className='text-right'>
                   <div className='relative'>
                     <h2
-                      className='text-3xl xl:text-5xl pb-4 absolute  top-0'
+                      className='heading !text-white pb-4 absolute  top-0'
                       id='titleText1'
                     >
                       Design
                     </h2>
                     <h2
-                      className='text-3xl xl:text-5xl pb-4 absolute top-0'
+                      className='heading !text-white pb-4 absolute top-0'
                       id='titleText2'
                     >
                       Development
                     </h2>
                     <h2
-                      className='text-3xl xl:text-5xl pb-4 absolute top-0'
+                      className='heading !text-white pb-4 absolute top-0'
                       id='titleText3'
                     >
                       Marketing

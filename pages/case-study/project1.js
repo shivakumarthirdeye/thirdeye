@@ -27,6 +27,7 @@ const ProjectOne = () => {
         domain='Design + Development'
         industry='Automotive'
         platform='Web'
+        classes='my-4 md:my-5 lg:my-10'
       />
       <SummaryProblems
         summaryHeading={

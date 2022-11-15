@@ -49,7 +49,7 @@ const ourProcess = [
     ),
     title: 'Frontend Dev',
     description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
+      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth
     `,
   },
   {
@@ -113,7 +113,7 @@ const ourProcess = [
     ),
     title: 'Mobile Apps',
     description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
+      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth
     `,
   },
   {
@@ -152,24 +152,22 @@ const ourProcess = [
     ),
     title: 'Websites',
     description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
+      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth
     `,
   },
 ];
 
 const ServicesProcess = ({ works = ourProcess }) => {
   return (
-    <section className='container mx-auto  px-4'>
+    <section className='container gap-5 grid  sm:grid-cols-2 lg:grid-cols-4 mx-auto  px-4'>
       {works.map(item => {
         const { id, icon, title, description } = item;
 
         return (
-          <div key={id} className='grid gap-5 my-10 lg:my-20'>
+          <div key={id} className='grid gap-3 md:gap-5 md:my-10 lg:my-20'>
             {icon}
-            <h1 className='text-3xl md:text-4xl lg:text-[40px] font-medium'>
-              {title}
-            </h1>
-            <p className='text-sm sm:text-base md:text-lg lg:text-xl text-black text-opacity-80'>
+            <h1 className=' text-2xl lg:text-3xl   font-medium'>{title}</h1>
+            <p className='text-sm sm:text-base md:text-lg lg:text-xl text-black text-opacity-60'>
               {description}
             </p>
           </div>

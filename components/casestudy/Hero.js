@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Hero = ({ heading, platform, industry, domain }) => {
+const Hero = ({ heading, platform, industry, domain, classes }) => {
   return (
-    <section className='container my-10 md:my-14  lg:my-20 mx-auto px-4 '>
+    <section
+      className={`container my-10 md:my-14  lg:my-20 mx-auto px-4 ${classes}`}
+    >
       <h1 className='heading'>{heading}</h1>
       <div className='flex gap-14 gap-y-6 md:gap-5 flex-wrap md:grid grid-cols-[auto_auto_auto] max-w-4xl my-6'>
         <div>

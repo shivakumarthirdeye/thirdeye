@@ -63,7 +63,7 @@ const OurWork = ({ ourWorks = worksMain }) => {
             return (
               <div
                 key={id}
-                className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16 lg:my-28 items-center'
+                className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16  items-center'
               >
                 <div className={`${id % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}>
                   <img

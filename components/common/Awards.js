@@ -19,7 +19,7 @@ const Awards = () => {
     <div>
       <div className='container mx-auto pb-10  px-4'>
         <h1 className='heading '>Awards & Recognition</h1>
-        <div className='grid grid-cols-3 gap-5 gap-y-8 lg:grid-cols-6 my-16'>
+        <div className='grid grid-cols-3 gap-5 gap-y-8 lg:grid-cols-6 my-6 md:my-10'>
           {allAwards.map(award => {
             const { id, name, img } = award;
 
