@@ -2,13 +2,13 @@ import Link from 'next/link';
 
 const footerLinks = [
   { id: 1, title: 'About' },
-  { id: 5, title: 'Vision' },
-  { id: 2, title: 'Solution' },
-  { id: 6, title: 'Careers' },
-  { id: 3, title: 'Technology' },
   { id: 7, title: 'Contact' },
-  { id: 4, title: 'Media' },
+  { id: 6, title: 'Careers' },
   { id: 8, title: 'Privacy Policy' },
+  { id: 2, title: 'Solution' },
+  // { id: 5, title: 'Vision' },
+  // { id: 3, title: 'Technology' },
+  // { id: 4, title: 'Media' },
 ];
 
 const socialLinks = [

@@ -1,5 +1,4 @@
 import Blogs from '@/components/common/Blogs';
-import FAQs from '@/components/common/FAQ/FAQs';
 import GrowWithUs from '@/components/common/GrowWithUs';
 import HeroSection from '@/components/common/HeroSection';
 import ImpactCreated from '@/components/common/ImpactCreated';
@@ -12,7 +11,7 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const FrontEnd = () => {
+const SocialMedia = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -20,7 +19,7 @@ const FrontEnd = () => {
           <HeroSection
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Frontend <br /> development
+                Social Media <br className='hidden sm:block' /> Management
               </span>
             }
             description={
@@ -67,9 +66,8 @@ const FrontEnd = () => {
       <ImpactCreated />
       <Blogs />
       <Testimonial />
-      <FAQs />
     </Layout>
   );
 };
 
-export default FrontEnd;
+export default SocialMedia;

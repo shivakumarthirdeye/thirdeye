@@ -1,6 +1,10 @@
+import Blogs from '@/components/common/Blogs';
+import FAQs from '@/components/common/FAQ/FAQs';
 import GrowWithUs from '@/components/common/GrowWithUs';
 import HeroSection from '@/components/common/HeroSection';
+import ImpactCreated from '@/components/common/ImpactCreated';
 import OurWorks from '@/components/common/OurWorks';
+import Testimonial from '@/components/common/Testimonial';
 import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 // Hero Images
@@ -59,6 +63,10 @@ const Backend = () => {
         classes='max-w-7xl'
       />
       <OurWorks title={'Development Works'} />
+      <ImpactCreated />
+      <Blogs />
+      <Testimonial />
+      <FAQs />
       {/* <GrowWithUs /> */}
     </Layout>
   );
