@@ -6,7 +6,7 @@ const ClientReview = ({ review }) => {
       <div>
         <h2> Client Review</h2>
         <h1 className='my-2 max-w-[1030px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
-          {review}
+          &quot;{review}&quot;
         </h1>
       </div>
     </section>

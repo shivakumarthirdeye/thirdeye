@@ -4,7 +4,7 @@ const Functionality = ({ title, highlight, features }) => {
   return (
     <section className='container mx-auto px-4'>
       <div>
-        <h2>{title}</h2>
+        <h2>SOLUTIONS PROVIDED</h2>
         <h2 className='max-w-[1030px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {highlight}
         </h2>
@@ -16,28 +16,28 @@ const Functionality = ({ title, highlight, features }) => {
           return (
             <div
               key={id}
-              className='flex flex-col sm:flex-row max-w-5xl sm:space-x-8 my-10  sm:justify-between sm:items-start'
+              className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-10 `}
             >
-              <div>
+              <div className={`flex-1 ${id % 2 === 0 && 'order-2'}`}>
                 <img
-                  src={img.src}
-                  className='md:h-[400px] max-w-[518px] w-full   lg:h-[518px]'
+                  src={img}
+                  className='w-full max-w-[518px] max-h-[518px] h-full'
                   alt=''
                 />
               </div>
-              <div className='my-4 sm:my-0'>
+              <div className={` my-4 flex-1   sm:my-0`}>
                 <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>
                   {title}
                 </h1>
-                <div className='ml-8 '>
+                <div className='ml-8  '>
                   <ul className='list-disc my-2'>
-                    {points.map(item => {
+                    {points.map((item, idx) => {
                       return (
                         <li
                           className='sm:text-lg my-0.5 sm:my-1 md:text-xl'
-                          key={item.id}
+                          key={idx}
                         >
-                          {item.point}
+                          {item}
                         </li>
                       );
                     })}

@@ -11,7 +11,7 @@ const Goals = ({ points, img }) => {
           })}
         </div>
         <div className='max-w-6xl mx-auto my-5 md:my-10'>
-          <img src={img.src} className='w-full' alt='' />
+          <img src={img} className='w-full h-full' alt='' />
         </div>
         <div>
           {points.slice(2, points.length).map((point, idx) => {
@@ -30,7 +30,7 @@ const Goals = ({ points, img }) => {
                 {point.img && (
                   <div className={`  w-full lg:w-[500px] xl:w-[695px]`}>
                     <img
-                      src={point.img.src}
+                      src={point.img}
                       className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[694px]'
                       alt=''
                     />
@@ -47,14 +47,16 @@ const Goals = ({ points, img }) => {
 
 export default Goals;
 
-const Points = ({ id, title, description }) => {
+const Points = ({ id, heading, description }) => {
   return (
     <div className='text-black text-opacity-80'>
       <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl '>0{id}</h1>
 
       <div className='w-[90%] h-[2px] my-2 bg-black bg-opacity-80 ' />
       <div className='mt-5'>
-        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{title}</h1>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>
+          {heading}
+        </h1>
         <p className='text-black mt-3  text-xl lg:text-2xl text-opacity-90'>
           {description}
         </p>

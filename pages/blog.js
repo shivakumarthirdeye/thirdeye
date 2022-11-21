@@ -4,7 +4,10 @@ import blog1 from '/public/assets/images/blog/1.png';
 import blog2 from '/public/assets/images/blog/2.png';
 import blog3 from '/public/assets/images/blog/3.png';
 import blog4 from '/public/assets/images/blog/4.png';
-import useSWR from 'swr';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Layout from '@/components/Layout';
 import { categoryColor, getStrapiInfo, getStrapiMedia } from 'utils/config';
 
 const blogs = [
@@ -47,18 +50,7 @@ const blogs = [
   },
 ];
 
-const fetcher = async (...args) => fetch(...args).then(res => res.json());
-
-const Blogs = props => {
-  // const { data, error, isValidating } = useSWR(
-  //   `http://localhost:1337/api/articles?populate=cover,category`,
-  //   fetcher
-  // );
-
-  // if (isValidating) {
-  //   return <p className='text-center'>loading...</p>;
-  // }
-
+const Blogs = ({ data }) => {
   return (
     <section className='overflow-hidden'>
       <div className='container mx-auto  px-4'>
@@ -214,6 +206,7 @@ const Blogs = props => {
                 </SwiperSlide>
               );
             })} */}
+
             {blogs.map(item => {
               const {
                 id,
@@ -280,3 +273,14 @@ const Blogs = props => {
 };
 
 export default Blogs;
+
+// export async function getServerSideProps() {
+//   // Fetch data from external API
+//   const res = await fetch(
+//     `http://localhost:1337/api/articles?populate=cover,category`
+//   );
+//   const data = await res.json();
+
+//   // Pass data to the page via props
+//   return { props: { data } };
+// }

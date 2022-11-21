@@ -14,18 +14,20 @@ const SummaryProblems = ({
           {summaryHeading}
         </h1>
         <div className='md:flex max-w-7xl md:space-x-10 my-10'>
-          {summaryPoints.map(item => {
-            const { id, point } = item;
-
+          {summaryPoints.map((item, idx) => {
             return (
-              <div className='my-8 md:my-0' key={id}>
-                <h3 className=' sm:text-xl lg:text-2xl'>{point}</h3>
+              <div className='my-8 md:my-0' key={idx}>
+                <h3 className=' sm:text-xl lg:text-2xl'>{item}</h3>
               </div>
             );
           })}
         </div>
         <div className='max-w-6xl mx-auto my-3 md:my-5'>
-          <img src={summaryImg.src} className='w-full' alt='' />
+          <img
+            src={summaryImg}
+            className='w-full max-h-[743.29px] object-cover'
+            alt=''
+          />
         </div>
       </div>
       <div className='mt-10 md:mt-20 lg:mt-28'>
@@ -36,32 +38,34 @@ const SummaryProblems = ({
       </div>
       <div className='lg:flex my-5 justify-between ml-10'>
         <ul className='lg:my-10 list-disc flex-1'>
-          {problemPoints.slice(0, problemPoints.length / 2 + 1).map(item => {
-            const { id, point } = item;
-
-            return (
-              <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={id}>
-                {point}
-              </li>
-            );
-          })}
+          {problemPoints
+            .slice(0, problemPoints.length / 2 + 1)
+            .map((item, idx) => {
+              return (
+                <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={idx}>
+                  {item}
+                </li>
+              );
+            })}
         </ul>
         <ul className='lg:my-10 list-disc flex-1'>
           {problemPoints
             .slice(problemPoints.length / 2 + 1, problemPoints.length)
-            .map(item => {
-              const { id, point } = item;
-
+            .map((item, idx) => {
               return (
-                <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={id}>
-                  {point}
+                <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={idx}>
+                  {item}
                 </li>
               );
             })}
         </ul>
       </div>
       <div className='max-w-6xl mx-auto my-3 md:my-5'>
-        <img src={problemImg.src} className='w-full' alt='' />
+        <img
+          src={problemImg}
+          className='w-full max-h-[743.29px] object-cover'
+          alt=''
+        />
       </div>
     </section>
   );

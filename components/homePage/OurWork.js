@@ -5,6 +5,8 @@ import work2 from '/public/assets/images/ourWork2.png';
 import work3 from '/public/assets/images/ourWork3.png';
 import work4 from '/public/assets/images/ourWork4.png';
 
+import { projects } from '@/utils/projects.json';
+
 const worksMain = [
   {
     id: 1,

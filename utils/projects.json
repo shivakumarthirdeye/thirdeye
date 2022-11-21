@@ -1,0 +1,204 @@
+{
+  "projects": [
+    {
+      "title": "LynkTown App and <br/> website",
+      "smallTitle": "LynkTown App",
+      "slug": "lynktown",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Corporate Business"
+        },
+        {
+          "id": 3,
+          "title": "Domain",
+          "value": "Design + Development"
+        }
+      ],
+      "summary": {
+        "heading": "Lynk Town is a comprehensive digital platform that connects fashion designers and customers.",
+        "points": [
+          "First connections are made via social media, and customers can place orders using the designer's link. Where customers receive personalised products delivered to their door.",
+          "Lynk Town app was created for people who can't keep up with technological changes and are concerned about customer dissatisfaction from online stores, and there was no platform for them to Start and expand their business online safely because vendors could not trust clients and vice versa."
+        ],
+        "img": "/assets/images/case-study/lynktown/summary.jpg"
+      },
+      "problem": {
+        "heading": "Why to design this website?",
+        "points": [
+          "Poor communication b/w vendor & customer",
+          "Hard to manage order payments, shipping, returns, alterations, and more",
+          "No personalized approach for customers",
+          "Hard to get customised products and orders",
+          "Customers worry on receiving wrong products, payment to sellers",
+          "Trouble for new vendors to scale brand  globally."
+        ],
+        "img": "/assets/images/case-study/lynktown/problems.jpg"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/lynktown/project1.jpg",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Create a Responsive Fashion Segmenet App & Website",
+            "description": "We aimed to create a well-thought-out responsive app & webdesign to deliver fast-loading experience on all devices."
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective fashion segment app & website design."
+          },
+          {
+            "id": 3,
+            "heading": "Establish communication b/w vendor & customer",
+            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
+            "img": "/assets/images/case-study/lynktown/project2.jpg"
+          },
+          {
+            "id": 4,
+            "heading": "Build a Functional Vendor App",
+            "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
+            "img": "/assets/images/case-study/lynktown/project3.jpg"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "Vendor has Full control over all features and functions of his order. User can recieve customised order.",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "Vendor Panel",
+            "points": [
+              " Connection established between vendor and customer through social media.",
+              "Available online as well as offline",
+              "Administration community of industry experts to learn new ways to evolve your brand on social platforms.",
+              "Manage order payments, shipping, returns, alterations, and more on LynkTown.",
+              "Recieveing measurement for customised products"
+            ],
+            "img": "/assets/images/case-study/lynktown/solution1.jpg"
+          },
+          {
+            "id": 2,
+            "title": "Customer Panel",
+            "points": [
+              " Order incudes Customized or ready-made products",
+              "Adding measurement manually for customsed orders",
+              "Product alteration can be made in a simple way"
+            ],
+            "img": "/assets/images/case-study/lynktown/solution2.jpg"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/lynktown/font.png",
+      "tech": "/assets/images/case-study/lynktown/tech.png"
+    },
+    {
+      "title": "LYNKE Mobile App",
+      "smallTitle": "LYNKE App",
+      "slug": "lynke",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Corporate Business"
+        },
+        {
+          "id": 3,
+          "title": "Domain",
+          "value": "Design + Development"
+        }
+      ],
+      "summary": {
+        "heading": "LYNKE is a mobile application that allows you to create a customisable, interactive business card ",
+        "points": [
+          "LYNKE is a mobile application that allows you to create a customisable, interactive business card ",
+          "This app creates interactive two-sided business cards. It is an effective networking tool as well as a powerful branding asset."
+        ],
+        "img": "/assets/images/case-study/lynktown/summary.jpg"
+      },
+      "problem": {
+        "heading": "Why to design this website?",
+        "points": [
+          "Poor communication b/w vendor & customer",
+          "Hard to manage order payments, shipping, returns, alterations, and more",
+          "No personalized approach for customers",
+          "Hard to get customised products and orders",
+          "Customers worry on receiving wrong products, payment to sellers",
+          "Trouble for new vendors to scale brand  globally."
+        ],
+        "img": "/assets/images/case-study/lynktown/problems.jpg"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/lynktown/project1.jpg",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Create a Responsive Fashion Segmenet App & Website",
+            "description": "We aimed to create a well-thought-out responsive app & webdesign to deliver fast-loading experience on all devices."
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective fashion segment app & website design."
+          },
+          {
+            "id": 3,
+            "heading": "Establish communication b/w vendor & customer",
+            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
+            "img": "/assets/images/case-study/lynktown/project2.jpg"
+          },
+          {
+            "id": 4,
+            "heading": "Build a Functional Vendor App",
+            "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
+            "img": "/assets/images/case-study/lynktown/project3.jpg"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "Vendor has Full control over all features and functions of his order. User can recieve customised order.",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "Vendor Panel",
+            "points": [
+              " Connection established between vendor and customer through social media.",
+              "Available online as well as offline",
+              "Administration community of industry experts to learn new ways to evolve your brand on social platforms.",
+              "Manage order payments, shipping, returns, alterations, and more on LynkTown.",
+              "Recieveing measurement for customised products"
+            ],
+            "img": "/assets/images/case-study/lynktown/solution1.jpg"
+          },
+          {
+            "id": 2,
+            "title": "Customer Panel",
+            "points": [
+              " Order incudes Customized or ready-made products",
+              "Adding measurement manually for customsed orders",
+              "Product alteration can be made in a simple way"
+            ],
+            "img": "/assets/images/case-study/lynktown/solution2.jpg"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/lynktown/font.png",
+      "tech": "/assets/images/case-study/lynktown/tech.png"
+    }
+  ]
+}
