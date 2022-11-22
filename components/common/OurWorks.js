@@ -8,6 +8,8 @@ import { Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import { VioletLeft } from './ShadeSVGs';
 import HomePageOurWorks from '../homePage/OurWork';
+import projectsData from '@/utils/projects.json';
+import Link from 'next/link';
 
 const works = [
   {
@@ -49,6 +51,7 @@ const works = [
 ];
 
 const OurWorks = ({ title }) => {
+  const { projects } = projectsData;
   return (
     <>
       <div className='block sm:hidden'>
@@ -144,8 +147,11 @@ const OurWorks = ({ title }) => {
                   </button>
                 </div>
               </div>
-              {works.map(item => {
-                const { id, image, tag, title } = item;
+              {projects.map(work => {
+                // const { id, image, tag, title, description } = work;
+
+                const { id, thumbnail, smallTitle, tag, slug, description } =
+                  work;
                 return (
                   <SwiperSlide
                     key={id}
@@ -155,20 +161,24 @@ const OurWorks = ({ title }) => {
                       <div>
                         <div>
                           <img
-                            src={image}
+                            src={thumbnail}
                             className='md:w-[374px] w-full h-[340px]  md:h-[436.01px] object-cover rounded-[20.67px]'
                             alt=''
                           />
                         </div>
                         <div className='my-5'>
                           <p className='text-[#4E53B7] font-bold mb-3'>{tag}</p>
-                          <h1 className='text-4xl  '>{title}</h1>
+                          <h1 className='text-4xl  '>{smallTitle}</h1>
                         </div>
                         <div className='my-8 '>
-                          <button className='    text-black text-opacity-80 '>
-                            Case Study
-                            <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div>
-                          </button>
+                          <Link href={`/case-study/${slug}`}>
+                            <a>
+                              <button className='    text-black text-opacity-80 '>
+                                Case Study
+                                <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div>
+                              </button>
+                            </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -178,7 +188,7 @@ const OurWorks = ({ title }) => {
             </Swiper>
           </div>
         </div>
-        <div className='absolute  left-0 top-0'>
+        <div className='absolute z-[-1]  left-0 top-0'>
           <VioletLeft />
         </div>
       </section>

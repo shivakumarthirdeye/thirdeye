@@ -13,7 +13,7 @@ const SummaryProblems = ({
         <h1 className=' mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {summaryHeading}
         </h1>
-        <div className='md:flex max-w-7xl md:space-x-10 my-10'>
+        <div className='md:flex  md:space-x-10 my-10'>
           {summaryPoints.map((item, idx) => {
             return (
               <div className='my-8 md:my-0' key={idx}>
@@ -25,7 +25,7 @@ const SummaryProblems = ({
         <div className='max-w-6xl mx-auto my-3 md:my-5'>
           <img
             src={summaryImg}
-            className='w-full max-h-[743.29px] object-cover'
+            className='w-full max-h-[743.29px] object-cover rounded-[20px]'
             alt=''
           />
         </div>
@@ -63,7 +63,7 @@ const SummaryProblems = ({
       <div className='max-w-6xl mx-auto my-3 md:my-5'>
         <img
           src={problemImg}
-          className='w-full max-h-[743.29px] object-cover'
+          className='w-full max-h-[743.29px] object-cover rounded-[20px]'
           alt=''
         />
       </div>

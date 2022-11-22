@@ -1,8 +1,10 @@
 {
   "projects": [
     {
-      "title": "LynkTown App and <br/> website",
+      "id": 1,
+      "title": "LynkTown App and <br className='hidden sm:block'/> website",
       "smallTitle": "LynkTown App",
+      "thumbnail": "/assets/images/case-study/lynktown/thumbnail.png",
       "slug": "lynktown",
       "tag": "Design & Development",
       "devDetails": [
@@ -22,8 +24,9 @@
           "value": "Design + Development"
         }
       ],
+      "description": "Lynk Town is a comprehensive  digital platform that connects  fashion designers and customers.",
       "summary": {
-        "heading": "Lynk Town is a comprehensive digital platform that connects fashion designers and customers.",
+        "heading": "Lynk Town is a comprehensive <br className='hidden sm:block'/> digital platform that connects <br className='hidden sm:block'/> fashion designers and customers.",
         "points": [
           "First connections are made via social media, and customers can place orders using the designer's link. Where customers receive personalised products delivered to their door.",
           "Lynk Town app was created for people who can't keep up with technological changes and are concerned about customer dissatisfaction from online stores, and there was no platform for them to Start and expand their business online safely because vendors could not trust clients and vice versa."
@@ -98,11 +101,25 @@
       },
       "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
       "font": "/assets/images/case-study/lynktown/font.png",
-      "tech": "/assets/images/case-study/lynktown/tech.png"
+      "tech": "/assets/images/case-study/lynktown/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
     },
     {
+      "id": 2,
       "title": "LYNKE Mobile App",
       "smallTitle": "LYNKE App",
+      "thumbnail": "/assets/images/case-study/lynke/thumbnail.png",
       "slug": "lynke",
       "tag": "Design & Development",
       "devDetails": [
@@ -122,13 +139,209 @@
           "value": "Design + Development"
         }
       ],
+      "description": "LYNKE is a mobile application that  allows you to create a customisable,  interactive business card",
       "summary": {
-        "heading": "LYNKE is a mobile application that allows you to create a customisable, interactive business card ",
+        "heading": "LYNKE is a mobile application that <br className='hidden sm:block'/> allows you to create a customisable,<br className='hidden sm:block'/>  interactive business card ",
         "points": [
-          "LYNKE is a mobile application that allows you to create a customisable, interactive business card ",
+          "LYNKE is a mobile application that  allows you to create a customisable, interactive business card ",
           "This app creates interactive two-sided business cards. It is an effective networking tool as well as a powerful branding asset."
         ],
-        "img": "/assets/images/case-study/lynktown/summary.jpg"
+        "img": "/assets/images/case-study/lynke/summary.jpg"
+      },
+      "problem": {
+        "heading": "Why to design this website?",
+        "points": [
+          "No opportunity to share business cards online",
+          "Utilise technology to develop a digital business card app that could be shared across multiple platforms",
+          "Allow customers to personalise their business cards.",
+          "Share your information easily and safely with anyone in the world."
+        ],
+        "img": "/assets/images/case-study/lynke/problems.jpg"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/lynke/project1.jpg",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Create a Responsive LYNKE App & Website",
+            "description": "We aimed to create a well-thought-out responsive app & webdesign to deliver fast-loading experience on all devices."
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective  app & website design."
+          },
+          {
+            "id": 3,
+            "heading": "Create customizable, interactive business cards",
+            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
+            "img": "/assets/images/case-study/lynke/project2.jpg"
+          },
+          {
+            "id": 4,
+            "heading": "Share business card across multiple platforms with QR and unique id",
+            "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
+            "img": "/assets/images/case-study/lynke/project3.jpg"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "Our team created a customisable business card app with a high-quality user experience.",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "Vendor Panel",
+            "points": [
+              "Allowing customers to personalise their business cards.",
+              "Variety of themes for business cards",
+              "Two-sided business cards are created.The feature of sharing LYNKE cards via QR code and website URL allows users to view and interact with the share LYNKE card.",
+              "You can share your information easily and safely with anyone in the world."
+            ],
+            "img": "/assets/images/case-study/lynke/solution1.jpg"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/lynke/font.png",
+      "tech": "/assets/images/case-study/lynke/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gigsasa : A Job Portal",
+      "smallTitle": "Gigsasa App",
+      "thumbnail": "/assets/images/case-study/gigsasa/thumbnail.png",
+      "slug": "gigsasa",
+      "tag": "Design",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Job Portal"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design"
+        }
+      ],
+      "description": "Gigsasa is the job listing and  searching application for SMBs ",
+      "summary": {
+        "heading": "Gigsasa is the job listing and <br className='hidden sm:block'/> searching application for SMBs  ",
+        "points": [
+          "Gigsasa is the job listing and searching application for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers. App will provide advanced search options to find jobs on location based, review based, hourly based, weekly based, preferences and category. ",
+          "Goal was to provide jobs for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers."
+        ],
+        "img": "/assets/images/case-study/lynke/summary.jpg"
+      },
+      "problem": {
+        "heading": "Why to design this website?",
+        "points": [
+          "Preferences based job notifications,Time based jobs listings and Online payment solution",
+          "Job hunting is a difficult and stressful task due to a lack of organised communication and access to opportunities.",
+          "The recruitment process is time-consuming and sometimes futile because they do not provide you with status updates in real time.",
+          "To provide jobs for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers.",
+          "The freelancing industry is disorganised and chaotic.",
+          "Advanced search help to find the specific job."
+        ],
+        "img": "/assets/images/case-study/lynke/problems.jpg"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/lynke/project1.jpg",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Horly & Weekly freelancers Jobs",
+            "description": "To provide jobs for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers."
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective job portal segment app."
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "A game changer features added in the applications",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "Preferences based search",
+              "The search page displays jobs based on location review, weekly, hourly, preferences, and category.",
+              "Different profiles for different jobs and Users can see job details before applying ",
+              "Quick online payments solutions.",
+              "Freelancing mode will exclusively list only freelance projects and collaborations.",
+              "Personal chat option"
+            ],
+            "img": "/assets/images/case-study/lynke/solution1.jpg"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/lynke/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "U2(Unique & Universal)",
+      "smallTitle": "U2(Unique & Universal)",
+      "thumbnail": "/assets/images/case-study/u2/thumbnail.jpg",
+      "slug": "u2",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App, Web & Dashboard"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Fashion Ecommerce"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "U2 (Unique & Universal) is a fashion  and lifestyle digital ecosystem  mobile app and website ",
+      "summary": {
+        "heading": "U2 (Unique & Universal) is a fashion <br className='hidden sm:block'/> and lifestyle digital ecosystem <br className='hidden sm:block'/> mobile app and website ",
+        "points": [
+          "U2 (Unique & Universal) is a mobile app and website of digital ecosystem for the fashion and lifestyle industry.Customers can shop for fashion wear based on their body estimations. You do not have to be a fashion designer with years of experience.",
+          "U2 app offers opportunities for everyone, including fashion boutiques, artisans, stylists, and models. We team up with them to foster a stage that interfaces style and fashion designers or vendors with potential clients."
+        ],
+        "img": "/assets/images/case-study/u2/summary.jpg"
       },
       "problem": {
         "heading": "Why to design this website?",
@@ -140,15 +353,15 @@
           "Customers worry on receiving wrong products, payment to sellers",
           "Trouble for new vendors to scale brand  globally."
         ],
-        "img": "/assets/images/case-study/lynktown/problems.jpg"
+        "img": "/assets/images/case-study/u2/problems.jpg"
       },
       "goals": {
-        "img": "/assets/images/case-study/lynktown/project1.jpg",
+        "img": "/assets/images/case-study/u2/project1.png",
         "points": [
           {
             "id": 1,
-            "heading": "Create a Responsive Fashion Segmenet App & Website",
-            "description": "We aimed to create a well-thought-out responsive app & webdesign to deliver fast-loading experience on all devices."
+            "heading": "Build a Functional Application and website",
+            "description": "To create a platform where we connect fashion & lifestyle segment vendors or fashion designers with the potential customers."
           },
           {
             "id": 2,
@@ -157,48 +370,69 @@
           },
           {
             "id": 3,
-            "heading": "Establish communication b/w vendor & customer",
-            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
-            "img": "/assets/images/case-study/lynktown/project2.jpg"
+            "heading": "Collaborate with fashion designer",
+            "description": "Fashion designer or vendor can collaborate with U2 by registering wth us by adding al the required details. Once their profile is verified by admin, they become vendor of U2 and sell their products",
+            "img": "/assets/images/case-study/u2/project2.png"
           },
           {
             "id": 4,
-            "heading": "Build a Functional Vendor App",
-            "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
-            "img": "/assets/images/case-study/lynktown/project3.jpg"
+            "heading": "Providing customised designer products to customers",
+            "description": "Discovered that customers were sacrificing style to find their perfect fit because everybody is different and not everyone can fit in standard sizes. So, based on the issues, we decided to devise a solution. As a result, we added a feature where customer can add their measurements and get the product of their size",
+            "img": "/assets/images/case-study/u2/project3.png"
           }
         ]
       },
       "solutions": {
-        "heading": "Vendor has Full control over all features and functions of his order. User can recieve customised order.",
+        "heading": "U2 had a largely untapped audience, and demand for perfectly fitted designer outfits was at an all-time high",
         "solutionPoints": [
           {
             "id": 1,
-            "title": "Vendor Panel",
+            "title": "Customer Panel",
             "points": [
-              " Connection established between vendor and customer through social media.",
-              "Available online as well as offline",
-              "Administration community of industry experts to learn new ways to evolve your brand on social platforms.",
-              "Manage order payments, shipping, returns, alterations, and more on LynkTown.",
-              "Recieveing measurement for customised products"
+              "Connect customers with the best fashion designers to fulfill their needs of customised designer products.",
+              "Designer products are simple to customise.",
+              "A feature where customer can add their measurements and get the product of their size",
+              "Customers can also Customise the product in U2 by choosing their preferred fabric, colour and size. They can also browse products based on their category.",
+              "A Better UI, UX and visual consistency of the app."
             ],
-            "img": "/assets/images/case-study/lynktown/solution1.jpg"
+            "img": "/assets/images/case-study/u2/solution1.png"
           },
           {
             "id": 2,
-            "title": "Customer Panel",
+            "title": "Admin Panel",
             "points": [
-              " Order incudes Customized or ready-made products",
-              "Adding measurement manually for customsed orders",
-              "Product alteration can be made in a simple way"
+              "Admin manages complete flow of U2 fashion store",
+              "Admin manage the products added by individual vendors",
+              "Admin needs to accept the valid product added by the vendor to showcase in the website and Application"
             ],
-            "img": "/assets/images/case-study/lynktown/solution2.jpg"
+            "img": "/assets/images/case-study/u2/solution2.png"
+          },
+          {
+            "id": 3,
+            "title": "Vendor Dashboard",
+            "points": [
+              "Vendor manages all the products details and orders.",
+              "Vendor can provide products which available for customise manually"
+            ],
+            "img": "/assets/images/case-study/u2/solution3.png"
           }
         ]
       },
       "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
-      "font": "/assets/images/case-study/lynktown/font.png",
-      "tech": "/assets/images/case-study/lynktown/tech.png"
+      "font": "/assets/images/case-study/u2/font.png",
+      "tech": "/assets/images/case-study/u2/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
     }
   ]
 }

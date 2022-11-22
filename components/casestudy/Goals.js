@@ -11,7 +11,7 @@ const Goals = ({ points, img }) => {
           })}
         </div>
         <div className='max-w-6xl mx-auto my-5 md:my-10'>
-          <img src={img} className='w-full h-full' alt='' />
+          <img src={img} className='w-full h-full rounded-[20px]' alt='' />
         </div>
         <div>
           {points.slice(2, points.length).map((point, idx) => {

@@ -5,18 +5,18 @@ const Functionality = ({ title, highlight, features }) => {
     <section className='container mx-auto px-4'>
       <div>
         <h2>SOLUTIONS PROVIDED</h2>
-        <h2 className='max-w-[1030px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {highlight}
         </h2>
       </div>
-      <div>
+      <div className='flex justify-center items-center flex-col'>
         {features.map(item => {
           const { id, img, title, points } = item;
 
           return (
             <div
               key={id}
-              className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-10 `}
+              className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-14 `}
             >
               <div className={`flex-1 ${id % 2 === 0 && 'order-2'}`}>
                 <img

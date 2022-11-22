@@ -10,6 +10,7 @@ import Functionality from '@/components/casestudy/Functionality';
 import ReactHtmlParser from 'react-html-parser';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
+import Social from '@/components/casestudy/Social';
 
 const Projects = ({ page }) => {
   const router = useRouter();
@@ -37,6 +38,7 @@ const Projects = ({ page }) => {
 
       <ClientReview review={page?.review} />
       <TypoTech fontImg={page?.font} techImg={page?.tech} />
+      <Social socialLinks={page.social} />
       <OurWorks />
     </Layout>
   );
