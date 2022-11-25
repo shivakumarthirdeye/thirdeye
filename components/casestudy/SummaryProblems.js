@@ -9,20 +9,24 @@ const SummaryProblems = ({
   return (
     <section className='container mx-auto px-4'>
       <div>
-        <h2>Summary</h2>
-        <h1 className=' mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h2 className='text-sm md:text-base text-black text-opacity-80'>
+          Summary
+        </h2>
+        <h1 className='mt-1 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {summaryHeading}
         </h1>
-        <div className='md:flex  md:space-x-10 my-10'>
+        <div className='md:flex  md:space-x-10 my-5 md:my-10'>
           {summaryPoints.map((item, idx) => {
             return (
-              <div className='my-8 md:my-0' key={idx}>
-                <h3 className=' sm:text-xl lg:text-2xl'>{item}</h3>
+              <div className='my-5 md:my-0' key={idx}>
+                <h3 className='text-sm sm:text-lg md:text-xl lg:text-2xl text-black text-opacity-80'>
+                  {item}
+                </h3>
               </div>
             );
           })}
         </div>
-        <div className='max-w-6xl mx-auto my-3 md:my-5'>
+        <div className='max-w-6xl mx-auto my-8 md:my-5'>
           <img
             src={summaryImg}
             className='w-full max-h-[743.29px] object-cover rounded-[20px]'
@@ -31,8 +35,10 @@ const SummaryProblems = ({
         </div>
       </div>
       <div className='mt-10 md:mt-20 lg:mt-28'>
-        <h2>Problem</h2>
-        <h1 className=' mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h2 className='text-sm md:text-base text-black text-opacity-80'>
+          Problem
+        </h2>
+        <h1 className='mt-1 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {problemHeading}
         </h1>
       </div>
@@ -42,7 +48,10 @@ const SummaryProblems = ({
             .slice(0, problemPoints.length / 2 + 1)
             .map((item, idx) => {
               return (
-                <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={idx}>
+                <li
+                  className='text-black text-opacity-80 my-1.5 text-sm sm:text-lg md:text-xl lg:text-2xl'
+                  key={idx}
+                >
                   {item}
                 </li>
               );
@@ -53,14 +62,17 @@ const SummaryProblems = ({
             .slice(problemPoints.length / 2 + 1, problemPoints.length)
             .map((item, idx) => {
               return (
-                <li className='my-1.5 text-lg md:text-xl lg:text-2xl' key={idx}>
+                <li
+                  className='text-black text-opacity-80 my-1.5 text-sm sm:text-lg md:text-xl lg:text-2xl'
+                  key={idx}
+                >
                   {item}
                 </li>
               );
             })}
         </ul>
       </div>
-      <div className='max-w-6xl mx-auto my-3 md:my-5'>
+      <div className='max-w-6xl mx-auto my-5 md:my-5'>
         <img
           src={problemImg}
           className='w-full max-h-[743.29px] object-cover rounded-[20px]'

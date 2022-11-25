@@ -71,6 +71,12 @@ li::marker {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  li::marker {
+    font-size: 1.1rem;
+  }
+}
+
 .sitemap li::marker {
   font-size: 1.2rem;
 }

@@ -2,10 +2,13 @@ import React from 'react';
 
 const ClientReview = ({ review }) => {
   return (
-    <section className='container mx-auto px-4'>
+    <section className='my-10 container mx-auto px-4'>
       <div>
-        <h2> Client Review</h2>
-        <h1 className='my-2 max-w-[1030px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h2 className='text-sm md:text-base  text-black text-opacity-80'>
+          {' '}
+          Client Review
+        </h2>
+        <h1 className='max-w-[1030px] text-black text-opacity-80 sm:text-3xl md:text-4xl lg:text-5xl my-1 md:my-5'>
           &quot;{review}&quot;
         </h1>
       </div>

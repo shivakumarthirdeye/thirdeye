@@ -31,7 +31,7 @@
           "First connections are made via social media, and customers can place orders using the designer's link. Where customers receive personalised products delivered to their door.",
           "Lynk Town app was created for people who can't keep up with technological changes and are concerned about customer dissatisfaction from online stores, and there was no platform for them to Start and expand their business online safely because vendors could not trust clients and vice versa."
         ],
-        "img": "/assets/images/case-study/lynktown/summary.jpg"
+        "img": "/assets/images/case-study/lynktown/summary.png"
       },
       "problem": {
         "heading": "Why to design this website?",
@@ -39,14 +39,14 @@
           "Poor communication b/w vendor & customer",
           "Hard to manage order payments, shipping, returns, alterations, and more",
           "No personalized approach for customers",
-          "Hard to get customised products and orders",
+          "Hard to get customized products and orders",
           "Customers worry on receiving wrong products, payment to sellers",
           "Trouble for new vendors to scale brand  globally."
         ],
-        "img": "/assets/images/case-study/lynktown/problems.jpg"
+        "img": "/assets/images/case-study/lynktown/problems.png"
       },
       "goals": {
-        "img": "/assets/images/case-study/lynktown/project1.jpg",
+        "img": "/assets/images/case-study/lynktown/project1.png",
         "points": [
           {
             "id": 1,
@@ -61,19 +61,19 @@
           {
             "id": 3,
             "heading": "Establish communication b/w vendor & customer",
-            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
-            "img": "/assets/images/case-study/lynktown/project2.jpg"
+            "description": "Goal was to reach the right customers by providing quality products of readymade and customized products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
+            "img": "/assets/images/case-study/lynktown/project2.png"
           },
           {
             "id": 4,
             "heading": "Build a Functional Vendor App",
             "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
-            "img": "/assets/images/case-study/lynktown/project3.jpg"
+            "img": "/assets/images/case-study/lynktown/project3.png"
           }
         ]
       },
       "solutions": {
-        "heading": "Vendor has Full control over all features and functions of his order. User can recieve customised order.",
+        "heading": "Vendor has Full control over all features and functions of his order. User can recieve customized order.",
         "solutionPoints": [
           {
             "id": 1,
@@ -83,9 +83,9 @@
               "Available online as well as offline",
               "Administration community of industry experts to learn new ways to evolve your brand on social platforms.",
               "Manage order payments, shipping, returns, alterations, and more on LynkTown.",
-              "Recieveing measurement for customised products"
+              "Recieveing measurement for customized products"
             ],
-            "img": "/assets/images/case-study/lynktown/solution1.jpg"
+            "img": "/assets/images/case-study/lynktown/solution1.png"
           },
           {
             "id": 2,
@@ -174,7 +174,7 @@
           {
             "id": 3,
             "heading": "Create customizable, interactive business cards",
-            "description": "Goal was to reach the right customers by providing quality products of readymade and customised products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
+            "description": "Goal was to reach the right customers by providing quality products of readymade and customized products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
             "img": "/assets/images/case-study/lynke/project2.jpg"
           },
           {
@@ -349,7 +349,7 @@
           "Poor communication b/w vendor & customer",
           "Hard to manage order payments, shipping, returns, alterations, and more",
           "No personalized approach for customers",
-          "Hard to get customised products and orders",
+          "Hard to get customized products and orders",
           "Customers worry on receiving wrong products, payment to sellers",
           "Trouble for new vendors to scale brand  globally."
         ],
@@ -376,7 +376,7 @@
           },
           {
             "id": 4,
-            "heading": "Providing customised designer products to customers",
+            "heading": "Providing customized designer products to customers",
             "description": "Discovered that customers were sacrificing style to find their perfect fit because everybody is different and not everyone can fit in standard sizes. So, based on the issues, we decided to devise a solution. As a result, we added a feature where customer can add their measurements and get the product of their size",
             "img": "/assets/images/case-study/u2/project3.png"
           }
@@ -389,10 +389,10 @@
             "id": 1,
             "title": "Customer Panel",
             "points": [
-              "Connect customers with the best fashion designers to fulfill their needs of customised designer products.",
-              "Designer products are simple to customise.",
+              "Connect customers with the best fashion designers to fulfill their needs of customized designer products.",
+              "Designer products are simple to customize.",
               "A feature where customer can add their measurements and get the product of their size",
-              "Customers can also Customise the product in U2 by choosing their preferred fabric, colour and size. They can also browse products based on their category.",
+              "Customers can also Customize the product in U2 by choosing their preferred fabric, colour and size. They can also browse products based on their category.",
               "A Better UI, UX and visual consistency of the app."
             ],
             "img": "/assets/images/case-study/u2/solution1.png"
@@ -412,7 +412,7 @@
             "title": "Vendor Dashboard",
             "points": [
               "Vendor manages all the products details and orders.",
-              "Vendor can provide products which available for customise manually"
+              "Vendor can provide products which available for customize manually"
             ],
             "img": "/assets/images/case-study/u2/solution3.png"
           }
@@ -421,6 +421,101 @@
       "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
       "font": "/assets/images/case-study/u2/font.png",
       "tech": "/assets/images/case-study/u2/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Instabytes App",
+      "smallTitle": "Instabytes App",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "instabytes",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "E-Learning"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "An exclusive refresher app for the use of *Trade Finance* professionals. ",
+      "summary": {
+        "heading": "An exclusive refresher app for  <br className='hidden sm:block'/>   the use of *Trade Finance*  <br className='hidden sm:block'/>   professionals.",
+        "points": [
+          "Instabytes is a mobile app that includes infographic content about various international banking rules and guidelines for conducting smooth import-export operations. It is a unique refresher app for professionals who use trade finance.",
+          "Instabytes was looking for an IT services partner to help them improve their app for trade finance and professionals. They wanted to incorporate new technologies and provide all of the latest trade finance information."
+        ],
+        "img": "/assets/images/case-study/instabytes/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Users will receive updates on the showcase free and premium learning resources updates.",
+          "Users will receive updates on the showcase free and premium job updates.",
+          "Lacked proper UI / UX and couldn't find all of the information on the same platform",
+          "Enables users to insert videos between slides to demonstrate how we could add solution videos"
+        ],
+        "img": "/assets/images/case-study/instabytes/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/instabytes/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Build a Responsive & Functional Application",
+            "description": "Our goal was to create a functional and user-friendly exclusive refresher app for the use of *Trade Finance* professionals."
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective  app & dashboard design."
+          },
+          {
+            "id": 3,
+            "heading": "Provide Learning resources and Job updates with videos",
+            "description": "We decided to include a dashboard because we couldn't find all of the information on the same platform previously. which enables users to insert videos between slides to demonstrate how we could add solution videos to the learning resources category, create an efficient dashboard, swap the slides, and edit the learning category.",
+            "img": "/assets/images/case-study/instabytes/project2.png"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "Admin has full control over all features and functions of the application",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "Admin Panel",
+            "points": [
+              "Enables admin to insert videos between slides to demonstrate how we could add solution videos to the learning resources category, ",
+              "An efficient dashboard, swap the slides, and edit the learning category.",
+              "Differentiating learning resources and Job updates",
+              "Premium and free resources"
+            ],
+            "img": "/assets/images/case-study/instabytes/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/instabytes/font.png",
       "social": [
         {
           "id": 1,

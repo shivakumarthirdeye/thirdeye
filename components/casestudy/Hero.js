@@ -11,8 +11,10 @@ const Hero = ({ heading, platform, industry, domain, classes, devDetails }) => {
           const { id, title, value } = item;
           return (
             <div key={id}>
-              <h4>{title}</h4>
-              <h1 className='text-3xl'>{value}</h1>
+              <h4 className='text-sm md:text-base text-black text-opacity-80'>
+                {title}
+              </h4>
+              <h1 className=' text-xl md:text-2xl lg:text-3xl'>{value}</h1>
             </div>
           );
         })}

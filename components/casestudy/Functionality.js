@@ -4,8 +4,10 @@ const Functionality = ({ title, highlight, features }) => {
   return (
     <section className='container mx-auto px-4'>
       <div>
-        <h2>SOLUTIONS PROVIDED</h2>
-        <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h2 className='text-sm md:text-base  text-black text-opacity-80'>
+          SOLUTIONS PROVIDED
+        </h2>
+        <h2 className='text-2xl  text-black text-opacity-80 sm:text-3xl md:text-4xl lg:text-5xl my-2 md:my-5'>
           {highlight}
         </h2>
       </div>
@@ -16,7 +18,7 @@ const Functionality = ({ title, highlight, features }) => {
           return (
             <div
               key={id}
-              className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-14 `}
+              className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-3 md:my-5 lg:my-14 `}
             >
               <div className={`flex-1 ${id % 2 === 0 && 'order-2'}`}>
                 <img
@@ -26,7 +28,7 @@ const Functionality = ({ title, highlight, features }) => {
                 />
               </div>
               <div className={` my-4 flex-1   sm:my-0`}>
-                <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>
+                <h1 className='text-xl text-black text-opacity-80 sm:text-2xl md:text-3xl lg:text-4xl'>
                   {title}
                 </h1>
                 <div className='ml-8  '>
@@ -34,7 +36,7 @@ const Functionality = ({ title, highlight, features }) => {
                     {points.map((item, idx) => {
                       return (
                         <li
-                          className='sm:text-lg my-0.5 sm:my-1 md:text-xl'
+                          className=' text-sm sm:text-lg text-black text-opacity-80 my-0.5 sm:my-1 md:text-xl'
                           key={idx}
                         >
                           {item}
