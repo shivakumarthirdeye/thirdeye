@@ -50,12 +50,12 @@ const works = [
   },
 ];
 
-const OurWorks = ({ title }) => {
+const OurWorks = ({ title, currentPage }) => {
   const { projects } = projectsData;
   return (
     <>
       <div className='block sm:hidden'>
-        <HomePageOurWorks />
+        <HomePageOurWorks currentPage={currentPage} />
       </div>
 
       <section className='hidden sm:block my-20 relative'>
@@ -147,44 +147,48 @@ const OurWorks = ({ title }) => {
                   </button>
                 </div>
               </div>
-              {projects.map(work => {
-                // const { id, image, tag, title, description } = work;
+              {projects
+                .filter(item => item.slug !== currentPage)
+                .map(work => {
+                  // const { id, image, tag, title, description } = work;
 
-                const { id, thumbnail, smallTitle, tag, slug, description } =
-                  work;
-                return (
-                  <SwiperSlide
-                    key={id}
-                    className=' w-full select-none justify-center'
-                  >
-                    <div className='flex justify-center'>
-                      <div>
+                  const { id, thumbnail, smallTitle, tag, slug, description } =
+                    work;
+                  return (
+                    <SwiperSlide
+                      key={id}
+                      className=' w-full select-none justify-center'
+                    >
+                      <div className='flex justify-center'>
                         <div>
-                          <img
-                            src={thumbnail}
-                            className='md:w-[374px] w-full h-[340px]  md:h-[436.01px] object-cover rounded-[20.67px]'
-                            alt=''
-                          />
-                        </div>
-                        <div className='my-5'>
-                          <p className='text-[#4E53B7] font-bold mb-3'>{tag}</p>
-                          <h1 className='text-4xl  '>{smallTitle}</h1>
-                        </div>
-                        <div className='my-8 '>
-                          <Link href={`/case-study/${slug}`}>
-                            <a>
-                              <button className='    text-black text-opacity-80 '>
-                                Case Study
-                                <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div>
-                              </button>
-                            </a>
-                          </Link>
+                          <div>
+                            <img
+                              src={thumbnail}
+                              className='md:w-[374px] w-full h-[340px]  md:h-[436.01px] object-cover rounded-[20.67px]'
+                              alt=''
+                            />
+                          </div>
+                          <div className='my-5'>
+                            <p className='text-[#4E53B7] font-bold mb-3'>
+                              {tag}
+                            </p>
+                            <h1 className='text-4xl  '>{smallTitle}</h1>
+                          </div>
+                          <div className='my-8 '>
+                            <Link href={`/case-study/${slug}`}>
+                              <a>
+                                <button className='    text-black text-opacity-80 '>
+                                  Case Study
+                                  <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div>
+                                </button>
+                              </a>
+                            </Link>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                );
-              })}
+                    </SwiperSlide>
+                  );
+                })}
             </Swiper>
           </div>
         </div>
