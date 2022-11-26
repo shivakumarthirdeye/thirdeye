@@ -31,7 +31,7 @@
           "First connections are made via social media, and customers can place orders using the designer's link. Where customers receive personalised products delivered to their door.",
           "Lynk Town app was created for people who can't keep up with technological changes and are concerned about customer dissatisfaction from online stores, and there was no platform for them to Start and expand their business online safely because vendors could not trust clients and vice versa."
         ],
-        "img": "/assets/images/case-study/lynktown/summary.png"
+        "img": "/assets/images/case-study/lynktown/summary.jpg"
       },
       "problem": {
         "heading": "Why to design this website?",
@@ -43,10 +43,10 @@
           "Customers worry on receiving wrong products, payment to sellers",
           "Trouble for new vendors to scale brand  globally."
         ],
-        "img": "/assets/images/case-study/lynktown/problems.png"
+        "img": "/assets/images/case-study/lynktown/problems.jpg"
       },
       "goals": {
-        "img": "/assets/images/case-study/lynktown/project1.png",
+        "img": "/assets/images/case-study/lynktown/project1.jpg",
         "points": [
           {
             "id": 1,
@@ -62,13 +62,13 @@
             "id": 3,
             "heading": "Establish communication b/w vendor & customer",
             "description": "Goal was to reach the right customers by providing quality products of readymade and customized products  by providing option for customers to add measurents manually and establishing faster communication to provide testing and gain the attention and trust of potential customers.",
-            "img": "/assets/images/case-study/lynktown/project2.png"
+            "img": "/assets/images/case-study/lynktown/project2.jpg"
           },
           {
             "id": 4,
             "heading": "Build a Functional Vendor App",
             "description": "Our goal was to create a functional and user-friendly Vendor application to allow managing orders manually (using single link).",
-            "img": "/assets/images/case-study/lynktown/project3.png"
+            "img": "/assets/images/case-study/lynktown/project3.jpg"
           }
         ]
       },
@@ -85,7 +85,7 @@
               "Manage order payments, shipping, returns, alterations, and more on LynkTown.",
               "Recieveing measurement for customized products"
             ],
-            "img": "/assets/images/case-study/lynktown/solution1.png"
+            "img": "/assets/images/case-study/lynktown/solution1.jpg"
           },
           {
             "id": 2,
@@ -248,7 +248,7 @@
           "Gigsasa is the job listing and searching application for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers. App will provide advanced search options to find jobs on location based, review based, hourly based, weekly based, preferences and category. ",
           "Goal was to provide jobs for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers."
         ],
-        "img": "/assets/images/case-study/lynke/summary.jpg"
+        "img": "/assets/images/case-study/gigsasa/summary.jpg"
       },
       "problem": {
         "heading": "Why to design this website?",
@@ -260,10 +260,10 @@
           "The freelancing industry is disorganised and chaotic.",
           "Advanced search help to find the specific job."
         ],
-        "img": "/assets/images/case-study/lynke/problems.jpg"
+        "img": "/assets/images/case-study/gigsasa/problems.png"
       },
       "goals": {
-        "img": "/assets/images/case-study/lynke/project1.jpg",
+        "img": "/assets/images/case-study/gigsasa/project1.png",
         "points": [
           {
             "id": 1,
@@ -291,12 +291,12 @@
               "Freelancing mode will exclusively list only freelance projects and collaborations.",
               "Personal chat option"
             ],
-            "img": "/assets/images/case-study/lynke/solution1.jpg"
+            "img": "/assets/images/case-study/gigsasa/solution1.png"
           }
         ]
       },
       "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
-      "font": "/assets/images/case-study/lynke/font.png",
+      "font": "/assets/images/case-study/gigsasa/font.png",
       "social": [
         {
           "id": 1,
@@ -511,6 +511,101 @@
               "Premium and free resources"
             ],
             "img": "/assets/images/case-study/instabytes/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/instabytes/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dentotabs Website",
+      "smallTitle": "Dentotabs Website",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "dentotabs",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Website"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Job Portal"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Dentotabs is a website which is India’s No.1 dental professionals recruitment platform. ",
+      "summary": {
+        "heading": "Dentotabs is a website which is <br className='hidden sm:block'/>  India’s No.1 dental professionals <br className='hidden sm:block'/>  recruitment platform.  ",
+        "points": [
+          "Dentotabs is India's leading dental professional recruitment platform. It is a dedicated job portal for dental professionals. They provide BDS and MDS doctors, dental assistants, dental technicians, and other allied staff to dental clinics and related organisations.",
+          "Our vision is to exceed the industry’s expectations by providing the finest dental professionals"
+        ],
+        "img": "/assets/images/case-study/dentotabs/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this website?",
+        "points": [
+          "The problem, as we discovered, was that job seeker were not receiving a response to an online application, and there were conflicting job titles.",
+          "To create an interactive dental job portal to engage youth on a deeper level.",
+          "Human resource solutions exclusively to the dental industry and recruit the professionals for the guaranteed period"
+        ],
+        "img": "/assets/images/case-study/dentotabs/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/dentotabs/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Build a Responsive & Functional Website",
+            "description": "Our vision is to exceed the industry’s expectations by providing the finest dental professionals"
+          },
+          {
+            "id": 2,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective dental job portal website design."
+          },
+          {
+            "id": 3,
+            "heading": "Providing the best dental professionals",
+            "description": "Dentotabs provides dental professionals and other allied staff to dental clinics and associated organizations. <br className='hidden sm:block'/> Recruit the professionals to meet the industry standards through our specially designed three-tier recruitment process.",
+            "img": "/assets/images/case-study/dentotabs/project2.png"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "A huge platform for recognized dental skills for job seekers and recruiters",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "We strived to provide stunning UX/UI solutions within simple yet effective dental job portal website design.",
+              "Can search for desirable and deserving candidates and shortlist them",
+              "We created a Web-based job posting interface for recruiters",
+              "Email triggers for applicants, employers, and administrators regarding job postings and applications.",
+              "Huge platform for dental job seekers and recruiters"
+            ],
+            "img": "/assets/images/case-study/dentotabs/solution1.png"
           }
         ]
       },
