@@ -51,7 +51,7 @@ export default Goals;
 
 const Points = ({ id, heading, description }) => {
   return (
-    <div className='text-black text-opacity-80'>
+    <div className='text-black flex-1 text-opacity-80'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl '>0{id}</h1>
 
       <div className='w-[90%] h-[2px] my-2 bg-black bg-opacity-80 ' />

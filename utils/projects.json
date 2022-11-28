@@ -623,6 +623,275 @@
           "href": "https://www.dribbble.com/"
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Amaar Property App",
+      "smallTitle": "Amaar Property App",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "amaar",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Real estate"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design"
+        }
+      ],
+      "description": "Amaar property offers high-quality apartments and office spaces",
+      "summary": {
+        "heading": "Amaar property offers high-quality <br className='hidden sm:block'/> apartments and office spaces ",
+        "points": [
+          "Amaar Construction Company is our client. It offers high-quality apartments and office spaces in the UAE. The client eventually realised that dealing with residents offline was no longer necessary.",
+          "As a result, they approached us to design a system that would convert client relationships to a digital format."
+        ],
+        "img": "/assets/images/case-study/amaar/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Fake listings are a common issue when looking for a home. It is frustrating and time-consuming to visit multiple properties in the hopes of finding the one listed by the broker.",
+          "Estate agents are not always forthcoming with details, which can be frustrating.",
+          "The budget is usually less than the price of the location and the picture of the apartment that the tenants planned for.",
+          "The exact location is unknown. The main issue was their inability to quickly track their daily issues.",
+          "The ordeal does not end with the acquisition of the ideal property; undocumented rules imposed by society, as well as miscommunication with brokers and owners, continue to vex."
+        ],
+        "img": "/assets/images/case-study/amaar/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/amaar/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective real estate app."
+          },
+          {
+            "id": 2,
+            "heading": "Property management Services",
+            "description": "All services are available for viewing and ordering by users.This app can be used to provide services such as home booking, home rental, and home services such as plumbing, lighting, and so on. This app provides access to all services."
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "A game changer features added in the applications",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "Preferences based search",
+              "The search page displays jobs based on location review, weekly, hourly, preferences, and category.",
+              "Different profiles for different jobs and Users can see job details before applying",
+              "Quick online payments solutions.",
+              "Freelancing mode will exclusively list only freelance projects and collaborations.",
+              "Personal chat option"
+            ],
+            "img": "/assets/images/case-study/amaar/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/amaar/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ajyal Fashion Store Application",
+      "smallTitle": "Ajyal Fashion Store",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "ajyal",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "E-commerce"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design"
+        }
+      ],
+      "description": "Ajyal is a digital ecosystem mobile app and website for the e-commerce industry.",
+      "summary": {
+        "heading": "Ajyal is a digital ecosystem mobile  <br className='hidden sm:block'/> app and website for the e-commerce  <br className='hidden sm:block'/> industry. ",
+        "points": [
+          "Ajayal is a simple and secure marketplace platform that allows people to discover and buy the products they want while providing an excellent user experience. This app also includes merchandising partnerships.",
+          "Ajyal is an easy secure market place platform for people to discover and shop the products they love."
+        ],
+        "img": "/assets/images/case-study/ajyal/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Users were disappointed because they did not receive the exact product shown on the websites.",
+          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
+          "There were no product recommendations while browsing",
+          "Policy complexity."
+        ],
+        "img": "/assets/images/case-study/ajyal/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/ajyal/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective Ecommerce segment app."
+          },
+          {
+            "id": 2,
+            "heading": "Product arrangement & reviews ",
+            "description": "The main goal is to make shopping more enjoyable, engaging, and social for all users at an affordable price. Where a user can find products from various categories  and Reviews have been shortened so that customers can understand them.on a single platform."
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "The product is efficiently arranged under the matching category so that users can easily find.",
+              "Made review shorter, simpler and Customer wants to see pictures in review.",
+              "The whole idea of the application was based around creating a seamless user experience"
+            ],
+            "img": "/assets/images/case-study/ajyal/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/ajyal/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "SpocLearn website",
+      "smallTitle": "SpocLearn website",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "spoclearn",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Web",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "eLearning"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "One-stop solution for training and certification courses",
+      "summary": {
+        "heading": "One-stop solution for training and <br className='hidden sm:block'/> certification courses.",
+        "points": [
+          "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
+          "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
+        ],
+        "img": "/assets/images/case-study/spoc/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Users were disappointed because they did not receive the exact product shown on the websites.",
+          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
+          "There were no product recommendations while browsing",
+          "Policy complexity."
+        ],
+        "img": "/assets/images/case-study/spoc/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/spoc/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective eLearning segment website."
+          },
+          {
+            "id": 2,
+            "heading": "Developing knowledge",
+            "description": "Professional certification courses are required for a group of mid-level experienced professionals.To target 190+ countries, To generate 3 Cr + revenue for the 1st year of operation, Increase team size to be 25+"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "We created a high-quality user interface for this website for users to find relevant information.",
+              "Through a learning partner, provide certification training.",
+              "Professional certification courses are required for a group of mid-level experienced professionals.",
+              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
+            ],
+            "img": "/assets/images/case-study/spoc/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/spoc/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
     }
   ]
 }
