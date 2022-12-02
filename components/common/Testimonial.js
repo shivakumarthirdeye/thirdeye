@@ -91,11 +91,11 @@ const testimonialInfo = [
 
 const Testimonial = () => {
   return (
-    <section className='my-20'>
+    <section className='my-10 md:my-20'>
       <div className='container mx-auto px-4'>
         <h1 className='heading lg:[64px]'>What people say about us</h1>
       </div>{' '}
-      <div className='my-20 px-4 sm:px-0'>
+      <div className='my-10 md:my-20 px-4 sm:px-0'>
         <Swiper
           spaceBetween={10}
           slidesPerView={1}

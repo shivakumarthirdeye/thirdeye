@@ -1,10 +1,11 @@
+import ClientForm from '@/components/common/ClientForm';
 import ContactForm from '@/components/common/ContactForm';
 import { LeftCircle, VioletLeft } from '@/components/common/ShadeSVGs';
 import Layout from '@/components/Layout';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-const contact = () => {
+const Client = () => {
   const initialValues = {
     name: '',
     email: '',
@@ -27,14 +28,14 @@ const contact = () => {
           <div className=' md:flex  justify-between'>
             <div className='flex-1'>
               <h1 className='text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
-                Let’s create <br /> something great
+                Become a <br /> Client
               </h1>
               <div className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
                 <p>hello@thirdeye.com </p>
                 <p>+91 98392 18293</p>
               </div>
             </div>
-            <ContactForm />
+            <ClientForm />
           </div>
         </div>
         <div className='container max-w-7xl px-4 mx-auto flex justify-between my-12 mt-32'>
@@ -64,4 +65,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Client;

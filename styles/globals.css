@@ -29,7 +29,7 @@ svg {
 }
 
 section {
-  @apply my-16 lg:my-36;
+  @apply my-8 md:my-16 lg:my-36;
 }
 
 .heading {
@@ -79,4 +79,18 @@ li::marker {
 
 .sitemap li::marker {
   font-size: 1.2rem;
+}
+
+/* SWIPER */
+
+.ImgSwiper .swiper-pagination .swiper-pagination-bullet {
+  @apply bg-black bg-opacity-60 w-11 h-[13.27px] rounded-xl;
+}
+
+.ImgSwiper .swiper-pagination .swiper-pagination-bullet-active {
+  @apply w-16 bg-[#2C2C2C];
+}
+
+[data-testid='modal'] {
+  margin: 0 !important;
 }

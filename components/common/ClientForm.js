@@ -1,21 +1,23 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-const ContactForm = () => {
+const ClientForm = () => {
   const initialValues = {
     name: '',
+    company: '',
     email: '',
     // phone: '',
-    message: '',
+    place: '',
   };
   const validationSchema = Yup.object().shape({
     name: Yup.string().required('Name is required'),
+    company: Yup.string().required('Company is required'),
     email: Yup.string().email('Invalid email').required('Email is required'),
 
     // phone: Yup.string()
     //   .matches(/^\d{10}$/, 'Phone number must be 10 digits')
     //   .required('Phone number is required'),
-    message: Yup.string().required('Message is required'),
+    place: Yup.string().required('Place is required'),
   });
   return (
     <Formik
@@ -35,6 +37,17 @@ const ContactForm = () => {
             {msg => <p className='text-red-500 py-3'>{msg}*</p>}
           </ErrorMessage>
         </div>
+        <div className='w-full '>
+          <Field
+            type='text'
+            name='company'
+            placeholder='Your company name?'
+            className='py-2 pb-4 placeholder:text-xl  text-xl  outline-none border-b-2 w-full'
+          />
+          <ErrorMessage name='company'>
+            {msg => <p className='text-red-500 py-3'>{msg}*</p>}
+          </ErrorMessage>
+        </div>
 
         <div>
           <Field
@@ -49,15 +62,16 @@ const ContactForm = () => {
         </div>
         <div>
           <Field
-            as='textarea'
-            name='message'
-            placeholder='Tell us about your project :)'
-            className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full h-[150px] resize-none'
+            type='email'
+            name='place'
+            placeholder='Your city, country?'
+            className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'
           />
-          <ErrorMessage name='message'>
+          <ErrorMessage name='place'>
             {msg => <p className='text-red-500 py-3'>{msg}*</p>}
           </ErrorMessage>
         </div>
+
         <div className='flex justify-end '>
           <button
             className='bg-black h-[64px] text-white max-w-[135px] w-full text-2xl  rounded-[4px]'
@@ -71,4 +85,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ClientForm;
