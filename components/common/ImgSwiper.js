@@ -82,9 +82,9 @@ const ImgSwiper = ({ images }) => {
           </svg>
         </button>
 
-        {[...Array(3)].map(item => {
+        {[...Array(3)].map((item, idx) => {
           return (
-            <SwiperSlide key={item.id} className='flex justify-center'>
+            <SwiperSlide key={idx} className='flex justify-center'>
               <div>
                 <img
                   src={images}
