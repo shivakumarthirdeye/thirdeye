@@ -56,7 +56,7 @@ const Client = () => {
               cy='292.5'
               r='290.5'
               stroke='#B1C7FF'
-              stroke-width='4'
+              strokeWidth='4'
             />
           </svg>
         </div>
