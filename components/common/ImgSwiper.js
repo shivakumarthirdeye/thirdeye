@@ -84,7 +84,7 @@ const ImgSwiper = ({ images }) => {
 
         {[...Array(3)].map(item => {
           return (
-            <SwiperSlide className='flex justify-center'>
+            <SwiperSlide key={item.id} className='flex justify-center'>
               <div>
                 <img
                   src={images}
