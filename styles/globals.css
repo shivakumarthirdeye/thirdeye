@@ -94,3 +94,9 @@ li::marker {
 [data-testid='modal'] {
   margin: 0 !important;
 }
+
+@media (min-width: 1024px) {
+  .tabs-swiper .swiper-wrapper {
+    justify-content: center !important;
+  }
+}

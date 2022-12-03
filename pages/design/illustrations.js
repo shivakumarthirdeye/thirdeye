@@ -46,7 +46,7 @@ const Illustrations = () => {
           <img src={hero3.src} alt='' />
         </div>
       </div>
-      <div className='mt-28 mb-10 container mx-auto'>
+      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container mx-auto px-4'>
         <h3 className='text-4xl max-w-[954px] leading-[48.6px] text-black text-opacity-80'>
           At Third Eye, we’re all about action. What are the specific actions
           that fuel your company's growth? Do you need more consumers to buy

@@ -76,10 +76,6 @@ const Freebie = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].name);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentItem, setCurrentItem] = useState(null);
-  console.log(
-    '🚀 ~ file: freebie.js ~ line 79 ~ Freebie ~ currentItem',
-    currentItem
-  );
 
   const toggleModal = () => {
     setIsModalOpen(prev => !prev);
