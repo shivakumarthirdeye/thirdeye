@@ -11,45 +11,6 @@ import HomePageOurWorks from '../homePage/OurWork';
 import projectsData from '@/utils/projects.json';
 import Link from 'next/link';
 
-const works = [
-  {
-    id: 1,
-    image: work1.src,
-    tag: 'Design & Development',
-    title: 'Osadi.io Website',
-    description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
-    `,
-  },
-  {
-    id: 2,
-    image: work2.src,
-    tag: 'Marketing',
-    title: 'Red marketing campaign',
-    description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
-    `,
-  },
-  {
-    id: 3,
-    image: work3.src,
-    tag: 'Design',
-    title: 'Techsil Logo deign',
-    description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
-    `,
-  },
-  {
-    id: 4,
-    image: work4.src,
-    tag: 'Design & Development',
-    title: 'Travel application',
-    description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.
-    `,
-  },
-];
-
 const OurWorks = ({ title, currentPage }) => {
   const { projects } = projectsData;
   return (

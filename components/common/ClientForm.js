@@ -62,7 +62,7 @@ const ClientForm = () => {
         </div>
         <div>
           <Field
-            type='email'
+            type='text'
             name='place'
             placeholder='Your city, country?'
             className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'

@@ -1,0 +1,124 @@
+{
+  "careerOptions": [
+    {
+      "id": 1,
+      "title": "Product Designer",
+      "slug": "product-designer",
+      "location": "Bangalore india",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap",
+      "qualification": [
+        {
+          "id": 1,
+          "point": "MBA/PG degree from a top-tier college5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 2,
+          "point": "5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 3,
+          "point": "A hustler mindset"
+        },
+        {
+          "id": 4,
+          "point": "Leadership skills- Ability to influence and inspire your team while steering your products in the best directions possible"
+        },
+        {
+          "id": 5,
+          "point": "Strong ability to build a product vision and communicate that vision"
+        }
+      ],
+      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "slug": "backend-developer",
+      "location": "Bangalore india",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap ",
+      "qualification": [
+        {
+          "id": 1,
+          "point": "MBA/PG degree from a top-tier college5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 2,
+          "point": "5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 3,
+          "point": "A hustler mindset"
+        },
+        {
+          "id": 4,
+          "point": "Leadership skills- Ability to influence and inspire your team while steering your products in the best directions possible"
+        },
+        {
+          "id": 5,
+          "point": "Strong ability to build a product vision and communicate that vision"
+        }
+      ],
+      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+    },
+    {
+      "id": 3,
+      "title": "SEO Expert",
+      "slug": "seo-expert",
+      "location": "Bangalore india",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap ",
+      "qualification": [
+        {
+          "id": 1,
+          "point": "MBA/PG degree from a top-tier college5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 2,
+          "point": "5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 3,
+          "point": "A hustler mindset"
+        },
+        {
+          "id": 4,
+          "point": "Leadership skills- Ability to influence and inspire your team while steering your products in the best directions possible"
+        },
+        {
+          "id": 5,
+          "point": "Strong ability to build a product vision and communicate that vision"
+        }
+      ],
+      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+    },
+    {
+      "id": 4,
+      "title": "Frontend Developer",
+      "slug": "frontend-developer",
+      "location": "Bangalore india",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap ",
+      "qualification": [
+        {
+          "id": 1,
+          "point": "MBA/PG degree from a top-tier college5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 2,
+          "point": "5+ years of relevant work experience preferred in a startup ecosystem"
+        },
+        {
+          "id": 3,
+          "point": "A hustler mindset"
+        },
+        {
+          "id": 4,
+          "point": "Leadership skills- Ability to influence and inspire your team while steering your products in the best directions possible"
+        },
+        {
+          "id": 5,
+          "point": "Strong ability to build a product vision and communicate that vision"
+        }
+      ],
+      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+    }
+  ]
+}

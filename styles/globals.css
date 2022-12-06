@@ -80,6 +80,10 @@ li::marker {
 .sitemap li::marker {
   font-size: 1.2rem;
 }
+.qualification-list li::marker {
+  font-size: 1.2rem;
+  @apply text-black text-opacity-80;
+}
 
 /* SWIPER */
 

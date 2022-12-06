@@ -1,5 +1,6 @@
 import ContactForm from '@/components/common/ContactForm';
 import Layout from '@/components/Layout';
+import Link from 'next/link';
 import aboutImg from '/public/assets/images/about-us.png';
 import mem1 from '/public/assets/images/our-team/1.png';
 import mem2 from '/public/assets/images/our-team/2.png';
@@ -101,9 +102,32 @@ const AboutUs = () => {
           </h2>
         </div>
         <div className='my-5 md:my-10 lg:my-20'>
-          <h1 className='text-2xl text-black  text-opacity-80  sm:text-3xl md:text-4xl lg:text-[40px] md:!leading-[48.41px]'>
-            Our Team
-          </h1>
+          <div className='flex justify-between items-center'>
+            <h1 className='text-2xl text-black  text-opacity-80  sm:text-3xl md:text-4xl lg:text-[40px] md:!leading-[48.41px]'>
+              Our Team
+            </h1>
+            <div>
+              <Link href='/teams'>
+                <a className='bg-black p-2 px-3 rounded md:text-lg space-x-2 text-white flex items-center'>
+                  <p>Meet the team </p>
+                  <div>
+                    <svg
+                      width='21'
+                      height='15'
+                      viewBox='0 0 21 15'
+                      fill='none'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        d='M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.7929L14.3431 0.428933C13.9526 0.038409 13.3195 0.038409 12.9289 0.428933C12.5384 0.819458 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM-8.74228e-08 8.5L20 8.5L20 6.5L8.74228e-08 6.5L-8.74228e-08 8.5Z'
+                        fill='white'
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
           <div className='sm:grid mx-auto  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10'>
             {ourTeam.map(item => {
               const { id, designation, img, name } = item;

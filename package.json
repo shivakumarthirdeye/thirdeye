@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "formik": "^2.2.9",
+    "formik-file-and-image-input": "^0.0.6",
     "gsap": "^3.11.3",
     "next": "12.3.1",
     "react": "18.2.0",
