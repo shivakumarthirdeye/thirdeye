@@ -7,19 +7,19 @@ const SummaryProblems = ({
   problemImg,
 }) => {
   return (
-    <section className='container mx-auto px-4'>
+    <section className='container my-10 mx-auto px-4'>
       <div>
-        <h2 className='text-sm md:text-base text-black text-opacity-80'>
+        <h2 className='text-sm md:text-base text-purple lg:text-xl xl:text-2xl'>
           Summary
         </h2>
-        <h1 className='mt-1 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h1 className='mt-1 md:mt-4 md:!leading-[41px] text-textBlack lg:!leading-[51px] font-medium text-xl sm:text-2xl md:text-3xl lg:text-[35px]'>
           {summaryHeading}
         </h1>
-        <div className='md:flex  md:space-x-10 my-5 md:my-10'>
+        <div className=' my-5 md:my-10'>
           {summaryPoints.map((item, idx) => {
             return (
-              <div className='my-5 md:my-0' key={idx}>
-                <h3 className='text-sm sm:text-lg md:text-xl lg:text-2xl text-black text-opacity-80'>
+              <div className='my-5 md:my-2' key={idx}>
+                <h3 className='text-sm sm:text-lg md:text-xl  lg:text-2xl text-black text-opacity-80'>
                   {item}
                 </h3>
               </div>
@@ -35,41 +35,25 @@ const SummaryProblems = ({
         </div>
       </div>
       <div className='mt-10 md:mt-20 lg:mt-28'>
-        <h2 className='text-sm md:text-base text-black text-opacity-80'>
+        <h2 className='text-sm md:text-base lg:text-xl xl:text-2xl text-purple'>
           Problem
         </h2>
-        <h1 className='mt-1 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+        <h1 className='mt-1 md:mt-4 text-textBlack font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
           {problemHeading}
         </h1>
       </div>
-      <div className='lg:flex my-5 justify-between ml-10'>
+      <div className='lg:flex  justify-between ml-10'>
         <ul className='lg:my-10 list-disc flex-1'>
-          {problemPoints
-            .slice(0, problemPoints.length / 2 + 1)
-            .map((item, idx) => {
-              return (
-                <li
-                  className='text-black text-opacity-80 my-1.5 text-sm sm:text-lg md:text-xl lg:text-2xl'
-                  key={idx}
-                >
-                  {item}
-                </li>
-              );
-            })}
-        </ul>
-        <ul className='lg:my-10 list-disc flex-1'>
-          {problemPoints
-            .slice(problemPoints.length / 2 + 1, problemPoints.length)
-            .map((item, idx) => {
-              return (
-                <li
-                  className='text-black text-opacity-80 my-1.5 text-sm sm:text-lg md:text-xl lg:text-2xl'
-                  key={idx}
-                >
-                  {item}
-                </li>
-              );
-            })}
+          {problemPoints.map((item, idx) => {
+            return (
+              <li
+                className='text-black text-opacity-80 my-4 text-sm sm:text-lg md:text-xl lg:text-2xl'
+                key={idx}
+              >
+                {item}
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className='max-w-6xl mx-auto my-5 md:my-5'>

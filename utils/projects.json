@@ -26,7 +26,7 @@
       ],
       "description": "Lynk Town is a comprehensive  digital platform that connects  fashion designers and customers.",
       "summary": {
-        "heading": "Lynk Town is a comprehensive <br className='hidden sm:block'/> digital platform that connects <br className='hidden sm:block'/> fashion designers and customers.",
+        "heading": "Lynk Town is a comprehensive  digital platform that connects <br class='hidden lg:block'/> fashion designers and customers.",
         "points": [
           "First connections are made via social media, and customers can place orders using the designer's link. Where customers receive personalised products delivered to their door.",
           "Lynk Town app was created for people who can't keep up with technological changes and are concerned about customer dissatisfaction from online stores, and there was no platform for them to Start and expand their business online safely because vendors could not trust clients and vice versa."
@@ -880,6 +880,93 @@
       },
       "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
       "font": "/assets/images/case-study/spoc/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kakud With a robust farming App, we implemented a future-ready technology to explore more challenging areas.",
+      "smallTitle": "Kakud",
+      "thumbnail": "/assets/images/case-study/instabytes/thumbnail.jpg",
+      "slug": "kakud",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Agriculture"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests",
+      "summary": {
+        "heading": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
+        "points": [
+          "Farming now becomes easier no matter where you are, either in the urban city or the traditional farmer in the village."
+        ],
+        "img": "/assets/images/case-study/kakud/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "An app that empowered farmers to order what they wanted directly from retailers, ensuring quick, efficient, and reliable processes.",
+          "The application should also give the farmers who are willing to learn organic farming the means to learn it without any hassle of going anywhere.",
+          "Huge commissions are charged by the middlemen.",
+          "Farmers use YouTube for profitable farming techniques but the information is unorganised."
+        ],
+        "img": "/assets/images/case-study/kakud/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/kakud/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist e-commerce app  that is easy to use farmers.",
+            "points": [
+              "Our main objective was to focus on key issues by using a User-Centred Design process.",
+              "Create a simple, minimalist e-commerce app that is easy to use.",
+              "To find how we as a society can help farmers to make the switch"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "We created a high-quality user interface for this website for users to find relevant information.",
+              "Through a learning partner, provide certification training.",
+              "Professional certification courses are required for a group of mid-level experienced professionals.",
+              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
+            ],
+            "img": "/assets/images/case-study/kakud/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/kakud/font.png",
       "social": [
         {
           "id": 1,

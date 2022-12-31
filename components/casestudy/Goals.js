@@ -4,10 +4,10 @@ const Goals = ({ points, img }) => {
   return (
     <section className='container mx-auto px-4'>
       <div>
-        <h2 className='text-sm md:text-base  text-black text-opacity-80'>
+        <h2 className='text-sm md:text-base lg:text-xl xl:text-2xl text-purple '>
           Project Goals
         </h2>
-        <div className='lg:flex  grid gap-5 lg:gap-0 max-w-7xl my-5'>
+        <div className='lg:flex  grid gap-5 lg:gap-3 max-w-7xl my-5'>
           {points.slice(0, 2).map(point => {
             return <Points key={point.id} {...point} />;
           })}
@@ -49,17 +49,30 @@ const Goals = ({ points, img }) => {
 
 export default Goals;
 
-const Points = ({ id, heading, description }) => {
+const Points = ({ id, heading, description, points }) => {
   return (
     <div className='text-black flex-1 text-opacity-80'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl '>0{id}</h1>
 
       <div className='w-[90%] h-[2px] my-2 bg-black bg-opacity-80 ' />
       <div className='mt-5'>
-        <h1 className='text-2xl md:text-3xl lg:text-4xl text-black text-opacity-90'>
+        <h1 className='text-2xl md:text-3xl lg:text-4xl font-medium text-textBlack'>
           {heading}
         </h1>
-        <p className='text-black mt-3  md:text-xl lg:text-2xl text-opacity-80'>
+        <ul className='lg:my-10 list-disc flex-1 ml-8'>
+          {points?.map((point, idx) => {
+            return (
+              <li
+                className=' text-sm sm:text-lg text-textBlack  my-0.5 sm:my-1 md:text-xl'
+                key={idx}
+              >
+                {point}
+              </li>
+            );
+          })}
+        </ul>
+
+        <p className='text-textBlack mt-3  md:text-xl lg:text-2xl text-opacity-80'>
           {description}
         </p>
       </div>
