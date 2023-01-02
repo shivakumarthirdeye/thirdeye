@@ -86,7 +86,9 @@ const OurWork = ({ ourWorks, currentPage }) => {
                     <h4 className='text-[#4E53B7] font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
                       {tag}
                     </h4>
-                    <h1 className='heading lg:text-[64px]'>{smallTitle}</h1>
+                    <h1 className='heading lg:text-[64px] capitalize'>
+                      {smallTitle}
+                    </h1>
                     <p className='sm:text-lg md:text-xl  lg:text-2xl  text-black text-opacity-60'>
                       {description}
                     </p>

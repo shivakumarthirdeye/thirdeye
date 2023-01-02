@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Goals = ({ points, img }) => {
+const Goals = ({ points, img, noId }) => {
   return (
     <section className='container mx-auto px-4'>
       <div>
@@ -9,7 +9,7 @@ const Goals = ({ points, img }) => {
         </h2>
         <div className='lg:flex  grid gap-5 lg:gap-3 max-w-7xl my-5'>
           {points.slice(0, 2).map(point => {
-            return <Points key={point.id} {...point} />;
+            return <Points key={point.id} noId={noId} {...point} />;
           })}
         </div>
         <div className='max-w-6xl mx-auto my-5 md:my-10'>
@@ -49,12 +49,16 @@ const Goals = ({ points, img }) => {
 
 export default Goals;
 
-const Points = ({ id, heading, description, points }) => {
+const Points = ({ id, heading, description, points, noId }) => {
   return (
     <div className='text-black flex-1 text-opacity-80'>
-      <h1 className='text-3xl md:text-4xl lg:text-5xl '>0{id}</h1>
+      {!noId && (
+        <>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl '>0{id}</h1>
 
-      <div className='w-[90%] h-[2px] my-2 bg-black bg-opacity-80 ' />
+          <div className='w-[90%] h-[2px] my-2 bg-black bg-opacity-80 ' />
+        </>
+      )}
       <div className='mt-5'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl font-medium text-textBlack'>
           {heading}
@@ -63,7 +67,7 @@ const Points = ({ id, heading, description, points }) => {
           {points?.map((point, idx) => {
             return (
               <li
-                className=' text-sm sm:text-lg text-textBlack  my-0.5 sm:my-1 md:text-xl'
+                className=' text-sm sm:text-lg text-textBlack  my-0.5 sm:my-3 md:text-xl'
                 key={idx}
               >
                 {point}

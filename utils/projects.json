@@ -926,17 +926,16 @@
         "img": "/assets/images/case-study/kakud/summary.png"
       },
       "problem": {
-        "heading": "Why to design this app?",
         "points": [
-          "An app that empowered farmers to order what they wanted directly from retailers, ensuring quick, efficient, and reliable processes.",
-          "The application should also give the farmers who are willing to learn organic farming the means to learn it without any hassle of going anywhere.",
-          "Huge commissions are charged by the middlemen.",
-          "Farmers use YouTube for profitable farming techniques but the information is unorganised."
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
         ],
         "img": "/assets/images/case-study/kakud/problems.png"
       },
       "goals": {
         "img": "/assets/images/case-study/kakud/project1.png",
+        "noId": true,
         "points": [
           {
             "id": 1,
@@ -950,23 +949,495 @@
         ]
       },
       "solutions": {
-        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
-        "solutionPoints": [
+        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
+        "img": "/assets/images/case-study/kakud/solution1.png"
+      },
+      "results": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/kakud/solution2.png"
+      },
+      "review": "I appreciate Third Eye Innovations Team's work quality and commitment to completing agreed-upon project work on time and with quality.",
+      "font": "/assets/images/case-study/kakud/font.png",
+      "tech": "/assets/images/case-study/kakud/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "IWOWD How We Designed A Fashion Ecommerce Website To Boost Online Sales?",
+      "smallTitle": "iwowd",
+      "thumbnail": "/assets/images/case-study/iwowd/thumbnail.png",
+      "slug": "iwowd",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Women's Fashion Store"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "IWOWD is a digital ecosystem for fashion and lifestyle that includes a mobile app and a website. Customers can shop for women's fashion wear based on their body measurements, as well as incredible designer jewellery and accessories. ",
+      "summary": {
+        "heading": "Discover how customizable, cost-effective and reliable IWOWD is and why we built it that way.",
+        "points": [
+          "IWOWD is a digital ecosystem for fashion and lifestyle that includes a mobile app and a website. Customers can shop for women's fashion wear based on their body measurements, as well as incredible designer jewellery and accessories."
+        ],
+        "img": "/assets/images/case-study/iwowd/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Web App?",
+        "points": [
+          "Eye-catching fashion and lifestyle website designs earn more repeat visitors and more revenue for website owners.",
+          "Customers return an estimated 40% of what they buy online, mostly because of sizing, style, and fit. Most of them use fit predictors, and size charts, and still over a third regularly buy more than one size/style of the same item.",
+          "The User Experience of the given problem is to evaluate the usability of the online clothes sizing, design and implement a simple realistic solution using research obtained through user interviews, competitive research, and usability tests.",
+          "Getting more clients.",
+          "Define the user path and functional responses to problems.",
+          "Creation of the information architecture and the user flow(s)"
+        ],
+        "img": "/assets/images/case-study/iwowd/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/iwowd/project1.png",
+        "noId": true,
+        "points": [
           {
             "id": 1,
-            "title": "User Panel",
+            "heading": "Minimalist Fashione-commerce web app that is easy to use Customers.",
             "points": [
-              "We created a high-quality user interface for this website for users to find relevant information.",
-              "Through a learning partner, provide certification training.",
-              "Professional certification courses are required for a group of mid-level experienced professionals.",
-              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
-            ],
-            "img": "/assets/images/case-study/kakud/solution1.png"
+              "This website's goal was to connect its audience with the best products available based on their needs and from the best vendors.",
+              "Through an eco-friendly and environmentally sustainable business model, their vision was to meet the needs of customers and vendors while maintaining the highest industry standards.",
+              "Clothing incorporates all aspects of fashionistas and fits their exact body measurements.",
+              "They aim to develop a platform that connects fashion lifestyle segments and vendors with prospective customers."
+            ]
           }
         ]
       },
-      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
-      "font": "/assets/images/case-study/kakud/font.png",
+      "solutions": {
+        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
+        "img": "/assets/images/case-study/iwowd/solution.png"
+      },
+      "results": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/iwowd/result.png"
+      },
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a user-friendly website on time.",
+      "font": "/assets/images/case-study/iwowd/font.png",
+      "tech": "/assets/images/case-study/iwowd/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "An exclusive Job portal for trade finance experts.",
+      "smallTitle": "trade-square",
+      "thumbnail": "/assets/images/case-study/trade-square/thumbnail.png",
+      "slug": "trade-square",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Job Portal"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Trade Square is an online job portal website created by trade finance professionals.  ",
+      "summary": {
+        "heading": "Trade Square is an online job portal website created by trade finance professionals. It is the first talent marketplace that connects trade finance experts with companies that require their services.",
+        "points": [
+          "Develop a new home page design that should be user-friendly and interactive.",
+          "Improve overall aesthetic and user experience and align with the updated branding.",
+          "Improve site architecture and navigation to enable easier browsing and a more frictionless experience.",
+          "Drive conversion of site visitors into contacts and ultimately customers.",
+          "Improve features that eliminate user frustrations.",
+          "Integrate online company reviews for enhanced experience — Add-ons."
+        ],
+        "img": "/assets/images/case-study/trade-square/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "Develop a new home page design that should be user-friendly and interactive.",
+          "Improve overall aesthetic and user experience and align with the updated branding.",
+          "Improve site architecture and navigation to enable easier browsing and a more frictionless experience.",
+          "Drive conversion of site visitors into contacts and ultimately customers.",
+          "Improve features that eliminate user frustrations.",
+          "Integrate online company reviews for enhanced experience — Add-ons."
+        ],
+        "img": "/assets/images/case-study/trade-square/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/trade-square/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist Fashione-commerce web app that is easy to use Customers.",
+            "points": [
+              "This website's goal was to connect its audience with the best products available based on their needs and from the best vendors.",
+              "Through an eco-friendly and environmentally sustainable business model, their vision was to meet the needs of customers and vendors while maintaining the highest industry standards.",
+              "Clothing incorporates all aspects of fashionistas and fits their exact body measurements.",
+              "They aim to develop a platform that connects fashion lifestyle segments and vendors with prospective customers."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": " ",
+        "points": [
+          {
+            "id": 1,
+            "highlight": "Easy to use",
+            "point": "The system provides relevant information by clicking on the various links. The system is designed by keeping in mind the end users, the employers who are busy with their work, and the candidates searching for more and more jobs"
+          },
+          {
+            "id": 2,
+            "highlight": "Secure",
+            "point": "The system is highly secured; the end users are registered users as also those who are not registered. The registered users have a username and a password which grants permission to access the restricted sites also"
+          },
+          {
+            "id": 3,
+            "highlight": "Quick response",
+            "point": "The users can make use of the up-to-date information, which reduced the response time Advanced job search - Candidates can view the most suitable jobs and employers could make out the best-qualified candidates through advanced search."
+          },
+          {
+            "id": 4,
+            "highlight": "Advanced methods",
+            "point": "The advanced methods of job searching are incorporated here. Candidates do not wait for jobs to come. They explore their potential for being placed at the earliest in the top companies"
+          }
+        ],
+        "img": "/assets/images/case-study/trade-square/solution.png"
+      },
+      "results": {
+        "points": [
+          "The design was made more engaging and made easier to parse through if a visitor was looking for a specific section of their site.",
+          "Applicants can filter their job search by location.",
+          "Multiple job types are available and proper titles are maintained.",
+          "There are over 500 placements.",
+          "With a clean design and updated content, visitors can now look for what they are curious about and expect up-to-date content..",
+          "Users were pleased with the navigation, which was simple to grasp"
+        ],
+        "img": "/assets/images/case-study/trade-square/result.png"
+      },
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a user-friendly website on time.",
+      "font": "/assets/images/case-study/trade-square/font.png",
+      "tech": "/assets/images/case-study/trade-square/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Agrinia is an online store that sells agricultural products and knowledge.",
+      "smallTitle": "agrinia",
+      "thumbnail": "/assets/images/case-study/agrinia/thumbnail.png",
+      "slug": "agrinia",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Agriculture"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Agrinia company: an e-commerce website design and app based on agricultural and gardening knowledge",
+      "summary": {
+        "heading": "Agrinia company: an e-commerce website design and app based on agricultural and gardening knowledge.",
+        "points": [
+          "Agrinia aspires to be an organisation that revolutionises the agricultural sector in India and around the world. They intend to provide smart and natural real-time plant nourishment and protection solutions. They offer services that make use of cutting-edge smart technologies and natural input products to help plants grow and develop in a healthy, optimal, and natural manner."
+        ],
+        "img": "/assets/images/case-study/agrinia/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "Lack of customer support",
+          " Connection established between vendor and customer through social media.",
+          "Difficulty in navigating the platform",
+          "Quality Assurance",
+          " Connection established between vendor and customer through social media.",
+          "Packaging and Distribution",
+          "Nature-based solutions in the form of a step-by-step guide.",
+          "Farmers are inconvenienced because products are not displayed on the home page."
+        ],
+        "img": "/assets/images/case-study/agrinia/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/agrinia/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist design can give power to the farmer to control activities of the field with their ease.",
+            "points": [
+              "A User Interface with a minimalist design can give power to the farmer to control activities of the field with their ease.",
+              "To bring comfort and confidence for the farmers to buy their product on their own with the daily market prices through the website.",
+              "We needed to focus more on solutions that connect sellers, primarily farmers, and buyers in a safe and secure environment where they can both transact while also providing a delivery system for the products to be moved around the world.",
+              "A step-by-step guide feature must be added to help farmers with their farming."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "A step-by-step guide feature has been added to help farmers with their farming. keeping the background white, we accented the main UI elements with green. The combination of white and green is usually associated with agriculture and ecology. We created a well-labelled catalogue and grouping of products that start with the sellers uploading these products. Additionally, a superb search engine with the ability to filter results by name and other particular details. Providing delivery updates for orders placed on the platform ensures the buyers that products will arrive at the stated time.",
+        "img": "/assets/images/case-study/agrinia/solution.png"
+      },
+      "results": {
+        "points": [
+          "The design was made more engaging and made easier to parse through if a visitor was looking for a specific section of their site.",
+          "With a clean design and updated content, visitors can now look for what they are curious about and expect up-to-date content.",
+          "Nature-based solutions are presented in the form of a step-by-step guide.",
+          "Products are displayed on the home page, making it convenient for farmers.",
+          "You can keep track of your orders."
+        ],
+        "img": "/assets/images/case-study/agrinia/result.png"
+      },
+      "review": "Third Eye Innovation's professionalism and easygoing attitude toward designing our website and our numerous requests and changes to it impressed us. The website is simple to update and maintain, which was a major consideration in selecting Third Eye Innovations.",
+      "font": "/assets/images/case-study/agrinia/font.png",
+      "tech": "/assets/images/case-study/agrinia/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Creating an online presence for an industrial automation and electronic solutions company.",
+      "smallTitle": "poornatva",
+      "thumbnail": "/assets/images/case-study/poornatva/thumbnail.png",
+      "slug": "poornatva",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Electronics"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Poornatva is a website that provides engineering services and industrial automation and electronics solutions.",
+      "summary": {
+        "heading": "Poornatva is a website that provides engineering services and industrial automation and electronics solutions..",
+        "points": [
+          "They also design electronics for basic applications. They approached us during a massive rebranding effort, with a particular emphasis on repositioning their mission and product story."
+        ],
+        "img": "/assets/images/case-study/poornatva/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "Improve overall aesthetic and user experience and align with the updated branding.",
+          "Improve site architecture and navigation to enable easier browsing and a more frictionless experience.",
+          "Drive conversion of site visitors into contacts and ultimately customers.",
+          "Build on SEO foundations to increase search engine traffic and drive future growth.",
+          "To simplify user flows and information architecture.",
+          "To make the platform more intuitive and user-friendly."
+        ],
+        "img": "/assets/images/case-study/poornatva/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/poornatva/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist design can give power to the farmer to control activities of the field with their ease.",
+            "points": [
+              "Prototyping - This website's goal was to be content-driven. It was all about changing the site's look, feel, and tone to emphasise Poornatva's impact on the engineering industry and the environment. This meant that the site would have more in-depth content about its projects, services and processes.",
+              "Style - We wanted to create a design that emphasises their impact through strong visual storytelling. With more room for recognizable product and service images, website visitors can quickly grasp the breadth of their team's capabilities.",
+              "To Optimise user flowflow - through extensive user research to streamline their business operations.Bringing it all together - Everything they do, from their services to their transparency about sustainability and zero-waste materials, is in line with their mission. Potential clients can quickly learn about their company and its mission, as well as the advantages of collaborating with Poornatva on a sustainable industrial solution."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "A step-by-step guide feature has been added to help farmers with their farming. keeping the background white, we accented the main UI elements with green. The combination of white and green is usually associated with agriculture and ecology. We created a well-labelled catalogue and grouping of products that start with the sellers uploading these products. Additionally, a superb search engine with the ability to filter results by name and other particular details. Providing delivery updates for orders placed on the platform ensures the buyers that products will arrive at the stated time.",
+        "img": "/assets/images/case-study/poornatva/solution.png"
+      },
+      "results": {
+        "points": [
+          "The design was made more engaging and made easier to parse through if a visitor was looking for a specific section of their site.",
+          "With a clean design and updated content, visitors can now look for what they are curious about and expect up-to-date content.",
+          "Nature-based solutions are presented in the form of a step-by-step guide.",
+          "Products are displayed on the home page, making it convenient for farmers.",
+          "You can keep track of your orders."
+        ],
+        "img": "/assets/images/case-study/poornatva/result.png"
+      },
+      "review": "Third Eye Innovation's professionalism and easygoing attitude toward designing our website and our numerous requests and changes to it impressed us. The website is simple to update and maintain, which was a major consideration in selecting Third Eye Innovations.",
+      "font": "/assets/images/case-study/poornatva/font.png",
+      "tech": "/assets/images/case-study/poornatva/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Boost the speed of your website by 97% and Conversion Rate by 9.7%",
+      "smallTitle": "RFQ",
+      "thumbnail": "/assets/images/case-study/rfq/thumbnail.png",
+      "slug": "rfq",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Engineering Company"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+      "summary": {
+        "heading": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+        "points": [
+          "They require a platform for buyers and sellers where the customer can give his requirement, the admin reviews it and passes it on to suppliers, suppliers submit bids to the admin, and the admin processes it and gives the customer a quote. When a customer accepts the quote and makes the payment on the RFQ platform, the supplier is notified and the work begins. When the work is finished, the customer marks the request as complete."
+        ],
+        "img": "/assets/images/case-study/rfq/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "The client wants a home page that includes information about them, how to contact them, why they should choose them, customer FAQs, supplier FAQs, and a slider section. It should also include registration buttons for customers and suppliers.",
+          "Improve overall aesthetic and user experience and make the site more authentic and engaging.",
+          "Drive conversion of site visitors into contacts and ultimately customers.",
+          "Establish SEO foundations to increase search engine traffic and drive future growth.",
+          "An impressive UI that’s uncluttered and simple to use with neatly designed dashboards.",
+          "A growing platform requires expertise on multiple fronts, requiring a dedicated software team to be available at all times."
+        ],
+        "img": "/assets/images/case-study/rfq/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/rfq/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Provide a total procurement solution for engineering companies and industries.",
+            "points": [
+              "They require a web application to provide a total procurement solution for engineering companies and industries.",
+              "The home page should have a section about us, contact us, why choose us, Customer FAQ, Supplier FAQ and a slider section.",
+              "It should also contain buttons for customer and supplier registration.",
+              "Easily navigable website to make it useful for farmers."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "We planned the user testing sessions and the main screens that needed to be created for those testing days. We created a platform for buyers and sellers where the customer can submit his requirements, the admin reviews them and forwards them to suppliers, suppliers submit bids to the admin, and the admin processes them and provides a quote to the customer. When the customer accepts the quote and pays on the RFQ platform, the supplier is notified, and the work begins. When the work is finished, the customer marks the request as completed.",
+        "img": "/assets/images/case-study/rfq/solution.png"
+      },
+      "results": {
+        "points": [
+          "Boost site speed to 97% during launch; boost conversion rate to 9.7%.Enhanced user productivity.",
+          "Sales have increased.",
+          "Lower customer support costs."
+        ],
+        "img": "/assets/images/case-study/rfq/result.png"
+      },
+      "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
+      "font": "/assets/images/case-study/rfq/font.png",
+      "tech": "/assets/images/case-study/rfq/tech.png",
       "social": [
         {
           "id": 1,

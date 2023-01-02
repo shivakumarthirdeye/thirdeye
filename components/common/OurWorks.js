@@ -133,7 +133,9 @@ const OurWorks = ({ title, currentPage }) => {
                             <p className='text-[#4E53B7] font-bold mb-3'>
                               {tag}
                             </p>
-                            <h1 className='text-4xl  '>{smallTitle}</h1>
+                            <h1 className='text-4xl capitalize  '>
+                              {smallTitle}
+                            </h1>
                           </div>
                           <div className='my-8 '>
                             <Link href={`/case-study/${slug}`}>

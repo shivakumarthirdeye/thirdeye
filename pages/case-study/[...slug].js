@@ -30,14 +30,23 @@ const Projects = ({ page }) => {
         problemImg={page?.problem?.img}
       />
 
-      <Goals img={page?.goals?.img} points={page?.goals?.points} />
+      <Goals
+        img={page?.goals?.img}
+        noId={page?.goals?.noId}
+        points={page?.goals?.points}
+      />
       <Functionality
         highlight={page?.solutions?.heading}
         features={page?.solutions?.solutionPoints}
+        points={page?.solutions?.points}
+        description={page?.solutions?.description}
+        image={page?.solutions?.img}
+        results={page?.results?.points}
+        resultImage={page?.results?.img}
       />
 
-      <ClientReview review={page?.review} />
       <TypoTech fontImg={page?.font} techImg={page?.tech} />
+      <ClientReview review={page?.review} />
       <Social socialLinks={page.social} />
       <OurWorks currentPage={page.slug} />
     </Layout>

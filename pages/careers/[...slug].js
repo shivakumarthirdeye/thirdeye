@@ -118,7 +118,6 @@ const Projects = ({ page }) => {
                   onSubmit={handleSubmit}
                 >
                   {formik => {
-               
                     const { setFieldValue } = formik;
                     return (
                       <Form className='flex-1 px-4 max-w-[867px] mx-auto my-10 lg:my-16 grid gap-10'>
