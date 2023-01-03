@@ -42,10 +42,14 @@ const TabSwiper = ({ items, active, setActive, work }) => {
                 onClick={() => {
                   setActive(item.name);
                 }}
+                style={{
+                  background:
+                    active === item.name
+                      ? 'linear-gradient(90deg, #3545D1 2.46%, #31A4C9 92.35%)'
+                      : '#D9D9D9',
+                }}
                 className={`${
-                  active === item.name
-                    ? 'bg-black text-white'
-                    : 'bg-[#D9D9D9] text-black'
+                  active === item.name ? ' text-white' : ' text-black'
                 } 'w-[120px] md:w-[183px]  text-center p-2 px-4 md:p-4  rounded-full text-sm sm:text-base md:text-lg lg:text-xl font-medium'`}
               >
                 <p>{item.name}</p>

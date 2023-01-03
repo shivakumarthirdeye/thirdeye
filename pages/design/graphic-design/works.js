@@ -68,6 +68,10 @@ const spoclearnImages = [
 
 const GraphicDesignWorks = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].name);
+  console.log(
+    '🚀 ~ file: works.js:71 ~ GraphicDesignWorks ~ activeTab',
+    activeTab
+  );
 
   return (
     <Layout>

@@ -9,6 +9,8 @@ import img1 from '/public/assets/images/teams/1.png';
 import img2 from '/public/assets/images/teams/2.png';
 import img3 from '/public/assets/images/teams/3.png';
 import img4 from '/public/assets/images/teams/4.png';
+import img5 from '/public/assets/images/teams/5.png';
+import img6 from '/public/assets/images/teams/6.png';
 
 const members = [
   {
@@ -22,18 +24,34 @@ const members = [
     img: img2.src,
     name: 'Full Name',
     designation: 'Designation',
+    marginTop: '30px',
   },
   {
     id: 3,
     img: img3.src,
     name: 'Full Name',
     designation: 'Designation',
+    marginTop: '60px',
   },
   {
     id: 4,
     img: img4.src,
     name: 'Full Name',
     designation: 'Designation',
+  },
+  {
+    id: 5,
+    img: img5.src,
+    name: 'Full Name',
+    designation: 'Designation',
+    marginTop: '30px',
+  },
+  {
+    id: 6,
+    img: img6.src,
+    name: 'Full Name',
+    designation: 'Designation',
+    marginTop: '60px',
   },
 ];
 
@@ -56,7 +74,7 @@ const Teams = () => {
         </div>
       </section>
       <div className='relative'>
-        <div className='flex justify-center w-full flex-col items-center sm:grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-10 my-20 mt-[150px] md:mt-[250px] lg:mt-[300px] px-4 container mx-auto '>
+        {/* <div className='flex justify-center w-full flex-col items-center sm:grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-10 my-20 mt-[150px] md:mt-[250px] lg:mt-[300px] px-4 container mx-auto '>
           {members.map(item => {
             const { id, designation, img, name } = item;
             return (
@@ -71,12 +89,35 @@ const Teams = () => {
               </div>
             );
           })}
-          <div className='absolute z-[-1]  left-0 top-[-400px]'>
-            <VioletLeft />
-          </div>
-          <div className='absolute z-[-1]  right-0 top-10'>
-            <GreenRight />
-          </div>
+           */}
+        <div className='absolute z-[-1]  left-0 top-[-400px]'>
+          <VioletLeft />
+        </div>
+        <div className='absolute z-[-1]  right-0 top-10'>
+          <GreenRight />
+        </div>
+        <div className='container mx-auto grid grid-cols-3 max-w-7xl'>
+          {members.map(item => {
+            const { id, designation, img, name, marginTop } = item;
+
+            return (
+              <div
+                className={``}
+                key={id}
+                style={{
+                  marginTop: marginTop,
+                }}
+              >
+                <div>
+                  <img src={img} alt='' />
+                </div>
+                <div className='my-6 pl-1 text-black text-opacity-80'>
+                  <h1 className='text-lg md:text-xl lg:text-2xl'>{name}</h1>
+                  <p className='text-sm lg:text-base'>{designation}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
       <Testimonial />
