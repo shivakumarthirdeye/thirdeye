@@ -56,7 +56,7 @@ const Interaction = () => {
       <div className='container mx-auto'>
         {interactionItems.map(item => {
           const { description, gifs, id, title } = item;
-          return <Items {...item} />;
+          return <Items key={id} {...item} />;
         })}
       </div>
 
