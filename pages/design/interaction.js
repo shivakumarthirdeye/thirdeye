@@ -9,6 +9,7 @@ const interactionItems = [
   {
     id: 1,
     title: 'LynkTown',
+
     description:
       "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.",
     gifs: [
@@ -19,13 +20,14 @@ const interactionItems = [
   },
   {
     id: 2,
-    title: 'U2(Unique & Universal)',
+    title: 'U2',
+    sub: '(Unique & Universal)',
     description:
       "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.",
     gifs: [
-      '/public/assets/gif/u2/1.mp4',
-      "'/public/assets/gif/u2/2.mp4'",
-      '/public/assets/gif/u2/3.mp4',
+      '/public/assets/gif/u2/1.gif',
+      "'/public/assets/gif/u2/2.gif'",
+      '/public/assets/gif/u2/3.gif',
     ],
   },
 ];

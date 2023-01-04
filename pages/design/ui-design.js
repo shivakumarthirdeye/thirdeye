@@ -9,9 +9,9 @@ import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/images/subServices/ui/Hero1.png';
-import hero2 from '/public/assets/images/subServices/ui/Hero2.png';
-import hero3 from '/public/assets/images/subServices/ui/Hero3.png';
+import hero1 from '/public/assets/images/subServices/ui/1.gif';
+import hero2 from '/public/assets/images/subServices/ui/2.gif';
+import hero3 from '/public/assets/images/subServices/ui/3.gif';
 
 const UIDesign = () => {
   return (

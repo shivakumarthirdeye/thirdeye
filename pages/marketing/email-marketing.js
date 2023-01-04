@@ -19,7 +19,7 @@ const SocialMedia = () => {
           <HeroSection
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Social Media <br className='hidden sm:block' /> Management
+                Email Marketing
               </span>
             }
             description={

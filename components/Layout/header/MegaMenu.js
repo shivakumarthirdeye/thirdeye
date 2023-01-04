@@ -111,6 +111,7 @@ const MegaMenu = ({ showHeaderBtn }) => {
       <div className='md:flex md:space-x-8'>
         {megaMenuItems.map(menu => {
           const { id, subItem, title } = menu;
+
           return (
             <div key={id} className='my-3 md:my-0'>
               <h3 className='font-semibold mb-2 text-lg'>
@@ -124,7 +125,10 @@ const MegaMenu = ({ showHeaderBtn }) => {
                       key={item.id}
                     >
                       <Link
-                        href={`/${title.toLowerCase()}/${item.name.toLowerCase()}`}
+                        href={`/${title.toLowerCase()}/${item.name
+                          .toLowerCase()
+                          .split(' ')
+                          .join('-')}`}
                       >
                         {item.name}
                       </Link>

@@ -1,25 +1,29 @@
 import React, { useEffect, useRef } from 'react';
 import ReactPlayer from 'react-player';
+import gif from './gif/u2/1.gif';
 
 // Render a YouTube video player
 
-const Items = ({ title, description, id }) => {
+const Items = ({ title, description, id, sub }) => {
   const playerRef = useRef(null);
   useEffect(() => {}, []);
   return (
-    <div className='flex items-center'>
-      <div className={`${id % 2 === 0 ? 'order-2' : 'order-1'} flex-1`}>
-        <h1 className='text-2xl mb-4'>{title}</h1>
-        <p>{description}</p>
+    <div className='grid grid-cols-2 items-center'>
+      <div className={`${id % 2 === 0 ? 'order-1' : 'order-2'} flex-1`}>
+        <h1 className='text-6xl mb-4'>
+          {title}
+          <span className='text-4xl'>{sub}</span>
+        </h1>
+        <p className='text-2xl text-black text-opacity-60 !leading-[35.4px]'>
+          {description}
+        </p>
       </div>
-      <div className={`${id % 2 === 0 ? 'order-1' : 'order-2'}`}>
-        <video
-          ref={playerRef}
-          autoPlay
-          src={require('./gif/lynktown/2.mp4')}
-          className='w-full'
+      <div className={`${id % 2 === 0 ? 'order-2 ' : 'order-1 '}  flex-1`}>
+        <img
+          src={gif.src}
+          alt=''
+          className='object-cover max-w-[579px] rounded-[32px] mx-auto  w-full h-[675]'
         />
-        {/* <ReactPlayer url='./gif/lynktown/1.mp4' width='100px' height='100px' /> */}
       </div>
     </div>
   );

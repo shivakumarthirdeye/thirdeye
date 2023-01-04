@@ -2,6 +2,7 @@ import Clients from '@/components/common/Clients';
 import HeroSection from '@/components/common/HeroSection';
 import HowWeWork from '@/components/common/HowWeWork';
 import OurWorks from '@/components/common/OurWorks';
+import ProjectRequirementForm from '@/components/common/ProjectRequirementForm';
 import ServicesProcess from '@/components/common/ServicesProcess';
 import Testimonial from '@/components/common/Testimonial';
 import TechStack from '@/components/homePage/TechStack';
@@ -215,6 +216,7 @@ const development = () => {
       <ServicesProcess works={ourProcess} />
       <Testimonial />
       <OurWorks />
+      <ProjectRequirementForm />
     </Layout>
   );
 };
