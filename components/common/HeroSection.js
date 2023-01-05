@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeroTextSVG } from './heroSVG';
-import { GreenRight } from './ShadeSVGs';
+import { GreenRight, VioletLeft } from './ShadeSVGs';
 
 const HeroSection = ({ content, description }) => {
   return (
@@ -18,6 +18,9 @@ const HeroSection = ({ content, description }) => {
       </div> */}
       <div className='absolute right-0 top-[-500px] z-[-10] '>
         <GreenRight />
+      </div>
+      <div className='absolute bottom-[-1000px] left-0 z-[-10]'>
+        <VioletLeft />
       </div>
     </div>
   );

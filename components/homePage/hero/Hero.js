@@ -21,7 +21,7 @@ const Hero = () => {
       <HeroVideo />
       <section className='my-10  md:my-30'>
         <div className=' container mx-auto px-4  '>
-          <h2 className='text-base sm:text-xl md:text-3xl lg:text-4xl text-black text-opacity-80 font-light sm:leading-[30px] md:leading-[40px] lg:leading-[48.6px] z-10'>
+          <h2 className='text-base sm:text-xl md:text-3xl lg:text-4xl text-black text-opacity-[94]  sm:leading-[30px] md:leading-[40px] lg:leading-[48.6px] z-10'>
             At Third Eye, we’re all about action. What are the{' '}
             <br className='hidden lg:block  ' /> specific actions that fuel your
             company&apos;s growth? <br className='hidden lg:block  ' /> Do you

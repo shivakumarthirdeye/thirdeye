@@ -50,8 +50,8 @@ const OurWork = ({ ourWorks, currentPage }) => {
   const works = ourWorks;
   const { projects } = projectsData;
   return (
-    <section id='projects' className='relative'>
-      <div className='absolute right-0 top-[-20%] z-[-10] overflow-hidden '>
+    <section id='projects' className='relative lg:my-36'>
+      <div className='absolute z-[-1]  right-0 top-[-440px]'>
         <GreenRight />
       </div>
 
