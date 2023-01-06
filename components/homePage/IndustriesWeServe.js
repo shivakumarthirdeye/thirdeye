@@ -1,13 +1,13 @@
 import React from 'react';
 import { GreenLeft } from '../common/ShadeSVGs';
-import industry1 from '/public/assets/images/industries/1.png';
-import industry2 from '/public/assets/images/industries/2.png';
-import industry3 from '/public/assets/images/industries/3.png';
-import industry4 from '/public/assets/images/industries/4.png';
-import industry5 from '/public/assets/images/industries/5.png';
-import industry6 from '/public/assets/images/industries/6.png';
-import industry7 from '/public/assets/images/industries/7.png';
-import industry8 from '/public/assets/images/industries/8.png';
+import industry1 from '/public/assets/images/industries/1.svg';
+import industry2 from '/public/assets/images/industries/2.svg';
+import industry3 from '/public/assets/images/industries/3.svg';
+import industry4 from '/public/assets/images/industries/4.svg';
+import industry5 from '/public/assets/images/industries/5.svg';
+import industry6 from '/public/assets/images/industries/6.svg';
+import industry7 from '/public/assets/images/industries/7.svg';
+import industry8 from '/public/assets/images/industries/8.svg';
 
 const IndustriesWeServe = () => {
   const industries = [
@@ -15,56 +15,56 @@ const IndustriesWeServe = () => {
       id: 1,
       title: 'Fintech',
       img: industry1.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
 
     {
       id: 2,
       title: 'Agritech',
       img: industry2.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 3,
       title: 'Logistics',
       img: industry3.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 4,
       title: 'Retail',
       img: industry4.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 5,
       title: 'Food Tech',
       img: industry5.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 6,
       title: 'Telecom',
       img: industry6.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 7,
       title: 'Social Media',
       img: industry7.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
     {
       id: 8,
       title: 'Marketing',
       img: industry8.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
     },
   ];
 
   return (
     <section className='relative py-28  mt-10 my-0'>
-      <div className='absolute left-0 top-0 '>
+      <div className='absolute left-0 top-0 z-[-1] '>
         <svg
           width='361'
           height='347'
@@ -150,22 +150,24 @@ const IndustriesWeServe = () => {
       </div>
       <div className='container mx-auto px-4 '>
         <h1 className='heading'>Industries we serve</h1>
-        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-10 gap-y-10 '>
+        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-16 my-10 md:gap-y-16 lg:gap-y-24 '>
           {industries.map(item => {
             const { description, id, img, title } = item;
 
             return (
-              <div key={id} className='grid gap-3'>
-                <div>
-                  <img src={img} alt='' />
+              <div key={id} className='flex gap-3 space-x-4'>
+                <div className='w-auto'>
+                  <img src={img} className='' alt='' />
                 </div>
-                <h1 className='text-2xl font-medium text-black text-opacity-80'>
-                  {' '}
-                  {title}
-                </h1>
-                <p className='text-lg text-black text-opacity-80'>
-                  {description}
-                </p>
+                <div className='flex-1 '>
+                  <h1 className='text-2xl font-medium text-black text-opacity-80'>
+                    {' '}
+                    {title}
+                  </h1>
+                  <p className='text-sm mt-3.5 text-black text-opacity-60'>
+                    {description}
+                  </p>
+                </div>
               </div>
             );
           })}
