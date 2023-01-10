@@ -50,7 +50,7 @@ const Portfolio = () => {
               {subject.map(item => {
                 const { id, name } = item;
                 return (
-                  <div className='px-6 pb-4   font-medium'>
+                  <div key={id} className='px-6 pb-4    font-medium'>
                     <button
                       onClick={() => {
                         setCurrentCategory(name);
@@ -60,7 +60,6 @@ const Portfolio = () => {
                           ? 'text-blue font-semibold underline'
                           : 'text-black text-opacity-70'
                       } `}
-                      key={id}
                     >
                       {name}
                     </button>
@@ -89,8 +88,13 @@ const Portfolio = () => {
                 .map(item => {
                   const { id, thumbnail, name, link } = item;
                   return (
-                    <a href={link} target='_blank' rel='noopener noreferrer'>
-                      <div className='w-full' key={id}>
+                    <a
+                      key={id}
+                      href={link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <div className='w-full'>
                         <img
                           src={thumbnail}
                           alt=''
