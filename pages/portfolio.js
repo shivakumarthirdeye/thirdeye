@@ -6,55 +6,15 @@ import portfolio2 from '/public/assets/images/portfolio/project2.png';
 import portfolio3 from '/public/assets/images/portfolio/project3.png';
 import portfolio4 from '/public/assets/images/portfolio/project3.png';
 import { useState } from 'react';
+import { templates } from '@/utils/portfolioProjects.json';
+import Link from 'next/link';
 
-const portfolioItems = [
-  {
-    id: 1,
-    name: 'Project 1',
-    img: portfolio1.src,
-  },
-  {
-    id: 2,
-    name: 'Project 2',
-    img: portfolio2.src,
-  },
-  {
-    id: 3,
-    name: 'Project 3',
-    img: portfolio3.src,
-  },
-  {
-    id: 4,
-    name: 'Project 4',
-    img: portfolio4.src,
-  },
-];
-
-const categories = [
-  {
-    id: 1,
-    name: 'Corporates',
-  },
-  {
-    id: 2,
-    name: 'Cars & bikes',
-  },
-  {
-    id: 3,
-    name: 'Design & Photography',
-  },
-  {
-    id: 4,
-    name: 'Education & Science',
-  },
-  {
-    id: 5,
-    name: 'Animals & nature',
-  },
-];
+const subject = [...new Set(templates.map(item => item.subject))].map(
+  (item, idx) => ({ id: idx, name: item })
+);
 
 const Portfolio = () => {
-  const [currentCategory, setCurrentCategory] = useState('Corporates');
+  const [currentCategory, setCurrentCategory] = useState(subject[0].name);
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
@@ -87,7 +47,7 @@ const Portfolio = () => {
               <h1>Subject</h1>
             </div>
             <div className='py-4'>
-              {categories.map(item => {
+              {subject.map(item => {
                 const { id, name } = item;
                 return (
                   <div className='px-6 pb-4   font-medium'>
@@ -115,50 +75,34 @@ const Portfolio = () => {
           <div className='mt-14 md:mt-0'>
             <div className='mb-8'>
               <h2 className='text-black text-opacity-80 text-2xl'>
-                9 results for:{' '}
+                {
+                  templates.filter(item => item.subject === currentCategory)
+                    .length
+                }{' '}
+                results for:{' '}
                 <span className='text-black font-bold'>{currentCategory}</span>{' '}
               </h2>
             </div>
             <div className='grid sm:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4 gap-5'>
-              {portfolioItems.map(item => {
-                const { id, img, name } = item;
-                return (
-                  <div className='w-full' key={id}>
-                    <img
-                      src={img}
-                      alt=''
-                      className='max-w-[350px] object-cover mx-auto w-full sm:mx-0'
-                    />
-                    <h2 className='text-xl my-4 text-center'>{name}</h2>
-                  </div>
-                );
-              })}
-              {portfolioItems.map(item => {
-                const { id, img, name } = item;
-                return (
-                  <div className='w-full' key={id}>
-                    <img
-                      src={img}
-                      alt=''
-                      className='max-w-[350px] object-cover mx-auto w-full sm:mx-0'
-                    />
-                    <h2 className='text-xl my-4 text-center'>{name}</h2>
-                  </div>
-                );
-              })}
-              {portfolioItems.map(item => {
-                const { id, img, name } = item;
-                return (
-                  <div className='w-full' key={id}>
-                    <img
-                      src={img}
-                      alt=''
-                      className='max-w-[350px] object-cover mx-auto w-full sm:mx-0'
-                    />
-                    <h2 className='text-xl my-4 text-center'>{name}</h2>
-                  </div>
-                );
-              })}
+              {templates
+                .filter(item => item.subject === currentCategory)
+                .map(item => {
+                  const { id, thumbnail, name, link } = item;
+                  return (
+                    <a href={link} target='_blank' rel='noopener noreferrer'>
+                      <div className='w-full' key={id}>
+                        <img
+                          src={thumbnail}
+                          alt=''
+                          className='max-w-[350px] object-cover mx-auto w-full sm:mx-0'
+                        />
+                        <h2 className='text-xl my-4 text-center capitalize'>
+                          {name}
+                        </h2>
+                      </div>
+                    </a>
+                  );
+                })}
             </div>
           </div>
         </div>

@@ -1,0 +1,207 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "Photography",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-photography3.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Horse",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-horse2.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Honey",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-honey.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Garden",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-garden4.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Adventure",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-adventure.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Wanderer",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-wanderer.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Eco",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-eco.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mountain Guide",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-mountainguide.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Vet",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-vet2.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Ecobeef",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-ecobeef.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Farm",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-farm.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Snap Shot",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-snapshot.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Animal shelter",
+      "subject": "Animals and Nature",
+      "link": "https://beantown.website/html/be/html/index-animalshelter.html",
+      "thumbnail": "/assets/images/portfolio/animals&nature/a13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Photography",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-photography3.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Church",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-church3.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art2.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Artist",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-artist3.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art3.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Course",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-course.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art4.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Band",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-band4.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art5.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Halloween",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-halloween.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art6.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Band",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-band3.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art7.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Records",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-records2.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art8.jpg"
+    },
+    {
+      "id": 22,
+      "name": "City hall",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-cityhall.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art9.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Actor",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-actor.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art10.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Church",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-church2.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art11.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Event",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-event2.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art12.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Festival",
+      "subject": "Art & Culture",
+      "link": "https://beantown.website/html/be/html/index-festival.html",
+      "thumbnail": "/assets/images/portfolio/art&culture/art13.jpg"
+    },
+    {
+      "id": 27,
+      "name": "car wash",
+      "subject": "Cars & Bikes",
+      "link": "https://beantown.website/html/be/html/index-carwash3.html",
+      "thumbnail": "/assets/images/portfolio/cars&bikes/cb1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Detailing",
+      "subject": "Cars & Bikes",
+      "link": "https://beantown.website/html/be/html/index-detailing4.html",
+      "thumbnail": "/assets/images/portfolio/cars&bikes/cb2.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Decor",
+      "subject": "Design & Photography",
+      "link": "https://beantown.website/html/be/html/index-decor2.html",
+      "thumbnail": "/assets/images/portfolio/design&photography/d1.jpg"
+    }
+  ]
+}
