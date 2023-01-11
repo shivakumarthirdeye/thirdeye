@@ -4,91 +4,91 @@
       "id": 1,
       "name": "Photography",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-photography3.html",
+      "link": "/templates/index-photography3.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a1.jpg"
     },
     {
       "id": 2,
       "name": "Horse",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-horse2.html",
+      "link": "/templates/index-horse2.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a2.jpg"
     },
     {
       "id": 3,
       "name": "Honey",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-honey.html",
+      "link": "/templates/index-honey.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a3.jpg"
     },
     {
       "id": 4,
       "name": "Garden",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-garden4.html",
+      "link": "/templates/index-garden4.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a4.jpg"
     },
     {
       "id": 5,
       "name": "Adventure",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-adventure.html",
+      "link": "/templates/index-adventure.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a5.jpg"
     },
     {
       "id": 6,
       "name": "Wanderer",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-wanderer.html",
+      "link": "/templates/index-wanderer.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a6.jpg"
     },
     {
       "id": 7,
       "name": "Eco",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-eco.html",
+      "link": "/templates/index-eco.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a7.jpg"
     },
     {
       "id": 8,
       "name": "Mountain Guide",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-mountainguide.html",
+      "link": "/templates/index-mountainguide.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a8.jpg"
     },
     {
       "id": 9,
       "name": "Vet",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-vet2.html",
+      "link": "/templates/index-vet2.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a9.jpg"
     },
     {
       "id": 10,
       "name": "Ecobeef",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-ecobeef.html",
+      "link": "/templates/index-ecobeef.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a10.jpg"
     },
     {
       "id": 11,
       "name": "Farm",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-farm.html",
+      "link": "/templates/index-farm.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a11.jpg"
     },
     {
       "id": 12,
       "name": "Snap Shot",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-snapshot.html",
+      "link": "/templates/index-snapshot.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a12.jpg"
     },
     {
       "id": 13,
       "name": "Animal shelter",
       "subject": "Animals and Nature",
-      "link": "https://beantown.website/html/be/html/index-animalshelter.html",
+      "link": "/templates/index-animalshelter.html",
       "thumbnail": "/assets/images/portfolio/animals&nature/a13.jpg"
     },
     {
