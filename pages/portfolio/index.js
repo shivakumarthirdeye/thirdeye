@@ -11,9 +11,9 @@ import Link from 'next/link';
 
 const { templates } = portfolioProjects;
 
-const subject = [...new Set(templates.map(item => item.subject))].map(
-  (item, idx) => ({ id: idx, name: item })
-);
+const subject = [...new Set(templates.map(item => item.subject))]
+  .sort((a, b) => a.localeCompare(b))
+  .map((item, idx) => ({ id: idx, name: item }));
 
 const Portfolio = () => {
   const [currentCategory, setCurrentCategory] = useState(subject[0].name);
