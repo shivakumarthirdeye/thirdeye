@@ -14,8 +14,8 @@ const SocialMedia = () => {
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
-            hero1={hero1}
-            hero2={hero2}
+            // hero1={hero1}
+            // hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
                 Social Media <br className='hidden sm:block' /> Management
