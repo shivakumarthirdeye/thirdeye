@@ -67,11 +67,11 @@ const megaMenuItems = [
       },
       {
         id: 3,
-        name: 'Graphic Design',
+        name: 'Mobile Apps',
       },
       {
         id: 4,
-        name: 'Email Marketing',
+        name: 'Websites',
       },
       {
         id: 5,

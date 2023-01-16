@@ -1,3 +1,4 @@
+import CalendlyModal from '@/components/CalendlyModal';
 import Clients from '@/components/common/Clients';
 import HeroSection from '@/components/common/HeroSection';
 import HowWeWork from '@/components/common/HowWeWork';

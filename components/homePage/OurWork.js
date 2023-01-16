@@ -46,7 +46,7 @@ import projectsData from '@/utils/projects.json';
 //   },
 // ];
 
-const OurWork = ({ ourWorks, currentPage }) => {
+const OurWork = ({ ourWorks, currentPage, featured }) => {
   const works = ourWorks;
   const { projects } = projectsData;
   return (
@@ -61,12 +61,25 @@ const OurWork = ({ ourWorks, currentPage }) => {
         </div>
         <div>
           {projects
-            .filter(item => item.slug !== currentPage)
-            .map(work => {
+            .filter(item => {
+              if (featured) {
+                return item.featured;
+              } else {
+                return item.slug !== currentPage;
+              }
+            })
+            .map((work, idx) => {
               // const { id, image, tag, title, description } = work;
 
-              const { id, thumbnail, smallTitle, tag, slug, description } =
-                work;
+              const {
+                id,
+                thumbnail,
+                smallTitle,
+                tag,
+                slug,
+                description,
+                featuredVideo,
+              } = work;
 
               return (
                 <div
@@ -74,13 +87,17 @@ const OurWork = ({ ourWorks, currentPage }) => {
                   className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16  items-center'
                 >
                   <div
-                    className={`${id % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}
+                    className={`${idx % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}
                   >
-                    <img
-                      src={thumbnail}
-                      className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[579px]  object-cover  rounded-[32px]'
-                      alt=''
-                    />
+                    {featured && featuredVideo ? (
+                      <video src={featuredVideo} autoPlay loop muted></video>
+                    ) : (
+                      <img
+                        src={thumbnail}
+                        className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[579px]  object-cover  rounded-[32px]'
+                        alt=''
+                      />
+                    )}
                   </div>
                   <div className='flex-1 my-5 lg:my-0 flex  flex-col justify-start'>
                     <h4 className='text-[#4E53B7] font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
@@ -94,9 +111,8 @@ const OurWork = ({ ourWorks, currentPage }) => {
                     </p>
                     <Link href={`/case-study/${slug}`}>
                       <a className='my-8 '>
-                        <button className='sm:text-lg md:text-xl lg:text-2xl    text-black text-opacity-80 '>
+                        <button className='sm:text-lg font-semibold relative md:text-xl lg:text-2xl case-study--btn    text-black text-opacity-80 '>
                           Case Study
-                          <div className='bg-[#5FC7EC] rounded-full my-1 h-[5px]'></div>
                         </button>
                       </a>
                     </Link>

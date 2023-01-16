@@ -4,11 +4,11 @@ import gif from './gif/u2/1.gif';
 
 // Render a YouTube video player
 
-const Items = ({ title, description, id, sub }) => {
+const Items = ({ title, description, id, sub, video }) => {
   const playerRef = useRef(null);
   useEffect(() => {}, []);
   return (
-    <div className='grid grid-cols-2 items-center'>
+    <div className='grid grid-cols-2 gap-10 items-center'>
       <div className={`${id % 2 === 0 ? 'order-1' : 'order-2'} flex-1`}>
         <h1 className='text-6xl mb-4'>
           {title}
@@ -18,12 +18,17 @@ const Items = ({ title, description, id, sub }) => {
           {description}
         </p>
       </div>
-      <div className={`${id % 2 === 0 ? 'order-2 ' : 'order-1 '}  flex-1`}>
-        <img
+      <div
+        className={`${
+          id % 2 === 0 ? 'order-2 ' : 'order-1 '
+        }  items-center mx-auto justify-center flex-1`}
+      >
+        <video src={video} autoPlay loop muted></video>
+        {/* <img
           src={gif.src}
           alt=''
           className='object-cover max-w-[579px] rounded-[32px] mx-auto  w-full h-[675]'
-        />
+        /> */}
       </div>
     </div>
   );

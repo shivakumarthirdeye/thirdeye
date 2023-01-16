@@ -67,7 +67,49 @@ const Header = ({ showHeaderBtn = true }) => {
   return (
     <>
       <header className='container mx-auto flex justify-between h-[100px] items-center px-4'>
-        <div>
+        <div className='block sm:hidden'>
+          <button
+            onClick={() => {
+              setShowSidebar(true);
+            }}
+          >
+            <svg
+              className='w-[24px] h-[16px] sm:w-[44px] sm:h-[25px]'
+              width='44'
+              height='25'
+              viewBox='0 0 44 25'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <rect
+                width='44'
+                height='3'
+                rx='1.5'
+                fill='black'
+                fillOpacity='0.8'
+              />
+              <rect
+                x='7'
+                y='11'
+                width='30'
+                height='3'
+                rx='1.5'
+                fill='black'
+                fillOpacity='0.8'
+              />
+              <rect
+                x='3'
+                y='22'
+                width='38'
+                height='3'
+                rx='1.5'
+                fill='black'
+                fillOpacity='0.8'
+              />
+            </svg>
+          </button>
+        </div>
+        <div className='hidden sm:block'>
           <Link href='/'>
             <a>
               <img src={logo.src} className='max-w-[165px] w-full' alt='logo' />
@@ -100,7 +142,7 @@ const Header = ({ showHeaderBtn = true }) => {
               </a>
             </Link>
           )}
-          <div>
+          <div className='hidden sm:block'>
             <button
               onClick={() => {
                 setShowSidebar(true);

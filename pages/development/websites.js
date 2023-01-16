@@ -18,6 +18,8 @@ const Websites = () => {
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
+            hero1={hero1}
+            hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
                 Websites
@@ -25,23 +27,17 @@ const Websites = () => {
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                We transform your ideas into a creative web platform that
+                effectively represents your brand. Our expert developers offer a
+                wide range of services to your company, including SEO-friendly
+                web design, <b>website development</b>, and custom web app
+                development to improve organisational functioning.
               </>
             }
           />
         </div>
       </section>
-      <div className='container px-4 h-[35vw] md:mt-40 md:h-[450px] max-w-6xl mx-auto relative '>
-        <div className='absolute w-2/4 left-5'>
-          <img src={hero1.src} alt='' className='w-full object-cover' />
-        </div>
-        <div className='absolute left-2/4 top-1/4 w-2/4   -translate-x-1/4'>
-          <img src={hero2.src} alt='' className='w-full object-cover' />
-        </div>
-      </div>
+
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
           At Third Eye, we’re all about action. What are the specific actions

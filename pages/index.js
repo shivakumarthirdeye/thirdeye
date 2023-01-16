@@ -23,7 +23,7 @@ export default function Home() {
       }
     >
       <Hero />
-      <OurWork />
+      <OurWork featured={true} />
       <OurCapabilities />
       <Clients svg />
       <IndustriesWeServe />

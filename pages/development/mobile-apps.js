@@ -18,17 +18,20 @@ const MobileApps = () => {
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
+            hero1={hero1}
+            hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Mobile <br /> Apps
+                Mobile Apps
               </span>
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                We design fully equipped <b>mobile app</b> solutions for the
+                constantly evolving behaviour of customers. Our application
+                development meets all digital needs across industries and is up
+                to date on market trends and technologies. We incorporate
+                advanced features and functionalities into every app we create.
               </>
             }
           />

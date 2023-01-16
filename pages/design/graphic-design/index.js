@@ -20,6 +20,9 @@ const GraphicDesign = () => {
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
+            hero1={hero1}
+            hero2={hero2}
+            hero3={hero3}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
                 Graphic Design
@@ -27,25 +30,19 @@ const GraphicDesign = () => {
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the <br />{' '}
-                specific actions that fuel your company's growth? Do <br /> you
-                need more consumers to buy your product?
+                Whether you need a spectacular new logo or some eye-catching
+                flyers, the talented global community of designers at Third Eye
+                Innovations can help. We take pride in our high-quality
+                designers who provide only the best{' '}
+                <b>graphic design services.</b>
+                Find the best design service for you and start creating designs
+                you'll love right away!
               </>
             }
           />
         </div>
       </section>
-      <div className='container h-[450px] mt-[-100px] max-w-6xl mx-auto relative '>
-        <div className='absolute left-0'>
-          <img src={hero1.src} alt='' />
-        </div>
-        <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
-          <img src={hero2.src} alt='' />
-        </div>
-        <div className='absolute right-0 top-0'>
-          <img src={hero3.src} alt='' />
-        </div>
-      </div>
+
       <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container mx-auto px-4'>
         <h3 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[954px] lg:leading-[48.6px] text-black text-opacity-80'>
           At Third Eye, we’re all about action. What are the specific actions

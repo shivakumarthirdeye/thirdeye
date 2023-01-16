@@ -12,11 +12,7 @@ const interactionItems = [
 
     description:
       "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.",
-    gifs: [
-      '/public/assets/gif/lynktown/1.mp4',
-      '/public/assets/gif/lynktown/2.mp4',
-      '/public/assets/gif/lynktown/3.mp4',
-    ],
+    video: '/assets/videos/interactions/lynktown.webm',
   },
   {
     id: 2,
@@ -24,11 +20,7 @@ const interactionItems = [
     sub: '(Unique & Universal)',
     description:
       "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to generate more leads for your products and services? Whatever actions you're targeting, Third Eye can help.",
-    gifs: [
-      '/public/assets/gif/u2/1.gif',
-      "'/public/assets/gif/u2/2.gif'",
-      '/public/assets/gif/u2/3.gif',
-    ],
+    video: '/assets/videos/interactions/u2.webm',
   },
 ];
 

@@ -1,8 +1,10 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { HiChevronDown } from 'react-icons/hi';
 import Select, { components } from 'react-select';
 import * as Yup from 'yup';
+import CalendlyModal from '../CalendlyModal';
 import meetingImg from '/public/assets/meeting.png';
 
 const countiesList = [
@@ -861,9 +863,11 @@ const ProjectRequirementForm = () => {
     service: Yup.string().required('Service is required'),
     country: Yup.string().required('Country is required'),
   });
+  const [book, setBook] = useState(false);
 
   return (
     <section className='my-14 relative mb-28'>
+      <CalendlyModal open={book} toggleModal={() => setBook(prev => !prev)} />
       <div className='container px-4 max-w-7xl mx-auto'>
         <div className=' lg:flex  justify-between'>
           <div className='flex-1'>
@@ -1068,7 +1072,12 @@ const ProjectRequirementForm = () => {
                   </div>
                 </div>
                 <div>
-                  <button className='p-2 md:py-4 md:px-7 border text-xs sm:text-sm md:text-base border-blue text-blue rounded'>
+                  <button
+                    onClick={() => {
+                      setBook(prev => !prev);
+                    }}
+                    className='p-2 md:py-4 md:px-7 border text-xs sm:text-sm md:text-base border-blue text-blue rounded'
+                  >
                     Book a time
                   </button>
                 </div>
