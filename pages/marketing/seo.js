@@ -26,10 +26,12 @@ const SEO = () => {
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                Third Eye Innovations is the world's best{' '}
+                <b>SEO services company</b>. Our SEO services include a
+                personalised strategy, cutting-edge technology, and an elite SEO
+                team. We focus on increasing revenue for our clients and provide
+                all of the services and technology required for your company to
+                grow with SEO.
               </>
             }
           />
@@ -56,7 +58,7 @@ const SEO = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'Development Works'} />
+      <OurWorks title={'SEO Works'} />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />

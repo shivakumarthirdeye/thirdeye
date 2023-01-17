@@ -8,22 +8,22 @@ const howWork = [
   {
     id: 1,
     title: 'Strategy',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `Recognizing every specific aspect of your business is the first step. We assemble all the information necessary to pave the way for your company's success.  `,
   },
   {
     id: 2,
     title: 'Design',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `Our design team experts will strictly adhere to the principle that authenticity is the only factor in success. They make sure the designs are solid and captivating, flawless, user-friendly, and optimized in the best ways.`,
   },
   {
     id: 3,
     title: 'Development',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `Our development team then begins the process and works their magic to turn the layout into an awesome reality. This phase also includes testing the new website.`,
   },
   {
     id: 4,
     title: 'Launch & Growth',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    description: `Our development company believes that a launch is similar to the start of a sprint race: the better the start, the better the chances of success.`,
   },
 ];
 

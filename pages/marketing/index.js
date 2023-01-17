@@ -9,23 +9,23 @@ import Layout from '@/components/Layout';
 const ourWorks = [
   {
     id: 1,
-    title: 'Tech Stack',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    title: 'Research ',
+    description: `The first step is to conduct in-depth research on the company, the target market, the product or service, and the competition. `,
   },
   {
     id: 2,
-    title: 'Front end',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    title: 'Strategy',
+    description: `Now that we have an understanding of your company's needs and have completed our research, we create your primary digital identities (website, blog, app), as well as your digital marketing goals, strategy, and plan.`,
   },
   {
     id: 3,
-    title: 'Backend',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    title: 'Implementation',
+    description: `We provide digital strategy services that address your goals and marketing concerns and aim to provide the best creative work and tailor-made digital marketing solutions for ROI-centric.`,
   },
   {
     id: 4,
-    title: 'Launch & Growth',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `,
+    title: 'Measures ',
+    description: `We help you to make the right marketing and sales decision based on the correct analytics and concise reporting.`,
   },
 ];
 
@@ -200,9 +200,8 @@ const marketing = () => {
           <HeroSection
             content={
               <>
-                The best <span className='bg-black text-white'>marketing</span>
-                <br /> doesn’t feel like <br />
-                marketing
+                Grow Your Business & Increase Profits With Powerful{' '}
+                <span className='bg-black text-white'>Marketing</span>
               </>
             }
           />

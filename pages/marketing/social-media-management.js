@@ -23,10 +23,11 @@ const SocialMedia = () => {
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                With Third Eye Innovations' <b> social media services</b>, you
+                can increase your return on investment (ROI) from sites like
+                Facebook, Instagram, and LinkedIn. With our affordable social
+                media management services, your company can begin increasing
+                brand awareness and revenue through social media.
               </>
             }
           />

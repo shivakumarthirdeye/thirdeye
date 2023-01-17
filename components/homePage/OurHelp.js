@@ -5,17 +5,17 @@ const helps = [
   {
     id: 1,
     title: 'MVP for Startups',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more cMVP for Startups `,
+    description: `Get to market quickly with the best solution team building available. Send us your ideas, and we'll assist you in becoming an amazing test MVP. `,
   },
   {
     id: 2,
     title: 'Agile Product team for scaleups',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more Agile Product team for scaleups `,
+    description: `Do you lack the necessary expertise to build your product? We can take over your entire development project or supplement your team to help you at any stage of the project development cycle.`,
   },
   {
     id: 3,
     title: 'Enterprise Digital Transformation',
-    description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more Enterprise Digital Transformation `,
+    description: `With our tailored enterprise product solutions, we will transform your day-to-day processes into a seamless experience. We can help you with anything from updating your technology to developing a new product.`,
   },
 ];
 

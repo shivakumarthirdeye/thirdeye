@@ -15,26 +15,26 @@ const IndustriesWeServe = () => {
       id: 1,
       title: 'Fintech',
       img: industry1.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `From online banking to stock trading platforms, cryptocurrency exchanges, and digital wallets, our digital solutions have simplified the digital financial landscape.`,
     },
 
     {
       id: 2,
       title: 'Agritech',
       img: industry2.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `From farmers to distributors, suppliers to consumers, our award-winning digital solutions have helped to empower the agriculture industry.`,
     },
     {
       id: 3,
       title: 'Logistics',
       img: industry3.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `We have designed and built products that are simple to launch and scale quickly, ranging from complex data visualization to assistive CRM and ERP solutions.`,
     },
     {
       id: 4,
       title: 'Retail',
       img: industry4.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `Drive retail digital transformation innovation. We offer a wide range of services, including consulting, design, development, marketing, and product validation. `,
     },
     {
       id: 5,
@@ -46,19 +46,19 @@ const IndustriesWeServe = () => {
       id: 6,
       title: 'Telecom',
       img: industry6.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `Third Eye Innovations has had unprecedented success in developing new digital solutions for global media and communication firms. Our industry experts are dedicated to strategically innovating digital initiatives and transformations so that you can build for the future today.`,
     },
     {
       id: 7,
       title: 'Social Media',
       img: industry7.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `We are a group of social media experts who are enthusiastic about what we do. We understand the most effective techniques and strategies for optimizing your social media strategy for increased ROI.`,
     },
     {
       id: 8,
       title: 'Marketing',
       img: industry8.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `We offer social media services, search engine services, email marketing services, digital marketing services, and more. We create and manage high-performing social media campaigns for businesses, making us the best digital marketing company.`,
     },
   ];
 
@@ -150,7 +150,7 @@ const IndustriesWeServe = () => {
       </div>
       <div className='container mx-auto px-4 '>
         <h1 className='heading'>Industries we serve</h1>
-        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-16 my-10 md:gap-y-16 lg:gap-y-24 '>
+        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
           {industries.map(item => {
             const { description, id, img, title } = item;
 

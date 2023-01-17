@@ -11,7 +11,7 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const BrandMarking = () => {
+const Copywriting = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -21,15 +21,17 @@ const BrandMarking = () => {
             hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Brand Marketing
+                Content Writing
               </span>
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                To create great content, you need knowledge, expertise, and
+                time. That is exactly what we do. Create great content that is
+                addictively enjoyable and performs well in natural search
+                results. So, if you need content writing services, we are your
+                best bet. There are no overheads, no restrictions, and only
+                high-quality content is delivered.
               </>
             }
           />
@@ -65,4 +67,4 @@ const BrandMarking = () => {
   );
 };
 
-export default BrandMarking;
+export default Copywriting;

@@ -81,8 +81,7 @@ const ourProcess = [
     ),
     title: 'Backend Dev',
     description: `
-      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to.At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to.At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? Or perhaps your goal is simply to.
-    `,
+      At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
   },
   {
     id: 3,

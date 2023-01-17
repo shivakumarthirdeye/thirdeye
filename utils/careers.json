@@ -5,7 +5,7 @@
       "title": "Product Designer",
       "slug": "product-designer",
       "location": "Bangalore india",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap",
+      "description": "We're looking for an individual to come up with new product designs that meet the needs and wants of consumers. ",
       "qualification": [
         {
           "id": 1,
@@ -28,7 +28,7 @@
           "point": "Strong ability to build a product vision and communicate that vision"
         }
       ],
-      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+      "smallDescription": "We're looking for an individual to come up with new product designs that meet the needs and wants of consumers. "
     },
     {
       "id": 2,
@@ -58,7 +58,7 @@
           "point": "Strong ability to build a product vision and communicate that vision"
         }
       ],
-      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+      "smallDescription": "We’re looking for experts who build and maintain the mechanisms that process data and perform actions on websites."
     },
     {
       "id": 3,
@@ -88,12 +88,12 @@
           "point": "Strong ability to build a product vision and communicate that vision"
         }
       ],
-      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+      "smallDescription": "We’re looking for SEO specialists who will identify strategies, techniques, and tactics to increase the number of visitors to a website and obtain a high-ranking placement on the results page of search engines. "
     },
     {
       "id": 4,
-      "title": "Frontend Developer",
-      "slug": "frontend-developer",
+      "title": "UX/UI Designer",
+      "slug": "designer",
       "location": "Bangalore india",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap ",
       "qualification": [
@@ -118,7 +118,7 @@
           "point": "Strong ability to build a product vision and communicate that vision"
         }
       ],
-      "smallDescription": "At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth."
+      "smallDescription": "We’re looking for someone who cares not only about the aesthetic value of a website but what data is underpinning the decisions we make."
     }
   ]
 }

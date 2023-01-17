@@ -37,29 +37,34 @@ const ourTeam = [
 const values = [
   {
     id: 1,
-    title: 'Do the right thing',
+    title: 'Reliable, Stable, and Responsive Website',
     description:
-      'We aimed to create a well-thought-out responsive webdesign to deliver fast-loading experience on all devices.',
+      'Our esteemed clients fell in love with our web development services for the reliability and accessibility we deliver to them. We always go an added mile for offering the best user-friendly and responsive website to the client. The result-driven and engaging outcome make us the Best web designing company.',
   },
   {
     id: 2,
-    title: 'Progress... not Perfection',
-    description: `We strived to provide stunning UX/UI solutions within simple yet effective car dealer's website design.`,
+    title: 'Cost Efficient',
+    description: `Every business is exclusive and includes different products or services. So, our prices vary on the scalability, purpose, and scope of the website. We offer customised prices to clients at reasonable rates and deliver the best website in return`,
   },
   {
     id: 3,
-    title: 'Be Unparalleled',
-    description: `We aimed to create a well-thought-out responsive webdesign to deliver fast-loading experience on all devices.`,
+    title: 'Constant Support',
+    description: `Our team will offer you continuous support in maintaining the website to keep it updated and enhance its performance. Also, we assist with reactive improvements like adding new features or creating new landing pages.`,
   },
   {
     id: 4,
-    title: 'Data over Guesswork',
-    description: `We strived to provide stunning UX/UI solutions within simple yet effective car dealer's website design.`,
+    title: 'Customer Support',
+    description: `Our services strive to provide the best support to our valued customers. We take all support issues seriously and provide timely responses.`,
   },
   {
     id: 5,
-    title: 'Meaning through work',
-    description: `We aimed to create a well-thought-out responsive webdesign to deliver fast-loading experience on all devices.`,
+    title: 'Interaction',
+    description: `We create engaging content by combining images, advertisements, written content, and call-to-actions (CTAs) to encourage specific action and ongoing interaction.`,
+  },
+  {
+    id: 6,
+    title: 'Revenue Growth',
+    description: `We ensure that your product is fast, flexible, and aesthetically pleasing, which leads to conversion and repeat transactions.`,
   },
 ];
 const AboutUs = () => {
@@ -67,13 +72,18 @@ const AboutUs = () => {
     <Layout>
       <section className='mx-auto container px-4 text-black text-opacity-80'>
         <div className='max-w-[828px]'>
-          <h1 className='heading'>Imagining better Products with us</h1>
-          <p className='text-black text-opacity-80 text-sm sm:text-lg md:text-xl lg:text-2xl '>
-            A Links to Other Websites clause will inform users that you are not
-            responsible for any third party websites that you link to. This kind
-            of clause will generally inform users that they are responsible for
-            reading and agreeing (or disagreeing) with the Terms and Conditions
-            or Privacy Policies of these third parties.
+          <h1 className='heading'>
+            Digital solutions for boosting productivity and growth in
+            businesses.
+          </h1>
+          <p className='text-black text-opacity-80 text-sm sm:text-lg md:text-xl lg:text-2xl mt-6 '>
+            Third Eye Innovations provides world-class customised digital
+            solutions that outperform expectations. Our team creates a
+            data-driven strategy that will allow your brand to maximise ROI and
+            provide long-term scale. We provide full-cycle technology solutions
+            to help you with your digital transformation journey. We are
+            creators of brilliant ideas. Every step in the product development
+            process is preceded by careful planning and a strategy.
           </p>
         </div>
         <div className='w-full my-5 md:my-10'>
@@ -81,24 +91,19 @@ const AboutUs = () => {
         </div>
         <div className='text-black max-w-[828px] text-opacity-80 text-sm sm:text-lg md:text-xl lg:text-2xl '>
           <p>
-            Parallel started back in 2014, when India was just rising upto tech
-            startups and companies needed help to build great product
-            experiences but designers who understood digital products were far
-            and few. ‍
+            Third Eye Innovations is a well-known and trusted Digital Solutions
+            Providers Company with its headquarters in Bangalore. Since 2017,
+            Third Eye Innovations has created over 500 products, including
+            websites, MVPs, and apps. We leverage cutting-edge technical
+            expertise to simplify complex business challenges with innovative
+            solutions. We aim to educate and empower the developer community by
+            providing the latest trends and best practices based on surveys and
+            news. We provided the best web design, application development, and
+            technology-based digital solutions available. ‍
           </p>
-          <br />
-          <p>
-            The idea was to be an antithesis of how agencies work and redefine
-            what it means to work in "Parallel". We created new levels of
-            collaboration bringing together an holistic understanding of
-            business, design, data and technology to the table and create value
-            as a strategic partner.
-          </p>
-          <br />
 
           <h2 className='my-5 text-2xl sm:text-3xl md:text-4xl lg:text-[40px] md:!leading-[48.41px]'>
-            In the last 8 years, we have helped over 50 partners across
-            startups, fortune 500 and governments build better products.
+            We Make Complex Products Simple & Simple Products Engaging
           </h2>
         </div>
         <div className='my-5 md:my-10 lg:my-20'>
@@ -158,8 +163,9 @@ const AboutUs = () => {
         <div>
           <h3>OUR VALUES</h3>
           <div className='relative w-fit'>
-            <h1 className='text-2xl py-1 sm:text-3xl md:text-4xl lg:text-5xl '>
-              What gets us out of bed every morning
+            <h1 className='text-2xl py-1 sm:text-3xl max-w-3xl md:text-4xl lg:text-5xl  lg:leading-[58.09px]'>
+              Core principles that assist us in maximizing the value we create
+              for our clients
             </h1>
           </div>
           <div className='grid md:grid-cols-2 my-5 md:my-10 lg:my-20 gap-10'>

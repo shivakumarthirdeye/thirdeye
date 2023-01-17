@@ -11,13 +11,9 @@ const testimonialInfo = [
     userId: '@staphania',
     review: (
       <>
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more consumers to buy your
-        product?
-        <br />
-        <br />
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more.
+        "Making products that are the perfect balance of class and simplicity.
+        Making high-quality products that are intuitive, simple to use, and
+        provide life-changing experiences.
       </>
     ),
     date: '23rd April ',
@@ -29,9 +25,10 @@ const testimonialInfo = [
     userId: '@Joseph',
     review: (
       <>
-        "At Third Eye, we’re all about action. What are the specific actions
-        that fuel your company's growth? Do you need more consumers to buy your
-        product?
+        "Working with Third Eye Innovations was a pleasure. They were extremely
+        responsive in their responses and were able to complete the tasks I
+        requested in just a few days. I wholeheartedly recommend them for your
+        SEO, social media, and website requirements
       </>
     ),
     date: '23rd April ',
@@ -43,12 +40,11 @@ const testimonialInfo = [
     userId: '@staphania',
     review: (
       <>
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more consumers to buy your
-        product?
-        <br />
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more.
+        "Every time we had a new project, they delivered and met our
+        expectations. The relationship is still going strong two years later.
+        Third Eye Innovations is quick to respond to changing requirements and
+        is consistent in delivering high-quality results. They are a dependable
+        partner due to their effective communication and quick turnaround times.
       </>
     ),
     date: '23rd April ',
@@ -60,33 +56,31 @@ const testimonialInfo = [
     userId: '@staphania',
     review: (
       <>
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more consumers to buy your
-        product?
-        <br />
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more.
+        "Without a doubt, after working with numerous digital marketing and
+        social media agencies, we have finally found third-eye Innovation. Their
+        social media strategies contributed to increased qualified traffic to
+        our website, lower conversion costs, and higher revenue per visitor.
       </>
     ),
     date: '23rd April ',
   },
-  {
-    id: 5,
-    name: 'Stephanie',
-    img: testimonial.src,
-    userId: '@staphania',
-    review: (
-      <>
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more consumers to buy your
-        product?
-        <br />
-        At Third Eye, we’re all about action. What are the specific actions that
-        fuel your company's growth? Do you need more.
-      </>
-    ),
-    date: '23rd April ',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Stephanie',
+  //   img: testimonial.src,
+  //   userId: '@staphania',
+  //   review: (
+  //     <>
+  //       At Third Eye, we’re all about action. What are the specific actions that
+  //       fuel your company's growth? Do you need more consumers to buy your
+  //       product?
+  //       <br />
+  //       At Third Eye, we’re all about action. What are the specific actions that
+  //       fuel your company's growth? Do you need more.
+  //     </>
+  //   ),
+  //   date: '23rd April ',
+  // },
 ];
 
 const Testimonial = () => {

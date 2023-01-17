@@ -1,4 +1,5 @@
 import Blogs from '@/components/common/Blogs';
+import FAQs from '@/components/common/FAQ/FAQs';
 import GrowWithUs from '@/components/common/GrowWithUs';
 import HeroSection from '@/components/common/HeroSection';
 import ImpactCreated from '@/components/common/ImpactCreated';
@@ -11,7 +12,7 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const SocialMedia = () => {
+const Websites = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -21,17 +22,16 @@ const SocialMedia = () => {
             hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Email Marketing
+                MVP
               </span>
             }
             description={
               <>
-                Third Eye Innovations provides a wide range of{' '}
-                <b>email marketing</b>
-                services that are tailored to your brand's needs, financial
-                capabilities, and target market segments. Schedule a
-                consultation with our company and we'll talk about how important
-                services are in achieving your goals.
+                The fundamental concept of MVP is to build only the essential
+                components of your software as quickly as possible, then release
+                it onto the market and evaluate it there. We specialise in
+                developing striking solutions that demonstrate your minimum
+                viable product's viability on the market.
               </>
             }
           />
@@ -59,12 +59,13 @@ const SocialMedia = () => {
         classes='max-w-7xl'
       />
       <OurWorks title={'Development Works'} />
-      {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
       <Testimonial />
+      <FAQs />
+      {/* <GrowWithUs /> */}
     </Layout>
   );
 };
 
-export default SocialMedia;
+export default Websites;

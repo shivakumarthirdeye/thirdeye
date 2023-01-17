@@ -26,10 +26,12 @@ const Copywriting = () => {
             }
             description={
               <>
-                At Third Eye, we’re all about action. What are the{' '}
-                <br className='hidden sm:block' /> specific actions that fuel
-                your company's growth? Do <br className='hidden sm:block' /> you
-                need more consumers to buy your product?
+                To create great content, you need knowledge, expertise, and
+                time. That is exactly what we do. Create great content that is
+                addictively enjoyable and performs well in natural search
+                results. So, if you need content writing services, we are your
+                best bet. There are no overheads, no restrictions, and only
+                high-quality content is delivered.
               </>
             }
           />

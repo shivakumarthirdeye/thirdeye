@@ -32,7 +32,7 @@ const Interaction = () => {
           <HeroSection
             content={
               <span className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl'>
-                UI Design
+                Interaction
               </span>
             }
             description={

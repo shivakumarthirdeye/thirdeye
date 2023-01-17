@@ -41,7 +41,7 @@ function CalendlyModal({ open, toggleModal, item }) {
         }
       }}
     >
-      <InlineWidget url='https://calendly.com/yogiyogesh079/30min' />
+      <InlineWidget url='https://calendly.com/thirdeyewebtech/30min' />
     </Modal>
   );
 }

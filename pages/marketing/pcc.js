@@ -11,7 +11,7 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const SocialMedia = () => {
+const SEO = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -21,17 +21,16 @@ const SocialMedia = () => {
             hero2={hero2}
             content={
               <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Email Marketing
+                PCC
               </span>
             }
             description={
               <>
-                Third Eye Innovations provides a wide range of{' '}
-                <b>email marketing</b>
-                services that are tailored to your brand's needs, financial
-                capabilities, and target market segments. Schedule a
-                consultation with our company and we'll talk about how important
-                services are in achieving your goals.
+                The tides of digital marketing are changing, and many businesses
+                are looking for quick and efficient ways to position their
+                brands in front of high-converting customers. With Third Eye
+                Innovations' <b>PPC management services</b>, you can increase
+                your search engine visibility and get immediate results.
               </>
             }
           />
@@ -67,4 +66,4 @@ const SocialMedia = () => {
   );
 };
 
-export default SocialMedia;
+export default SEO;

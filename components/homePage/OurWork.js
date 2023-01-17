@@ -90,11 +90,19 @@ const OurWork = ({ ourWorks, currentPage, featured }) => {
                     className={`${idx % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}
                   >
                     {featured && featuredVideo ? (
-                      <video src={featuredVideo} autoPlay loop muted></video>
+                      <div className='w-fit object-cover lg:h-[550px]   rounded-[32px] overflow-hidden    relative'>
+                        <video
+                          src={featuredVideo}
+                          autoPlay
+                          loop
+                          muted
+                          className='relative top-0 left-0 opacity-100'
+                        ></video>
+                      </div>
                     ) : (
                       <img
                         src={thumbnail}
-                        className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[579px]  object-cover  rounded-[32px]'
+                        className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[550px]  object-cover  rounded-[32px]'
                         alt=''
                       />
                     )}

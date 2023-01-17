@@ -8,14 +8,15 @@ const careers = () => {
       <section className='my-14 px-4'>
         <div className='container max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between'>
           <div className='flex-1'>
-            <h1 className='text-5xl leading-[64.8px]'>
-              Join us and create <br /> something great
+            <h1 className='text-4xl leading-[50.8px]'>
+              Opportunities for ambitious newcomers and professionals{' '}
+              <br className='hidden lg:block' /> alike to build a strong career.
             </h1>
             <div className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
               <p>
-                At Third Eye, we’re all about action. What are the <br />{' '}
-                specific actions that fuel your company's growth? <br /> Do you
-                need more consumers to buy your product
+                We are looking for young techs, believers, and visionaries to
+                join our team to help our clients maximise their benefits and
+                build websites that enable innovators to realise their visions.
               </p>
             </div>
           </div>
