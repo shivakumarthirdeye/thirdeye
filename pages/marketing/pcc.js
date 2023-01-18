@@ -11,6 +11,71 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
+const testimonials = [
+  {
+    id: 1,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Third Eye Innovations provided solutions that not only produced a great
+        website that met our needs, but also handled all of the new site's
+        marketing. This has resulted in increased sales, which is a fantastic
+        outcome. I would gladly recommend Third Eye Innovations to other
+        businesses for their web development and marketing needs.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 2,
+    name: 'Joseph',
+    // img: testimonial1.src,
+    userId: '@Joseph',
+    review: (
+      <>
+        "Third Eye Innovation's professionalism and easygoing attitude toward
+        designing our website and our numerous requests and changes to it
+        impressed us. The website is simple to update and maintain, which was a
+        major consideration in selecting Third Eye Innovations.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Best website development company for my online business; they assisted
+        me with web design and digital marketing. I would recommend working with
+        the team. Also, the best digital marketing company in Bangalore I've had
+        the opportunity to work for the team for the past three years, and it's
+        been an incredible experience.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "It was a fantastic experience working with Third Eye Innovations. the
+        ideal trifecta of professional, creative, and friendly. Very highly
+        advisable.
+      </>
+    ),
+
+    date: '23rd April ',
+  },
+];
+
 const SEO = () => {
   return (
     <Layout>
@@ -20,17 +85,18 @@ const SEO = () => {
             hero1={hero1}
             hero2={hero2}
             content={
-              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                PCC
+              <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
+                Drive Sales With PPC Management Services
               </span>
             }
             description={
               <>
-                The tides of digital marketing are changing, and many businesses
-                are looking for quick and efficient ways to position their
-                brands in front of high-converting customers. With Third Eye
-                Innovations' <b>PPC management services</b>, you can increase
-                your search engine visibility and get immediate results.
+                Our PPC marketing team at Third Eye is adept at developing
+                state-of-the-art solutions for clients across a variety of
+                industries and verticals. With our best PPC services and Google
+                ads services, we aim to help businesses in various industries
+                generate more leads, convert more of those leads into sales, and
+                gain more repeat customers
               </>
             }
           />
@@ -39,11 +105,9 @@ const SEO = () => {
 
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
-          that fuel your company's growth? Do you need more consumers to buy
-          your product? Or perhaps your goal is simply to generate more leads
-          for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
+          You can create your own PPC advertising campaign with the assistance
+          of Third Eye. Additionally, we develop a plan to access your websites
+          and assist in boosting your return on investment.
         </h3>
       </div>
 
@@ -57,11 +121,11 @@ const SEO = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'Development Works'} />
+      <OurWorks title='PCC Works' tag='PCC' />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
     </Layout>
   );
 };

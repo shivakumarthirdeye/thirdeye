@@ -11,7 +11,70 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const BrandMarking = () => {
+const testimonials = [
+  {
+    id: 1,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Third Eye Innovations provided solutions that not only produced a great
+        website that met our needs, but also handled all of the new site's
+        marketing. This has resulted in increased sales, which is a fantastic
+        outcome. I would gladly recommend Third Eye Innovations to other
+        businesses for their web development and marketing needs
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 2,
+    name: 'Joseph',
+    // img: testimonial1.src,
+    userId: '@Joseph',
+    review: (
+      <>
+        "Third Eye Innovation's professionalism and easygoing attitude toward
+        designing our website and our numerous requests and changes to it
+        impressed us. The website is simple to update and maintain, which was a
+        major consideration in selecting Third Eye Innovations.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Best website development company for my online business; they assisted
+        me with web design and digital marketing. I would recommend working with
+        the team. Also, the best digital marketing company in Bangalore I've had
+        the opportunity to work for the team for the past three years, and it's
+        been an incredible experience.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "It was a fantastic experience working with Third Eye Innovations. the
+        ideal trifecta of professional, creative, and friendly. Very highly
+        advisable.
+      </>
+    ),
+    date: '23rd April ',
+  },
+];
+const PerformanceMarketing = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -20,17 +83,19 @@ const BrandMarking = () => {
             hero1={hero1}
             hero2={hero2}
             content={
-              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                Performance Marketing
+              <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
+                Your Business. Our performance. Guaranteed.
               </span>
             }
             description={
               <>
-                Chasing performance may be difficult, but it is doable with the
-                right <b>performance marketing</b> tactics. Third Eye
-                Innovations is a performance marketing agency with solidified
-                skills to provide you with absolute value. We implement
-                effective strategies and deliver ROI with measurable results.
+                Third Eye Innovation offers a result-driven and profitably
+                profitable performance marketing management service. Our
+                results-driven marketing strategy will always deliver the
+                results for which you have paid. Our team combines technology
+                and communication channels to conceptualise, design, and refine
+                performance-driven campaigns that reduce risk while increasing
+                ROI.
               </>
             }
           />
@@ -39,11 +104,10 @@ const BrandMarking = () => {
 
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
-          that fuel your company's growth? Do you need more consumers to buy
-          your product? Or perhaps your goal is simply to generate more leads
-          for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
+          We select the best performance marketing strategy and approach, as
+          well as meticulous planning, to propel your online success. We share
+          performance marketing tips and make the necessary optimizations with
+          our performance marketing solutions.
         </h3>
       </div>
 
@@ -57,13 +121,13 @@ const BrandMarking = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'Development Works'} />
+      <OurWorks title={'Performance Marketing Works'} tag='PERFORMANCE' />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
     </Layout>
   );
 };
 
-export default BrandMarking;
+export default PerformanceMarketing;

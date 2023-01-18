@@ -11,6 +11,63 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
+const testimonials = [
+  {
+    id: 1,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Third Eye Innovations has a skilled team with extensive experience and
+        knowledge. As a result, they provide high-quality SEO services.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 2,
+    name: 'Joseph',
+    // img: testimonial1.src,
+    userId: '@Joseph',
+    review: (
+      <>
+        "They have done an excellent job, and the owners are responsive and
+        genuinely care about your business's growth. I highly recommend their
+        SEO services and overall support.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Third Eye Innovations has been a lifeline for our company. Excellent
+        customer service and stellar SEO tactics. I strongly advise doing
+        business with this company.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "We hired them for one of our websites and are now using their services
+        for three more. I highly recommend their SEO services
+      </>
+    ),
+    date: '23rd April ',
+  },
+];
+
 const SEO = () => {
   return (
     <Layout>
@@ -20,18 +77,18 @@ const SEO = () => {
             hero1={hero1}
             hero2={hero2}
             content={
-              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
-                SEO
+              <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
+                Data-driven, SEO marketing specialists
               </span>
             }
             description={
               <>
-                Third Eye Innovations is the world's best{' '}
-                <b>SEO services company</b>. Our SEO services include a
-                personalised strategy, cutting-edge technology, and an elite SEO
-                team. We focus on increasing revenue for our clients and provide
-                all of the services and technology required for your company to
-                grow with SEO.
+                As one of the innovative <b>SEO companies</b>, we make sure that
+                your website ranks highly in search engines. Over the years, SEO
+                has undergone significant change and is no longer a
+                link-building process. The factors that affect a website's
+                search engine ranking include responsiveness, responsive coding,
+                quickly loading pages, and social media popularity.
               </>
             }
           />
@@ -40,11 +97,8 @@ const SEO = () => {
 
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
-          that fuel your company's growth? Do you need more consumers to buy
-          your product? Or perhaps your goal is simply to generate more leads
-          for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
+          We concentrate on generating revenue for our clients, and we offer all
+          the tools and services required for your company to grow through SEO.
         </h3>
       </div>
 
@@ -58,11 +112,11 @@ const SEO = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'SEO Works'} />
+      <OurWorks title='SEO Works' tag={'SEO'} />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
     </Layout>
   );
 };

@@ -150,3 +150,7 @@ li::marker {
 b {
   text-transform: capitalize;
 }
+
+.highlight__text {
+  @apply bg-black text-white;
+}

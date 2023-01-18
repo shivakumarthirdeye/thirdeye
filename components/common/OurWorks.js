@@ -11,7 +11,7 @@ import HomePageOurWorks from '../homePage/OurWork';
 import projectsData from '@/utils/projects.json';
 import Link from 'next/link';
 
-const OurWorks = ({ title, currentPage }) => {
+const OurWorks = ({ title, currentPage, tag }) => {
   const { projects } = projectsData;
   return (
     <>
@@ -109,6 +109,13 @@ const OurWorks = ({ title, currentPage }) => {
                 </div>
               </div>
               {projects
+                .filter(item => {
+                  if (tag) {
+                    return item?.tags?.includes(tag);
+                  } else {
+                    return item;
+                  }
+                })
                 .filter(item => item.slug !== currentPage)
                 .map(work => {
                   // const { id, image, tag, title, description } = work;

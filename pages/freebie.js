@@ -92,7 +92,7 @@ const Freebie = () => {
         <div className=' container mx-auto px-4  '>
           <HeroSection
             content={
-              <span className='text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
+              <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
                 Figma Freebie | <br className='hidden sm:block' /> Figma
                 Resources
               </span>

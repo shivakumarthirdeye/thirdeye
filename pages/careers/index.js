@@ -14,9 +14,11 @@ const careers = () => {
             </h1>
             <div className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
               <p>
-                We are looking for young techs, believers, and visionaries to
-                join our team to help our clients maximise their benefits and
-                build websites that enable innovators to realise their visions.
+                We are looking for young techs, believers, and{' '}
+                <br className='hidden lg:block' /> visionaries to join our team
+                to help our clients maximize <br className='hidden lg:block' />{' '}
+                their benefits and build websites that enable innovators{' '}
+                <br className='hidden lg:block' /> to realise their visions.
               </p>
             </div>
           </div>

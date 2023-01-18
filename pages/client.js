@@ -27,15 +27,26 @@ const Client = () => {
         <div className='container px-4 max-w-7xl mx-auto'>
           <div className=' md:flex  justify-between'>
             <div className='flex-1'>
-              <h1 className='text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
-                Become a <br /> Client
-              </h1>
+              <div className='max-w-md'>
+                <h1 className='text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
+                  WANT TO BECOME A CLIENT?
+                </h1>
+                <p className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
+                  Join countless CEOs, founders, and team leads who have
+                  improved their businesses with the help of our services.
+                </p>
+              </div>
               <div className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
                 <p>hello@thirdeye.com </p>
                 <p>+91 98392 18293</p>
               </div>
             </div>
-            <ClientForm />
+            <div className='flex-1'>
+              {/* <h1 className='text-xl underline mb-5 underline-offset-4 text-center md:text-2xl lg:text-3xl md:!leading-[64.8px]'>
+                GET A FREE PROPOSAL.
+              </h1> */}
+              <ClientForm />
+            </div>
           </div>
         </div>
         <div className='container max-w-7xl px-4 mx-auto flex justify-between my-12 mt-32'>

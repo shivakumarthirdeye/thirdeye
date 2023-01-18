@@ -8,6 +8,13 @@
       "thumbnail": "/assets/images/case-study/lynktown/thumbnail.png",
       "slug": "lynktown",
       "tag": "Design & Development",
+      "tags": [
+        "SEO",
+        "SOCIAL",
+        "PCC",
+        "BRAND",
+        "CONTENT"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -225,6 +232,9 @@
       "thumbnail": "/assets/images/case-study/gigsasa/thumbnail.png",
       "slug": "gigsasa",
       "tag": "Design",
+      "tags": [
+        "PERFORMANCE"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -537,6 +547,10 @@
       "thumbnail": "/assets/images/case-study/dentotabs/thumbnail.png",
       "slug": "dentotabs",
       "tag": "Design & Development",
+      "tags": [
+        "SOCIAL",
+        "PERFORMANCE"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -724,6 +738,11 @@
       "thumbnail": "/assets/images/case-study/ajyal/thumbnail.png",
       "slug": "ajyal",
       "tag": "Design & Development",
+      "tags": [
+        "PCC",
+        "BRAND",
+        "CONTENT"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -814,6 +833,10 @@
       "thumbnail": "/assets/images/case-study/spoc/thumbnail.png",
       "slug": "spoclearn",
       "tag": "Design & Development",
+      "tags": [
+        "SEO",
+        "SOCIAL"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1193,6 +1216,12 @@
       "thumbnail": "/assets/images/case-study/agrinia/thumbnail.png",
       "slug": "agrinia",
       "tag": "Design & Development",
+      "tags": [
+        "PCC",
+        "EMAIL",
+        "BRAND",
+        "CONTENT"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1285,6 +1314,9 @@
       "thumbnail": "/assets/images/case-study/poornatva/thumbnail.png",
       "slug": "poornatva",
       "tag": "Design & Development",
+      "tags": [
+        "PERFORMANCE"
+      ],
       "devDetails": [
         {
           "id": 1,

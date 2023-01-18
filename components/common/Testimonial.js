@@ -83,7 +83,7 @@ const testimonialInfo = [
   // },
 ];
 
-const Testimonial = () => {
+const Testimonial = ({ testimonials = testimonialInfo }) => {
   return (
     <section className='my-10 md:my-20'>
       <div className='container mx-auto px-4'>
@@ -113,14 +113,18 @@ const Testimonial = () => {
             },
           }}
         >
-          {testimonialInfo.map(item => {
+          {testimonials.map(item => {
             const { id, img, review, name, userId, date } = item;
             return (
               <SwiperSlide key={id} className=' w-full select-none'>
                 <div className='border p-4 sm:p-5 rounded-xl font-poppins'>
                   <div className='flex gap-4'>
                     <div>
-                      <img src={img} className='w-10 h-10' alt='' />
+                      <img
+                        src={img || testimonial.src}
+                        className='w-10 h-10'
+                        alt=''
+                      />
                     </div>
                     <div>
                       <h1 className='text-base font-medium text-[#355386]'>

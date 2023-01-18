@@ -397,8 +397,8 @@ const OurCapabilities = () => {
               <h1 id='mainHeading' className='heading !text-white'>
                 Our Capabilities
               </h1>
-              <div className='max-w-xl justify-items-end mx-auto my-20  relative'>
-                <div className='text-right'>
+              <div className='max-w-xl justify-items-end mx-auto my-16   relative'>
+                <div className='text-center -ml-[10vw]  xl:-ml-[6vw]'>
                   <div className='relative'>
                     <h2
                       className='heading !text-white pb-4 absolute  top-0'
@@ -419,15 +419,15 @@ const OurCapabilities = () => {
                       Marketing
                     </h2>
                   </div>
-                  <div className='relative'>
+                  <div className='relative p-5 xl:p-0'>
                     <Link href='/design'>
                       <a
                         id='link1'
-                        className='text-right text-lg my-14 xl:my-20 block absolute w-[120px] left-0'
+                        className='text-right text-lg my-14  xl:my-20 block absolute w-[120px] left-0'
                       >
                         <span className='relative'>
                           Learn more
-                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
+                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />
                           -&gt;
                         </span>
                       </a>
@@ -471,7 +471,7 @@ const OurCapabilities = () => {
             </div>
             <div
               id='total-items'
-              className='absolute right-[5vw] xl:right-[10vw] top-48'
+              className='absolute  right-1 lg:right-[5vw] top-48'
             >
               <div className='grid gap-96'>
                 <div id='design-section'>
