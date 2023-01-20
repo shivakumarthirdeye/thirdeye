@@ -30,7 +30,7 @@ const clientImg = [
 
 const Clients = ({ svg, title = 'Selected Clients' }) => {
   return (
-    <div className='relative py-10   overflow-hidden'>
+    <section className='relative py-5 md:py-10   overflow-hidden'>
       {svg && (
         <svg
           className='absolute left-0  top-[-250px] xl:top-[-300px] z-[-10]  w-[200px] h-[500px] xl:w-[271px] xl:h-[585px]'
@@ -58,7 +58,7 @@ const Clients = ({ svg, title = 'Selected Clients' }) => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

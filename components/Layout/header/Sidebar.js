@@ -23,7 +23,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
     {
       id: 2,
       title: 'Services',
-      to: '/#services',
+      to: '/process',
     },
     {
       id: 3,

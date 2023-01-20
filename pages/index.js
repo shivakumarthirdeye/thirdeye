@@ -8,6 +8,7 @@ import HowWeWork from '@/components/common/HowWeWork';
 import TechStack from '@/components/homePage/TechStack';
 import OurCapabilities from '@/components/homePage/OurCapabilities';
 import IndustriesWeServe from '@/components/homePage/IndustriesWeServe';
+import ProjectRequirementForm from '@/components/common/ProjectRequirementForm';
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
       <HowWeWork title='How we work' />
       <TechStack homePage />
       <Testimonial />
+      <div className='mt-24'>
+        <ProjectRequirementForm />
+      </div>
     </Layout>
   );
 }

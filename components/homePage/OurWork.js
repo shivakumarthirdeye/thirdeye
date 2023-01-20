@@ -46,7 +46,7 @@ import projectsData from '@/utils/projects.json';
 //   },
 // ];
 
-const OurWork = ({ ourWorks, currentPage, featured }) => {
+const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
   const works = ourWorks;
   const { projects } = projectsData;
   return (
@@ -56,17 +56,26 @@ const OurWork = ({ ourWorks, currentPage, featured }) => {
       </div>
 
       <div className='container mx-auto px-4'>
-        <div>
-          <h1 className='heading '>Our Works</h1>
-        </div>
+        {!noTitle && (
+          <div>
+            <h1 className='heading '>{title || 'Our Works'}</h1>
+          </div>
+        )}
         <div>
           {projects
             .filter(item => {
+              if (tag) {
+                return item?.tags?.includes(tag);
+              } else {
+                return item;
+              }
+            })
+            .filter(item => item.slug !== currentPage)
+            .filter(item => {
               if (featured) {
                 return item.featured;
-              } else {
-                return item.slug !== currentPage;
               }
+              return item;
             })
             .map((work, idx) => {
               // const { id, image, tag, title, description } = work;
@@ -87,7 +96,7 @@ const OurWork = ({ ourWorks, currentPage, featured }) => {
                   className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16  items-center'
                 >
                   <div
-                    className={`${idx % 2 === 0 ? 'lg:!order-2' : ''} flex-1`}
+                    className={`${idx % 2 !== 0 ? 'lg:!order-2' : ''} flex-1`}
                   >
                     {featured && featuredVideo ? (
                       <div className='w-fit object-cover lg:h-[550px]   rounded-[32px] overflow-hidden    relative'>
@@ -101,6 +110,7 @@ const OurWork = ({ ourWorks, currentPage, featured }) => {
                       </div>
                     ) : (
                       <img
+                        loading='lazy'
                         src={thumbnail}
                         className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[550px]  object-cover  rounded-[32px]'
                         alt=''

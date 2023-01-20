@@ -22,16 +22,17 @@ const Websites = () => {
             hero2={hero2}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
-                MVP
+                Minimum Viable Product (MVP) development services for startups
               </span>
             }
             description={
               <>
-                The fundamental concept of MVP is to build only the essential
-                components of your software as quickly as possible, then release
-                it onto the market and evaluate it there. We specialise in
-                developing striking solutions that demonstrate your minimum
-                viable product's viability on the market.
+                With the help of our top-notch development team, which possesses
+                knowledge of various tech stacks, you can create scalable and
+                market-ready MVPs more quickly. With a market-ready MVP, you can
+                quickly gather insightful customer feedback and make product
+                improvements before allocating a larger budget to your product
+                development.
               </>
             }
           />
@@ -40,11 +41,8 @@ const Websites = () => {
 
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
-          that fuel your company's growth? Do you need more consumers to buy
-          your product? Or perhaps your goal is simply to generate more leads
-          for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
+          Third Eye Innovations, the best <b> MVP development company</b>, can
+          transform your idea into a scalable product more quickly.
         </h3>
       </div>
 
@@ -58,7 +56,7 @@ const Websites = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'Development Works'} />
+      <OurWorks title={'MVP Works'} tag='MVP' />
       <ImpactCreated />
       <Blogs />
       <Testimonial />

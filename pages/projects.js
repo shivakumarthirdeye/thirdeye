@@ -18,7 +18,7 @@ const projects = () => {
           />
         </div>
       </section>
-      <OurWork />
+      <OurWork noTitle />
     </Layout>
   );
 };

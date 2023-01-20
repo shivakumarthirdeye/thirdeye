@@ -267,7 +267,7 @@ const development = () => {
       <HowWeWork steps={ourWorks} title='How we Develop Incredible Products ' />
       <ServicesProcess works={ourProcess} />
       <Testimonial testimonials={testimonials} />
-      <OurWorks />
+      <OurWorks title='Development Works' tag='DEVELOPMENT' />
       <ProjectRequirementForm />
     </Layout>
   );

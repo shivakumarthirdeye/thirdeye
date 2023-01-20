@@ -16,7 +16,7 @@ const OurWorks = ({ title, currentPage, tag }) => {
   return (
     <>
       <div className='block sm:hidden'>
-        <HomePageOurWorks currentPage={currentPage} />
+        <HomePageOurWorks currentPage={currentPage} title={title} tag={tag} />
       </div>
 
       <section className='hidden sm:block my-20 relative'>
@@ -147,9 +147,9 @@ const OurWorks = ({ title, currentPage, tag }) => {
                           <div className='my-8 '>
                             <Link href={`/case-study/${slug}`}>
                               <a>
-                                <button className='    text-black text-opacity-80 '>
+                                <button className='sm:text-lg font-semibold relative md:text-xl lg:text-2xl case-study--btn    text-black text-opacity-80 '>
                                   Case Study
-                                  <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div>
+                                  {/* <div className='bg-[#5FC7EC] rounded-full  h-[3px]'></div> */}
                                 </button>
                               </a>
                             </Link>

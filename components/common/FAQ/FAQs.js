@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from './Accordion';
 
-const questions = [
+const commonQuestions = [
   {
     id: 1,
     title: 'How do I start Working with Third Eye?',
@@ -34,13 +34,13 @@ const questions = [
   },
 ];
 
-const FAQs = () => {
+const FAQs = ({ faqs = commonQuestions }) => {
   return (
     <section className='my-0 px-4 py-28 bg-[#c6fff851]'>
       <div className='container max-w-6xl mx-auto'>
         <h1 className='text-center text-[40px]'>Still have Questions?</h1>
         <div className='my-20'>
-          {questions.map(question => {
+          {faqs.map(question => {
             const { id, content, title } = question;
 
             return <Accordion content={content} title={title} key={id} />;

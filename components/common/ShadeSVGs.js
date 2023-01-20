@@ -195,3 +195,23 @@ export const LeftCircle = () => {
     </svg>
   );
 };
+
+export const RightCircle = () => {
+  return (
+    <svg
+      width='362'
+      height='585'
+      viewBox='0 0 362 585'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <circle
+        cx='292.5'
+        cy='292.5'
+        r='291.5'
+        stroke='#B1C7FF'
+        stroke-width='2'
+      />
+    </svg>
+  );
+};

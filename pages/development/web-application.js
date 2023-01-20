@@ -12,7 +12,7 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 
-const MobileApps = () => {
+const WebApplication = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
@@ -22,17 +22,16 @@ const MobileApps = () => {
             hero2={hero2}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
-                Quality and Experience Drive Global Brands
+                End-to-End Application Services
               </span>
             }
             description={
               <>
-                Since we are the best <b> mobile app development company</b>,
-                our devoted team will offer you complete solutions for all of
-                your mobile app needs. To create a distinctive, innovative,
-                top-notch <b>mobile app design</b>, we carry out extensive
-                marketing research on customers, competitor strategies, and
-                sector leaders.
+                With years of experience taking on the most challenging web
+                application development projects, our
+                <b>web app development company</b> is well-known in the IT
+                industry. To better meet changing user needs and technological
+                advancements, we can also completely redesign web interfaces.
               </>
             }
           />
@@ -41,9 +40,9 @@ const MobileApps = () => {
 
       <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          We also provide cutting-edge solutions for a variety of industries.
-          Our company has evolved into a one-stop shop for everything from the
-          planning stages of a mobile application to its marketing.
+          You can always rely on us for custom web application development
+          services because we offer flexible teams, ensure a transparent
+          development process, and respond quickly to changing requirements.
         </h3>
       </div>
 
@@ -57,7 +56,7 @@ const MobileApps = () => {
         }
         classes='max-w-7xl'
       />
-      <OurWorks title={'Mobile App Works'} tag='MOBILE' />
+      <OurWorks title={'Web Application Works'} tag='WEBAPPLICATION' />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
@@ -67,4 +66,4 @@ const MobileApps = () => {
   );
 };
 
-export default MobileApps;
+export default WebApplication;

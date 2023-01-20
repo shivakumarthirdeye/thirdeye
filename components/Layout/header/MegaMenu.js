@@ -67,11 +67,7 @@ const megaMenuItems = [
     subItem: [
       {
         id: 1,
-        name: 'Front-End',
-      },
-      {
-        id: 2,
-        name: 'Back-End',
+        name: 'Web Application',
       },
       {
         id: 3,

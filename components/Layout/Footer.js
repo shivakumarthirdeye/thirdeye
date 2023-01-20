@@ -14,7 +14,7 @@ const footerLinks = [
   { id: 7, title: 'Contact' },
   { id: 6, title: 'Careers' },
   { id: 8, title: 'Privacy Policy' },
-  { id: 2, title: 'Solution' },
+  { id: 2, title: 'Client' },
   // { id: 5, title: 'Vision' },
   // { id: 3, title: 'Technology' },
   // { id: 4, title: 'Media' },

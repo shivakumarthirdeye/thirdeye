@@ -1,4 +1,5 @@
 import ContactForm from '@/components/common/ContactForm';
+import ProjectRequirementForm from '@/components/common/ProjectRequirementForm';
 import Layout from '@/components/Layout';
 import Link from 'next/link';
 import aboutImg from '/public/assets/images/about-us.png';
@@ -186,10 +187,8 @@ const AboutUs = () => {
             })}
           </div>
         </div>
-        <div className='my-5 md:my-10 lg:my-20'>
-          <ContactForm />
-        </div>
       </section>
+      <ProjectRequirementForm />
     </Layout>
   );
 };

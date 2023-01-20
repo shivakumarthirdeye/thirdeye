@@ -1,6 +1,7 @@
 import {
   GreenRight,
   LeftCircle,
+  RightCircle,
   VioletLeft,
 } from '@/components/common/ShadeSVGs';
 
@@ -68,6 +69,9 @@ const HowWeWork = ({ steps, title }) => {
       </div>
       <div className='absolute top-[-200px] left-0 z-[-10]  overflow-hidden'>
         <VioletLeft />
+      </div>
+      <div className='absolute top-[25%] right-0 z-[-10]  overflow-hidden'>
+        <RightCircle />
       </div>
       <div className='absolute top-[75%] left-0 z-[-10]  overflow-hidden'>
         <LeftCircle />

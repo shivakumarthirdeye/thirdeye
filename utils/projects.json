@@ -13,7 +13,9 @@
         "SOCIAL",
         "PCC",
         "BRAND",
-        "CONTENT"
+        "CONTENT",
+        "DEVELOPMENT",
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -328,6 +330,14 @@
       "thumbnail": "/assets/images/case-study/u2/thumbnail.jpg",
       "slug": "u2",
       "tag": "Design & Development",
+      "tags": [
+        "WEBSITE",
+        "WEBAPPLICATION",
+        "MOBILE",
+        "MVP",
+        "UI",
+        "GRAPHIC"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -452,6 +462,10 @@
       "thumbnail": "/assets/images/case-study/instabytes/thumbnail.png",
       "slug": "instabytes",
       "tag": "Design & Development",
+      "tags": [
+        "UI",
+        "GRAPHIC"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -549,6 +563,7 @@
       "tag": "Design & Development",
       "tags": [
         "SOCIAL",
+        "DESIGN",
         "PERFORMANCE"
       ],
       "devDetails": [
@@ -835,7 +850,10 @@
       "tag": "Design & Development",
       "tags": [
         "SEO",
-        "SOCIAL"
+        "SOCIAL",
+        "DEVELOPMENT",
+        "UI",
+        "GRAPHIC"
       ],
       "devDetails": [
         {
@@ -1010,6 +1028,12 @@
       "thumbnail": "/assets/images/case-study/iwowd/thumbnail.png",
       "slug": "iwowd",
       "tag": "Design & Development",
+      "tags": [
+        "WEBSITE",
+        "WEBAPPLICATION",
+        "MOBILE",
+        "MVP"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1496,6 +1520,12 @@
       "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
       "slug": "rfq",
       "tag": "Design",
+      "tags": [
+        "WEBSITE",
+        "WEBAPPLICATION",
+        "MOBILE",
+        "MVP"
+      ],
       "devDetails": [
         {
           "id": 1,

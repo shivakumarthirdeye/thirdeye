@@ -7,13 +7,14 @@ const testimonialInfo = [
   {
     id: 1,
     name: 'Stephanie',
-    img: testimonial.src,
+    // img: testimonial.src,
     userId: '@staphania',
     review: (
       <>
-        "Making products that are the perfect balance of class and simplicity.
-        Making high-quality products that are intuitive, simple to use, and
-        provide life-changing experiences.
+        "They created ideas. The product displayed information clearly and
+        smoothly tracked user data. Third Eye Innovations UX design
+        distinguishes itself through efficient coding practices and stunning
+        design concepts
       </>
     ),
     date: '23rd April ',
@@ -21,14 +22,12 @@ const testimonialInfo = [
   {
     id: 2,
     name: 'Joseph',
-    img: testimonial2.src,
+    // img: testimonial1.src,
     userId: '@Joseph',
     review: (
       <>
-        "Working with Third Eye Innovations was a pleasure. They were extremely
-        responsive in their responses and were able to complete the tasks I
-        requested in just a few days. I wholeheartedly recommend them for your
-        SEO, social media, and website requirements
+        "Their dedication to raising design standards and their promise of
+        on-time delivery make them a dependable partner.
       </>
     ),
     date: '23rd April ',
@@ -36,15 +35,13 @@ const testimonialInfo = [
   {
     id: 3,
     name: 'Stephanie',
-    img: testimonial.src,
+    // img: testimonial.src,
     userId: '@staphania',
     review: (
       <>
-        "Every time we had a new project, they delivered and met our
-        expectations. The relationship is still going strong two years later.
-        Third Eye Innovations is quick to respond to changing requirements and
-        is consistent in delivering high-quality results. They are a dependable
-        partner due to their effective communication and quick turnaround times.
+        "It's an excellent Web design and development firm. The Third Eye
+        Innovations team advised us on current trends and provided us with smart
+        content.
       </>
     ),
     date: '23rd April ',
@@ -52,35 +49,17 @@ const testimonialInfo = [
   {
     id: 4,
     name: 'Stephanie',
-    img: testimonial.src,
+    // img: testimonial.src,
     userId: '@staphania',
     review: (
       <>
-        "Without a doubt, after working with numerous digital marketing and
-        social media agencies, we have finally found third-eye Innovation. Their
-        social media strategies contributed to increased qualified traffic to
-        our website, lower conversion costs, and higher revenue per visitor.
+        "Working with Third eye Innovations has been an absolute pleasure
+        because of their excellent technical skills and creative insights. They
+        encouraged the concept to completion, and the outcome is stunning.
       </>
     ),
     date: '23rd April ',
   },
-  // {
-  //   id: 5,
-  //   name: 'Stephanie',
-  //   img: testimonial.src,
-  //   userId: '@staphania',
-  //   review: (
-  //     <>
-  //       At Third Eye, we’re all about action. What are the specific actions that
-  //       fuel your company's growth? Do you need more consumers to buy your
-  //       product?
-  //       <br />
-  //       At Third Eye, we’re all about action. What are the specific actions that
-  //       fuel your company's growth? Do you need more.
-  //     </>
-  //   ),
-  //   date: '23rd April ',
-  // },
 ];
 
 const Testimonial = ({ testimonials = testimonialInfo }) => {
