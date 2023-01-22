@@ -1,9 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import work1 from '/public/assets/images/ourWork1.png';
-import work2 from '/public/assets/images/ourWork2.png';
-import work3 from '/public/assets/images/ourWork3.png';
-import work4 from '/public/assets/images/ourWork4.png';
 import { Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import { VioletLeft } from './ShadeSVGs';
