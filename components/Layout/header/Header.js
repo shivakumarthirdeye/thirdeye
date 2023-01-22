@@ -112,7 +112,11 @@ const Header = ({ showHeaderBtn = true }) => {
         <div className='hidden sm:block'>
           <Link href='/'>
             <a>
-              <img src={logo.src} className='max-w-[165px] w-full' alt='logo' />
+              <img
+                src={logo.src}
+                className='max-w-[131] w-full max-h-[55px]'
+                alt='logo'
+              />
             </a>
           </Link>
         </div>

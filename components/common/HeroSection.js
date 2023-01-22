@@ -23,24 +23,24 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
         <VioletLeft />
       </div>
       {hero1 && (
-        <div className='container h-[50vw] sm:h-[250px] md:h-[400px] lg:h-[450px]  max-w-7xl mt-[100px]  mx-auto relative '>
+        <div className='container h-[55vw] sm:h-[400px] md:h-[450px] lg:h-[450px]  max-w-7xl my-[50px]  md:mt-[100px]  mx-auto relative '>
           <div className='absolute  sm:left-0'>
             <img
-              className='max-w-[520px] w-full h-[389px] object-cover'
+              className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
               src={hero1?.src}
               alt=''
             />
           </div>
           <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
             <img
-              className='max-w-[520px] w-full h-[389px] object-cover'
+              className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
               src={hero2?.src}
               alt=''
             />
           </div>
           <div className='absolute right-0 top-0'>
             <img
-              className='max-w-[520px] w-full h-[389px] object-cover'
+              className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
               src={hero3?.src || hero1?.src}
               alt=''
             />

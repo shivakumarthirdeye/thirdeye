@@ -210,7 +210,7 @@ export const RightCircle = () => {
         cy='292.5'
         r='291.5'
         stroke='#B1C7FF'
-        stroke-width='2'
+        strokeWidth='2'
       />
     </svg>
   );

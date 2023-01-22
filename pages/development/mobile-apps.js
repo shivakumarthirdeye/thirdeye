@@ -9,8 +9,9 @@ import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
-import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
+import hero1 from '/public/assets/gif/sub-services/mobile-application/1.gif';
+import hero2 from '/public/assets/gif/sub-services/mobile-application/2.gif';
+import hero3 from '/public/assets/gif/sub-services/mobile-application/3.gif';
 
 const MobileApps = () => {
   return (
@@ -20,6 +21,7 @@ const MobileApps = () => {
           <HeroSection
             hero1={hero1}
             hero2={hero2}
+            hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
                 Quality and Experience Drive Global Brands

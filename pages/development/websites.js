@@ -9,8 +9,9 @@ import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
-import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
+import hero1 from '/public/assets/gif/sub-services/website/1.gif';
+import hero2 from '/public/assets/gif/sub-services/website/2.gif';
+import hero3 from '/public/assets/gif/sub-services/website/3.gif';
 
 const testimonials = [
   {
@@ -77,8 +78,9 @@ const Websites = () => {
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
-            hero1={hero1}
-            hero2={hero2}
+            hero1={hero2}
+            hero2={hero1}
+            hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
                 Responsive web design attracts high-converting leads.
