@@ -12,14 +12,16 @@ const FreebieItem = ({ item, toggleModal, setCurrentItem }) => {
         <img src={img} alt='' className='max-h-[391.14px] w-full' />
       </div>
       <div className='my-5'>
-        <div className='flex items-center justify-between'>
-          <h1 className='text-xl lg:text-2xl font-medium max-w-[220.26px]'>
+        <div className='flex justify-between'>
+          <h1 className='md:text-xl lg:text-2xl font-medium max-w-[220.26px]'>
             {title}
           </h1>
-          <p className='text-xs md:text-sm'> {downloads} dowloads</p>
+          <p className='text-xs md:text-sm text-black text-opacity-80'>
+            {downloads} dowloads
+          </p>
         </div>
         <div className='flex md:mt-2 items-center justify-between'>
-          <p className='text-lg lg:text-xl max-w-[273.6px] text-black text-opacity-70'>
+          <p className='md:text-lg lg:text-xl max-w-[273.6px] text-black text-opacity-70'>
             {' '}
             {description}
           </p>

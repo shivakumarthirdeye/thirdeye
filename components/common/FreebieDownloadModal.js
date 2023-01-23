@@ -5,6 +5,7 @@ import 'react-responsive-modal/styles.css';
 import ImgSwiper from './ImgSwiper';
 import * as Yup from 'yup';
 import { useMediaQuery } from 'react-responsive';
+import { FaTimes } from 'react-icons/fa';
 
 const FreebieDownloadModal = ({ open, toggleModal, item }) => {
   const ref = useRef();
@@ -39,7 +40,6 @@ const FreebieDownloadModal = ({ open, toggleModal, item }) => {
           maxWidth: '964px',
           width: isMobile ? '100%' : '90%',
           margin: isMobile ? '0' : '1.2rem',
-
           padding: 'unset',
         },
         overlay: {
@@ -59,7 +59,10 @@ const FreebieDownloadModal = ({ open, toggleModal, item }) => {
         }
       }}
     >
-      <div className='bg-white md:max-w-[964px] h-full  w-full'>
+      <div className='bg-white md:max-w-[964px] relative max-h-[90vh] h-full  w-full'>
+        <button onClick={toggleModal} className='absolute top-5 right-5 z-50'>
+          <FaTimes className='text-2xl text-red-600' />
+        </button>
         <div>
           <ImgSwiper images={item?.img} />
         </div>

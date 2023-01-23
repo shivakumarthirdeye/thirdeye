@@ -89,7 +89,7 @@ const ImgSwiper = ({ images }) => {
                 <img
                   src={images}
                   alt=''
-                  className='w-[450px] lg:w-[600px] object-cover h-full'
+                  className='w-[450px] lg:w-[600px] md:max-h-[45vh] object-cover h-full'
                 />
               </div>
             </SwiperSlide>

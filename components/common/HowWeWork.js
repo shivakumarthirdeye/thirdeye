@@ -37,7 +37,7 @@ const HowWeWork = ({ steps, title }) => {
           {title || 'How we Develop Incredible Products '}
         </h1>
 
-        <div className='max-w-7xl mx-auto my-10'>
+        <div className='sm:ml-10 lg:ml-20 max-w-7xl mx-auto my-10'>
           {ourWorks.map((item, idx) => {
             const { id, title, description } = item;
 

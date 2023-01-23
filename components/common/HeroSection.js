@@ -16,10 +16,10 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
       {/* <div className='absolute  top-[25%] md:top-[75%] z-[-10] right-[-5%] lg:right-0  '>
         <HeroTextSVG />
       </div> */}
-      <div className='absolute right-0 top-[-500px] z-[-10] '>
+      <div className='absolute right-0 top-[-350px] z-[-10] '>
         <GreenRight />
       </div>
-      <div className='absolute bottom-[-1000px] left-0 z-[-10]'>
+      <div className='absolute bottom-[-1350px] left-0 z-[-10]'>
         <VioletLeft />
       </div>
       {hero1 && (

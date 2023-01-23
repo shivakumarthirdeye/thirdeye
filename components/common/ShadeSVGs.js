@@ -199,6 +199,7 @@ export const LeftCircle = () => {
 export const RightCircle = () => {
   return (
     <svg
+      className='hidden sm:block'
       width='362'
       height='585'
       viewBox='0 0 362 585'

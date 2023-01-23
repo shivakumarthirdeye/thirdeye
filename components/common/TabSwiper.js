@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const TabSwiper = ({ items, active, setActive, work }) => {
   return (
-    <div className='bg-[#ECECEC] py-3 md:py-4 px-2'>
+    <div className=' py-3 md:py-4 px-2'>
       <Swiper
         slidesPerView={1.2}
         className={work && 'tabs-swiper'}
@@ -13,11 +13,11 @@ const TabSwiper = ({ items, active, setActive, work }) => {
             spaceBetween: 1,
           },
           500: {
-            slidesPerView: 2.5,
+            slidesPerView: 2.8,
             spaceBetween: 1,
           },
           640: {
-            slidesPerView: 3.2,
+            slidesPerView: 3.8,
             spaceBetween: 1,
           },
           800: {
@@ -26,11 +26,15 @@ const TabSwiper = ({ items, active, setActive, work }) => {
           },
 
           1024: {
-            slidesPerView: 5,
+            slidesPerView: 5.5,
+            spaceBetween: 1,
+          },
+          1224: {
+            slidesPerView: 6,
             spaceBetween: 1,
           },
           1440: {
-            slidesPerView: 6.8,
+            slidesPerView: 7.2,
             spaceBetween: 1,
           },
         }}
@@ -46,11 +50,12 @@ const TabSwiper = ({ items, active, setActive, work }) => {
                   background:
                     active === item.name
                       ? 'linear-gradient(90deg, #3545D1 2.46%, #31A4C9 92.35%)'
-                      : '#D9D9D9',
+                      : '',
+                  border: active === item.name ? '' : '1px solid #0067BF',
                 }}
                 className={`${
                   active === item.name ? ' text-white' : ' text-black'
-                } 'w-[120px] md:w-[183px]  text-center p-2 px-4 md:p-4  rounded-full text-sm sm:text-base md:text-lg lg:text-xl font-medium'`}
+                } w-[160px] justify-center md:w-[183px]  bg-transparent text-center p-2.5 px-4 md:p-3.5 rounded-full text-sm sm:text-base md:text-lg lg:text-xl font-medium  `}
               >
                 <p>{item.name}</p>
               </button>

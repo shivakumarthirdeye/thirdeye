@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { GreenRight } from '../common/ShadeSVGs';
+import { GreenRight, VioletLeft } from '../common/ShadeSVGs';
 // import work1 from '/public/assets/images/ourWork1.png';
 // import work2 from '/public/assets/images/ourWork2.png';
 // import work3 from '/public/assets/images/ourWork3.png';
@@ -51,8 +51,11 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
   const { projects } = projectsData;
   return (
     <section id='projects' className='relative lg:my-36'>
-      <div className='absolute z-[-1]  right-0 top-[-440px]'>
+      <div className='absolute z-[-1]  right-0 top-[-700px]'>
         <GreenRight />
+      </div>
+      <div className='absolute z-[-1]  left-0 bottom-[500px]'>
+        <VioletLeft />
       </div>
 
       <div className='container mx-auto px-4'>
@@ -99,20 +102,20 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
                     className={`${idx % 2 !== 0 ? 'lg:!order-2' : ''} flex-1`}
                   >
                     {featured && featuredVideo ? (
-                      <div className='w-fit object-cover lg:h-[550px]   rounded-[32px] overflow-hidden    relative'>
+                      <div className='w-fit object-cover  max-w-[400px]  md:max-w-none lg:h-[550px]   rounded-[32px] overflow-hidden    relative'>
                         <video
                           src={featuredVideo}
                           autoPlay
                           loop
                           muted
-                          className='relative top-0 left-0 opacity-100'
+                          className='relative top-0  left-0 opacity-100'
                         ></video>
                       </div>
                     ) : (
                       <img
                         loading='lazy'
                         src={thumbnail}
-                        className='h-[300px] sm:h-[450px] w-screen sm:w-full lg:h-[550px]  object-cover  rounded-[32px]'
+                        className='h-[398px] max-w-[400px] md:max-w-none w-full   sm:h-[450px] sm:w-full lg:h-[550px]  object-cover  rounded-[32px]'
                         alt=''
                       />
                     )}
