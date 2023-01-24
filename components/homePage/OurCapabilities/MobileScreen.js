@@ -212,9 +212,9 @@ const MobileScreen = () => {
         }}
         className='px-4 py-20'
       >
-        <h1 className='text-xl md:text-3xl'>Our Capabilities</h1>
+        <h1 className='heading !text-white'>Our Capabilities</h1>
         <div className='my-5'>
-          <h2 className='text-3xl'>Design</h2>
+          <h2 className='text-[32px]'>Design</h2>
           <Link href='/design'>
             <a className='text-left py-2 block '>
               <span className=' relative'>
@@ -238,7 +238,7 @@ const MobileScreen = () => {
         className='px-4 py-10'
       >
         <div className='my-5'>
-          <h2 className='text-3xl'>Development</h2>
+          <h2 className='text-[32px]'>Development</h2>
           <Link href='/development'>
             <a className='text-left py-2 block '>
               <span className=' relative'>
@@ -262,7 +262,7 @@ const MobileScreen = () => {
         className='px-4 py-10'
       >
         <div className='my-5'>
-          <h2 className='text-3xl'>Marketing</h2>
+          <h2 className='text-[32px]'>Marketing</h2>
           <Link href='/marketing'>
             <a className='text-left py-2 block '>
               <span className=' relative'>

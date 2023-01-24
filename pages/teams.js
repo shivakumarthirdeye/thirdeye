@@ -5,6 +5,7 @@ import { GreenRight, VioletLeft } from '@/components/common/ShadeSVGs';
 import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import img1 from '/public/assets/images/teams/1.png';
 import img2 from '/public/assets/images/teams/2.png';
 import img3 from '/public/assets/images/teams/3.png';
@@ -56,6 +57,9 @@ const members = [
 ];
 
 const Teams = () => {
+  const isMobile = useMediaQuery({
+    query: '(max-width: 500px)',
+  });
   return (
     <Layout>
       <section className='relative overflow-x-clip'>
@@ -96,7 +100,7 @@ const Teams = () => {
         <div className='absolute z-[-1]  right-0 top-10'>
           <GreenRight />
         </div>
-        <div className='container mx-auto grid grid-cols-3 max-w-7xl'>
+        <div className='container mx-auto grid justify-center md:grid-cols-3 max-w-7xl'>
           {members.map(item => {
             const { id, designation, img, name, marginTop } = item;
 
@@ -105,11 +109,15 @@ const Teams = () => {
                 className={``}
                 key={id}
                 style={{
-                  marginTop: marginTop,
+                  marginTop: isMobile ? '0px' : marginTop,
                 }}
               >
                 <div>
-                  <img src={img} alt='' />
+                  <img
+                    src={img}
+                    alt=''
+                    className='max-h-[380.17px] md:max-h-fit'
+                  />
                 </div>
                 <div className='my-6 pl-1 text-black text-opacity-80'>
                   <h1 className='text-lg md:text-xl lg:text-2xl'>{name}</h1>

@@ -27,13 +27,13 @@ const HeroVideo = () => {
               muted={isMuted}
               ref={videoRef}
               src='/assets/videos/home.webm'
-              poster='/assets/videos/home-poster.jpeg'
+              poster='/assets/videos/home-poster.png'
               className=' mx-auto peer w-full'
             ></video>
             {!isPlaying && (
               <button
                 onClick={handlePlay}
-                className='absolute top-[50%] left-[50%] w-40 h-40 translate-x-[-50%] translate-y-[-50%]'
+                className='absolute top-[50%] left-[50%] w-20 sm:w-24 md:w-32 lg:w-40 h-20 sm:h-24 md:h-32 lg:h-40 translate-x-[-50%] translate-y-[-50%]'
               >
                 <div className='bg-black bg-opacity-30 flex items-center justify-center  w-full h-full rounded-full'>
                   <FaPlay className='text-3xl md:text-4xl lg:text-7xl text-white z-10' />
@@ -43,7 +43,7 @@ const HeroVideo = () => {
             {isPlaying && (
               <button
                 onClick={handlePause}
-                className='absolute hidden peer-hover:block hover:block top-[50%] left-[50%] w-40 h-40 translate-x-[-50%] translate-y-[-50%]'
+                className='absolute hidden peer-hover:block hover:block top-[50%] left-[50%] w-20 sm:w-24 md:w-32 lg:w-40 h-20 sm:h-24 md:h-32 lg:h-40 translate-x-[-50%] translate-y-[-50%]'
               >
                 <div className='bg-black bg-opacity-30 flex items-center justify-center  w-full h-full rounded-full'>
                   <FaPause className='text-3xl md:text-4xl lg:text-7xl text-white z-10' />
@@ -53,13 +53,13 @@ const HeroVideo = () => {
             {isPlaying && (
               <button
                 onClick={() => setIsMuted(prev => !prev)}
-                className='absolute hidden peer-hover:block hover:block top-10 right-10 w-10 h-10 translate-x-[-50%] translate-y-[-50%]'
+                className='absolute hidden peer-hover:block hover:block top-8 md:top-10 right-1 md:right-[1vw] w-8 md:w-10 h-8 md:h-10 translate-x-[-50%] translate-y-[-50%]'
               >
                 <div className='bg-black bg-opacity-30 flex items-center justify-center  w-full h-full rounded-full'>
                   {isMuted ? (
-                    <FaVolumeMute className='text-3xl text-white z-10' />
+                    <FaVolumeMute className='text-xl md:text-2xl lg:text-3xl text-white z-10' />
                   ) : (
-                    <FaVolumeUp className='text-3xl text-white z-10' />
+                    <FaVolumeUp className='text-xl md:text-2xl lg:text-3xl text-white z-10' />
                   )}
                 </div>
               </button>

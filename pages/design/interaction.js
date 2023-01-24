@@ -27,7 +27,7 @@ const interactionItems = [
 const Interaction = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
+      <section className=' relative overflow-x-clip '>
         <div className=' container mx-auto px-4  '>
           <HeroSection
             content={

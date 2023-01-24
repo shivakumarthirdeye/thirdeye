@@ -2,6 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { HiChevronDown } from 'react-icons/hi';
+import { useMediaQuery } from 'react-responsive';
 import Select, { components } from 'react-select';
 import * as Yup from 'yup';
 import CalendlyModal from '../CalendlyModal';
@@ -845,6 +846,9 @@ const services = [
   },
 ];
 const ProjectRequirementForm = () => {
+  const isMd = useMediaQuery({
+    query: '(min-width: 768px)',
+  });
   const initialValues = {
     name: '',
     email: '',
@@ -896,7 +900,7 @@ const ProjectRequirementForm = () => {
                           type='text'
                           name='name'
                           placeholder='What’s your name?'
-                          className='py-2 pb-4 placeholder:text-xl  text-xl  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 md:placeholder:text-xl  md:text-xl  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='name'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -908,7 +912,7 @@ const ProjectRequirementForm = () => {
                           type='email'
                           name='email'
                           placeholder='Your Email?'
-                          className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 md:placeholder:text-xl  md:text-xl  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='email'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -937,7 +941,7 @@ const ProjectRequirementForm = () => {
                               border: 'none',
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
-                              fontSize: '20px',
+                              fontSize: isMd ? '20px' : '16px',
                               paddingBottom: '6px',
                               '&:hover': {
                                 borderRadius: 0,
@@ -946,7 +950,7 @@ const ProjectRequirementForm = () => {
                             }),
                             placeholder: style => ({
                               ...style,
-                              fontSize: '20px',
+                              fontSize: isMd ? '20px' : '16px',
                               color: '#9ca3af',
                             }),
                           }}
@@ -961,7 +965,7 @@ const ProjectRequirementForm = () => {
                           type='text'
                           name='company'
                           placeholder='Company Name'
-                          className='py-1 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'
+                          className='py-1 pb-4 md:placeholder:text-xl  md:text-xl  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='company'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -990,7 +994,7 @@ const ProjectRequirementForm = () => {
                             border: 'none',
                             borderBottom: '2px solid #e5e7eb',
                             boxShadow: 'none',
-                            fontSize: '20px',
+                            fontSize: isMd ? '20px' : '16px',
                             paddingBottom: '6px',
                             '&:hover': {
                               borderRadius: 0,
@@ -999,7 +1003,7 @@ const ProjectRequirementForm = () => {
                           }),
                           placeholder: style => ({
                             ...style,
-                            fontSize: '20px',
+                            fontSize: isMd ? '20px' : '16px',
                             color: '#9ca3af',
                           }),
                         }}
@@ -1019,7 +1023,7 @@ const ProjectRequirementForm = () => {
                         as='textarea'
                         name='message'
                         placeholder='Tell us about your project :)'
-                        className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full h-[150px] resize-none'
+                        className='py-2 pb-4 md:placeholder:text-xl  md:text-xl  outline-none border-b-2 w-full h-[150px] resize-none'
                       />
                       <ErrorMessage name='message'>
                         {msg => <p className='text-red-500 py-3'>{msg}*</p>}

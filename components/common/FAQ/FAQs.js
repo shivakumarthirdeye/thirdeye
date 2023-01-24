@@ -36,10 +36,12 @@ const commonQuestions = [
 
 const FAQs = ({ faqs = commonQuestions }) => {
   return (
-    <section className='my-0 px-4 py-28 bg-[#c6fff851]'>
+    <section className='my-0 px-4 py-10 md:py-20 lg:py-28 bg-[#c6fff851]'>
       <div className='container max-w-6xl mx-auto'>
-        <h1 className='text-center text-[40px]'>Still have Questions?</h1>
-        <div className='my-20'>
+        <h1 className='heading lg:text-[40px] !text-center !font-normal'>
+          Still have Questions?
+        </h1>
+        <div className='my-10 md:my-20'>
           {faqs.map(question => {
             const { id, content, title } = question;
 

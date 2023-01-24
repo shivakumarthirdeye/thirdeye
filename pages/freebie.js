@@ -91,6 +91,9 @@ const Freebie = () => {
       <section className='my-10 relative overflow-x-clip mb-10  lg:mb-60'>
         <div className=' container mx-auto px-4  '>
           <HeroSection
+            hero1={hero1}
+            hero2={hero2}
+            hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
                 Figma Freebie | <br className='hidden sm:block' /> Figma
@@ -100,34 +103,10 @@ const Freebie = () => {
           />
         </div>
       </section>
-      <div className='mt-28'></div>
-      <div className='container h-[35vw]  sm:h-[250px] md:h-[400px] lg:h-[450px]  md:mt-[150px] lg:mt-[-100px] max-w-6xl mx-auto relative '>
-        <div className='absolute  sm:left-3'>
-          <img
-            className='max-w-[40vw] sm:max-w-[280px] md:max-w-sm lg:w-full h-full'
-            src={hero1.src}
-            alt=''
-          />
-        </div>
-        <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
-          <img
-            className='max-w-[40vw] sm:max-w-[280px]  md:max-w-sm lg:w-full h-full'
-            src={hero2.src}
-            alt=''
-          />
-        </div>
-        <div className='absolute right-3 top-0'>
-          <img
-            className='max-w-[40vw] sm:max-w-[280px] md:max-w-sm  lg:w-full h-full'
-            src={hero3.src}
-            alt=''
-          />
-        </div>
-      </div>
-      <div className='my-28 lg:my-20 container mx-auto px-4 '>
+      <div className='my-8 md:my-16 lg:my-20 container mx-auto px-4 '>
         <div className='flex flex-col lg:flex-row items-center  lg:space-x-9 h-full'>
           <div className='space-x-5 md:space-x-9 h-full lg:hidden mb-5 md:mb-8 flex'>
-            <div className='w-[1.22px] self-center h-[100px] bg-black '></div>
+            <div className='w-[1.22px] self-end md:self-center h-[100px] bg-black '></div>
             <div>
               <h1 className='text-[56px] md:text-6xl lg:text-7xl xl:text-[92px]'>
                 165
@@ -136,7 +115,7 @@ const Freebie = () => {
                 LATEST &<br /> MODERN <br /> FREEBIES
               </h3>
             </div>
-            <div className='w-[1.22px] self-center h-[100px] bg-black '></div>
+            <div className='w-[1.22px] self-end md:self-center h-[100px] bg-black '></div>
             <div>
               <h1 className='text-[56px] md:text-6xl lg:text-7xl xl:text-[92px]'>
                 25
@@ -172,7 +151,7 @@ const Freebie = () => {
         </div>
       </div>
       <TabSwiper items={tabs} active={activeTab} setActive={setActiveTab} />
-      <section className='container mx-auto my-20 px-4 '>
+      <section className='container mx-auto my-8 md:my-12 lg:my-20 px-4 '>
         <div className='grid gap-8 justify-center md:grid-cols-2 gap-y-10 lg:grid-cols-3 md:justify-between'>
           {freebieItems.map(item => {
             return (

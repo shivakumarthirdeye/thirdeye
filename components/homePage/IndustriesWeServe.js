@@ -63,7 +63,7 @@ const IndustriesWeServe = () => {
   ];
 
   return (
-    <section className='relative py-28  mt-10 my-0'>
+    <section className='relative py-10 md:py-16 lg:py-28  mt-10 my-0'>
       <div className='absolute left-0 top-0 z-[-1] '>
         <svg
           width='361'

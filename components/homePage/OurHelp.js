@@ -69,7 +69,7 @@ const OurHelp = () => {
                     </svg>
                   </div>
 
-                  <p className='text-sm sm:text-base md:text-lg'>
+                  <p className='font-light  text-base md:text-lg'>
                     {description}
                   </p>
                 </div>
@@ -125,21 +125,6 @@ const OurHelp = () => {
               })}
             </div>
 
-            {/* <div className='flex-1'>
-              <h1 className='text-3xl lg:text-4xl font-semibold flex items-center '>
-                <span>
-                  <HiArrowRight className='inline' />
-                </span>
-                <span className=' ml-2 relative py-1'>
-                  MVP for Startups
-                  <div className='absolute bottom-0 w-full bg-white h-1'></div>
-                </span>
-              </h1>
-              <ul className='text-3xl lg:text-4xl font-normal '>
-                <li className='my-10'>Agile Product team for scaleups</li>
-                <li className='my-10'>Enterprise Digital Transformation</li>
-              </ul>
-            </div> */}
             <div className='flex-1'>
               <svg
                 width='55'

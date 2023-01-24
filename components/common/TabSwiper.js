@@ -9,7 +9,7 @@ const TabSwiper = ({ items, active, setActive, work }) => {
         className={work && 'tabs-swiper'}
         breakpoints={{
           350: {
-            slidesPerView: 1.5,
+            slidesPerView: 2,
             spaceBetween: 1,
           },
           500: {

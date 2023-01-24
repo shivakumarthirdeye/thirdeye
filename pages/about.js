@@ -2,7 +2,7 @@ import ContactForm from '@/components/common/ContactForm';
 import ProjectRequirementForm from '@/components/common/ProjectRequirementForm';
 import Layout from '@/components/Layout';
 import Link from 'next/link';
-import aboutImg from '/public/assets/images/about-us.png';
+import aboutImg from '/public/assets/images/about-us.jpg';
 import mem1 from '/public/assets/images/our-team/1.png';
 import mem2 from '/public/assets/images/our-team/2.png';
 import mem3 from '/public/assets/images/our-team/3.png';
@@ -87,8 +87,12 @@ const AboutUs = () => {
             process is preceded by careful planning and a strategy.
           </p>
         </div>
-        <div className='w-full my-5 md:my-10'>
-          <img src={aboutImg.src} className='w-full h-full' alt='' />
+        <div className='w-full my-5 md:my-10 '>
+          <img
+            src={aboutImg.src}
+            className='w-full h-full max-h-[763px] object-cover'
+            alt=''
+          />
         </div>
         <div className='text-black max-w-[828px] text-opacity-80 text-sm sm:text-lg md:text-xl lg:text-2xl '>
           <p>
@@ -152,9 +156,7 @@ const AboutUs = () => {
                     <h1 className='text-base sm:text-lg md:text-xl lg:text-2xl'>
                       {name}
                     </h1>
-                    <h4 className='text-xs sm:text-sm md:text-base'>
-                      {designation}
-                    </h4>
+                    <h4 className='text-sm md:text-base'>{designation}</h4>
                   </div>
                 </div>
               );

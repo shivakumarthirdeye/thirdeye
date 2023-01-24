@@ -32,7 +32,7 @@ const careers = () => {
                   className='max-w-[522px] border rounded-xl border-[#00000019] p-6'
                 >
                   <h1 className='text-2xl font-medium'>{title}</h1>
-                  <p className='text-sm my-3 text-black  text-opacity-80 leading-[18.9px]'>
+                  <p className=' my-3 text-black  text-opacity-80 leading-[18.9px]'>
                     {smallDescription}
                   </p>
                   <div className='flex justify-end'>

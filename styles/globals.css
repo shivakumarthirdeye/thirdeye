@@ -63,7 +63,7 @@ svg {
 }
 
 section {
-  @apply my-8 md:my-16 lg:my-[100px];
+  @apply my-12 md:my-16 lg:my-[100px];
 }
 
 .heading {
@@ -262,4 +262,8 @@ b {
 
 .controlsTime {
   color: white;
+}
+
+.css-1fdsijx-ValueContainer {
+  padding: 0 !important;
 }

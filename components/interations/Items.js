@@ -19,7 +19,7 @@ const Items = ({ title, description, id, sub, video }) => {
             {sub}
           </span>
         </h1>
-        <p className='sm:text-lg md:text-xl lg:text-2xl text-black text-opacity-60 !leading-[35.4px]'>
+        <p className='sm:text-lg md:text-xl lg:text-2xl text-black text-opacity-60 md:!leading-[35.4px]'>
           {description}
         </p>
       </div>

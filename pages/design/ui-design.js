@@ -174,7 +174,7 @@ const UIDesign = () => {
           <div className='w-full my-5 md:my-10 lg:my-16  max-h-[559px] h-full'>
             <img
               src={interaction.src}
-              className='w-full object-cover max-h-[559px]  h-full '
+              className='w-full object-cover min-h-[200px] max-h-[559px]  h-full '
               alt=''
             />
           </div>
