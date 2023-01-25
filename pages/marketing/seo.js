@@ -1,4 +1,6 @@
+import Awards from '@/components/common/Awards';
 import Blogs from '@/components/common/Blogs';
+import Clients from '@/components/common/Clients';
 import GrowWithUs from '@/components/common/GrowWithUs';
 import HeroSection from '@/components/common/HeroSection';
 import ImpactCreated from '@/components/common/ImpactCreated';
@@ -7,9 +9,49 @@ import Testimonial from '@/components/common/Testimonial';
 import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 // Hero Images
-
 import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
 import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
+// Award Images
+import Award1 from '/public/assets/images/award/seo/1.png';
+import Award2 from '/public/assets/images/award/seo/2.png';
+import Award3 from '/public/assets/images/award/seo/3.png';
+import Award4 from '/public/assets/images/award/seo/4.png';
+import Award5 from '/public/assets/images/award/seo/5.png';
+// clients
+import client1 from '/public/assets/images/clients/ui-ux/1.png';
+import client2 from '/public/assets/images/clients/ui-ux/2.png';
+import client3 from '/public/assets/images/clients/ui-ux/3.png';
+import client4 from '/public/assets/images/clients/ui-ux/4.png';
+import client5 from '/public/assets/images/clients/ui-ux/5.png';
+const awards = [
+  { id: 1, img: Award1.src, name: 'Top rated ecommerce SEO agency' },
+  { id: 2, img: Award2.src, name: 'Forbes agency council official member' },
+  { id: 3, img: Award3.src, name: 'Top digital marketing company' },
+  { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
+  { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
+];
+const clients = [
+  {
+    id: 1,
+    img: client1.src,
+  },
+  {
+    id: 2,
+    img: client2.src,
+  },
+  {
+    id: 3,
+    img: client3.src,
+  },
+  {
+    id: 4,
+    img: client4.src,
+  },
+  {
+    id: 5,
+    img: client5.src,
+  },
+];
 
 const testimonials = [
   {
@@ -102,16 +144,8 @@ const SEO = () => {
         </h3>
       </div>
 
-      <TechStack
-        description={
-          <>
-            At Third Eye, we’re all about action. What are the{' '}
-            <br className='hidden sm:block' /> specific actions that fuel your
-            company's growth?{' '}
-          </>
-        }
-        classes='max-w-7xl'
-      />
+      <Clients clients={clients} />
+      <Awards awards={awards} />
       <OurWorks title='SEO Works' tag={'SEO'} />
       {/* <GrowWithUs /> */}
       <ImpactCreated />

@@ -1,4 +1,6 @@
+import Awards from '@/components/common/Awards';
 import Blogs from '@/components/common/Blogs';
+import Clients from '@/components/common/Clients';
 import FAQs from '@/components/common/FAQ/FAQs';
 import GrowWithUs from '@/components/common/GrowWithUs';
 import HeroSection from '@/components/common/HeroSection';
@@ -12,6 +14,53 @@ import Layout from '@/components/Layout';
 import hero1 from '/public/assets/gif/sub-services/web-application/1.gif';
 import hero2 from '/public/assets/gif/sub-services/web-application/2.gif';
 import hero3 from '/public/assets/gif/sub-services/web-application/3.gif';
+// Award Images
+import Award1 from '/public/assets/images/award/web-apps/1.png';
+import Award2 from '/public/assets/images/award/web-apps/2.png';
+import Award3 from '/public/assets/images/award/web-apps/3.png';
+import Award4 from '/public/assets/images/award/web-apps/4.png';
+import Award5 from '/public/assets/images/award/web-apps/5.png';
+// clients
+import client1 from '/public/assets/images/clients/web-apps/1.png';
+import client2 from '/public/assets/images/clients/web-apps/2.png';
+import client3 from '/public/assets/images/clients/web-apps/3.png';
+import client4 from '/public/assets/images/clients/web-apps/4.png';
+import client5 from '/public/assets/images/clients/web-apps/5.png';
+import client6 from '/public/assets/images/clients/web-apps/6.png';
+
+const awards = [
+  { id: 1, img: Award1.src, name: 'Top rated ecommerce SEO agency' },
+  { id: 2, img: Award2.src, name: 'Forbes agency council official member' },
+  { id: 3, img: Award3.src, name: 'Top digital marketing company' },
+  { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
+  { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
+];
+const clients = [
+  {
+    id: 1,
+    img: client1.src,
+  },
+  {
+    id: 2,
+    img: client2.src,
+  },
+  {
+    id: 3,
+    img: client3.src,
+  },
+  {
+    id: 4,
+    img: client4.src,
+  },
+  {
+    id: 5,
+    img: client5.src,
+  },
+  {
+    id: 6,
+    img: client6.src,
+  },
+];
 
 const WebApplication = () => {
   return (
@@ -47,17 +96,8 @@ const WebApplication = () => {
           development process, and respond quickly to changing requirements.
         </h3>
       </div>
-
-      <TechStack
-        description={
-          <>
-            At Third Eye, we’re all about action. What are the{' '}
-            <br className='hidden sm:block' /> specific actions that fuel your
-            company's growth?{' '}
-          </>
-        }
-        classes='max-w-7xl'
-      />
+      <Clients clients={clients} />
+      <Awards awards={awards} />
       <OurWorks title={'Web Application Works'} tag='WEBAPPLICATION' />
       {/* <GrowWithUs /> */}
       <ImpactCreated />

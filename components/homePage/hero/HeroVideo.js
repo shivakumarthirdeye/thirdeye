@@ -24,7 +24,11 @@ const HeroVideo = () => {
         <div className=' container mx-auto w-full'>
           <div className='relative'>
             <video
+              onEnded={e => {
+                setIsPlaying(false);
+              }}
               muted={isMuted}
+              onChange={e => console.log(e)}
               ref={videoRef}
               src='/assets/videos/home.webm'
               poster='/assets/videos/home-poster.png'

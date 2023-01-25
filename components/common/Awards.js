@@ -14,13 +14,19 @@ const allAwards = [
   { id: 6, img: Award6.src, name: 'Best SEO company' },
 ];
 
-const Awards = () => {
+const Awards = ({ awards = allAwards }) => {
   return (
     <div>
       <div className='container mx-auto pb-10  px-4'>
         <h1 className='heading '>Awards & Recognition</h1>
-        <div className='grid grid-cols-3 gap-5 gap-y-8 lg:grid-cols-6 my-6 md:my-10'>
-          {allAwards.map(award => {
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: `repeat(auto-fit,minmax(200px,1fr))`,
+          }}
+          className={`my-6 md:my-10`}
+        >
+          {awards.map(award => {
             const { id, name, img } = award;
 
             return (
@@ -33,7 +39,7 @@ const Awards = () => {
                   alt=''
                   className='
                   min-w-[60px] min-h-[60px] max-h-[60px] max-w-[60px]
-                   sm:min-w-[110.19px] sm:min-h-[110.19px] sm:max-h-[110.19px] sm:max-w-[110.19px]  object-cover'
+                   sm:min-w-[110.19px] sm:min-h-[110.19px] sm:max-h-[110.19px] sm:max-w-[110.19px]  object-cover mix-blend-multiply'
                 />
                 <h1 className='text-[10px] sm:text-base max-w-[200.94px] my-4 text-center'>
                   {name}

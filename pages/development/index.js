@@ -34,7 +34,7 @@ const ourWorks = [
 
 const ourProcess = [
   {
-    id: 1,
+    id: 4,
     icon: (
       <>
         <svg
@@ -44,36 +44,22 @@ const ourProcess = [
           xmlns='http://www.w3.org/2000/svg'
         >
           <path
-            d='M31.9999 5.33203L58.6666 22.6654V41.332L31.9999 58.6654L5.33325 41.332V22.6654L31.9999 5.33203Z'
-            stroke='#7A59FF'
+            d='M53.3332 8H10.6666C7.72107 8 5.33325 10.3878 5.33325 13.3333V40C5.33325 42.9455 7.72107 45.3333 10.6666 45.3333H53.3332C56.2788 45.3333 58.6666 42.9455 58.6666 40V13.3333C58.6666 10.3878 56.2788 8 53.3332 8Z'
+            stroke='#20C0CA'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
           />
           <path
-            d='M32 58.6654V41.332'
-            stroke='#7A59FF'
+            d='M21.3333 56H42.6666'
+            stroke='#20C0CA'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
           />
           <path
-            d='M58.6666 22.668L31.9999 41.3346L5.33325 22.668'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M5.33325 41.3346L31.9999 22.668L58.6666 41.3346'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M32 5.33203V22.6654'
-            stroke='#7A59FF'
+            d='M32 45.332V55.9987'
+            stroke='#20C0CA'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
@@ -81,8 +67,8 @@ const ourProcess = [
         </svg>
       </>
     ),
-    title: 'MVP',
-    description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there. We specialise in developing striking solutions that demonstrate your minimum viable product's viability on the market.`,
+    title: 'Websites',
+    description: `We transform your ideas into a creative web platform that effectively represents your brand. Our expert developers offer a wide range of services to your company, including SEO-friendly web design, website development, and custom web app development to improve organisational functioning.`,
   },
   {
     id: 2,
@@ -147,7 +133,7 @@ const ourProcess = [
     description: `We design fully equipped mobile app solutions for the constantly evolving behaviour of customers. Our application development meets all digital needs across industries and is up to date on market trends and technologies. We incorporate advanced features and functionalities into every app we create.`,
   },
   {
-    id: 4,
+    id: 1,
     icon: (
       <>
         <svg
@@ -157,22 +143,36 @@ const ourProcess = [
           xmlns='http://www.w3.org/2000/svg'
         >
           <path
-            d='M53.3332 8H10.6666C7.72107 8 5.33325 10.3878 5.33325 13.3333V40C5.33325 42.9455 7.72107 45.3333 10.6666 45.3333H53.3332C56.2788 45.3333 58.6666 42.9455 58.6666 40V13.3333C58.6666 10.3878 56.2788 8 53.3332 8Z'
-            stroke='#20C0CA'
+            d='M31.9999 5.33203L58.6666 22.6654V41.332L31.9999 58.6654L5.33325 41.332V22.6654L31.9999 5.33203Z'
+            stroke='#7A59FF'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
           />
           <path
-            d='M21.3333 56H42.6666'
-            stroke='#20C0CA'
+            d='M32 58.6654V41.332'
+            stroke='#7A59FF'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
           />
           <path
-            d='M32 45.332V55.9987'
-            stroke='#20C0CA'
+            d='M58.6666 22.668L31.9999 41.3346L5.33325 22.668'
+            stroke='#7A59FF'
+            strokeWidth='5.33333'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+          />
+          <path
+            d='M5.33325 41.3346L31.9999 22.668L58.6666 41.3346'
+            stroke='#7A59FF'
+            strokeWidth='5.33333'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+          />
+          <path
+            d='M32 5.33203V22.6654'
+            stroke='#7A59FF'
             strokeWidth='5.33333'
             strokeLinecap='round'
             strokeLinejoin='round'
@@ -180,8 +180,8 @@ const ourProcess = [
         </svg>
       </>
     ),
-    title: 'Websites',
-    description: `We transform your ideas into a creative web platform that effectively represents your brand. Our expert developers offer a wide range of services to your company, including SEO-friendly web design, website development, and custom web app development to improve organisational functioning.`,
+    title: 'MVP',
+    description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there. We specialise in developing striking solutions that demonstrate your minimum viable product's viability on the market.`,
   },
 ];
 

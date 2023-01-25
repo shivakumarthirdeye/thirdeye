@@ -55,10 +55,6 @@ const megaMenuItems = [
         id: 4,
         name: 'Interaction',
       },
-      {
-        id: 5,
-        name: 'Illustrations',
-      },
     ],
   },
   {

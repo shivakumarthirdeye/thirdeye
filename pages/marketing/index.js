@@ -212,8 +212,6 @@ const marketing = () => {
 
       <HowWeWork steps={ourWorks} title='How We Create Incredible Products ' />
       <ServicesProcess />
-
-      <ServicesProcess works={ourProcess} />
       <Testimonial />
       <OurWorks />
       <ProjectRequirementForm />

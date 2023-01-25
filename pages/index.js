@@ -32,9 +32,9 @@ export default function Home() {
       <HowWeWork title='How we work' />
       <TechStack homePage />
       <Testimonial />
-      <div className='mt-24'>
+      <section>
         <ProjectRequirementForm />
-      </div>
+      </section>
     </Layout>
   );
 }

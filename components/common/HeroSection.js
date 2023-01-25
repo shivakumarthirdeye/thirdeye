@@ -23,7 +23,7 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
         <VioletLeft />
       </div>
       {hero1 && (
-        <div className='container h-[43vw] sm:h-[400px] md:h-[450px] lg:h-[450px] mt-10  max-w-7xl mb-[10px]  md:mt-[100px]  mx-auto relative '>
+        <div className='container h-[50vw] sm:h-[400px] md:h-[480px] lg:h-[600px] mt-10  max-w-7xl mb-[10px]  md:mt-[100px]  mx-auto relative '>
           <div className='absolute  sm:left-0'>
             <img
               className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'

@@ -12,18 +12,13 @@ const stacks = [
 
 const TechStack = ({ description, classes, homePage }) => {
   return (
-    <div className='my-10 md:my-20 relative'>
+    <section className='py-5 lg:py-10'>
       <div className={`container   mx-auto px-4`}>
         <div>
           <h1 className='heading lg:text-[62px]'>Tech stack used</h1>
-          {description ? (
+          {description && (
             <p className=' text-base sm:text-xl md:text-2xl lg:text-4xl lg:leading-[48.6px] text-black text-opacity-80 my-5'>
               {description}
-            </p>
-          ) : (
-            <p className=' text-base sm:text-xl md:text-2xl lg:text-4xl lg:leading-[48.6px] text-black text-opacity-80 my-5'>
-              At Third Eye, we’re all about action. What are the specific
-              actions that fuel your company's growth?{' '}
             </p>
           )}
         </div>
@@ -68,7 +63,7 @@ const TechStack = ({ description, classes, homePage }) => {
       <div className='absolute left-0 top-[-200px] z-[-10] overflow-hidden '>
         <GreenLeft />
       </div>
-    </div>
+    </section>
   );
 };
 

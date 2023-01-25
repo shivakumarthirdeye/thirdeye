@@ -849,6 +849,10 @@ const ProjectRequirementForm = () => {
   const isMd = useMediaQuery({
     query: '(min-width: 768px)',
   });
+  console.log(
+    '🚀 ~ file: ProjectRequirementForm.js:852 ~ ProjectRequirementForm ~ isMd',
+    isMd
+  );
   const initialValues = {
     name: '',
     email: '',
@@ -870,12 +874,12 @@ const ProjectRequirementForm = () => {
   const [book, setBook] = useState(false);
 
   return (
-    <section className='my-14 relative mb-28'>
+    <section className='py-5 lg:py-10'>
       <CalendlyModal open={book} toggleModal={() => setBook(prev => !prev)} />
-      <div className='container px-4 max-w-7xl mx-auto'>
+      <div className='container px-4  mx-auto'>
         <div className=' lg:flex  justify-between'>
           <div className='flex-1'>
-            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
+            <h1 className='heading'>
               Let’s create <br /> something great
             </h1>
             <div className='text-sm sm:text-base lg:text-xl text-black text-opacity-80 font-light my-5 md:leading-[30px]'>
@@ -942,7 +946,7 @@ const ProjectRequirementForm = () => {
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
                               fontSize: isMd ? '20px' : '16px',
-                              paddingBottom: '6px',
+                              paddingBottom: '10px',
                               '&:hover': {
                                 borderRadius: 0,
                                 borderColor: '#e5e7eb',

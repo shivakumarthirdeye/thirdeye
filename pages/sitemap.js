@@ -14,12 +14,12 @@ const siteLinks = [
       {
         id: 2,
         title: 'Services',
-        to: '/services',
+        to: '/process',
       },
       {
         id: 3,
         title: 'Let’s Talk',
-        to: '/services',
+        to: '/contact',
       },
       {
         id: 4,
@@ -80,13 +80,13 @@ const siteLinks = [
       },
       {
         id: 7,
-        title: 'Illustration',
-        to: '/design/illustration',
+        title: 'Graphic Design',
+        to: '/design/graphic-design',
       },
       {
-        id: 7,
-        title: 'Marketing',
-        to: '/design/marketing',
+        id: 8,
+        title: 'Interaction',
+        to: '/design/interaction',
       },
     ],
   },
@@ -95,14 +95,9 @@ const siteLinks = [
     title: 'Development',
     subLinks: [
       {
-        id: 5,
-        title: 'Frontend development',
-        to: '/development/front-end',
-      },
-      {
         id: 6,
-        title: 'Backend Development',
-        to: '/development/back-end',
+        title: 'Web Applications',
+        to: '/development/web-application',
       },
       {
         id: 7,
@@ -114,6 +109,11 @@ const siteLinks = [
         title: 'Websites',
         to: '/development/websites',
       },
+      {
+        id: 7,
+        title: 'MVP',
+        to: '/development/mvp',
+      },
     ],
   },
   {
@@ -121,24 +121,39 @@ const siteLinks = [
     title: 'Marketing',
     subLinks: [
       {
+        id: 1,
+        title: 'Social media management',
+        to: '/marketing/social-media-management',
+      },
+      {
+        id: 2,
+        title: 'SEO',
+        to: '/marketing/seo',
+      },
+      {
+        id: 3,
+        title: 'PCC',
+        to: '/marketing/pcc',
+      },
+      {
+        id: 4,
+        title: 'Email Marketing',
+        to: '/marketing/email-marketing',
+      },
+      {
         id: 5,
-        title: 'Social Media',
-        to: '/marketing/social-media',
+        title: 'Performance Marketing',
+        to: '/marketing/performance-marketing',
       },
       {
         id: 6,
-        title: 'Stategy',
-        to: '/marketing/stategy',
+        title: 'Brand Marketing',
+        to: '/marketing/brand-marketing',
       },
       {
         id: 7,
-        title: 'Copywriting',
-        to: '/marketing/copywriting',
-      },
-      {
-        id: 7,
-        title: 'Marketing',
-        to: '/marketing/marketing',
+        title: 'Content Writing',
+        to: '/marketing/content-writing',
       },
     ],
   },
