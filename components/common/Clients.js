@@ -81,6 +81,7 @@ const Clients = ({ clients = allClients, svg, title = 'Selected Clients' }) => {
 
             return (
               <img
+                loading='lazy'
                 className='w-auto mx-auto mix-blend-multiply'
                 src={img}
                 key={id}

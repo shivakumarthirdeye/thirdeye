@@ -13,7 +13,7 @@ const Social = ({ socialLinks }) => {
           return (
             <div key={id}>
               <a href={href} target='_blank' rel='noopener noreferrer'>
-                <img src={img} alt='' />
+                <img loading='lazy' src={img} alt='' />
               </a>
             </div>
           );

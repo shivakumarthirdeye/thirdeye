@@ -73,6 +73,7 @@ const ImgSwiperInfinite = ({ images, className, title, description }) => {
               <SwiperSlide key={idx} className='max-w-[900px]'>
                 <div>
                   <img
+                    loading='lazy'
                     src={item.img}
                     alt=''
                     className='w-[1000px] h-[500px] object-cover '

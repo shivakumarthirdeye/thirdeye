@@ -9,7 +9,12 @@ const FreebieItem = ({ item, toggleModal, setCurrentItem }) => {
   return (
     <div className='max-w-[400.18px] mx-auto'>
       <div className='cursor-pointer' onClick={handleClick}>
-        <img src={img} alt='' className='max-h-[391.14px] w-full' />
+        <img
+          loading='lazy'
+          src={img}
+          alt=''
+          className='max-h-[391.14px] w-full'
+        />
       </div>
       <div className='my-5'>
         <div className='flex justify-between'>

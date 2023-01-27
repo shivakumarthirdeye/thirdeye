@@ -157,7 +157,7 @@ const IndustriesWeServe = () => {
             return (
               <div key={id} className='flex gap-3 space-x-4'>
                 <div className='w-auto'>
-                  <img src={img} className='' alt='' />
+                  <img loading='lazy' src={img} className='' alt='' />
                 </div>
                 <div className='flex-1 '>
                   <h1 className='text-2xl font-medium text-black text-opacity-80'>

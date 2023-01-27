@@ -164,6 +164,8 @@ const Blogs = ({ data }) => {
                     <div>
                       <div>
                         <img
+                            loading='lazy'
+
                           src={getStrapiMedia(cover)}
                           className='w-full h-[216px] object-cover rounded-lg'
                           alt=''
@@ -227,6 +229,7 @@ const Blogs = ({ data }) => {
                     <div>
                       <div>
                         <img
+                          loading='lazy'
                           src={img.src}
                           className='w-full h-[216px] object-cover rounded-lg'
                           alt=''

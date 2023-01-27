@@ -127,6 +127,7 @@ const OurWorks = ({ title, currentPage, tag }) => {
                         <div>
                           <div>
                             <img
+                              loading='lazy'
                               src={thumbnail}
                               className='md:w-[374px] w-full h-[340px]  md:h-[436.01px] object-cover rounded-[20.67px]'
                               alt=''

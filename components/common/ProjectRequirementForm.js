@@ -1065,6 +1065,7 @@ const ProjectRequirementForm = () => {
               <div className='flex justify-between items-center'>
                 <div className='flex space-x-5 items-center'>
                   <img
+                    loading='lazy'
                     src={meetingImg.src}
                     alt=''
                     className='w-12 h-12 md:w-auto md:h-auto rounded-md  md:rounded-3xl'

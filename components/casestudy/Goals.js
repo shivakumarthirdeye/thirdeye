@@ -13,7 +13,12 @@ const Goals = ({ points, img, noId }) => {
           })}
         </div>
         <div className='max-w-6xl mx-auto my-5 md:my-10'>
-          <img src={img} className='w-full h-full rounded-[20px]' alt='' />
+          <img
+            loading='lazy'
+            src={img}
+            className='w-full h-full rounded-[20px]'
+            alt=''
+          />
         </div>
         <div>
           {points.slice(2, points.length).map((point, idx) => {
@@ -32,6 +37,7 @@ const Goals = ({ points, img, noId }) => {
                 {point.img && (
                   <div className={`  w-full lg:w-[500px] xl:w-[695px]`}>
                     <img
+                      loading='lazy'
                       src={point.img}
                       className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[694px]'
                       alt=''

@@ -31,6 +31,7 @@ const SummaryProblems = ({
           </div>
           <div className='max-w-6xl mx-auto my-8 md:my-5'>
             <img
+              loading='lazy'
               src={summaryImg}
               className='w-full max-h-[743.29px] object-cover rounded-[20px]'
               alt=''
@@ -61,6 +62,7 @@ const SummaryProblems = ({
         </div>
         <div className='max-w-6xl mx-auto my-5 md:my-5'>
           <img
+            loading='lazy'
             src={problemImg}
             className='w-full max-h-[743.29px] object-cover rounded-[20px]'
             alt=''

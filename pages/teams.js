@@ -114,6 +114,7 @@ const Teams = () => {
               >
                 <div>
                   <img
+                    loading='lazy'
                     src={img}
                     alt=''
                     className='max-h-[380.17px] md:max-h-fit'

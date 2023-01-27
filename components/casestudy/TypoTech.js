@@ -6,7 +6,7 @@ const TypoTech = ({ fontImg, techImg }) => {
           Font & Typography
         </h1>
         <div className='max-w-6xl  mx-auto my-5 md:my-12'>
-          <img src={fontImg} className='w-full' alt='' />
+          <img loading='lazy' src={fontImg} className='w-full' alt='' />
         </div>
       </div>
       {techImg && (
@@ -15,7 +15,7 @@ const TypoTech = ({ fontImg, techImg }) => {
             Tech Stack
           </h1>
           <div className='max-w-6xl  mx-auto my-5 md:my-12'>
-            <img src={techImg} className='w-full' alt='' />
+            <img loading='lazy' src={techImg} className='w-full' alt='' />
           </div>
         </div>
       )}

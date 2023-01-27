@@ -89,6 +89,7 @@ const AboutUs = () => {
         </div>
         <div className='w-full my-5 md:my-10 '>
           <img
+            loading='lazy'
             src={aboutImg.src}
             className='w-full h-full max-h-[763px] object-cover'
             alt=''
@@ -148,6 +149,7 @@ const AboutUs = () => {
                   key={id}
                 >
                   <img
+                    loading='lazy'
                     src={img}
                     className='w-full  max-h-[380.74px] object-cover'
                     alt=''

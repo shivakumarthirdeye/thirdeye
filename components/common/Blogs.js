@@ -172,6 +172,8 @@ const Blogs = props => {
                     <div>
                       <div>
                         <img
+                            loading='lazy'
+
                           src={getStrapiMedia(cover)}
                           className='w-full h-[216px] object-cover rounded-lg'
                           alt=''

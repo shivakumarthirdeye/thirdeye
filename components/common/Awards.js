@@ -35,6 +35,7 @@ const Awards = ({ awards = allAwards }) => {
                 className='flex justify-center  flex-col items-center'
               >
                 <img
+                  loading='lazy'
                   src={img}
                   alt=''
                   className='

@@ -133,6 +133,7 @@ const GraphicDesignWorks = ({ title, currentPage }) => {
                       <div>
                         <div>
                           <img
+                            loading='lazy'
                             src={image}
                             className='md:w-[374px] w-full h-[340px]  md:h-[436.01px] object-cover rounded-[20.67px]'
                             alt=''

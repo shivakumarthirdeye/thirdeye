@@ -140,6 +140,7 @@ const Portfolio = () => {
                       >
                         <div className='w-full'>
                           <img
+                            loading='lazy'
                             src={thumbnail}
                             alt=''
                             className='max-w-[350px] object-cover mx-auto w-full sm:mx-0'

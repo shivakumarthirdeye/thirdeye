@@ -40,6 +40,7 @@ const Functionality = ({
             </div>
             <div className='flex-1'>
               <img
+                loading='lazy'
                 src={image}
                 className='w-full  max-h-[518px] h-full object-contain'
                 alt=''
@@ -49,6 +50,7 @@ const Functionality = ({
           <div className='flex justify-between mt-20 max-w-7xl space-x-10 items-center mx-auto'>
             <div className='flex-1'>
               <img
+                loading='lazy'
                 src={resultImage}
                 className='w-full  max-h-[518px] h-full object-contain'
                 alt=''
@@ -96,6 +98,7 @@ const Functionality = ({
                 >
                   <div className={`flex-1 ${id % 2 === 0 && 'order-2'}`}>
                     <img
+                      loading='lazy'
                       src={img}
                       className='w-full max-w-[518px] max-h-[518px] h-full'
                       alt=''

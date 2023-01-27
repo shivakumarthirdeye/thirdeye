@@ -29,6 +29,7 @@ const TechStack = ({ description, classes, homePage }) => {
 
               return (
                 <img
+                  loading='lazy'
                   src={img}
                   className={`${
                     id === 4 ? 'hidden md:block' : ''
@@ -47,6 +48,7 @@ const TechStack = ({ description, classes, homePage }) => {
 
               return (
                 <img
+                  loading='lazy'
                   src={img}
                   className={`${
                     id === 4 ? 'hidden md:block' : ''
