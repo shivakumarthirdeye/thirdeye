@@ -849,10 +849,7 @@ const ProjectRequirementForm = () => {
   const isMd = useMediaQuery({
     query: '(min-width: 768px)',
   });
-  console.log(
-    '🚀 ~ file: ProjectRequirementForm.js:852 ~ ProjectRequirementForm ~ isMd',
-    isMd
-  );
+
   const initialValues = {
     name: '',
     email: '',

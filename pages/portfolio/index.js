@@ -26,7 +26,6 @@ const Portfolio = () => {
   };
 
   const [finalArray, setFinalArray] = useState(templates);
-  console.log('🚀 ~ file: index.js:29 ~ Portfolio ~ finalArray', finalArray);
 
   useEffect(() => {
     if (searchQuery) {
