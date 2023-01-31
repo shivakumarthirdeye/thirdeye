@@ -136,7 +136,7 @@ li::marker {
   margin: 0 !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .tabs-swiper .swiper-wrapper {
     justify-content: center !important;
   }
@@ -266,4 +266,8 @@ b {
 
 .css-1fdsijx-ValueContainer {
   padding: 0 !important;
+}
+
+.client-swiper .swiper-wrapper {
+  align-items: center !important;
 }

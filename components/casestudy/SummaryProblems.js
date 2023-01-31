@@ -10,12 +10,12 @@ const SummaryProblems = ({
 }) => {
   return (
     <section className=' my-10 px-4 relative'>
-      <div className='container mx-auto'>
+      <div className=' container mx-auto'>
         <div>
           <h2 className='text-sm md:text-base text-purple lg:text-xl xl:text-2xl'>
             Summary
           </h2>
-          <h1 className='mt-1 md:mt-4 md:!leading-[41px] text-textBlack lg:!leading-[51px] font-medium text-xl sm:text-2xl md:text-3xl lg:text-[35px]'>
+          <h1 className='mt-1 md:mt-4 md:!leading-[41px] text-textBlack lg:!leading-[51px] font-medium text-xl sm:text-2xl md:text-3xl lg:text-[35px] max-w-[1180px]'>
             {summaryHeading}
           </h1>
           <div className=' my-5 md:my-10'>
@@ -29,11 +29,11 @@ const SummaryProblems = ({
               );
             })}
           </div>
-          <div className='max-w-6xl mx-auto my-8 md:my-5'>
+          <div className=' mx-auto my-8 md:my-5'>
             <img
               loading='lazy'
               src={summaryImg}
-              className='w-full max-h-[743.29px] object-cover rounded-[20px]'
+              className='w-full max-h-[743.29px] object-cover '
               alt=''
             />
           </div>
@@ -60,11 +60,11 @@ const SummaryProblems = ({
             })}
           </ul>
         </div>
-        <div className='max-w-6xl mx-auto my-5 md:my-5'>
+        <div className=' mx-auto my-5 md:my-5'>
           <img
             loading='lazy'
             src={problemImg}
-            className='w-full max-h-[743.29px] object-cover rounded-[20px]'
+            className='w-full max-h-[743.29px] object-cover '
             alt=''
           />
         </div>

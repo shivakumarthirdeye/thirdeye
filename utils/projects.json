@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "LynkTown App and <br className='hidden sm:block'/> website",
+      "title": "LynkTown App and  website",
       "featured": true,
       "smallTitle": "LynkTown App",
       "thumbnail": "/assets/images/case-study/lynktown/thumbnail.png",
@@ -26,7 +26,7 @@
         {
           "id": 2,
           "title": "Industry",
-          "value": "Corporate Business"
+          "value": "Fashion Ecommerce"
         },
         {
           "id": 3,
@@ -151,7 +151,7 @@
       ],
       "description": "LYNKE is a mobile application that  allows you to create a customisable,  interactive business card ",
       "summary": {
-        "heading": "LYNKE is a mobile application that <br className='hidden sm:block'/> allows you to create a customisable,<br className='hidden sm:block'/>  interactive business card ",
+        "heading": "LYNKE is a mobile application that  allows you to create a customisable,  interactive business card ",
         "points": [
           "LYNKE is a mobile application that  allows you to create a customisable, interactive business card ",
           "This app creates interactive two-sided business cards. It is an effective networking tool as well as a powerful branding asset."
@@ -256,7 +256,7 @@
       ],
       "description": "Gigsasa is the job listing and  searching application for SMBs ",
       "summary": {
-        "heading": "Gigsasa is the job listing and <br className='hidden sm:block'/> searching application for SMBs  ",
+        "heading": "Gigsasa is the job listing and  searching application for SMBs  ",
         "points": [
           "Gigsasa is the job listing and searching application for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers. App will provide advanced search options to find jobs on location based, review based, hourly based, weekly based, preferences and category. ",
           "Goal was to provide jobs for SMBs  and Blue collar employees who are looking for hourly and weekly jobs like freelancers."
@@ -357,7 +357,7 @@
       ],
       "description": "U2 (Unique & Universal) is a fashion  and lifestyle digital ecosystem  mobile app and website ",
       "summary": {
-        "heading": "U2 (Unique & Universal) is a fashion <br className='hidden sm:block'/> and lifestyle digital ecosystem <br className='hidden sm:block'/> mobile app and website ",
+        "heading": "U2 (Unique & Universal) is a fashion  and lifestyle digital ecosystem  mobile app and website ",
         "points": [
           "U2 (Unique & Universal) is a mobile app and website of digital ecosystem for the fashion and lifestyle industry.Customers can shop for fashion wear based on their body estimations. You do not have to be a fashion designer with years of experience.",
           "U2 app offers opportunities for everyone, including fashion boutiques, artisans, stylists, and models. We team up with them to foster a stage that interfaces style and fashion designers or vendors with potential clients."
@@ -485,7 +485,7 @@
       ],
       "description": "An exclusive refresher app for the use of *Trade Finance* professionals. ",
       "summary": {
-        "heading": "An exclusive refresher app for  <br className='hidden sm:block'/>   the use of *Trade Finance*  <br className='hidden sm:block'/>   professionals.",
+        "heading": "An exclusive refresher app for     the use of *Trade Finance*     professionals.",
         "points": [
           "Instabytes is a mobile app that includes infographic content about various international banking rules and guidelines for conducting smooth import-export operations. It is a unique refresher app for professionals who use trade finance.",
           "Instabytes was looking for an IT services partner to help them improve their app for trade finance and professionals. They wanted to incorporate new technologies and provide all of the latest trade finance information."
@@ -585,7 +585,7 @@
       ],
       "description": "Dentotabs is a website which is India’s No.1 dental professionals recruitment platform. ",
       "summary": {
-        "heading": "Dentotabs is a website which is <br className='hidden sm:block'/>  India’s No.1 dental professionals <br className='hidden sm:block'/>  recruitment platform.  ",
+        "heading": "Dentotabs is a website which is   India’s No.1 dental professionals   recruitment platform.  ",
         "points": [
           "Dentotabs is India's leading dental professional recruitment platform. It is a dedicated job portal for dental professionals. They provide BDS and MDS doctors, dental assistants, dental technicians, and other allied staff to dental clinics and related organisations.",
           "Our vision is to exceed the industry’s expectations by providing the finest dental professionals"
@@ -617,7 +617,7 @@
           {
             "id": 3,
             "heading": "Providing the best dental professionals",
-            "description": "Dentotabs provides dental professionals and other allied staff to dental clinics and associated organizations. <br className='hidden sm:block'/> Recruit the professionals to meet the industry standards through our specially designed three-tier recruitment process.",
+            "description": "Dentotabs provides dental professionals and other allied staff to dental clinics and associated organizations.  Recruit the professionals to meet the industry standards through our specially designed three-tier recruitment process.",
             "img": "/assets/images/case-study/dentotabs/project2.png"
           }
         ]
@@ -680,7 +680,7 @@
       ],
       "description": "Amaar property offers high-quality apartments and office spaces",
       "summary": {
-        "heading": "Amaar property offers high-quality <br className='hidden sm:block'/> apartments and office spaces ",
+        "heading": "Amaar property offers high-quality  apartments and office spaces ",
         "points": [
           "Amaar Construction Company is our client. It offers high-quality apartments and office spaces in the UAE. The client eventually realised that dealing with residents offline was no longer necessary.",
           "As a result, they approached us to design a system that would convert client relationships to a digital format."
@@ -777,7 +777,7 @@
       ],
       "description": "Ajyal is a digital ecosystem mobile app and website for the e-commerce industry.",
       "summary": {
-        "heading": "Ajyal is a digital ecosystem mobile  <br className='hidden sm:block'/> app and website for the e-commerce  <br className='hidden sm:block'/> industry. ",
+        "heading": "Ajyal is a digital ecosystem mobile   app and website for the e-commerce   industry. ",
         "points": [
           "Ajayal is a simple and secure marketplace platform that allows people to discover and buy the products they want while providing an excellent user experience. This app also includes merchandising partnerships.",
           "Ajyal is an easy secure market place platform for people to discover and shop the products they love."
@@ -874,7 +874,7 @@
       ],
       "description": "One-stop solution for training and certification courses",
       "summary": {
-        "heading": "One-stop solution for training and <br className='hidden sm:block'/> certification courses.",
+        "heading": "One-stop solution for training and  certification courses.",
         "points": [
           "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
           "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
@@ -1518,7 +1518,7 @@
       "featured": true,
       "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
       "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
-      "slug": "rfq",
+      "slug": "clever-crop",
       "tag": "Design",
       "tags": [
         "WEBSITE",

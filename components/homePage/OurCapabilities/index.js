@@ -65,7 +65,7 @@ const subDevelopment = [
         organizational functioning.
       </>
     ),
-    to: '/development/website',
+    to: '/development/websites',
   },
   {
     id: 2,
@@ -79,7 +79,7 @@ const subDevelopment = [
         client-friendly and cost-effective services.
       </>
     ),
-    to: '/development/back-end',
+    to: '/development/web-application',
   },
   {
     id: 3,
@@ -123,7 +123,7 @@ const subMarketing = [
         through social media.
       </>
     ),
-    to: '/marketing/social-media',
+    to: '/marketing/social-media-management',
   },
   {
     id: 2,

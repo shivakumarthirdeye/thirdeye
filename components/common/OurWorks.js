@@ -137,7 +137,7 @@ const OurWorks = ({ title, currentPage, tag }) => {
                             <p className='text-[#4E53B7] font-bold mb-3'>
                               {tag}
                             </p>
-                            <h1 className='text-4xl capitalize  '>
+                            <h1 className='text-2xl md:text-3xl lg:text-4xl capitalize  '>
                               {smallTitle}
                             </h1>
                           </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = ({ heading, platform, industry, domain, classes, devDetails }) => {
   return (
     <section
-      className={`container my-10 md:my-14  lg:my-20 mx-auto px-4 ${classes}`}
+      className={`container  my-10 md:my-14  lg:my-20 mx-auto px-4 ${classes}`}
     >
       <h1 className='caseStudyHeading'>{heading}</h1>
       <div className='flex  gap-y-6 gap-8 lg:gap-12 flex-wrap md:flex-nowrap  max-w-6xl my-6'>

@@ -1,6 +1,6 @@
 const Social = ({ socialLinks }) => {
   return (
-    <div className='container mx-auto my-10 md:my-20 px-4'>
+    <div className='container  mx-auto my-10 md:my-20 px-4'>
       <div className='relative w-fit'>
         <h1 className='text-sm md:text-base text-black text-opacity-80 md:font-medium'>
           Click to know more:{' '}

@@ -254,15 +254,7 @@ const development = () => {
           />
         </div>
       </section>
-      <TechStack
-        description={
-          <>
-            At Third Eye, we’re all about action. What are the{' '}
-            <br className='hidden lg:block' /> specific actions that fuel your
-            company's growth?
-          </>
-        }
-      />
+      <TechStack />
       <Clients />
       <HowWeWork steps={ourWorks} title='How we Develop Incredible Products ' />
       <ServicesProcess works={ourProcess} />

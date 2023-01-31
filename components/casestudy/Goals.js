@@ -2,7 +2,7 @@ import React from 'react';
 
 const Goals = ({ points, img, noId }) => {
   return (
-    <section className='container mx-auto px-4'>
+    <section className='container  mx-auto px-4'>
       <div>
         <h2 className='text-sm md:text-base lg:text-xl xl:text-2xl text-purple '>
           Project Goals
@@ -12,11 +12,11 @@ const Goals = ({ points, img, noId }) => {
             return <Points key={point.id} noId={noId} {...point} />;
           })}
         </div>
-        <div className='max-w-6xl mx-auto my-5 md:my-10'>
+        <div className=' mx-auto my-5 md:my-10'>
           <img
             loading='lazy'
             src={img}
-            className='w-full h-full rounded-[20px]'
+            className='w-full h-full max-h-[763.42px] object-cover '
             alt=''
           />
         </div>
@@ -25,7 +25,7 @@ const Goals = ({ points, img, noId }) => {
             return (
               <div
                 key={point.id}
-                className='lg:flex grid gap-10 lg:gap-0 justify-center   my-10 lg:my-24'
+                className='lg:flex grid gap-10 lg:gap-0 justify-between   my-10 lg:my-24'
               >
                 <div
                   className={`${
@@ -35,11 +35,11 @@ const Goals = ({ points, img, noId }) => {
                   <Points {...point} />
                 </div>
                 {point.img && (
-                  <div className={`  w-full lg:w-[500px] xl:w-[695px]`}>
+                  <div className={`  w-full lg:w-[500px]  xl:w-[600px]`}>
                     <img
                       loading='lazy'
                       src={point.img}
-                      className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[694px]'
+                      className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[600px]'
                       alt=''
                     />
                   </div>

@@ -9,48 +9,23 @@ import Testimonial from '@/components/common/Testimonial';
 import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 // Hero Images
-import hero1 from '/public/assets/images/subServices/frontend/hero1.png';
-import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
+
+import hero1 from '/public/assets/gif/sub-services/seo/1.png';
+import hero2 from '/public/assets/gif/sub-services/seo/2.png';
+import hero3 from '/public/assets/gif/sub-services/seo/3.png';
 // Award Images
 import Award1 from '/public/assets/images/award/seo/1.png';
 import Award2 from '/public/assets/images/award/seo/2.png';
 import Award3 from '/public/assets/images/award/seo/3.png';
 import Award4 from '/public/assets/images/award/seo/4.png';
 import Award5 from '/public/assets/images/award/seo/5.png';
-// clients
-import client1 from '/public/assets/images/clients/ui-ux/1.png';
-import client2 from '/public/assets/images/clients/ui-ux/2.png';
-import client3 from '/public/assets/images/clients/ui-ux/3.png';
-import client4 from '/public/assets/images/clients/ui-ux/4.png';
-import client5 from '/public/assets/images/clients/ui-ux/5.png';
+
 const awards = [
   { id: 1, img: Award1.src, name: 'Top rated ecommerce SEO agency' },
   { id: 2, img: Award2.src, name: 'Forbes agency council official member' },
   { id: 3, img: Award3.src, name: 'Top digital marketing company' },
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
-];
-const clients = [
-  {
-    id: 1,
-    img: client1.src,
-  },
-  {
-    id: 2,
-    img: client2.src,
-  },
-  {
-    id: 3,
-    img: client3.src,
-  },
-  {
-    id: 4,
-    img: client4.src,
-  },
-  {
-    id: 5,
-    img: client5.src,
-  },
 ];
 
 const testimonials = [
@@ -118,6 +93,7 @@ const SEO = () => {
           <HeroSection
             hero1={hero1}
             hero2={hero2}
+            hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
                 Data-driven, SEO marketing specialists
@@ -144,7 +120,7 @@ const SEO = () => {
         </h3>
       </div>
 
-      <Clients clients={clients} />
+      <Clients tag='SEO' />
       <Awards awards={awards} />
       <OurWorks title='SEO Works' tag={'SEO'} />
       {/* <GrowWithUs /> */}

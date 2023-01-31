@@ -1,0 +1,150 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Arista",
+      "img": "/assets/images/clients/arista.png"
+    },
+    {
+      "id": 2,
+      "name": "Bytes",
+      "img": "/assets/images/clients/bytes.png",
+      "tags": [
+        "DESIGN",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Catch",
+      "img": "/assets/images/clients/catch.png",
+      "tags": [
+        "DESIGN"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Clever Crop",
+      "img": "/assets/images/clients/clever.png",
+      "tags": [
+        "SEO"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Detotabs",
+      "img": "/assets/images/clients/detotabs.png",
+      "tags": [
+        "DESIGN"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Confer K Tech",
+      "img": "/assets/images/clients/confer.png",
+      "tags": [
+        "DESIGN"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dhaatri",
+      "img": "/assets/images/clients/dhaatri.png",
+      "tags": [
+        "DESIGN",
+        "WEBAPP"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "E tutor World",
+      "img": "/assets/images/clients/etutor.png",
+      "tags": [
+        "SEO",
+        "DESIGN",
+        "WEBAPP"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jli Ajyal",
+      "img": "/assets/images/clients/jliajyal.png",
+      "tags": [
+        "DESIGN",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Kakud",
+      "img": "/assets/images/clients/kakud.png",
+      "tags": [
+        "DESIGN",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lynke",
+      "img": "/assets/images/clients/lynke.png",
+      "tags": [
+        "DESIGN",
+        "WEBAPP",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Lynk Town",
+      "img": "/assets/images/clients/lynktown.png",
+      "tags": [
+        "DESIGN",
+        "WEBAPP",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "People Tree Hospital",
+      "img": "/assets/images/clients/peopletree.png",
+      "tags": [
+        "SEO"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "RFQ",
+      "img": "/assets/images/clients/rfq.png",
+      "tags": [
+        "WEBAPP"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Shake Deal",
+      "img": "/assets/images/clients/shake.png",
+      "tags": [
+        "SEO",
+        "DESIGN",
+        "WEBAPP"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Spoc Learn",
+      "img": "/assets/images/clients/spoclearn.png",
+      "tags": [
+        "SEO",
+        "WEBAPP"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Trade Square",
+      "img": "/assets/images/clients/tradesquare.png",
+      "tags": [
+        "DESIGN"
+      ]
+    }
+  ]
+}

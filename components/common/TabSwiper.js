@@ -5,7 +5,7 @@ const TabSwiper = ({ items, active, setActive, work }) => {
   return (
     <div className=' py-3 md:py-4 px-2'>
       <Swiper
-        slidesPerView={1.2}
+        slidesPerView={1.5}
         className={work && 'tabs-swiper'}
         breakpoints={{
           350: {
@@ -21,7 +21,7 @@ const TabSwiper = ({ items, active, setActive, work }) => {
             spaceBetween: 1,
           },
           800: {
-            slidesPerView: 4.2,
+            slidesPerView: 3,
             spaceBetween: 1,
           },
 

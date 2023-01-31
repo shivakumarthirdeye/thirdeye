@@ -1,53 +1,10 @@
-import client1 from '/public/assets/images/clients/main/1.png';
-import client2 from '/public/assets/images/clients/main/2.png';
-import client3 from '/public/assets/images/clients/main/3.png';
-import client4 from '/public/assets/images/clients/main/4.png';
-import client5 from '/public/assets/images/clients/main/5.png';
-import client6 from '/public/assets/images/clients/main/6.png';
-import client7 from '/public/assets/images/clients/main/7.png';
-import client8 from '/public/assets/images/clients/main/8.png';
-import client9 from '/public/assets/images/clients/main/9.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import allClients from '@/utils/clients.json';
 
-const allClients = [
-  {
-    id: 1,
-    img: client1.src,
-  },
-  {
-    id: 2,
-    img: client2.src,
-  },
-  {
-    id: 3,
-    img: client3.src,
-  },
-  {
-    id: 4,
-    img: client4.src,
-  },
-  {
-    id: 5,
-    img: client5.src,
-  },
-  {
-    id: 6,
-    img: client6.src,
-  },
-  {
-    id: 7,
-    img: client7.src,
-  },
-  // {
-  //   id: 8,
-  //   img: client8.src,
-  // },
-  // {
-  //   id: 9,
-  //   img: client9.src,
-  // },
-];
+const { clients } = allClients;
 
-const Clients = ({ clients = allClients, svg, title = 'Selected Clients' }) => {
+const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
+  console.log('🚀 ~ file: Clients.js:16 ~ Clients ~ tag', tag);
   return (
     <div className='relative py-10 md:py-24 lg:py-28   overflow-hidden'>
       {svg && (
@@ -69,7 +26,80 @@ const Clients = ({ clients = allClients, svg, title = 'Selected Clients' }) => {
 
       <div className='container mx-auto  px-4'>
         <h1 className='heading lg:text-[64px] '>{title}</h1>
-        <div
+        <Swiper
+          slidesPerView={1.2}
+          spaceBetween={10}
+          className='mt-10 items-center client-swiper justify-center '
+          breakpoints={{
+            400: {
+              slidesPerView: 2.2,
+            },
+            500: {
+              slidesPerView: 3.2,
+            },
+            800: {
+              slidesPerView: 4.7,
+            },
+
+            1024: {
+              slidesPerView: 5,
+            },
+            // 1224: {
+            //   slidesPerView:
+            //     clients.filter(item => {
+            //       if (tag) {
+            //         return item?.tags?.includes(tag);
+            //       } else {
+            //         return item;
+            //       }
+            //     }).length > 7
+            //       ? 6.2
+            //       : 5,
+            // },
+            // 1440: {
+            //   slidesPerView:
+            //     clients.filter(item => {
+            //       if (tag) {
+            //         return item?.tags?.includes(tag);
+            //       } else {
+            //         return item;
+            //       }
+            //     }).length > 7
+            //       ? 7
+            //       : clients.filter(item => {
+            //           if (tag) {
+            //             return item?.tags?.includes(tag);
+            //           } else {
+            //             return item;
+            //           }
+            //         }).length,
+            // },
+          }}
+        >
+          {clients
+            .filter(item => {
+              if (tag) {
+                return item?.tags?.includes(tag);
+              } else {
+                return item;
+              }
+            })
+            .map(item => {
+              const { id, img, name } = item;
+              return (
+                <SwiperSlide key={item.id} className='justify-self-center '>
+                  <img
+                    title={name}
+                    loading='lazy'
+                    className='w-auto mx-auto mix-blend-multiply'
+                    src={img}
+                    key={id}
+                  />
+                </SwiperSlide>
+              );
+            })}
+        </Swiper>
+        {/* <div
           style={{
             display: 'grid',
             gridTemplateColumns: `repeat(auto-fit,minmax(200px,1fr))`,
@@ -88,7 +118,7 @@ const Clients = ({ clients = allClients, svg, title = 'Selected Clients' }) => {
               />
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

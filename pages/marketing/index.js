@@ -208,7 +208,7 @@ const marketing = () => {
           />
         </div>
       </section>
-      <Clients />
+      <Clients tag='SEO' />
 
       <HowWeWork steps={ourWorks} title='How We Create Incredible Products ' />
       <ServicesProcess />

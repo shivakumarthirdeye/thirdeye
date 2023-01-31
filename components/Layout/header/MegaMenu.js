@@ -15,7 +15,7 @@ const megaMenuItems = [
       },
       {
         id: 3,
-        name: 'PCC',
+        name: 'PPC',
       },
       {
         id: 4,

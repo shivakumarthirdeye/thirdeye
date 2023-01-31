@@ -18,7 +18,6 @@ const Functionality = ({
                 Solutions provided
               </h1>
               <p className='mt-6 text-textBlack  text-sm sm:text-lg md:text-xl lg:text-2xl '>
-                {' '}
                 {description}
               </p>
               <div className='ml-8  '>
@@ -83,24 +82,24 @@ const Functionality = ({
             <h2 className='text-sm md:text-base  text-blue '>
               SOLUTIONS PROVIDED
             </h2>
-            <h2 className='text-2xl  text-textBlack font-medium sm:text-3xl md:text-4xl lg:text-5xl my-2 md:my-5'>
+            <h2 className='text-2xl max-w-[1139px]  text-textBlack font-medium sm:text-3xl md:text-4xl lg:text-5xl my-2 md:my-5 lg:!leading-[58.09px]'>
               {highlight}
             </h2>
           </div>
-          <div className='flex justify-center items-center flex-col'>
+          <div className='flex justify-between items-center flex-col'>
             {features?.map(item => {
               const { id, img, title, points } = item;
 
               return (
                 <div
                   key={id}
-                  className={`  flex flex-col sm:flex-row max-w-6xl  sm:space-x-8 my-3 md:my-5 lg:my-14 `}
+                  className={` w-full  flex flex-col md:flex-row  md:space-x-8 my-3 md:my-5 lg:my-14 `}
                 >
                   <div className={`flex-1 ${id % 2 === 0 && 'order-2'}`}>
                     <img
                       loading='lazy'
                       src={img}
-                      className='w-full max-w-[518px] max-h-[518px] h-full'
+                      className='w-full min-h-max max-w-[518px] max-h-[518px] h-full'
                       alt=''
                     />
                   </div>

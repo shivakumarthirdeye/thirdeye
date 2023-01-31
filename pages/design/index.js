@@ -102,7 +102,7 @@ const design = () => {
           />
         </div>
       </section>
-      <Clients />
+      <Clients tag='DESIGN' />
       <HowWeWork steps={ourWorks} />
       <ServicesProcess />
       <Testimonial testimonials={testimonials} />

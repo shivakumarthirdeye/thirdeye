@@ -20,12 +20,6 @@ import Award2 from '/public/assets/images/award/mobile-apps/2.png';
 import Award3 from '/public/assets/images/award/mobile-apps/3.png';
 import Award4 from '/public/assets/images/award/mobile-apps/4.png';
 import Award5 from '/public/assets/images/award/mobile-apps/5.png';
-// clients
-import client1 from '/public/assets/images/clients/mobile-apps/1.png';
-import client2 from '/public/assets/images/clients/mobile-apps/2.png';
-import client3 from '/public/assets/images/clients/mobile-apps/3.png';
-import client4 from '/public/assets/images/clients/mobile-apps/4.png';
-import client5 from '/public/assets/images/clients/mobile-apps/5.png';
 
 const awards = [
   { id: 1, img: Award1.src, name: 'Top rated ecommerce SEO agency' },
@@ -33,28 +27,6 @@ const awards = [
   { id: 3, img: Award3.src, name: 'Top digital marketing company' },
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
-];
-const clients = [
-  {
-    id: 1,
-    img: client1.src,
-  },
-  {
-    id: 2,
-    img: client2.src,
-  },
-  {
-    id: 3,
-    img: client3.src,
-  },
-  {
-    id: 4,
-    img: client4.src,
-  },
-  {
-    id: 5,
-    img: client5.src,
-  },
 ];
 
 const MobileApps = () => {
@@ -103,7 +75,7 @@ const MobileApps = () => {
         }
         classes='max-w-7xl'
       /> */}
-      <Clients clients={clients} />
+      <Clients tag='MOBILE' />
       <Awards awards={awards} />
       <OurWorks title={'Mobile App Works'} tag='MOBILE' />
       {/* <GrowWithUs /> */}

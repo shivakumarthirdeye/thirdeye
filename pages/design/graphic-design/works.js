@@ -9,14 +9,11 @@ import OurWorks from '@/components/common/OurWorks';
 import TabSwiper from '@/components/common/TabSwiper';
 import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
+import LogoDesign from '@/components/sub-services/graphic-works/LogoDesign';
+import SocialMedia from '@/components/sub-services/graphic-works/SocialMedia';
+import VisitingCard from '@/components/sub-services/graphic-works/VisitingCard';
 import { useState } from 'react';
 // Hero Images
-
-import lynktownImg1 from '/public/assets/images/subServices/graphic-works/works/lynktown/1.png';
-import lynktownImg2 from '/public/assets/images/subServices/graphic-works/works/lynktown/2.png';
-import spoclearnImg1 from '/public/assets/images/subServices/graphic-works/works/spoclearn/1.png';
-import spoclearnImg2 from '/public/assets/images/subServices/graphic-works/works/spoclearn/2.png';
-import spoclearnImg3 from '/public/assets/images/subServices/graphic-works/works/spoclearn/3.png';
 
 const tabs = [
   {
@@ -31,43 +28,30 @@ const tabs = [
     id: 3,
     name: 'Social media',
   },
-  {
-    id: 4,
-    name: 'Banner design',
-  },
-  {
-    id: 5,
-    name: 'Flyer Designs',
-  },
-];
-
-const lynktownImages = [
-  {
-    id: 1,
-    img: lynktownImg1.src,
-  },
-  {
-    id: 2,
-    img: lynktownImg2.src,
-  },
-];
-const spoclearnImages = [
-  {
-    id: 1,
-    img: spoclearnImg1.src,
-  },
-  {
-    id: 2,
-    img: spoclearnImg2.src,
-  },
-  {
-    id: 3,
-    img: spoclearnImg3.src,
-  },
 ];
 
 const GraphicDesignWorks = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].name);
+  let Component;
+
+  switch (activeTab) {
+    case 'Social media': {
+      Component = SocialMedia;
+      break;
+    }
+    case 'Visiting cards': {
+      Component = VisitingCard;
+      break;
+    }
+    case 'Logo Designs': {
+      Component = LogoDesign;
+      break;
+    }
+    default: {
+      Component = null;
+      break;
+    }
+  }
 
   return (
     <Layout>
@@ -96,18 +80,8 @@ const GraphicDesignWorks = () => {
         active={activeTab}
         setActive={setActiveTab}
       />
-      <ImgSwiperInfinite
-        images={spoclearnImages}
-        className='bg-[#F6F6F6]'
-        title='Spoclearn'
-        description={`At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `}
-      />
-      <ImgSwiperInfinite
-        images={lynktownImages}
-        className='bg-[#FFFBE3]'
-        title='LynkTown'
-        description={`At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `}
-      />
+      {Component && <Component />}
+
       <Testimonial />
       <FAQs />
     </Layout>
