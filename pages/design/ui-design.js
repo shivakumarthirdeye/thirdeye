@@ -20,40 +20,13 @@ import Award2 from '/public/assets/images/award/web-apps/2.png';
 import Award3 from '/public/assets/images/award/web-apps/3.png';
 import Award4 from '/public/assets/images/award/web-apps/4.png';
 import Award5 from '/public/assets/images/award/web-apps/5.png';
-// clients
-import client1 from '/public/assets/images/clients/ui-ux/1.png';
-import client2 from '/public/assets/images/clients/ui-ux/2.png';
-import client3 from '/public/assets/images/clients/ui-ux/3.png';
-import client4 from '/public/assets/images/clients/ui-ux/4.png';
-import client5 from '/public/assets/images/clients/ui-ux/5.png';
+
 const awards = [
   { id: 1, img: Award1.src, name: 'Top rated ecommerce SEO agency' },
   { id: 2, img: Award2.src, name: 'Forbes agency council official member' },
   { id: 3, img: Award3.src, name: 'Top digital marketing company' },
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
-];
-const clients = [
-  {
-    id: 1,
-    img: client1.src,
-  },
-  {
-    id: 2,
-    img: client2.src,
-  },
-  {
-    id: 3,
-    img: client3.src,
-  },
-  {
-    id: 4,
-    img: client4.src,
-  },
-  {
-    id: 5,
-    img: client5.src,
-  },
 ];
 
 const testimonials = [
@@ -194,7 +167,7 @@ const UIDesign = () => {
           experience requirements of each of your customers.
         </h3>
       </div>
-      <Clients clients={clients} />
+      <Clients tag='UIUX' />
       <Awards awards={awards} />
       <section className=' my-20 relative'>
         <div className='container mx-auto px-4 overflow-hidden'>

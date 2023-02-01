@@ -11,7 +11,8 @@
       "img": "/assets/images/clients/bytes.png",
       "tags": [
         "DESIGN",
-        "MOBILE"
+        "MOBILE",
+        "UIUX"
       ]
     },
     {
@@ -35,7 +36,8 @@
       "name": "Detotabs",
       "img": "/assets/images/clients/detotabs.png",
       "tags": [
-        "DESIGN"
+        "DESIGN",
+        "UIUX"
       ]
     },
     {
@@ -43,7 +45,8 @@
       "name": "Confer K Tech",
       "img": "/assets/images/clients/confer.png",
       "tags": [
-        "DESIGN"
+        "DESIGN",
+        "UIUX"
       ]
     },
     {
@@ -100,7 +103,8 @@
       "tags": [
         "DESIGN",
         "WEBAPP",
-        "MOBILE"
+        "MOBILE",
+        "UIUX"
       ]
     },
     {
@@ -143,7 +147,8 @@
       "name": "Trade Square",
       "img": "/assets/images/clients/tradesquare.png",
       "tags": [
-        "DESIGN"
+        "DESIGN",
+        "UIUX"
       ]
     }
   ]

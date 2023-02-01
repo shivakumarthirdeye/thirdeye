@@ -4,7 +4,6 @@ import allClients from '@/utils/clients.json';
 const { clients } = allClients;
 
 const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
-  console.log('🚀 ~ file: Clients.js:16 ~ Clients ~ tag', tag);
   return (
     <div className='relative py-10 md:py-24 lg:py-28   overflow-hidden'>
       {svg && (
