@@ -12,7 +12,7 @@ const Functionality = ({
     <section className='container mx-auto px-4'>
       {description ? (
         <>
-          <div className='flex justify-between max-w-7xl space-x-10 items-center mx-auto'>
+          <div className='flex flex-col lg:flex-row justify-between max-w-7xl space-x-10 items-center mx-auto'>
             <div className='flex-1'>
               <h1 className='text-blue text-sm sm:text-lg md:text-xl lg:text-2xl '>
                 Solutions provided
@@ -37,7 +37,7 @@ const Functionality = ({
                 </ul>
               </div>
             </div>
-            <div className='flex-1'>
+            <div className='flex-1 mt-5 lg:mt-0'>
               <img
                 loading='lazy'
                 src={image}
@@ -46,8 +46,8 @@ const Functionality = ({
               />
             </div>
           </div>
-          <div className='flex justify-between mt-20 max-w-7xl space-x-10 items-center mx-auto'>
-            <div className='flex-1'>
+          <div className='flex flex-col lg:flex-row justify-between mt-20 max-w-7xl space-x-10 items-center mx-auto'>
+            <div className='flex-1 order-2 lg:order-1'>
               <img
                 loading='lazy'
                 src={resultImage}
@@ -55,7 +55,7 @@ const Functionality = ({
                 alt=''
               />
             </div>
-            <div className='flex-1'>
+            <div className='flex-1 order-1 lg:order-2'>
               <h1 className='text-blue text-sm sm:text-lg md:text-xl lg:text-2xl '>
                 Results
               </h1>

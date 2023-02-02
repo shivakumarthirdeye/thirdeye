@@ -22,34 +22,46 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
       <div className='absolute bottom-[-1350px] left-0 z-[-10]'>
         <VioletLeft />
       </div>
-      {hero1 && (
-        <div className='container h-[50vw] sm:h-[400px] md:h-[480px] lg:h-[600px] mt-10  max-w-7xl mb-[10px]  md:mt-[100px]  mx-auto relative '>
-          <div className='absolute  sm:left-0'>
-            <img
-              loading='lazy'
-              className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
-              src={hero1?.src}
-              alt=''
-            />
+      <div className='hidden md:block'>
+        {hero1 && (
+          <div className='container h-[50vw] sm:h-[400px] md:h-[480px] lg:h-[600px] mt-10  max-w-7xl mb-[10px]  md:mt-[100px]  mx-auto relative '>
+            <div className='absolute  sm:left-0'>
+              <img
+                loading='lazy'
+                className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
+                src={hero1?.src}
+                alt=''
+              />
+            </div>
+            <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
+              <img
+                loading='lazy'
+                className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
+                src={hero2?.src}
+                alt=''
+              />
+            </div>
+            <div className='absolute right-0 top-0'>
+              <img
+                loading='lazy'
+                className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
+                src={hero3?.src || hero1?.src}
+                alt=''
+              />
+            </div>
           </div>
-          <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
-            <img
-              loading='lazy'
-              className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
-              src={hero2?.src}
-              alt=''
-            />
-          </div>
-          <div className='absolute right-0 top-0'>
-            <img
-              loading='lazy'
-              className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
-              src={hero3?.src || hero1?.src}
-              alt=''
-            />
-          </div>
+        )}
+      </div>
+      <div className='block md:hidden'>
+        <div className='flex justify-center items-center my-10'>
+          <img
+            loading='lazy'
+            className=' max-h-[80vw] object-cover'
+            src={hero2?.src}
+            alt=''
+          />
         </div>
-      )}
+      </div>
     </div>
   );
 };
