@@ -23,12 +23,12 @@ const Client = () => {
   });
   return (
     <Layout showHeaderBtn={false}>
-      <section className='my-14 relative'>
-        <div className='container px-4 max-w-7xl mx-auto'>
-          <div className=' md:flex  justify-between'>
+      <section className='my-14 relative px-4'>
+        <div className='container   mx-auto border border-[#309FC9]  rounded-lg '>
+          <div className=' md:flex  justify-between p-4 sm:p-8 md:p-10 lg:p-16  '>
             <div className='flex-1'>
               <div className='max-w-md'>
-                <h1 className='text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
+                <h1 className='text-2xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
                   WANT TO BECOME A CLIENT?
                 </h1>
                 <p className='text-xl text-black text-opacity-80 font-light my-5 leading-[30px]'>
@@ -42,9 +42,6 @@ const Client = () => {
               </div>
             </div>
             <div className='flex-1'>
-              {/* <h1 className='text-xl underline mb-5 underline-offset-4 text-center md:text-2xl lg:text-3xl md:!leading-[64.8px]'>
-                GET A FREE PROPOSAL.
-              </h1> */}
               <ClientForm />
             </div>
           </div>

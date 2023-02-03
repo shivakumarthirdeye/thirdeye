@@ -22,9 +22,9 @@ const contact = () => {
   });
   return (
     <Layout showHeaderBtn={false}>
-      <section className='my-14 relative'>
-        <div className='container px-4 max-w-7xl mx-auto'>
-          <div className=' md:flex  justify-between'>
+      <section className='my-14 relative  px-4'>
+        <div className='container border border-[#309FC9]  rounded-lg mx-auto'>
+          <div className=' md:flex  justify-between p-4 sm:p-8 md:p-10 lg:p-16'>
             <div className='flex-1'>
               <h1 className='text-3xl md:text-4xl lg:text-5xl md:!leading-[64.8px]'>
                 Let’s create <br /> something great

@@ -25,7 +25,7 @@ const ClientForm = () => {
       validationSchema={validationSchema}
       // onSubmit={onSubmit}
     >
-      <Form className='flex-1 max-w-[545px] my-10 md:my-0 grid gap-12'>
+      <Form className='flex-1  my-10 md:my-0 grid gap-12'>
         <div className='w-full '>
           <Field
             type='text'
@@ -54,7 +54,7 @@ const ClientForm = () => {
             type='email'
             name='email'
             placeholder='Your Email?'
-            className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'
+            className='py-2 pb-4 placeholder:text-xl text-lg md:text-xl  outline-none border-b-2 w-full'
           />
           <ErrorMessage name='email'>
             {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -65,7 +65,7 @@ const ClientForm = () => {
             type='text'
             name='place'
             placeholder='Your city, country?'
-            className='py-2 pb-4 placeholder:text-xl text-xl  outline-none border-b-2 w-full'
+            className='py-2 pb-4 placeholder:text-xl text-lg md:text-xl  outline-none border-b-2 w-full'
           />
           <ErrorMessage name='place'>
             {msg => <p className='text-red-500 py-3'>{msg}*</p>}

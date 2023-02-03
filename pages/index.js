@@ -9,6 +9,7 @@ import TechStack from '@/components/homePage/TechStack';
 import OurCapabilities from '@/components/homePage/OurCapabilities';
 import IndustriesWeServe from '@/components/homePage/IndustriesWeServe';
 import ProjectRequirementForm from '@/components/common/ProjectRequirementForm';
+import HomeForm from '@/components/common/HomeForm';
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
       <TechStack homePage />
       <Testimonial />
       <section>
-        <ProjectRequirementForm />
+        <HomeForm />
       </section>
     </Layout>
   );
