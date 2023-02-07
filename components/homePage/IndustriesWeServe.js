@@ -64,7 +64,7 @@ const IndustriesWeServe = () => {
 
   return (
     <section className='relative py-10 md:py-16 lg:py-28  mt-10 my-0'>
-      <div className='absolute left-0 top-0 z-[-1] '>
+      <div className='hidden sm:block absolute left-0 top-0 z-[-1] '>
         <svg
           width='361'
           height='347'
@@ -106,7 +106,7 @@ const IndustriesWeServe = () => {
           </defs>
         </svg>
       </div>
-      <div className='absolute right-0 bottom-0 '>
+      <div className='hidden sm:block absolute right-0 bottom-0 '>
         <svg
           width='526'
           height='529'

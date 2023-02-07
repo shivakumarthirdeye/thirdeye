@@ -49,10 +49,11 @@ const HowWeWork = ({ steps, title }) => {
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-3xl sm:text-6xl md:text-7xl xl:text-8xl'>
+                  <h1 className='text-3xl text-center sm:text-left sm:text-6xl md:text-7xl xl:text-8xl'>
+                    <span className='sm:hidden'> 0{id} </span>
                     {title}
                   </h1>
-                  <p className='my-5  sm:text-xl lg:text-2xl max-w-[583px] text-black text-opacity-80'>
+                  <p className='my-5  sm:text-xl text-center sm:text-left lg:text-2xl max-w-[583px] text-black text-opacity-80'>
                     {description}
                   </p>
                   {idx !== howWork.length - 1 && (
@@ -64,16 +65,16 @@ const HowWeWork = ({ steps, title }) => {
           })}
         </div>
       </div>
-      <div className='absolute right-0 top-[40%] z-[-10] overflow-hidden '>
+      <div className='absolute right-0 top-[300px] sm:top-[0%] z-[-10] overflow-hidden '>
         <GreenRight />
       </div>
-      <div className='absolute top-[-200px] left-0 z-[-10]  overflow-hidden'>
+      <div className='absolute top-[-50px] left-0 z-[-10]  overflow-hidden'>
         <VioletLeft />
       </div>
-      <div className='absolute top-[25%] right-0 z-[-10]  overflow-hidden'>
+      <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
         <RightCircle />
       </div>
-      <div className='absolute top-[75%] left-0 z-[-10]  overflow-hidden'>
+      <div className='absolute  top-[25%] sm:top-[75%] left-0 z-[-10]  overflow-hidden'>
         <LeftCircle />
       </div>
     </section>

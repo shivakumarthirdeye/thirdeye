@@ -51,7 +51,7 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
   const { projects } = projectsData;
   return (
     <section id='projects' className='relative lg:my-36'>
-      <div className='absolute z-[-1]  right-0 top-[-700px]'>
+      <div className='absolute z-[-1]  right-0 top-[-400px] sm:top-[-700px]'>
         <GreenRight />
       </div>
       <div className='absolute z-[-1]  left-0 bottom-[500px]'>

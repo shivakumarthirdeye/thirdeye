@@ -1,5 +1,3 @@
-import { GreenRight } from '../../common/ShadeSVGs';
-import { HeroTextSVG } from '../../common/heroSVG';
 import HeroVideo from './HeroVideo';
 import HeroSection from '@/components/common/HeroSection';
 

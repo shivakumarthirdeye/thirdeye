@@ -12,7 +12,7 @@ const stacks = [
 
 const TechStack = ({ description, classes, homePage }) => {
   return (
-    <section className='py-5 lg:py-10'>
+    <section className='py-5 lg:py-10 relative'>
       <div className={`container   mx-auto px-4`}>
         <div>
           <h1 className='heading lg:text-[62px]'>Tech stack used</h1>

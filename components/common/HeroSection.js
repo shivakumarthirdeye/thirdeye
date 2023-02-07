@@ -4,7 +4,7 @@ import { GreenRight, VioletLeft } from './ShadeSVGs';
 
 const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
   return (
-    <div className=''>
+    <div className='relative'>
       <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80  !leading-[42px] sm:!leading-[48px] md:!leading-[70px] max-w-4xl font-semibold lg:!leading-[87.14px] z-10'>
         {content}
       </h1>
@@ -16,10 +16,10 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
       {/* <div className='absolute  top-[25%] md:top-[75%] z-[-10] right-[-5%] lg:right-0  '>
         <HeroTextSVG />
       </div> */}
-      <div className='absolute right-0 top-[-350px] z-[-10] '>
+      <div className='absolute right-0 top-[-200px] sm:top-[-350px] z-[-10] '>
         <GreenRight />
       </div>
-      <div className='absolute bottom-[-1350px] left-0 z-[-10]'>
+      <div className='absolute bottom-[-150px] sm:bottom-[-1350px] left-0 z-[-10]'>
         <VioletLeft />
       </div>
       <div className='hidden md:block'>
