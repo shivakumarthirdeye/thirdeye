@@ -3,7 +3,7 @@ import { GreenRight, VioletLeft } from '../common/ShadeSVGs';
 
 const Hero = ({ heading, platform, industry, domain, classes, devDetails }) => {
   return (
-    <section className={` my-10 md:my-14  lg:my-20  px-4 ${classes}`}>
+    <section className={`relative my-10 md:my-14  lg:my-20  px-4 ${classes}`}>
       <div className='absolute right-0 top-[-100px] sm:top-[-350px] z-[-10] '>
         <GreenRight />
       </div>

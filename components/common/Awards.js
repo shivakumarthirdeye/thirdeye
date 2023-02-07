@@ -1,3 +1,4 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Award1 from '/public/assets/images/award/award1.png';
 import Award2 from '/public/assets/images/award/award2.png';
 import Award3 from '/public/assets/images/award/award3.png';
@@ -19,7 +20,72 @@ const Awards = ({ awards = allAwards }) => {
     <div>
       <div className='container mx-auto pb-10  px-4'>
         <h1 className='heading '>Awards & Recognition</h1>
-        <div
+        <Swiper
+          slidesPerView={1.2}
+          spaceBetween={10}
+          className='mt-10 items-center client-swiper justify-center '
+          breakpoints={{
+            400: {
+              slidesPerView: 2.2,
+            },
+            500: {
+              slidesPerView: 3.2,
+            },
+            800: {
+              slidesPerView: 4.7,
+            },
+
+            1024: {
+              slidesPerView: 5,
+            },
+            // 1224: {
+            //   slidesPerView:
+            //     clients.filter(item => {
+            //       if (tag) {
+            //         return item?.tags?.includes(tag);
+            //       } else {
+            //         return item;
+            //       }
+            //     }).length > 7
+            //       ? 6.2
+            //       : 5,
+            // },
+            // 1440: {
+            //   slidesPerView:
+            //     clients.filter(item => {
+            //       if (tag) {
+            //         return item?.tags?.includes(tag);
+            //       } else {
+            //         return item;
+            //       }
+            //     }).length > 7
+            //       ? 7
+            //       : clients.filter(item => {
+            //           if (tag) {
+            //             return item?.tags?.includes(tag);
+            //           } else {
+            //             return item;
+            //           }
+            //         }).length,
+            // },
+          }}
+        >
+          {awards.map(item => {
+            const { id, img, name } = item;
+            return (
+              <SwiperSlide key={item.id} className='justify-self-center '>
+                <img
+                  title={name}
+                  loading='lazy'
+                  className='w-auto mx-auto mix-blend-multiply'
+                  src={img}
+                  key={id}
+                />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+        {/* <div
           style={{
             display: 'grid',
             gridTemplateColumns: `repeat(auto-fit,minmax(200px,1fr))`,
@@ -48,7 +114,7 @@ const Awards = ({ awards = allAwards }) => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );
