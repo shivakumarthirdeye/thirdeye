@@ -44,16 +44,16 @@ const HowWeWork = ({ steps, title }) => {
             return (
               <div className='flex  sm:my-8 lg:my-16' key={id}>
                 <div className='flex-[0.14]  hidden sm:block'>
-                  <h3 className='text-xl mt-8 sm:text-3xl md:text-4xl xl:text-5xl'>
+                  <h3 className='text-xl mt-8 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
                     0{id}
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-3xl text-center sm:text-left sm:text-6xl md:text-7xl xl:text-8xl'>
+                  <h1 className='text-3xl text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
                     <span className='sm:hidden'> 0{id} </span>
                     {title}
                   </h1>
-                  <p className='my-5  sm:text-xl text-center sm:text-left lg:text-2xl max-w-[583px] text-black text-opacity-80'>
+                  <p className='my-5  md:text-xl text-center sm:text-left lg:text-2xl max-w-[583px] text-black text-opacity-80'>
                     {description}
                   </p>
                   {idx !== howWork.length - 1 && (

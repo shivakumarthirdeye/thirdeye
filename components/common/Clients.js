@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import allClients from '@/utils/clients.json';
+import { Autoplay } from 'swiper';
 
 const { clients } = allClients;
 
@@ -26,8 +27,13 @@ const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
       <div className='container mx-auto  px-4'>
         <h1 className='heading lg:text-[64px] '>{title}</h1>
         <Swiper
-          slidesPerView={1.2}
-          spaceBetween={10}
+          slidesPerView={2}
+          spaceBetween={30}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
           className='mt-10 items-center client-swiper justify-center '
           breakpoints={{
             400: {

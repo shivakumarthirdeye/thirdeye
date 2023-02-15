@@ -390,73 +390,75 @@ const OurCapabilities = () => {
   }, []);
   return (
     <>
-      <div className='hidden overflow-hidden lg:block'>
-        <div id='container' className='relative pt-20'>
-          <div className='container mx-auto px-4 text-white   relative'>
-            <div id='pinSection' className='relative h-[90vh]'>
-              <h1 id='mainHeading' className='heading !text-white'>
-                Our Capabilities
-              </h1>
-              <div className='max-w-xl justify-items-end mx-auto my-16   relative'>
-                <div className='text-center -ml-[10vw]  xl:-ml-[6vw]'>
-                  <div className='relative'>
-                    <h2
-                      className='heading !text-white pb-4 absolute  top-0'
-                      id='titleText1'
-                    >
-                      Design
-                    </h2>
-                    <h2
-                      className='heading !text-white pb-4 absolute top-0'
-                      id='titleText2'
-                    >
-                      Development
-                    </h2>
-                    <h2
-                      className='heading !text-white pb-4 absolute top-0'
-                      id='titleText3'
-                    >
-                      Marketing
-                    </h2>
-                  </div>
-                  <div className='relative p-5 xl:p-0'>
-                    <Link href='/design'>
-                      <a
-                        id='link1'
-                        className='text-right text-lg my-14  xl:my-20 block absolute w-[120px] left-0'
+      <div className='hidden overflow-hidden relative lg:block'>
+        <div id='container' className=' pt-20'>
+          <div className=' mx-auto px-4 text-white   '>
+            <div id='pinSection' className='  h-[90vh]'>
+              <div className='container'>
+                <h1 id='mainHeading' className='heading !text-white'>
+                  Our Capabilities
+                </h1>
+                <div className='max-w-xl justify-items-end mx-auto my-16   relative'>
+                  <div className='text-center -ml-[10vw]  xl:-ml-[6vw]'>
+                    <div className='relative'>
+                      <h2
+                        className='heading !text-white pb-4 absolute  top-0'
+                        id='titleText1'
                       >
-                        <span className='relative'>
-                          Learn more
-                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />
-                          -&gt;
-                        </span>
-                      </a>
-                    </Link>
+                        Design
+                      </h2>
+                      <h2
+                        className='heading !text-white pb-4 absolute top-0'
+                        id='titleText2'
+                      >
+                        Development
+                      </h2>
+                      <h2
+                        className='heading !text-white pb-4 absolute top-0'
+                        id='titleText3'
+                      >
+                        Marketing
+                      </h2>
+                    </div>
+                    <div className='relative p-5 xl:p-0'>
+                      <Link href='/design'>
+                        <a
+                          id='link1'
+                          className='text-right text-lg my-14  xl:my-20 block absolute w-[120px] left-0'
+                        >
+                          <span className='relative'>
+                            Learn more
+                            <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />
+                            -&gt;
+                          </span>
+                        </a>
+                      </Link>
 
-                    <Link href='/development'>
-                      <a
-                        id='link2'
-                        className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
-                      >
-                        <span className='relative'>
-                          Learn more
-                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
-                          -&gt;
-                        </span>
-                      </a>
-                    </Link>
-                    <Link href='/marketing'>
-                      <a
-                        id='link3'
-                        className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
-                      >
-                        <span className='relative'>
-                          Learn more
-                          <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
-                          -&gt;
-                        </span>
-                      </a>
-                    </Link>
+                      <Link href='/development'>
+                        <a
+                          id='link2'
+                          className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
+                        >
+                          <span className='relative'>
+                            Learn more
+                            <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
+                            -&gt;
+                          </span>
+                        </a>
+                      </Link>
+                      <Link href='/marketing'>
+                        <a
+                          id='link3'
+                          className='text-right text-lg hidden my-14 xl:my-20  absolute w-[120px] left-0'
+                        >
+                          <span className='relative'>
+                            Learn more
+                            <div className='w-[85%] absolute bottom-0 bg-white h-[2px] left-0' />{' '}
+                            -&gt;
+                          </span>
+                        </a>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -471,7 +473,7 @@ const OurCapabilities = () => {
             </div>
             <div
               id='total-items'
-              className='absolute  right-1 lg:right-[5vw] top-48'
+              className='absolute lg:right-[8vw] xl:right-[15vw] top-48'
             >
               <div className='grid gap-96'>
                 <div id='design-section'>

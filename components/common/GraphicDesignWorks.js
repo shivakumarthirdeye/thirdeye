@@ -30,7 +30,7 @@ const GraphicDesignWorks = ({ title, currentPage }) => {
   return (
     <>
       <section className='my-20 relative'>
-        <div className='container mx-auto px-4 overflow-hidden'>
+        <div className='container  overflow-hidden'>
           <h1 className='heading'>{title || 'Graphic Design Works'}</h1>
           <div className='my-20  sm:px-0 container  mx-auto'>
             <Swiper

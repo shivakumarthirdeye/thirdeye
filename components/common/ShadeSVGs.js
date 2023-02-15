@@ -318,7 +318,7 @@ export const LeftCircle = () => {
   return (
     <>
       <svg
-        className='sm:hidden'
+        className='md:hidden'
         width='100'
         height='171'
         viewBox='0 0 100 171'
@@ -332,9 +332,7 @@ export const LeftCircle = () => {
         />
       </svg>
       <svg
-        className='hidden sm:block'
-        width='442'
-        height='605'
+        className='hidden md:block lg:w-[350px] md:w-[250px] h-[420px] lg:h-[520px] xl:w-[442px]  xl:h=[605px]'
         viewBox='0 0 442 605'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
@@ -353,7 +351,7 @@ export const RightCircle = () => {
   return (
     <>
       <svg
-        className='sm:hidden '
+        className='md:hidden '
         width='85'
         height='171'
         viewBox='0 0 85 171'
@@ -368,7 +366,7 @@ export const RightCircle = () => {
       </svg>
 
       <svg
-        className='hidden sm:block'
+        className='hidden md:block lg:w-[350px] md:w-[250px] h-[420px] lg:h-[520px] xl:w-[442px]  xl:h=[605px]'
         width='362'
         height='585'
         viewBox='0 0 362 585'

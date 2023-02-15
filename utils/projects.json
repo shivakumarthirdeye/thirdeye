@@ -1,6 +1,284 @@
 {
   "projects": [
     {
+      "id": 9,
+      "title": "SpocLearn website",
+      "featured": true,
+      "smallTitle": "SpocLearn",
+      "featuredVideo": "/assets/images/case-study/spoc/featured.mp4",
+      "thumbnail": "/assets/images/case-study/spoc/thumbnail.png",
+      "slug": "spoclearn",
+      "tag": "Design & Development",
+      "tags": [
+        "SEO",
+        "SOCIAL",
+        "DEVELOPMENT",
+        "UI",
+        "GRAPHIC"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Web",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "eLearning"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "One-stop solution for training and certification courses",
+      "summary": {
+        "heading": "One-stop solution for training and  certification courses.",
+        "points": [
+          "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
+          "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
+        ],
+        "img": "/assets/images/case-study/spoc/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Users were disappointed because they did not receive the exact product shown on the websites.",
+          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
+          "There were no product recommendations while browsing",
+          "Policy complexity."
+        ],
+        "img": "/assets/images/case-study/spoc/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/spoc/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective eLearning segment website."
+          },
+          {
+            "id": 2,
+            "heading": "Developing knowledge",
+            "description": "Professional certification courses are required for a group of mid-level experienced professionals.To target 190+ countries, To generate 3 Cr + revenue for the 1st year of operation, Increase team size to be 25+"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "We created a high-quality user interface for this website for users to find relevant information.",
+              "Through a learning partner, provide certification training.",
+              "Professional certification courses are required for a group of mid-level experienced professionals.",
+              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
+            ],
+            "img": "/assets/images/case-study/spoc/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/spoc/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "The clever corp",
+      "smallTitle": "The clever corp",
+      "featured": true,
+      "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
+      "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
+      "slug": "clever-crop",
+      "tag": "Design",
+      "tags": [
+        "WEBSITE",
+        "WEBAPPLICATION",
+        "MOBILE",
+        "MVP"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Engineering Company"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+      "summary": {
+        "heading": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+        "points": [
+          "They require a platform for buyers and sellers where the customer can give his requirement, the admin reviews it and passes it on to suppliers, suppliers submit bids to the admin, and the admin processes it and gives the customer a quote. When a customer accepts the quote and makes the payment on the RFQ platform, the supplier is notified and the work begins. When the work is finished, the customer marks the request as complete."
+        ],
+        "img": "/assets/images/case-study/rfq/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "The client wants a home page that includes information about them, how to contact them, why they should choose them, customer FAQs, supplier FAQs, and a slider section. It should also include registration buttons for customers and suppliers.",
+          "Improve overall aesthetic and user experience and make the site more authentic and engaging.",
+          "Drive conversion of site visitors into contacts and ultimately customers.",
+          "Establish SEO foundations to increase search engine traffic and drive future growth.",
+          "An impressive UI that’s uncluttered and simple to use with neatly designed dashboards.",
+          "A growing platform requires expertise on multiple fronts, requiring a dedicated software team to be available at all times."
+        ],
+        "img": "/assets/images/case-study/rfq/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/rfq/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Provide a total procurement solution for engineering companies and industries.",
+            "points": [
+              "They require a web application to provide a total procurement solution for engineering companies and industries.",
+              "The home page should have a section about us, contact us, why choose us, Customer FAQ, Supplier FAQ and a slider section.",
+              "It should also contain buttons for customer and supplier registration.",
+              "Easily navigable website to make it useful for farmers."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "We planned the user testing sessions and the main screens that needed to be created for those testing days. We created a platform for buyers and sellers where the customer can submit his requirements, the admin reviews them and forwards them to suppliers, suppliers submit bids to the admin, and the admin processes them and provides a quote to the customer. When the customer accepts the quote and pays on the RFQ platform, the supplier is notified, and the work begins. When the work is finished, the customer marks the request as completed.",
+        "img": "/assets/images/case-study/rfq/solution.png"
+      },
+      "results": {
+        "points": [
+          "Boost site speed to 97% during launch; boost conversion rate to 9.7%.Enhanced user productivity.",
+          "Sales have increased.",
+          "Lower customer support costs."
+        ],
+        "img": "/assets/images/case-study/rfq/result.png"
+      },
+      "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
+      "font": "/assets/images/case-study/rfq/font.png",
+      "tech": "/assets/images/case-study/rfq/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kakud With a robust farming App, we implemented a future-ready technology to explore more challenging areas.",
+      "featured": true,
+      "smallTitle": "Kakud",
+      "thumbnail": "/assets/images/case-study/kakud/thumbnail.png",
+      "slug": "kakud",
+      "tag": "Design & Development",
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Agriculture"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
+      "summary": {
+        "heading": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
+        "points": [
+          "Farming now becomes easier no matter where you are, either in the urban city or the traditional farmer in the village."
+        ],
+        "img": "/assets/images/case-study/kakud/summary.png"
+      },
+      "problem": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/kakud/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/kakud/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist e-commerce app  that is easy to use farmers.",
+            "points": [
+              "Our main objective was to focus on key issues by using a User-Centred Design process.",
+              "Create a simple, minimalist e-commerce app that is easy to use.",
+              "To find how we as a society can help farmers to make the switch"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
+        "img": "/assets/images/case-study/kakud/solution1.png"
+      },
+      "results": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/kakud/solution2.png"
+      },
+      "review": "I appreciate Third Eye Innovations Team's work quality and commitment to completing agreed-upon project work on time and with quality.",
+      "font": "/assets/images/case-study/kakud/font.png",
+      "tech": "/assets/images/case-study/kakud/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "LynkTown App and  website",
       "featured": true,
@@ -840,188 +1118,6 @@
       ]
     },
     {
-      "id": 9,
-      "title": "SpocLearn website",
-      "featured": true,
-      "smallTitle": "SpocLearn website",
-      "featuredVideo": "/assets/images/case-study/spoc/featured.mp4",
-      "thumbnail": "/assets/images/case-study/spoc/thumbnail.png",
-      "slug": "spoclearn",
-      "tag": "Design & Development",
-      "tags": [
-        "SEO",
-        "SOCIAL",
-        "DEVELOPMENT",
-        "UI",
-        "GRAPHIC"
-      ],
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Web",
-          "value": "App & Web"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "eLearning"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "Design + Development"
-        }
-      ],
-      "description": "One-stop solution for training and certification courses",
-      "summary": {
-        "heading": "One-stop solution for training and  certification courses.",
-        "points": [
-          "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
-          "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
-        ],
-        "img": "/assets/images/case-study/spoc/summary.png"
-      },
-      "problem": {
-        "heading": "Why to design this app?",
-        "points": [
-          "Users were disappointed because they did not receive the exact product shown on the websites.",
-          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
-          "There were no product recommendations while browsing",
-          "Policy complexity."
-        ],
-        "img": "/assets/images/case-study/spoc/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/spoc/project1.png",
-        "points": [
-          {
-            "id": 1,
-            "heading": "Impress with Efficient UX/UI Design",
-            "description": "We strived to provide stunning UX/UI solutions within simple yet effective eLearning segment website."
-          },
-          {
-            "id": 2,
-            "heading": "Developing knowledge",
-            "description": "Professional certification courses are required for a group of mid-level experienced professionals.To target 190+ countries, To generate 3 Cr + revenue for the 1st year of operation, Increase team size to be 25+"
-          }
-        ]
-      },
-      "solutions": {
-        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
-        "solutionPoints": [
-          {
-            "id": 1,
-            "title": "User Panel",
-            "points": [
-              "We created a high-quality user interface for this website for users to find relevant information.",
-              "Through a learning partner, provide certification training.",
-              "Professional certification courses are required for a group of mid-level experienced professionals.",
-              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
-            ],
-            "img": "/assets/images/case-study/spoc/solution1.png"
-          }
-        ]
-      },
-      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
-      "font": "/assets/images/case-study/spoc/font.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Kakud With a robust farming App, we implemented a future-ready technology to explore more challenging areas.",
-      "featured": true,
-      "smallTitle": "Kakud",
-      "thumbnail": "/assets/images/case-study/kakud/thumbnail.png",
-      "slug": "kakud",
-      "tag": "Design & Development",
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Platform",
-          "value": "App"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "Agriculture"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "Design + Development"
-        }
-      ],
-      "description": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
-      "summary": {
-        "heading": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
-        "points": [
-          "Farming now becomes easier no matter where you are, either in the urban city or the traditional farmer in the village."
-        ],
-        "img": "/assets/images/case-study/kakud/summary.png"
-      },
-      "problem": {
-        "points": [
-          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
-          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
-          "Accurate and relevant information is displayed."
-        ],
-        "img": "/assets/images/case-study/kakud/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/kakud/project1.png",
-        "noId": true,
-        "points": [
-          {
-            "id": 1,
-            "heading": "Minimalist e-commerce app  that is easy to use farmers.",
-            "points": [
-              "Our main objective was to focus on key issues by using a User-Centred Design process.",
-              "Create a simple, minimalist e-commerce app that is easy to use.",
-              "To find how we as a society can help farmers to make the switch"
-            ]
-          }
-        ]
-      },
-      "solutions": {
-        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
-        "img": "/assets/images/case-study/kakud/solution1.png"
-      },
-      "results": {
-        "points": [
-          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
-          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
-          "Accurate and relevant information is displayed."
-        ],
-        "img": "/assets/images/case-study/kakud/solution2.png"
-      },
-      "review": "I appreciate Third Eye Innovations Team's work quality and commitment to completing agreed-upon project work on time and with quality.",
-      "font": "/assets/images/case-study/kakud/font.png",
-      "tech": "/assets/images/case-study/kakud/tech.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
       "id": 11,
       "title": "IWOWD How We Designed A Fashion Ecommerce Website To Boost Online Sales?",
       "smallTitle": "iwowd",
@@ -1430,102 +1526,6 @@
       "thumbnail": "/assets/images/case-study/rfq/thumbnail.png",
       "slug": "rfq",
       "tag": "Design & Development",
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Platform",
-          "value": "Web App"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "Engineering Company"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "Design + Development"
-        }
-      ],
-      "description": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
-      "summary": {
-        "heading": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
-        "points": [
-          "They require a platform for buyers and sellers where the customer can give his requirement, the admin reviews it and passes it on to suppliers, suppliers submit bids to the admin, and the admin processes it and gives the customer a quote. When a customer accepts the quote and makes the payment on the RFQ platform, the supplier is notified and the work begins. When the work is finished, the customer marks the request as complete."
-        ],
-        "img": "/assets/images/case-study/rfq/summary.png"
-      },
-      "problem": {
-        "heading": "Why to design this Website?",
-        "points": [
-          "The client wants a home page that includes information about them, how to contact them, why they should choose them, customer FAQs, supplier FAQs, and a slider section. It should also include registration buttons for customers and suppliers.",
-          "Improve overall aesthetic and user experience and make the site more authentic and engaging.",
-          "Drive conversion of site visitors into contacts and ultimately customers.",
-          "Establish SEO foundations to increase search engine traffic and drive future growth.",
-          "An impressive UI that’s uncluttered and simple to use with neatly designed dashboards.",
-          "A growing platform requires expertise on multiple fronts, requiring a dedicated software team to be available at all times."
-        ],
-        "img": "/assets/images/case-study/rfq/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/rfq/project1.png",
-        "noId": true,
-        "points": [
-          {
-            "id": 1,
-            "heading": "Provide a total procurement solution for engineering companies and industries.",
-            "points": [
-              "They require a web application to provide a total procurement solution for engineering companies and industries.",
-              "The home page should have a section about us, contact us, why choose us, Customer FAQ, Supplier FAQ and a slider section.",
-              "It should also contain buttons for customer and supplier registration.",
-              "Easily navigable website to make it useful for farmers."
-            ]
-          }
-        ]
-      },
-      "solutions": {
-        "description": "We planned the user testing sessions and the main screens that needed to be created for those testing days. We created a platform for buyers and sellers where the customer can submit his requirements, the admin reviews them and forwards them to suppliers, suppliers submit bids to the admin, and the admin processes them and provides a quote to the customer. When the customer accepts the quote and pays on the RFQ platform, the supplier is notified, and the work begins. When the work is finished, the customer marks the request as completed.",
-        "img": "/assets/images/case-study/rfq/solution.png"
-      },
-      "results": {
-        "points": [
-          "Boost site speed to 97% during launch; boost conversion rate to 9.7%.Enhanced user productivity.",
-          "Sales have increased.",
-          "Lower customer support costs."
-        ],
-        "img": "/assets/images/case-study/rfq/result.png"
-      },
-      "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
-      "font": "/assets/images/case-study/rfq/font.png",
-      "tech": "/assets/images/case-study/rfq/tech.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "The clever corp",
-      "smallTitle": "The clever corp",
-      "featured": true,
-      "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
-      "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
-      "slug": "clever-crop",
-      "tag": "Design",
-      "tags": [
-        "WEBSITE",
-        "WEBAPPLICATION",
-        "MOBILE",
-        "MVP"
-      ],
       "devDetails": [
         {
           "id": 1,

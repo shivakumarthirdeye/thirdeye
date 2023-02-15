@@ -16,7 +16,7 @@ const OurWorks = ({ title, currentPage, tag }) => {
       </div>
 
       <section className='hidden sm:block my-20 relative'>
-        <div className='container mx-auto px-4 overflow-hidden'>
+        <div className='container  overflow-hidden'>
           <h1 className='heading'>{title || 'Our Works'}</h1>
           <div className='my-20  sm:px-0 container  mx-auto'>
             <Swiper

@@ -63,7 +63,7 @@ const IndustriesWeServe = () => {
   ];
 
   return (
-    <section className='relative py-10 md:py-16 lg:py-28  mt-10 my-0'>
+    <section className='relative py-10 md:py-16 lg:py-28  !m-0'>
       <div className='hidden sm:block absolute left-0 top-0 z-[-1] '>
         <svg
           width='361'
@@ -148,7 +148,7 @@ const IndustriesWeServe = () => {
           </defs>
         </svg>
       </div>
-      <div className='container mx-auto px-4 '>
+      <div className='container  '>
         <h1 className='heading'>Industries we serve</h1>
         <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
           {industries.map(item => {

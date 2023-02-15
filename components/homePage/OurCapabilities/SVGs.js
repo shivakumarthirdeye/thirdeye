@@ -2,7 +2,7 @@ export const PenSVG = () => {
   return (
     <svg
       id='SVG1'
-      className='w-[550px] h-[70vh] absolute bottom-0 left-[-10vw]'
+      className='w-[550px] h-[60vh] absolute bottom-[-0px] left-[-15px]'
       viewBox='0 0 889 973'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -61,7 +61,7 @@ export const TvSVG = () => {
   return (
     <svg
       id='SVG3'
-      className='w-[550px] opacity-0 h-[70vh] absolute bottom-0 left-[-10vw]'
+      className='w-[550px] opacity-0 h-[60vh] absolute bottom-[-15px] left-[-15px]'
       viewBox='0 0 632 914'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -109,7 +109,7 @@ export const BoxSVG = () => {
   return (
     <svg
       id='SVG2'
-      className='w-[550px] opacity-0 h-[70vh] absolute bottom-0 left-[-10vw]'
+      className='w-[550px] opacity-0 h-[60vh] absolute bottom-0 left-[-15px]'
       viewBox='0 0 755 815'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -197,7 +197,7 @@ export const Circle3 = () => {
 export const Circle2 = () => {
   return (
     <svg
-      className='absolute z-10 top-[-10rem] right-[-12rem]'
+      className='absolute z-10 top-[-150px] right-[-20px]'
       width={270}
       height={336}
       viewBox='0 0 270 336'
@@ -230,9 +230,9 @@ export const Circle2 = () => {
 export const Circle1 = () => {
   return (
     <svg
-      className='absolute z-10 top-[-5rem] left-[-12rem]'
-      width={234}
-      height={425}
+      className='absolute z-10 top-[-20px] left-[-100px]'
+      width={304}
+      height={305}
       viewBox='0 0 234 425'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

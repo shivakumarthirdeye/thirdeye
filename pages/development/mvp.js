@@ -16,7 +16,7 @@ const Websites = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -39,7 +39,7 @@ const Websites = () => {
         </div>
       </section>
 
-      <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
+      <div className='sm:mt-24 mt-14  my-10 container '>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
           Third Eye Innovations, the best <b> MVP development company</b>, can
           transform your idea into a scalable product more quickly.

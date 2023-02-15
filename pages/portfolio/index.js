@@ -63,7 +63,7 @@ const Portfolio = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             content={
               <span className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl md:!leading-[115px]'>
@@ -73,7 +73,7 @@ const Portfolio = () => {
           />
         </div>
       </section>
-      <section className='container mx-auto px-4'>
+      <section className='container '>
         <div className=' md:grid  md:grid-cols-[300px_1fr] gap-10 my-16'>
           <div className='max-w-[300px] mt-[240px] bg-white h-fit w-full border rounded-lg border-blue'>
             <div className='px-3 border-b text-3xl font-semibold border-blue py-4'>

@@ -91,7 +91,7 @@ const design = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             content={
               <>

@@ -65,7 +65,7 @@ const testimonialInfo = [
 const Testimonial = ({ testimonials = testimonialInfo }) => {
   return (
     <section>
-      <div className='container mx-auto px-4'>
+      <div className='container '>
         <h1 className='heading lg:[64px]'>What people say about us</h1>
       </div>{' '}
       <div className='my-10 md:my-20 px-4 sm:px-0'>

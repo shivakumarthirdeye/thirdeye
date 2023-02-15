@@ -5,15 +5,15 @@ import { GreenRight, VioletLeft } from './ShadeSVGs';
 const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
   return (
     <div className=''>
-      <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-black text-opacity-80  !leading-[42px] sm:!leading-[48px] md:!leading-[70px] max-w-4xl font-semibold lg:!leading-[87.14px] z-10'>
+      <h1 className='text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-black text-opacity-80  sm:!leading-[48px] lg:!leading-[70px] max-w-4xl font-semibold xl:!leading-[87.14px] z-10'>
         {content}
       </h1>
       {description && (
-        <p className='mt-3 max-w-3xl lg:mt-6 text-lg md:!leading-[35.4px]  sm:text-xl  lg:text-2xl text-black text-opacity-80'>
+        <p className='mt-3 max-w-3xl xl:mt-6 text-xl lg:!leading-[35.4px]  sm:text-xl  xl:text-2xl text-black text-opacity-80'>
           {description}
         </p>
       )}
-      {/* <div className='absolute  top-[25%] md:top-[75%] z-[-10] right-[-5%] lg:right-0  '>
+      {/* <div className='absolute  top-[25%] lg:top-[75%] z-[-10] right-[-5%] xl:right-0  '>
         <HeroTextSVG />
       </div> */}
       <div className='absolute right-0 top-[-200px] sm:top-[-350px] z-[-10] '>
@@ -22,9 +22,9 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
       <div className='absolute bottom-[-150px] sm:bottom-[-1350px] left-0 z-[-10]'>
         <VioletLeft />
       </div>
-      <div className='hidden md:block'>
+      <div className='hidden lg:block'>
         {hero1 && (
-          <div className='container h-[50vw] sm:h-[400px] md:h-[480px] lg:h-[600px] mt-10  max-w-7xl mb-[10px]  md:mt-[100px]  mx-auto relative '>
+          <div className='container h-[50vw] sm:h-[400px] lg:h-[480px] xl:h-[600px] mt-10  max-w-7xl mb-[10px]  lg:mt-[100px]  mx-auto relative '>
             <div className='absolute  sm:left-0'>
               <img
                 loading='lazy'
@@ -52,16 +52,18 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
           </div>
         )}
       </div>
-      <div className='block md:hidden'>
-        <div className='flex justify-center items-center my-10'>
-          <img
-            loading='lazy'
-            className=' max-h-[80vw] object-cover'
-            src={hero2?.src}
-            alt=''
-          />
+      {hero2?.src && (
+        <div className='block lg:hidden'>
+          <div className='flex justify-center items-center my-10'>
+            <img
+              loading='lazy'
+              className=' max-h-[80vw] object-cover'
+              src={hero2?.src}
+              alt=''
+            />
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

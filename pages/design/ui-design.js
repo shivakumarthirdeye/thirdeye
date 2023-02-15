@@ -136,7 +136,7 @@ const UIDesign = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -160,7 +160,7 @@ const UIDesign = () => {
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container mx-auto px-4'>
+      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container '>
         <h3 className=' text-lg sm:text-2xl  xl:text-4xl max-w-[954px] sm:leading-[38px] lg:leading-[48.6px] text-black text-opacity-80'>
           We develop distinctive UI designs that give you an edge over your
           rivals by fusing current design trends with the specific user
@@ -170,7 +170,7 @@ const UIDesign = () => {
       <Clients tag='UIUX' />
       <Awards awards={awards} />
       <section className=' my-20 relative'>
-        <div className='container mx-auto px-4 overflow-hidden'>
+        <div className='container  overflow-hidden'>
           <div className='flex items-center  justify-between'>
             <h1 className='heading'>Interaction Works</h1>
 

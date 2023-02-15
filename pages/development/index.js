@@ -248,7 +248,7 @@ const development = () => {
   return (
     <Layout>
       <section className='my-5 sm:my-10 lg:my-20 relative overflow-x-clip mb-10 sm:mb-24 md: lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             content={<>Developing meaningful brands and impactful products.</>}
           />

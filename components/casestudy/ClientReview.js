@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClientReview = ({ review }) => {
   return (
-    <section className='my-10 container mx-auto px-4'>
+    <section className='my-10 container '>
       <div>
         <h2 className='text-sm md:text-base  text-black text-opacity-80'>
           {' '}

@@ -66,7 +66,7 @@ const GraphicDesign = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -88,7 +88,7 @@ const GraphicDesign = () => {
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container mx-auto px-4'>
+      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container '>
         <h3 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[954px] lg:leading-[48.6px] text-black text-opacity-80'>
           Our talented designers can produce an outstanding online presence for
           your business by combining professionalism with incredible creativity.

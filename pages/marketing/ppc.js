@@ -80,7 +80,7 @@ const SEO = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -103,7 +103,7 @@ const SEO = () => {
         </div>
       </section>
 
-      <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
+      <div className='sm:mt-24 mt-14  my-10 container '>
         <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
           You can create your own PPC advertising campaign with the assistance
           of Third Eye. Additionally, we develop a plan to access your websites
