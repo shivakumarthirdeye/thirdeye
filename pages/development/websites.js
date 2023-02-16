@@ -36,10 +36,8 @@ const testimonials = [
     userId: '@staphania',
     review: (
       <>
-        "They created ideas. The product displayed information clearly and
-        smoothly tracked user data. Third Eye Innovations UX design
-        distinguishes itself through efficient coding practices and stunning
-        design concepts.
+        "Their dedication to raising design standards and their promise of
+        on-time delivery make them a dependable partner.
       </>
     ),
     date: '23rd April ',
@@ -51,8 +49,11 @@ const testimonials = [
     userId: '@Joseph',
     review: (
       <>
-        "Their dedication to raising design standards and their promise of
-        on-time delivery make them a dependable partner.
+        "They created ideas. The product displayed information clearly and
+        smoothly tracked user data.
+        <br />
+        <br /> Third Eye Innovations UX design distinguishes itself through
+        efficient coding practices and stunning design concepts.
       </>
     ),
     date: '23rd April ',
@@ -86,7 +87,6 @@ const testimonials = [
     date: '23rd April ',
   },
 ];
-
 const Websites = () => {
   return (
     <Layout>
@@ -98,30 +98,30 @@ const Websites = () => {
             hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
-                Responsive web design attracts high-converting leads.
+                Website Developement
               </span>
             }
             description={
               <>
-                A wide range of web development services is available from us.
-                We develop high-performance, feature-rich custom websites and
-                offer services that are catered to your company's needs and
-                goals. Our talented team of programmers provides a wide range of
-                web development and programming services, from SaaS applications
-                and service integrations to CMS-based websites.
+                A wide range of <b>web development</b> services is available
+                from us. We develop high-performance, feature-rich custom
+                websites and offer services that are catered to your company's
+                needs and goals.
+              </>
+            }
+            smallDescription={
+              <>
+                Our talented team of programmers provides a wide range of web
+                development and programming services, from SaaS applications and
+                service integrations to CMS-based websites. Third Eye
+                Innovations is the best website development company, and we will
+                be delighted to assist you in establishing a strong online
+                presence through our best web design and development services.
               </>
             }
           />
         </div>
       </section>
-
-      <div className='sm:mt-24 mt-14  my-10 container '>
-        <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          Third Eye Innovations is the best <b>website development company</b>,
-          and we will be delighted to assist you in establishing a strong online
-          presence through our best web design and development services.
-        </h3>
-      </div>
 
       <Clients />
       <Awards awards={awards} />

@@ -42,7 +42,7 @@ const TechStack = ({ description, classes, homePage }) => {
             })}
           </div>
         ) : (
-          <div className='my-20 grid grid-cols-3 place-items-center gap-x-5 gap-y-10 md:gap-12  max-w-7xl mx-auto'>
+          <div className='my-20 grid grid-cols-3 place-items-center  max-w-4xl mx-auto'>
             {stacks.slice(0, 3).map(item => {
               const { id, img, name } = item;
 

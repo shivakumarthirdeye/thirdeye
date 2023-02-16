@@ -49,7 +49,7 @@ const HowWeWork = ({ steps, title }) => {
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-3xl text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl'>
+                  <h1 className='text-3xl text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-[90px]'>
                     <span className='sm:hidden'> 0{id} </span>
                     {title}
                   </h1>

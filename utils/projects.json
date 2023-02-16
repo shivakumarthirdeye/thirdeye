@@ -100,7 +100,7 @@
     },
     {
       "id": 15,
-      "title": "The clever corp",
+      "title": "Increase your organic traffic by 51%- Clever Corp SEO Case Study",
       "smallTitle": "The clever corp",
       "featured": true,
       "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
@@ -117,24 +117,23 @@
         {
           "id": 1,
           "title": "Platform",
-          "value": "Web App"
+          "value": "Website"
         },
         {
           "id": 2,
           "title": "Industry",
-          "value": "Engineering Company"
+          "value": "Real estate"
         },
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design + Development"
+          "value": "SEO"
         }
       ],
-      "description": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+      "description": "Clever Corp is a leading professional Business Setup consultant in Dubai, offering world-class services by assisting locals and expats in establishing their businesses or corporations in Dubai and other emirates with varying jurisdictions. They provide 'tailored solutions to companies of various sizes' to get started quickly and with a seamless approach.",
       "summary": {
-        "heading": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
         "points": [
-          "They require a platform for buyers and sellers where the customer can give his requirement, the admin reviews it and passes it on to suppliers, suppliers submit bids to the admin, and the admin processes it and gives the customer a quote. When a customer accepts the quote and makes the payment on the RFQ platform, the supplier is notified and the work begins. When the work is finished, the customer marks the request as complete."
+          "Clever Corp is a leading professional Business Setup consultant in Dubai, offering world-class services by assisting locals and expats in establishing their businesses or corporations in Dubai and other emirates with varying jurisdictions. They provide 'tailored solutions to companies of various sizes' to get started quickly and with a seamless approach."
         ],
         "img": "/assets/images/case-study/rfq/summary.png"
       },

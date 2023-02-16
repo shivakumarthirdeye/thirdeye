@@ -871,10 +871,10 @@ const ProjectRequirementForm = () => {
   const [book, setBook] = useState(false);
 
   return (
-    <section className='py-5 lg:py-10 '>
+    <section className='py-5 lg:py-10 px-4 sm:px-0 '>
       <CalendlyModal open={book} toggleModal={() => setBook(prev => !prev)} />
       <div className='container px-4  mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between p-16 '>
+        <div className=' lg:flex  justify-between  p-2 sm:p-8 md:p-10 lg:p-16 '>
           <div className='flex-1'>
             <h1 className='heading'>
               Let’s create <br /> something great
@@ -901,7 +901,7 @@ const ProjectRequirementForm = () => {
                           type='text'
                           name='name'
                           placeholder='What’s your name?'
-                          className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='name'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -913,7 +913,7 @@ const ProjectRequirementForm = () => {
                           type='email'
                           name='email'
                           placeholder='Your Email?'
-                          className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='email'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -922,7 +922,7 @@ const ProjectRequirementForm = () => {
                     </div>
                     <div className='md:flex  md:space-x-5'>
                       <div className='relative w-full mb-8'>
-                        <div className='absolute z-10 top-2 right-0'>
+                        <div className='absolute z-10 top-2 right-0 pointer-events-none'>
                           <HiChevronDown className='text-2xl text-black text-opacity-60' />
                         </div>
 
@@ -943,7 +943,8 @@ const ProjectRequirementForm = () => {
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
                               fontSize: '18px',
-                              paddingBottom: '14px',
+                              paddingBottom: '17.1px',
+                              cursor: 'pointer',
                               '&:hover': {
                                 borderRadius: 0,
                                 borderColor: '#e5e7eb',
@@ -953,6 +954,7 @@ const ProjectRequirementForm = () => {
                               ...style,
                               fontSize: '18px',
                               color: '#9ca3af',
+                              margin: '0',
                             }),
                           }}
                         />
@@ -966,7 +968,7 @@ const ProjectRequirementForm = () => {
                           type='text'
                           name='company'
                           placeholder='Company Name'
-                          className='py-1 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-1 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='company'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -996,7 +998,7 @@ const ProjectRequirementForm = () => {
                             borderBottom: '2px solid #e5e7eb',
                             boxShadow: 'none',
                             fontSize: '18px',
-                            paddingBottom: '6px',
+                            paddingBottom: '16px',
                             '&:hover': {
                               borderRadius: 0,
                               borderColor: '#e5e7eb',
@@ -1004,8 +1006,9 @@ const ProjectRequirementForm = () => {
                           }),
                           placeholder: style => ({
                             ...style,
-                            paddingBottom: '14px',
+                            fontSize: '18px',
                             color: '#9ca3af',
+                            margin: '0',
                           }),
                         }}
                       />
@@ -1024,7 +1027,7 @@ const ProjectRequirementForm = () => {
                         as='textarea'
                         name='message'
                         placeholder='Tell us about your project :)'
-                        className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full h-[150px] resize-none'
+                        className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full h-[150px] resize-none'
                       />
                       <ErrorMessage name='message'>
                         {msg => <p className='text-red-500 py-3'>{msg}*</p>}

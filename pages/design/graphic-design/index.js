@@ -73,27 +73,22 @@ const GraphicDesign = () => {
             hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
-                DESIGN IS NOT ABOUT HOW IT LOOKS, BUT ABOUT HOW IT WORKS.
+                Graphic Design
               </span>
             }
             description={
               <>
-                In the market for creative designing services agencies, Third
-                Eye Innovations is a reputable service provider of graphic
-                design services. Prospective customers may remember your brand
-                for a long time due to our graphic designs.
+                Design is not about how it looks, but how it works. In the
+                market for creative designing services agencies, Third Eye
+                Innovations is a reputable service provider of graphic design
+                services.
               </>
             }
+            smallDescription={`Prospective customers may remember your brand for a long time due to our graphic designs. Our talented designers can produce an outstanding online presence for your business by combining professionalism with incredible creativity.`}
           />
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container '>
-        <h3 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[954px] lg:leading-[48.6px] text-black text-opacity-80'>
-          Our talented designers can produce an outstanding online presence for
-          your business by combining professionalism with incredible creativity.
-        </h3>
-      </div>
       <Clients title='Selected Clients' />
       <Awards />
       <GraphicDesignWorks />

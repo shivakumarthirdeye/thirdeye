@@ -867,18 +867,16 @@ const HomeForm = () => {
         /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
         'Phone number is not valid'
       ),
-    website: Yup.string()
-      .required('Website is required')
-      .matches(
-        /((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/,
-        'Website Url is not valid!'
-      ),
+    website: Yup.string().matches(
+      /((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/,
+      'Website Url is not valid!'
+    ),
   });
 
   return (
     <section className='py-5 lg:py-10 px-4 '>
       <div className='container   mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between p-4 sm:p-8 md:p-10 lg:p-16 '>
+        <div className=' lg:flex  justify-between p-2 sm:p-8 md:p-10 lg:p-16 '>
           <div className='flex-1'>
             <h1 className='heading'>
               Let’s create <br /> something great
@@ -937,7 +935,7 @@ const HomeForm = () => {
                         </ErrorMessage>
                       </div>
                       <div className='relative w-full '>
-                        <div className='absolute z-10 top-2 right-0'>
+                        <div className='absolute z-10 top-2 right-0 cursor-pointer pointer-events-none'>
                           <HiChevronDown className='text-2xl text-black text-opacity-60' />
                         </div>
 
@@ -958,7 +956,8 @@ const HomeForm = () => {
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
                               fontSize: '18px',
-                              paddingBottom: '13px',
+                              paddingBottom: '16px',
+                              cursor: 'pointer',
                               '&:hover': {
                                 borderRadius: 0,
                                 borderColor: '#e5e7eb',
@@ -968,6 +967,7 @@ const HomeForm = () => {
                               ...style,
                               fontSize: '18px',
                               color: '#9ca3af',
+                              margin: '0',
                             }),
                           }}
                         />
@@ -1002,7 +1002,7 @@ const HomeForm = () => {
                     </div>
 
                     <div className='relative'>
-                      <div className='absolute z-10 top-2 right-0'>
+                      <div className='absolute z-10 top-2 right-0 pointer-events-none'>
                         <HiChevronDown className='text-2xl text-black text-opacity-60' />
                       </div>
 
@@ -1023,7 +1023,9 @@ const HomeForm = () => {
                             borderBottom: '2px solid #e5e7eb',
                             boxShadow: 'none',
                             fontSize: '18px',
-                            paddingBottom: '6px',
+                            paddingBottom: '15px',
+                            cursor: 'pointer',
+
                             '&:hover': {
                               borderRadius: 0,
                               borderColor: '#e5e7eb',
@@ -1033,6 +1035,7 @@ const HomeForm = () => {
                             ...style,
                             paddingBottom: '13px',
                             color: '#9ca3af',
+                            margin: '0',
                           }),
                         }}
                       />

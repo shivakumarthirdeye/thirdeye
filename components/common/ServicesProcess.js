@@ -159,12 +159,12 @@ const ourProcess = [
 
 const ServicesProcess = ({ works = ourProcess }) => {
   return (
-    <section className='container gap-5 grid  sm:grid-cols-2 lg:grid-cols-4 mx-auto  px-4'>
+    <section className='container gap-5 flex flex-wrap xl:flex-nowrap mx-auto  px-4'>
       {works.map(item => {
         const { id, icon, title, description } = item;
 
         return (
-          <div key={id} className='grid gap-3 md:gap-5 md:my-10 lg:my-20'>
+          <div key={id} className='grid gap-3 md:gap-5  my-5'>
             {icon}
             <h1 className=' text-2xl lg:text-3xl   font-medium'>{title}</h1>
             <p className='text-sm sm:text-base md:text-lg lg:text-xl text-black text-opacity-60'>

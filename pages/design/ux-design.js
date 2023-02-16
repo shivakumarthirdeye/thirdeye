@@ -26,6 +26,54 @@ const awards = [
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
 ];
+const faqs = [
+  {
+    id: 1,
+    title: 'How long will the procedure take?',
+    content:
+      'The length of time depends on the size of the project, but even a small UX process can take up to a month. To achieve the best results, the UX process should always include a review of the previous and current situation, measurement, redesign, implementation, testing, and remeasurement.',
+  },
+  {
+    id: 2,
+    title: `How can we tell if it's the best solution?`,
+    content:
+      'Prototyping and user testing are critical components of the User Experience process. This stage provides us with insights into how users interact with an app or website without requiring us to invest significant resources in the development process. This allows us to anticipate and avoid serious design and functionality issues in the final version. ',
+  },
+  {
+    id: 3,
+    title:
+      'What are some of the biggest trends in the UX design industry right now?',
+    content: (
+      <>
+        A good designer is going to be excited about this topic; the answer will
+        help you understand where their current focus lies. <br /> <br /> Also,
+        listen to how a UX designer keeps up with the industry—such as following
+        UX podcasts, reading UX blogs and books, attending webinars and online
+        training courses for ongoing learning, etc.
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: 'Who owns the design and code files?',
+    content:
+      'You get 100% ownership of the files the moment we deliver them to you.',
+  },
+  {
+    id: 5,
+    title: 'What are the key characteristics of UX design?',
+    content: (
+      <>
+        Used in digital and analogue products. <br /> Focuses on the customer's
+        user experience - from the introduction of the product to the last
+        interaction with it. <br /> Creates the structure of the future
+        application and levels out all the possible difficulties that users of
+        the program have. <br /> The result is a product that helps people solve
+        their problems.
+      </>
+    ),
+  },
+];
 
 const UIDesign = () => {
   return (
@@ -43,35 +91,24 @@ const UIDesign = () => {
             }
             description={
               <>
-                Third Eye Innovations <b>UX design company</b> can help you
-                design products with flexibility in mind, and our strategic
-                designs can be styled, layered, and adjusted to any technical
-                stack that consistently helps customers achieve their goals,
-                whether you are launching a new product or looking to improve an
-                existing one.
+                Delivering a comprehensive digital experience is similar to
+                using glue to connect devices, bind together touch points, and
+                create omnichannel experiences.
               </>
             }
+            smallDescription={`Third Eye Innovations' strategy and UX team can develop solutions that are both user-friendly and customised to meet the unique user tasks and business objectives of our clients by utilising best practices, techniques, and a thorough understanding of all the most recent technological tools.`}
           />
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container '>
-        <h3 className='text-4xl max-w-[954px] leading-[48.6px] text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
-          that fuel your company's growth? Do you need more consumers to buy
-          your product? Or perhaps your goal is simply to generate more leads
-          for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
-        </h3>
-      </div>
       <Clients tag='UIUX' />
       <Awards awards={awards} />
-      <OurWorks title={'UI Design Works'} />
+      <OurWorks title={'UX Design Works'} />
       <ImpactCreated />
       <Blogs />
 
       <Testimonial />
-      <FAQs />
+      <FAQs faqs={faqs} />
     </Layout>
   );
 };

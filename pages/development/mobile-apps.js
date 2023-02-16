@@ -28,11 +28,70 @@ const awards = [
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
 ];
+const testimonials = [
+  {
+    id: 1,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Their dedication to raising design standards and their promise of
+        on-time delivery make them a dependable partner.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 2,
+    name: 'Joseph',
+    // img: testimonial1.src,
+    userId: '@Joseph',
+    review: (
+      <>
+        "They created ideas. The product displayed information clearly and
+        smoothly tracked user data.
+        <br />
+        <br /> Third Eye Innovations UX design distinguishes itself through
+        efficient coding practices and stunning design concepts.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "It's an excellent Web design and development firm. The Third Eye
+        Innovations team advised us on current trends and provided us with smart
+        content.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Working with Third eye Innovations has been an absolute pleasure
+        because of their excellent technical skills and creative insights. They
+        encouraged the concept to completion, and the outcome is stunning.
+      </>
+    ),
+    date: '23rd April ',
+  },
+];
 
 const MobileApps = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
+      <section className=' relative overflow-x-clip !mb-0'>
         <div className=' container   '>
           <HeroSection
             hero1={hero1}
@@ -45,25 +104,15 @@ const MobileApps = () => {
             }
             description={
               <>
-                Since we are the best <b> mobile app development company</b>,
-                our devoted team will offer you complete solutions for all of
-                your mobile app needs. To create a distinctive, innovative,
-                top-notch <b>mobile app design</b>, we carry out extensive
-                marketing research on customers, competitor strategies, and
-                sector leaders.
+                Since we are the best <b>mobile app development</b> company, our
+                devoted team will offer you complete solutions for all of your
+                mobile app needs.
               </>
             }
+            smallDescription={`To create a distinctive, innovative, top-notch mobile app design, we carry out extensive marketing research on customers, competitor strategies, and sector leaders. We also provide cutting-edge solutions for a variety of industries. Our company has evolved into a one-stop shop for everything from the planning stages of a mobile application to its marketing.`}
           />
         </div>
       </section>
-
-      <div className='sm:mt-24 mt-14  my-10 container '>
-        <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          We also provide cutting-edge solutions for a variety of industries.
-          Our company has evolved into a one-stop shop for everything from the
-          planning stages of a mobile application to its marketing.
-        </h3>
-      </div>
 
       {/* <TechStack
         description={
@@ -81,7 +130,7 @@ const MobileApps = () => {
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
       <FAQs />
     </Layout>
   );

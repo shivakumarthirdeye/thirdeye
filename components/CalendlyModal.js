@@ -21,7 +21,7 @@ function CalendlyModal({ open, toggleModal, item }) {
           maxWidth: '1200px',
           width: isMobile ? '100%' : '90%',
           margin: isMobile ? '0' : '1.2rem',
-          height: '70%',
+          height: '700px',
           padding: 'unset',
         },
         overlay: {

@@ -2,7 +2,14 @@ import React from 'react';
 import { HeroTextSVG } from './heroSVG';
 import { GreenRight, VioletLeft } from './ShadeSVGs';
 
-const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
+const HeroSection = ({
+  content,
+  description,
+  hero1,
+  hero2,
+  hero3,
+  smallDescription,
+}) => {
   return (
     <div className=''>
       <h1 className='text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-black text-opacity-80  sm:!leading-[48px] lg:!leading-[70px] max-w-4xl font-semibold xl:!leading-[87.14px] z-10'>
@@ -62,6 +69,13 @@ const HeroSection = ({ content, description, hero1, hero2, hero3 }) => {
               alt=''
             />
           </div>
+        </div>
+      )}
+      {smallDescription && (
+        <div className=' mt-14 lg:mt-56 xl:mt-28  max-w-[954px] my-10  '>
+          <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl xl:text-[36px] font-light xl:leading-[135%] text-black text-opacity-80'>
+            {smallDescription}
+          </h3>
         </div>
       )}
     </div>

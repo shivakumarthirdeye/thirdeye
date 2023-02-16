@@ -40,7 +40,10 @@ const testimonials = [
         "Third Eye Innovations appeared to have mastered the art of operating
         strategically while also executing tactically. They pushed us to think
         about our toughest problems in new ways, which led us to a much better
-        place.
+        place Third Eye Innovations appeared to have mastered the art of
+        operating strategically while also executing tactically. <br />
+        <br /> They pushed us to think about our toughest problems in new ways,
+        which led us to a much better place..
       </>
     ),
     date: '23rd April ',
@@ -53,13 +56,28 @@ const testimonials = [
     review: (
       <>
         "Their depth of knowledge is unparalleled, and their ability to simplify
-        the complex is exceptional.
+        the complex is exceptional."
       </>
     ),
     date: '23rd April ',
   },
   {
     id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "It is clear that Third Eye Innovations' work is more than just a day
+        job." Our company is also a founder-led startup, <br />
+        <br /> so it was great to be able to empathize with another founder
+        during this process..
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
     name: 'Stephanie',
     // img: testimonial.src,
     userId: '@staphania',
@@ -68,67 +86,33 @@ const testimonials = [
     ),
     date: '23rd April ',
   },
-  {
-    id: 4,
-    name: 'Stephanie',
-    // img: testimonial.src,
-    userId: '@staphania',
-    review: (
-      <>
-        "Third Eye Innovations transformed our legacy enterprise software into a
-        high-quality digital experience for consumers.
-      </>
-    ),
-    date: '23rd April ',
-  },
 ];
 
 const faqs = [
   {
     id: 1,
-    title: 'How long will the procedure take?',
-    content:
-      'The length of time depends on the size of the project, but even a small UX process can take up to a month. To achieve the best results, the UX process should always include a review of the previous and current situation, measurement, redesign, implementation, testing, and remeasurement.',
+    title: 'What is the distinction between UX and UI?',
+    content: `The ease with which a user can achieve their goal, such as ordering a pizza with their phone, is referred to as user experience. Each digital element's shape, colour, and size are all part of the user interface. Making good UI decisions will result in an improved UX while making bad UI decisions will have a negative impact on UX. In general, we discuss UX/UI together because both processes are carried out by the same team, though they can be carried out separately.`,
   },
   {
     id: 2,
-    title: `How can we tell if it's the best solution?`,
-    content:
-      'Prototyping and user testing are critical components of the User Experience process. This stage provides us with insights into how users interact with an app or website without requiring us to invest significant resources in the development process. This allows us to anticipate and avoid serious design and functionality issues in the final version. ',
+    title: `How UI Services Can Help Your Product?`,
+    content: `UI facilitates interactions between users and websites or apps, and it improves your software's responsiveness, efficiency, and accessibility. Our design team has over a decade of experience in this field and can assist businesses in making their products stylish and appealing, creating unique and recognizable visual features, including high-quality graphic elements, exciting animation, and transitions. `,
   },
   {
     id: 3,
-    title:
-      'What are some of the biggest trends in the UX design industry right now?',
-    content: (
-      <>
-        A good designer is going to be excited about this topic; the answer will
-        help you understand where their current focus lies. <br /> <br /> Also,
-        listen to how a UX designer keeps up with the industry—such as following
-        UX podcasts, reading UX blogs and books, attending webinars and online
-        training courses for ongoing learning, etc.
-      </>
-    ),
+    title: 'How can I book your web design services?',
+    content: `You can fill out the form given above, or you can also contact us over call to d about your project.`,
   },
   {
     id: 4,
-    title: 'Who owns the design and code files?',
-    content:
-      'You get 100% ownership of the files the moment we deliver them to you.',
+    title: `What does the term 'Design Thinking' means?`,
+    content: `Design thinking is a method for generating solutions and resolving problems in a practical, creative manner. It is all about discovering insights into your target audience's unmet needs. It is a type of solution-based or solution-focused thinking that aims to produce a positive future outcome. Most importantly, it is a 'people first' approach—a design process mindset that creates products based on people's needs, motivations, and behaviours.`,
   },
   {
     id: 5,
-    title: 'What are the key characteristics of UX design?',
-    content: (
-      <>
-        Used in digital and analogue products. <br /> Focuses on the customer's
-        user experience - from the introduction of the product to the last
-        interaction with it. <br /> Creates the structure of the future
-        application and levels out all the possible difficulties that users of
-        the program have. <br /> The result is a product that helps people solve
-        their problems.
-      </>
-    ),
+    title: `What are your payment terms?`,
+    content: `We take a 50% deposit. The balance is due at launch, or one calendar month after testing begins, whichever comes first`,
   },
 ];
 
@@ -143,30 +127,20 @@ const UIDesign = () => {
             hero3={hero3}
             content={
               <span className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl'>
-                One-of-a-kind UI designs to give you an advantage over your
-                competitors.
+                UI Design
               </span>
             }
             description={
               <>
                 The UI design services aimed to create visually appealing,
                 brand-building digital interfaces that attract and retain users.
-                Third Eye Innovation provides UI solutions that are customised
-                to your audience, reflect customer values, and effectively
-                support your business goals.
               </>
             }
+            smallDescription='Third Eye Innovation provides UI solutions that are customised to your audience, reflect customer values, and effectively support your business goals. We develop distinctive UI designs that give you an edge over your rivals by fusing current design trends with the specific user experience requirements of each of your customers.'
           />
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container '>
-        <h3 className=' text-lg sm:text-2xl  xl:text-4xl max-w-[954px] sm:leading-[38px] lg:leading-[48.6px] text-black text-opacity-80'>
-          We develop distinctive UI designs that give you an edge over your
-          rivals by fusing current design trends with the specific user
-          experience requirements of each of your customers.
-        </h3>
-      </div>
       <Clients tag='UIUX' />
       <Awards awards={awards} />
       <section className=' my-20 relative'>

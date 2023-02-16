@@ -13,22 +13,22 @@ const ourWorks = [
   {
     id: 1,
     title: 'Design',
-    description: `Color schemes, templates, functions, special features (such as e-commerce), graphics, videos, and overall design will most likely be discussed. We always recommend bringing a few examples of websites you like to the meeting. Following that meeting, the creative team devotes time to bring your vision to life in 2D.  `,
+    description: `Colour schemes, templates, functions, special features (such as e-commerce), graphics, videos, and overall design will most likely be discussed. `,
   },
   {
     id: 2,
     title: 'Develop',
-    description: `Now that the design has been approved, the website will be sent to the developer. The developer begins building the website on a production server so that you can view it online without making it public. During that time, you can collaborate with the copywriter and other agency personnel to finalize the voice, content, and graphics. This is usually the most time-consuming part of the process, but it is also the most crucial.    `,
+    description: `The website will be sent to the developer once the design is approved. The developer begins building the website on a production server so that you can view it online without making it public. `,
   },
   {
     id: 3,
     title: 'Test',
-    description: `After the developer has coded your website and you've all of your content, it's time to test it out on the test server. You will be sent a link to the website, which you can share with your company and decision-makers. Typically, a few tweaks are required at this stage before the site is finalized. `,
+    description: `After the developer has coded your website and you've all of your content, it's time to test it out on the test server. `,
   },
   {
     id: 4,
-    title: 'Launch and growth',
-    description: `Finally, your new website is ready to go live! When you give your approval, the developer will begin the launch process. This includes configuring hosting and pointing to the domain. It will also take time to spread. Be patient; the wait will be worthwhile! Your site should be live and ready for you and the rest of the world to enjoy within a few hours!`,
+    title: 'Launch & Growth',
+    description: `Finally, your new website is ready to go live! When you give your approval, the developer will begin the launch process.`,
   },
 ];
 
@@ -68,7 +68,8 @@ const ourProcess = [
       </>
     ),
     title: 'Websites',
-    description: `We transform your ideas into a creative web platform that effectively represents your brand. Our expert developers offer a wide range of services to your company, including SEO-friendly web design, website development, and custom web app development to improve organisational functioning.`,
+    description: `We transform your ideas into a creative web platform that effectively represents your brand with wide range of services to your company.
+`,
   },
   {
     id: 2,
@@ -99,7 +100,8 @@ const ourProcess = [
     ),
     title: 'Web Application',
     description: `
-     Third Eye Innovations, a web application development company, provides a secure package of web application services with the inherent characteristic of uniqueness and flexibility to meet the goals of business strategies and requirements. Contact us to know more about our client-friendly and cost-effective services.
+     Third Eye Innovations, a web application development company, provides a secure package of web application services with the inherent characteristic of uniqueness.
+
     `,
   },
   {
@@ -130,7 +132,8 @@ const ourProcess = [
       </>
     ),
     title: 'Mobile Apps',
-    description: `We design fully equipped mobile app solutions for the constantly evolving behaviour of customers. Our application development meets all digital needs across industries and is up to date on market trends and technologies. We incorporate advanced features and functionalities into every app we create.`,
+    description: `We design fully equipped mobile app solutions for the constantly evolving behaviour of customers. Our application development meets all digital needs across industries.
+`,
   },
   {
     id: 1,
@@ -181,7 +184,8 @@ const ourProcess = [
       </>
     ),
     title: 'MVP',
-    description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there. We specialise in developing striking solutions that demonstrate your minimum viable product's viability on the market.`,
+    description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there.
+`,
   },
 ];
 
@@ -193,10 +197,10 @@ const testimonials = [
     userId: '@staphania',
     review: (
       <>
-        "They created ideas. The product displayed information clearly and
-        smoothly tracked user data. Third Eye Innovations UX design
-        distinguishes itself through efficient coding practices and stunning
-        design concepts.
+        "1- They created ideas. The product displayed information clearly and
+        smoothly tracked user data. <br />
+        <br /> Third Eye Innovations UX design distinguishes itself through
+        efficient coding practices and stunning design concepts.
       </>
     ),
     date: '23rd April ',
@@ -208,8 +212,9 @@ const testimonials = [
     userId: '@Joseph',
     review: (
       <>
-        "Their dedication to raising design standards and their promise of
-        on-time delivery make them a dependable partner.
+        "It's an excellent Web design and development firm. The Third Eye
+        Innovations team advised us on current trends and provided us with smart
+        content.
       </>
     ),
     date: '23rd April ',
@@ -221,9 +226,11 @@ const testimonials = [
     userId: '@staphania',
     review: (
       <>
-        "It's an excellent Web design and development firm. The Third Eye
-        Innovations team advised us on current trends and provided us with smart
-        content.
+        "Working with Third eye Innovations has been an absolute pleasure
+        because of their excellent technical skills and creative insights.{' '}
+        <br />
+        <br /> They encouraged the concept to completion, and the outcome is
+        stunning.
       </>
     ),
     date: '23rd April ',
@@ -235,9 +242,8 @@ const testimonials = [
     userId: '@staphania',
     review: (
       <>
-        "Working with Third eye Innovations has been an absolute pleasure
-        because of their excellent technical skills and creative insights. They
-        encouraged the concept to completion, and the outcome is stunning.
+        "Their dedication to raising design standards and their promise of
+        on-time delivery make them a dependable partner.
       </>
     ),
     date: '23rd April ',
@@ -250,7 +256,12 @@ const development = () => {
       <section className='my-5 sm:my-10 lg:my-20 relative overflow-x-clip mb-10 sm:mb-24 md: lg:mb-60'>
         <div className=' container   '>
           <HeroSection
-            content={<>Developing meaningful brands and impactful products.</>}
+            content={
+              <>
+                <span className='bg-black text-white px-1'>Developing</span>{' '}
+                meaningful brands and impactful products.
+              </>
+            }
           />
         </div>
       </section>
