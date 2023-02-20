@@ -10,11 +10,8 @@
       "slug": "spoclearn",
       "tag": "Design & Development",
       "tags": [
-        "SEO",
-        "SOCIAL",
-        "DEVELOPMENT",
-        "UI",
-        "GRAPHIC"
+        "WEBAPPLICATION",
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -94,102 +91,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Increase your organic traffic by 51%- Clever Corp SEO Case Study",
-      "smallTitle": "The clever corp",
-      "featured": true,
-      "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
-      "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
-      "slug": "clever-crop",
-      "tag": "Design",
-      "tags": [
-        "WEBSITE",
-        "WEBAPPLICATION",
-        "MOBILE",
-        "MVP"
-      ],
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Platform",
-          "value": "Website"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "Real estate"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "SEO"
-        }
-      ],
-      "description": "Clever Corp is a leading professional Business Setup consultant in Dubai, offering world-class services by assisting locals and expats in establishing their businesses or corporations in Dubai and other emirates with varying jurisdictions. They provide 'tailored solutions to companies of various sizes' to get started quickly and with a seamless approach.",
-      "summary": {
-        "points": [
-          "Clever Corp is a leading professional Business Setup consultant in Dubai, offering world-class services by assisting locals and expats in establishing their businesses or corporations in Dubai and other emirates with varying jurisdictions. They provide 'tailored solutions to companies of various sizes' to get started quickly and with a seamless approach."
-        ],
-        "img": "/assets/images/case-study/rfq/summary.png"
-      },
-      "problem": {
-        "heading": "Why to design this Website?",
-        "points": [
-          "The client wants a home page that includes information about them, how to contact them, why they should choose them, customer FAQs, supplier FAQs, and a slider section. It should also include registration buttons for customers and suppliers.",
-          "Improve overall aesthetic and user experience and make the site more authentic and engaging.",
-          "Drive conversion of site visitors into contacts and ultimately customers.",
-          "Establish SEO foundations to increase search engine traffic and drive future growth.",
-          "An impressive UI that’s uncluttered and simple to use with neatly designed dashboards.",
-          "A growing platform requires expertise on multiple fronts, requiring a dedicated software team to be available at all times."
-        ],
-        "img": "/assets/images/case-study/rfq/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/rfq/project1.png",
-        "noId": true,
-        "points": [
-          {
-            "id": 1,
-            "heading": "Provide a total procurement solution for engineering companies and industries.",
-            "points": [
-              "They require a web application to provide a total procurement solution for engineering companies and industries.",
-              "The home page should have a section about us, contact us, why choose us, Customer FAQ, Supplier FAQ and a slider section.",
-              "It should also contain buttons for customer and supplier registration.",
-              "Easily navigable website to make it useful for farmers."
-            ]
-          }
-        ]
-      },
-      "solutions": {
-        "description": "We planned the user testing sessions and the main screens that needed to be created for those testing days. We created a platform for buyers and sellers where the customer can submit his requirements, the admin reviews them and forwards them to suppliers, suppliers submit bids to the admin, and the admin processes them and provides a quote to the customer. When the customer accepts the quote and pays on the RFQ platform, the supplier is notified, and the work begins. When the work is finished, the customer marks the request as completed.",
-        "img": "/assets/images/case-study/rfq/solution.png"
-      },
-      "results": {
-        "points": [
-          "Boost site speed to 97% during launch; boost conversion rate to 9.7%.Enhanced user productivity.",
-          "Sales have increased.",
-          "Lower customer support costs."
-        ],
-        "img": "/assets/images/case-study/rfq/result.png"
-      },
-      "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
-      "font": "/assets/images/case-study/rfq/font.png",
-      "tech": "/assets/images/case-study/rfq/tech.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19887930-SPOCLEARN-UI-UX-design-case-study-Web-Application-Design"
         }
       ]
     },
@@ -201,6 +103,10 @@
       "thumbnail": "/assets/images/case-study/kakud/thumbnail.png",
       "slug": "kakud",
       "tag": "Design & Development",
+      "tags": [
+        "MOBILE",
+        "DESIGN"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -286,12 +192,8 @@
       "slug": "lynktown",
       "tag": "Design & Development",
       "tags": [
-        "SEO",
-        "SOCIAL",
-        "PCC",
-        "BRAND",
-        "CONTENT",
-        "DEVELOPMENT",
+        "MOBILE",
+        "WEBAPPLICATION",
         "DESIGN"
       ],
       "devDetails": [
@@ -409,6 +311,10 @@
       "thumbnail": "/assets/images/case-study/lynke/thumbnail.png",
       "slug": "lynke",
       "tag": "Design & Development",
+      "tags": [
+        "MOBILE",
+        "DESIGN"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -500,7 +406,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888022-Modern-corporate-business-card-Business-card-generator"
         }
       ]
     },
@@ -510,9 +416,10 @@
       "smallTitle": "Gigsasa App",
       "thumbnail": "/assets/images/case-study/gigsasa/thumbnail.png",
       "slug": "gigsasa",
-      "tag": "Design",
+      "tag": "",
       "tags": [
-        "PERFORMANCE"
+        "PERFORMANCE",
+        "MOBILE"
       ],
       "devDetails": [
         {
@@ -528,7 +435,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": ""
         }
       ],
       "description": "Gigsasa is the job listing and  searching application for SMBs ",
@@ -608,12 +515,9 @@
       "slug": "u2",
       "tag": "Design & Development",
       "tags": [
-        "WEBSITE",
-        "WEBAPPLICATION",
         "MOBILE",
-        "MVP",
-        "UI",
-        "GRAPHIC"
+        "WEBAPPLICATION",
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -728,7 +632,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19871375-U2-Fashion-Store-UI-UX-design-case-study-Fashion-App"
         }
       ]
     },
@@ -740,8 +644,8 @@
       "slug": "instabytes",
       "tag": "Design & Development",
       "tags": [
-        "UI",
-        "GRAPHIC"
+        "MOBILE",
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -827,7 +731,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888631-Instabyte-App-Stocks-Cryptocurrency-Trade-Finance-App"
         }
       ]
     },
@@ -839,9 +743,7 @@
       "slug": "dentotabs",
       "tag": "Design & Development",
       "tags": [
-        "SOCIAL",
-        "DESIGN",
-        "PERFORMANCE"
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -927,7 +829,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888671-Dentotabs-Job-Search-Hiring-Marketplace-Website"
         }
       ]
     },
@@ -952,7 +854,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": "Design + Development"
         }
       ],
       "description": "Amaar property offers high-quality apartments and office spaces",
@@ -1031,9 +933,8 @@
       "slug": "ajyal",
       "tag": "Design & Development",
       "tags": [
-        "PCC",
-        "BRAND",
-        "CONTENT"
+        "MOBILE",
+        "WEBAPPLICATION"
       ],
       "devDetails": [
         {
@@ -1049,7 +950,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": "Design + Development"
         }
       ],
       "description": "Ajyal is a digital ecosystem mobile app and website for the e-commerce industry.",
@@ -1112,7 +1013,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888582-Ajayal-Fashion-Store-Mobile-App-Fashion-Ecommerce-Application"
         }
       ]
     },
@@ -1124,10 +1025,8 @@
       "slug": "iwowd",
       "tag": "Design & Development",
       "tags": [
-        "WEBSITE",
         "WEBAPPLICATION",
-        "MOBILE",
-        "MVP"
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -1217,6 +1116,9 @@
       "thumbnail": "/assets/images/case-study/trade-square/thumbnail.png",
       "slug": "trade-square",
       "tag": "Design & Development",
+      "tags": [
+        "DESIGN"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1336,10 +1238,8 @@
       "slug": "agrinia",
       "tag": "Design & Development",
       "tags": [
-        "PCC",
-        "EMAIL",
-        "BRAND",
-        "CONTENT"
+        "WEBAPPLICATION",
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -1434,7 +1334,7 @@
       "slug": "poornatva",
       "tag": "Design & Development",
       "tags": [
-        "PERFORMANCE"
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -1525,6 +1425,10 @@
       "thumbnail": "/assets/images/case-study/rfq/thumbnail.png",
       "slug": "rfq",
       "tag": "Design & Development",
+      "tags": [
+        "WEBAPPLICATION",
+        "DESIGN"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1593,6 +1497,174 @@
       "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
       "font": "/assets/images/case-study/rfq/font.png",
       "tech": "/assets/images/case-study/rfq/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Catch Wheel",
+      "smallTitle": "Catch Wheel",
+      "thumbnail": "/assets/images/case-study/catch/thumbnail.png",
+      "slug": "catch",
+      "tag": "Design & Development",
+      "tags": [
+        "MOBILE",
+        "DESIGN"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Agriculture"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Catch Wheel is an app that allows drivers and users to find vehicles based on their needs in a specific location. This app features agricultural, construction, and taxi vehicles. The goal of the catch wheel was to connect customers and drivers for them to obtain necessary vehicle information and fulfil their needs.",
+      "summary": {
+        "heading": "Catch Wheel is an app that allows drivers and users to find vehicles based on their needs in a specific location. This app features agricultural, construction, and taxi vehicles. The goal of the catch wheel was to connect customers and drivers for them to obtain necessary vehicle information and fulfil their needs.",
+        "img": "/assets/images/case-study/catch/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "Our team discovered that there was a communication problem with the driver, as well as problems such as the driver accepting the ride but failing to show up on time, so we came up with the idea of developing an app that will be useful for both the driver and the customers. You can obtain vehicles for agricultural purposes, construction, or taxis."
+        ],
+        "img": "/assets/images/case-study/catch/problems.png"
+      },
+      "solutions": {
+        "description": "Our team created the app in such a way that",
+        "points": [
+          "The user can search for a vehicle in their immediate vicinity.",
+          "When the user searches, the app displays vehicles that are within 10 kilometres of him.",
+          "The driver is required to enter vehicle information into the app, which the user can view, and the user can contact the driver via the call-to-action option.Drivers need to have a subscription plan to use the application",
+          "Drivers need to have a subscription plan to use the application."
+        ],
+        "big": true,
+        "img": "/assets/images/case-study/catch/solution.png"
+      },
+      "results": {
+        "points": [
+          "Vehicles are easily found in nearby locations.",
+          "The user experience is straightforward to grasp.",
+          "And we're currently working on automating live location with a single click."
+        ],
+        "img": "/assets/images/case-study/catch/result.png"
+      },
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a user-friendly website on time.",
+      "font": "/assets/images/case-study/catch/font.png",
+      "tech": "/assets/images/case-study/catch/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://dribbble.com/shots/19874921-Catch-Wheels-Mobile-App-Development-Case-Study"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Third Eye Innovations increases lead conversion by 300% and organic traffic to the website by 150% for a Matrimony company",
+      "smallTitle": "Annette Matrimony",
+      "thumbnail": "/assets/images/case-study/annette-matrimony/thumbnail.png",
+      "slug": "annette",
+      "tag": "Design & Development",
+      "tags": [
+        "WEBAPPLICATION",
+        "DESIGN"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web App "
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Matrimonial website"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Agrinia company: an e-commerce website design and app based on agricultural and gardening knowledge",
+      "summary": {
+        "heading": "Here is our most recent work on a matrimonial website called Annette Matrimony. This website is a Malayalee matrimony platform.",
+        "points": [
+          "They provide you with a list of potential and eligible partners from both genders of the Malayalee Christian community. If you are looking for a perfect match for you, it is well worth registering with."
+        ],
+        "img": "/assets/images/case-study/annette-matrimony/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "To earn the trust of the users, the company needed to maintain the authenticity of the profiles on the platform.",
+          "Registration must be made easy through an online mode of payment which is transparent and truly affordable.",
+          "Design and develop a highly effective management system for the website.",
+          "Design a user-friendly interface.",
+          "Packaging and Distribution",
+          "Construct a scalable, high-performance data analytics platform that takes advantage of existing business processing and hardware infrastructure. To continue serving a large and growing community of users at scale, Annette Matrimony's database would play a critical role in its website.",
+          "Eye-catching matrimonial website design earns more repeat visitors and more revenue for website owners."
+        ],
+        "img": "/assets/images/case-study/annette-matrimony/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/annette-matrimony/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Annette Matrimony aims to assist you in taking on the responsibility of finding your soul mate.",
+            "points": [
+              "Digital solutions built with features and designs to provide matrimony services are known for making clients' and users' matrimonial dreams a sweet reality.",
+              "Annette Matrimony aims to assist you in taking on the responsibility of finding your soul mate.",
+              "They wanted excellent tools for people seeking new ways to look for or reconceptualize the marriage concept.",
+              "Segregated search options for the users based on industry, country, keyword, etc."
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "This web design helps you find a perfect match with all the necessary information. Registration is made easy through an online mode of payment which is transparent and truly affordable. This bureau provides a list of eligible candidates from all work profile businesses ness, NRI to choose from which is updated periodically to provide you with an aesthetic search. We believe that a successful matrimony app must have the right features of an ideal matrimony app. They must ensure the safety of users while also offering convenience and reliability as they connect with people with ease.",
+        "img": "/assets/images/case-study/annette-matrimony/solution.png"
+      },
+      "results": {
+        "points": [
+          "Reduced time for users to get photos on profiles by 95%",
+          "Improved data-warehouse search performance by 30%",
+          "Provided greater visibility into service health and user experience with real-time feeds."
+        ],
+        "img": "/assets/images/case-study/annette-matrimony/result.png"
+      },
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a ser-friendly website on time.",
+      "font": "/assets/images/case-study/annette-matrimony/font.png",
+      "tech": "/assets/images/case-study/annette-matrimony/tech.png",
       "social": [
         {
           "id": 1,

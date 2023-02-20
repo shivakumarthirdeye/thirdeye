@@ -30,35 +30,37 @@ const IndustriesWeServe = () => {
       img: industry3.src,
       description: `We have designed and built products that are simple to launch and scale quickly, ranging from complex data visualization to assistive CRM and ERP solutions.`,
     },
-    {
-      id: 4,
-      title: 'Retail',
-      img: industry4.src,
-      description: `Drive retail digital transformation innovation. We offer a wide range of services, including consulting, design, development, marketing, and product validation. `,
-    },
+
     {
       id: 5,
       title: 'Food Tech',
       img: industry5.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
+      description: `From food delivery apps to recipe apps, we have developed all digital solutions for the food industry.`,
     },
     {
       id: 6,
       title: 'Telecom',
       img: industry6.src,
-      description: `Third Eye Innovations has had unprecedented success in developing new digital solutions for global media and communication firms. Our industry experts are dedicated to strategically innovating digital initiatives and transformations so that you can build for the future today.`,
+      description: `Our industry experts are dedicated to strategically innovating digital initiatives and transformations to build for the future today.`,
     },
     {
       id: 7,
       title: 'Social Media',
       img: industry7.src,
-      description: `We are a group of social media experts who are enthusiastic about what we do. We understand the most effective techniques and strategies for optimizing your social media strategy for increased ROI.`,
+      description: `We are a group of enthusiastic social media experts. We understand the most effective techniques and strategies to increase ROI.`,
     },
     {
       id: 8,
       title: 'Marketing',
       img: industry8.src,
-      description: `We offer social media services, search engine services, email marketing services, digital marketing services, and more. We create and manage high-performing social media campaigns for businesses, making us the best digital marketing company.`,
+      description: `We offer 360-degree digital marketing services. We create and manage high-performing campaigns for businesses.
+`,
+    },
+    {
+      id: 4,
+      title: 'Retail',
+      img: industry4.src,
+      description: `Drive retail digital transformation innovation. We offer a wide range of services, including consulting, design, development, marketing, and product validation. `,
     },
   ];
 

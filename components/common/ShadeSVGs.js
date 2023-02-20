@@ -10,13 +10,7 @@ export const GreenRight = () => {
         xmlns='http://www.w3.org/2000/svg'
       >
         <g filter='url(#filter0_f_1988_36363)'>
-          <circle
-            cx='560'
-            cy='560'
-            r='185'
-            fill='#00FFE0'
-            fill-opacity='0.52'
-          />
+          <circle cx='560' cy='560' r='185' fill='#00FFE0' fillOpacity='0.52' />
         </g>
         <defs>
           <filter
@@ -26,9 +20,9 @@ export const GreenRight = () => {
             width='1120'
             height='1120'
             filterUnits='userSpaceOnUse'
-            color-interpolation-filters='sRGB'
+            colorInterpolationFilters='sRGB'
           >
-            <feFlood flood-opacity='0' result='BackgroundImageFix' />
+            <feFlood floodOpacity='0' result='BackgroundImageFix' />
             <feBlend
               mode='normal'
               in='SourceGraphic'
@@ -105,7 +99,7 @@ export const VioletLeft = () => {
             cy='132.411'
             r='48.4109'
             fill='#0029FF'
-            fill-opacity='0.42'
+            fillOpacity='0.42'
           />
         </g>
         <defs>
@@ -116,9 +110,9 @@ export const VioletLeft = () => {
             width='263.756'
             height='263.755'
             filterUnits='userSpaceOnUse'
-            color-interpolation-filters='sRGB'
+            colorInterpolationFilters='sRGB'
           >
-            <feFlood flood-opacity='0' result='BackgroundImageFix' />
+            <feFlood floodOpacity='0' result='BackgroundImageFix' />
             <feBlend
               mode='normal'
               in='SourceGraphic'
@@ -194,7 +188,7 @@ export const VioletRight = () => {
             cy='132.411'
             r='48.4109'
             fill='#0029FF'
-            fill-opacity='0.42'
+            fillOpacity='0.42'
           />
         </g>
         <defs>
@@ -205,9 +199,9 @@ export const VioletRight = () => {
             width='263.755'
             height='263.755'
             filterUnits='userSpaceOnUse'
-            color-interpolation-filters='sRGB'
+            colorInterpolationFilters='sRGB'
           >
-            <feFlood flood-opacity='0' result='BackgroundImageFix' />
+            <feFlood floodOpacity='0' result='BackgroundImageFix' />
             <feBlend
               mode='normal'
               in='SourceGraphic'
@@ -242,7 +236,7 @@ export const GreenLeft = () => {
             cy='126.288'
             r='42.1787'
             fill='#00FFE0'
-            fill-opacity='0.52'
+            fillOpacity='0.52'
           />
         </g>
         <defs>
@@ -253,9 +247,9 @@ export const GreenLeft = () => {
             width='251.292'
             height='251.294'
             filterUnits='userSpaceOnUse'
-            color-interpolation-filters='sRGB'
+            colorInterpolationFilters='sRGB'
           >
-            <feFlood flood-opacity='0' result='BackgroundImageFix' />
+            <feFlood floodOpacity='0' result='BackgroundImageFix' />
             <feBlend
               mode='normal'
               in='SourceGraphic'
@@ -328,7 +322,7 @@ export const LeftCircle = () => {
         <path
           d='M99 85.5C99 132.202 62.4778 170 17.5 170C-27.4778 170 -64 132.202 -64 85.5C-64 38.798 -27.4778 1 17.5 1C62.4778 1 99 38.798 99 85.5Z'
           stroke='#B1C7FF'
-          stroke-width='2'
+          strokeWidth='2'
         />
       </svg>
       <svg
@@ -361,7 +355,7 @@ export const RightCircle = () => {
         <path
           d='M164 85.5C164 132.202 127.478 170 82.5 170C37.5222 170 1 132.202 1 85.5C1 38.798 37.5222 1 82.5 1C127.478 1 164 38.798 164 85.5Z'
           stroke='#B1C7FF'
-          stroke-width='2'
+          strokeWidth='2'
         />
       </svg>
 

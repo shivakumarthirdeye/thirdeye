@@ -19,7 +19,7 @@ const SummaryProblems = ({
             {summaryHeading}
           </h1>
           <div className=' my-5 md:my-10'>
-            {summaryPoints.map((item, idx) => {
+            {summaryPoints?.map((item, idx) => {
               return (
                 <div className='my-5 md:my-2' key={idx}>
                   <h3 className='text-sm sm:text-lg md:text-xl  lg:text-2xl text-black text-opacity-80'>

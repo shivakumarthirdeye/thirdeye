@@ -10,9 +10,9 @@ import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/images/subServices/ux/hero1.png';
-import hero2 from '/public/assets/images/subServices/ux/hero2.png';
-import hero3 from '/public/assets/images/subServices/ux/hero3.png';
+import hero1 from '/public/assets/gif/sub-services/graphic-design/1.gif';
+import hero2 from '/public/assets/gif/sub-services/graphic-design/2.gif';
+import hero3 from '/public/assets/gif/sub-services/graphic-design/3.gif';
 
 const testimonials = [
   {

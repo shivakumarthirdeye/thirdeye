@@ -9,6 +9,7 @@ const Functionality = ({
   image,
   results,
   resultImage,
+  big,
 }) => {
   return (
     <section className='relative px-4'>
@@ -22,7 +23,7 @@ const Functionality = ({
         <VioletRight />
       </div>
       <div className='container mx-auto'>
-        {description ? (
+        {description && !big && (
           <>
             <div className='flex flex-col lg:flex-row justify-between max-w-7xl space-x-10 items-center mx-auto'>
               <div className='flex-1'>
@@ -88,7 +89,9 @@ const Functionality = ({
               </div>
             </div>
           </>
-        ) : (
+        )}
+
+        {features && !big && (
           <>
             <div>
               <h2 className='text-sm md:text-base  text-blue '>
@@ -139,6 +142,38 @@ const Functionality = ({
               })}
             </div>
           </>
+        )}
+        {big && (
+          <div>
+            <h2 className='text-sm md:text-base text-purple lg:text-xl xl:text-2xl'>
+              Solutions provided
+            </h2>{' '}
+            <h1 className='mt-1 md:mt-4 md:!leading-[41px] text-textBlack lg:!leading-[51px] font-medium text-xl sm:text-2xl md:text-3xl lg:text-[35px] xl:text-5xl max-w-[1180px]'>
+              {description}
+            </h1>
+            <div className='lg:flex  justify-between ml-10'>
+              <ul className='lg:my-10 list-disc flex-1'>
+                {points.map((item, idx) => {
+                  return (
+                    <li
+                      className='text-black text-opacity-80 my-4  text-sm sm:text-lg md:text-xl lg:text-2xl'
+                      key={idx}
+                    >
+                      {item}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+            <div className=' mx-auto my-5 md:my-5'>
+              <img
+                loading='lazy'
+                src={image}
+                className='w-full max-h-[743.29px] object-cover '
+                alt=''
+              />
+            </div>
+          </div>
         )}
       </div>
     </section>

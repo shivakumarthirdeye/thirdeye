@@ -9,9 +9,9 @@ import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/gif/sub-services/graphic-design/1.gif';
-import hero2 from '/public/assets/gif/sub-services/graphic-design/2.gif';
-import hero3 from '/public/assets/gif/sub-services/graphic-design/3.gif';
+import hero1 from '/public/assets/gif/sub-services/ux/1.gif';
+import hero2 from '/public/assets/gif/sub-services/ux/2.gif';
+import hero3 from '/public/assets/gif/sub-services/ux/3.gif';
 // Award Images
 import Award1 from '/public/assets/images/award/web-apps/1.png';
 import Award2 from '/public/assets/images/award/web-apps/2.png';

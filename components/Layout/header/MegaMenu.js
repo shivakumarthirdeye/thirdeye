@@ -1,40 +1,40 @@
 import Link from 'next/link';
 
 const megaMenuItems = [
-  {
-    id: 1,
-    title: 'Marketing',
-    subItem: [
-      {
-        id: 1,
-        name: 'Social media management',
-      },
-      {
-        id: 2,
-        name: 'SEO',
-      },
-      {
-        id: 3,
-        name: 'PPC',
-      },
-      {
-        id: 4,
-        name: 'Email Marketing',
-      },
-      {
-        id: 5,
-        name: 'Performance Marketing',
-      },
-      {
-        id: 6,
-        name: 'Brand Marketing',
-      },
-      {
-        id: 7,
-        name: 'Content Writing',
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   title: 'Marketing',
+  //   subItem: [
+  //     {
+  //       id: 1,
+  //       name: 'Social media management',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'SEO',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'PPC',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Email Marketing',
+  //     },
+  //     {
+  //       id: 5,
+  //       name: 'Performance Marketing',
+  //     },
+  //     {
+  //       id: 6,
+  //       name: 'Brand Marketing',
+  //     },
+  //     {
+  //       id: 7,
+  //       name: 'Content Writing',
+  //     },
+  //   ],
+  // },
   {
     id: 2,
     title: 'Design',
@@ -73,10 +73,10 @@ const megaMenuItems = [
         id: 4,
         name: 'Websites',
       },
-      {
-        id: 5,
-        name: 'MVP',
-      },
+      // {
+      //   id: 5,
+      //   name: 'MVP',
+      // },
     ],
   },
 ];
@@ -103,7 +103,7 @@ const MegaMenu = ({ showHeaderBtn }) => {
         showHeaderBtn
           ? 'right-[-125%] md:right-[-50%]'
           : 'right-[-25%] md:right-[-50%]'
-      } scale-0 z-50 min-w-[300px]  rounded-lg bg-white p-8 absolute w-[55vw] max-w-[719px] lg:w-[45vw]  md:min-w-[580px] top-10 resourse-items`}
+      } scale-0 z-50 min-w-[300px]  rounded-lg bg-white p-8 absolute w-[55vw] max-w-[419px] lg:w-[35vw]   top-10 resourse-items`}
       style={{
         boxShadow: `0px 4px 11px rgba(0, 0, 0, 0.13)`,
       }}
