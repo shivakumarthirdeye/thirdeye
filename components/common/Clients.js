@@ -6,7 +6,7 @@ const { clients } = allClients;
 
 const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
   return (
-    <div className='relative py-10 md:py-24 lg:py-28   overflow-hidden'>
+    <div className='relative py-5 sm:py-10    overflow-hidden'>
       {svg && (
         <svg
           className='absolute left-0  top-[-350px] xl:top-[-350px] z-[-10]  w-[200px] h-[500px] xl:w-[271px] xl:h-[585px]'

@@ -70,7 +70,9 @@ const ourProcess = [
     title: 'Websites',
     description: `We transform your ideas into a creative web platform that effectively represents your brand with wide range of services to your company.
 `,
+    to: '/development/website',
   },
+
   {
     id: 2,
     icon: (
@@ -103,6 +105,7 @@ const ourProcess = [
      Third Eye Innovations, a web application development company, provides a secure package of web application services with the inherent characteristic of uniqueness.
 
     `,
+    to: '/development/web-application',
   },
   {
     id: 3,
@@ -134,59 +137,60 @@ const ourProcess = [
     title: 'Mobile Apps',
     description: `We design fully equipped mobile app solutions for the constantly evolving behaviour of customers. Our application development meets all digital needs across industries.
 `,
+    to: '/development/mobile-apps',
   },
-  {
-    id: 1,
-    icon: (
-      <>
-        <svg
-          className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
-          viewBox='0 0 64 64'
-          fill='none'
-          xmlns='http://www.w3.org/2000/svg'
-        >
-          <path
-            d='M31.9999 5.33203L58.6666 22.6654V41.332L31.9999 58.6654L5.33325 41.332V22.6654L31.9999 5.33203Z'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M32 58.6654V41.332'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M58.6666 22.668L31.9999 41.3346L5.33325 22.668'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M5.33325 41.3346L31.9999 22.668L58.6666 41.3346'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-          <path
-            d='M32 5.33203V22.6654'
-            stroke='#7A59FF'
-            strokeWidth='5.33333'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-          />
-        </svg>
-      </>
-    ),
-    title: 'MVP',
-    description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there.
-`,
-  },
+  //   {
+  //     id: 1,
+  //     icon: (
+  //       <>
+  //         <svg
+  //           className='w-[48px] h-[48px] sm:w-[54px] sm:h-[54px]  lg:w-[64px] lg:h-[64px]'
+  //           viewBox='0 0 64 64'
+  //           fill='none'
+  //           xmlns='http://www.w3.org/2000/svg'
+  //         >
+  //           <path
+  //             d='M31.9999 5.33203L58.6666 22.6654V41.332L31.9999 58.6654L5.33325 41.332V22.6654L31.9999 5.33203Z'
+  //             stroke='#7A59FF'
+  //             strokeWidth='5.33333'
+  //             strokeLinecap='round'
+  //             strokeLinejoin='round'
+  //           />
+  //           <path
+  //             d='M32 58.6654V41.332'
+  //             stroke='#7A59FF'
+  //             strokeWidth='5.33333'
+  //             strokeLinecap='round'
+  //             strokeLinejoin='round'
+  //           />
+  //           <path
+  //             d='M58.6666 22.668L31.9999 41.3346L5.33325 22.668'
+  //             stroke='#7A59FF'
+  //             strokeWidth='5.33333'
+  //             strokeLinecap='round'
+  //             strokeLinejoin='round'
+  //           />
+  //           <path
+  //             d='M5.33325 41.3346L31.9999 22.668L58.6666 41.3346'
+  //             stroke='#7A59FF'
+  //             strokeWidth='5.33333'
+  //             strokeLinecap='round'
+  //             strokeLinejoin='round'
+  //           />
+  //           <path
+  //             d='M32 5.33203V22.6654'
+  //             stroke='#7A59FF'
+  //             strokeWidth='5.33333'
+  //             strokeLinecap='round'
+  //             strokeLinejoin='round'
+  //           />
+  //         </svg>
+  //       </>
+  //     ),
+  //     title: 'MVP',
+  //     description: ` The fundamental concept of MVP is to build only the essential components of your software as quickly as possible, then release it onto the market and evaluate it there.
+  // `,
+  //   },
 ];
 
 const testimonials = [
@@ -259,7 +263,9 @@ const development = () => {
             content={
               <>
                 <span className='bg-black text-white px-1'>Developing</span>{' '}
-                meaningful brands and impactful products.
+                meaningful <br className='hidden xs:block' /> brands and
+                impactful
+                <br className='hidden xs:block' /> products.
               </>
             }
           />

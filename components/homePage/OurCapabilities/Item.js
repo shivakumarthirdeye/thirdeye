@@ -7,7 +7,7 @@ const Item = ({ item }) => {
   return (
     <div
       key={id}
-      className='bg-white mb-5 md:mb-7 max-w-[402px] w-full p-6 rounded-xl text-black'
+      className='bg-white mb-5 md:mb-7 max-w-[402px] w-full py-6 p-4 sm:p-6 rounded-xl text-black'
     >
       <h1 className='text-xl md:text-2xl text-black text-opacity-80 font-semibold'>
         {title}

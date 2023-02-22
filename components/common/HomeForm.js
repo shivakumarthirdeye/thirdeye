@@ -874,12 +874,13 @@ const HomeForm = () => {
   });
 
   return (
-    <section className='py-5 lg:py-10 px-4 '>
-      <div className='container   mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between p-2 sm:p-8 md:p-10 lg:p-16 '>
+    <section className='py-5 lg:py-10 px-2 sm:px-4 '>
+      <div className='container   mx-auto sm:border border-[#309FC9]  rounded-lg '>
+        <div className=' lg:flex  justify-between  sm:p-6 md:p-10 lg:p-16 '>
           <div className='flex-1'>
             <h1 className='heading'>
-              Let’s create <br /> something great
+              Let’s create <br className='hidden sm:block' /> something{' '}
+              <br className='block sm:hidden' /> great
             </h1>
             <div className='text-sm sm:text-base lg:text-xl text-black text-opacity-80 font-light my-5 md:leading-[30px]'>
               <p>hello@thirdeye.com </p>

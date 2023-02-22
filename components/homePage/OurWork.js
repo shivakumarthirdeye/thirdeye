@@ -122,11 +122,11 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
                     )}
                   </div>
                   <div className='flex-1 my-5 lg:my-0 flex  flex-col justify-start'>
-                    <h4 className='text-[#4E53B7] font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
+                    <h4 className='text-[#4E53B7] mt-2 font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
                       {tag}
                     </h4>
                     <h1 className='heading  capitalize'>{smallTitle}</h1>
-                    <p className='sm:text-lg md:text-xl  lg:text-2xl  text-black text-opacity-60'>
+                    <p className='text-sm mt-3 sm:text-base md:text-lg lg:text-xl  xl:text-2xl  text-black text-opacity-60'>
                       {description}
                     </p>
                     <Link href={`/case-study/${slug}`}>

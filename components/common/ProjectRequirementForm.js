@@ -871,10 +871,10 @@ const ProjectRequirementForm = () => {
   const [book, setBook] = useState(false);
 
   return (
-    <section className='py-5 lg:py-10 px-4 sm:px-0 '>
+    <section className='py-5 lg:py-10 px-2 sm:px-0 '>
       <CalendlyModal open={book} toggleModal={() => setBook(prev => !prev)} />
-      <div className='container px-4  mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between  p-2 sm:p-8 md:p-10 lg:p-16 '>
+      <div className='container px-4  mx-auto sm:border border-[#309FC9]  rounded-lg '>
+        <div className=' lg:flex  justify-between   sm:p-9 md:p-10 lg:p-16 '>
           <div className='flex-1'>
             <h1 className='heading'>
               Let’s create <br /> something great

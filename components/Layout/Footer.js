@@ -63,13 +63,13 @@ const Footer = () => {
     >
       <div className='container mx-auto flex flex-col md:flex-row justify-between'>
         <div className='flex-1'>
-          <h1 className='text-4xl lg:text-5xl leading-[55.8px] lg:leading-[64.8px]'>
+          <h1 className='text-2xl   md:text-3xl lg:text-4xl xl:text-5xl leading-[55.8px] lg:leading-[64.8px]'>
             Let’s build something <br /> great together
           </h1>
           <div className='my-10'>
             <Link href='/contact'>
               <a>
-                <button className='max-w-[211px] w-full py-4 text-base rounded  bg-white text-[#364BD2]'>
+                <button className='max-w-[150px] md:max-w-[211px] w-full py-3 md:py-4 text-base rounded  bg-white text-[#364BD2]'>
                   Get in touch
                 </button>
               </a>

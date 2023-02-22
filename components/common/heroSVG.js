@@ -3,7 +3,7 @@ export const HeroTextSVG = () => {
     <svg
       height='251'
       viewBox='0 0 1086 251'
-      className='scale-[.80] lg:scale-75 xl:scale-100 '
+      className='scale-[0.7] md:scale-[.80] lg:scale-75 xl:scale-[1.05] '
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >

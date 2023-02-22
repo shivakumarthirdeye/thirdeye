@@ -85,7 +85,7 @@ const UIDesign = () => {
             hero2={hero2}
             hero3={hero3}
             content={
-              <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
+              <span className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl'>
                 UX Design
               </span>
             }
@@ -103,7 +103,7 @@ const UIDesign = () => {
 
       <Clients tag='UIUX' />
       <Awards awards={awards} />
-      <OurWorks title={'UX Design Works'} />
+      <OurWorks title={'UX Design Works'} tag='UX' />
       <ImpactCreated />
       <Blogs />
 

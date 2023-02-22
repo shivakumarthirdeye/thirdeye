@@ -1,3 +1,4 @@
+import { VioletLeft } from '@/components/common/ShadeSVGs';
 import Link from 'next/link';
 import Item from './Item';
 
@@ -210,21 +211,21 @@ const MobileScreen = () => {
         style={{
           background: `linear-gradient(42.36deg, #7CE7FF 1.63%, #3E4FA8 100%), #FFFFFF`,
         }}
-        className='px-4 py-20'
+        className='px-4 py-20 relative'
       >
         <h1 className='heading !text-white'>Our Capabilities</h1>
         <div className='my-5'>
           <h2 className='text-[32px]'>Design</h2>
           <Link href='/design'>
             <a className='text-left py-2 block '>
-              <span className=' relative'>
+              <span className=' text-sm sm:text-base relative'>
                 Learn more{' '}
                 <div className='w-full absolute bottom-[-1px]  bg-white  h-[1px] left-0'></div>{' '}
               </span>{' '}
               {'->'}{' '}
             </a>
           </Link>
-          <div className='flex justify-center flex-col items-center my-8'>
+          <div className='flex justify-center flex-col items-center my-4 sm:my-8'>
             {subDesign.map(item => {
               return <Item key={item.id} item={item} />;
             })}
@@ -241,14 +242,14 @@ const MobileScreen = () => {
           <h2 className='text-[32px]'>Development</h2>
           <Link href='/development'>
             <a className='text-left py-2 block '>
-              <span className=' relative'>
+              <span className=' text-sm sm:text-base relative'>
                 Learn more{' '}
                 <div className='w-full absolute bottom-[-1px]  bg-white  h-[1px] left-0'></div>{' '}
               </span>{' '}
               {'->'}{' '}
             </a>
           </Link>
-          <div className='flex justify-center flex-col items-center my-8'>
+          <div className='flex justify-center flex-col items-center  my-4 sm:my-8'>
             {subDevelopment.map(item => {
               return <Item key={item.id} item={item} />;
             })}
@@ -261,21 +262,24 @@ const MobileScreen = () => {
         }}
         className='px-4 py-10'
       >
-        <div className='my-5'>
+        <div className='my-5 relative'>
           <h2 className='text-[32px]'>Marketing</h2>
           <Link href='/marketing'>
             <a className='text-left py-2 block '>
-              <span className=' relative'>
+              <span className=' text-sm sm:text-base relative'>
                 Learn more{' '}
                 <div className='w-full absolute bottom-[-1px]  bg-white  h-[1px] left-0'></div>{' '}
               </span>{' '}
               {'->'}{' '}
             </a>
           </Link>
-          <div className='flex justify-center flex-col items-center my-8'>
+          <div className='flex justify-center flex-col items-center  my-4 sm:my-8'>
             {subMarketing.map(item => {
               return <Item key={item.id} item={item} />;
             })}
+          </div>
+          <div className='absolute   left-[-20px] bottom-[-80px]'>
+            <VioletLeft />
           </div>
         </div>
       </div>

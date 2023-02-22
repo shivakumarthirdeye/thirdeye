@@ -94,6 +94,7 @@ const ourProcess = [
     icon: <DesignSVG />,
     title: 'UX Design',
     description: `Third Eye Innovations UX design company can help you design products with flexibility in mind, and our strategic designs can be styled, layered, and adjusted to any technical stack that consistently helps customers achieve their goals.`,
+    to: '/design/ux-design',
   },
   {
     id: 2,
@@ -103,6 +104,7 @@ const ourProcess = [
      As a leading UI design company, Third Eye Innovations assists brands in navigating all aspects of today's and tomorrow's digital landscape. Good UI design begins with solid UI knowledge, which our teams have in great abundance.
 
     `,
+    to: '/design/ui-design',
   },
   {
     id: 3,
@@ -110,6 +112,7 @@ const ourProcess = [
     title: 'Graphic Design',
     description: `Whether you need a spectacular new logo or some eye-catching flyers, the talented designers at Third Eye Innovations can help. We take pride in our high-quality designers who provide only the best graphic design services.
 `,
+    to: '/design/graphic-design',
   },
 ];
 
@@ -122,7 +125,9 @@ const design = () => {
             content={
               <>
                 <span className='bg-black text-white px-1'>Design</span> is the
-                silent ambassador of your Brand.
+                silent <br className=' hidden xs:block' /> ambassador of your{' '}
+                <br className=' hidden xs:block' />
+                Brand.
               </>
             }
           />

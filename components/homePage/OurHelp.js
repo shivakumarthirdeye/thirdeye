@@ -34,14 +34,15 @@ const OurHelp = () => {
           <h1 className='heading lg:text-[64px] !text-white'>
             How can we help you
           </h1>
-          <div className='grid gap-8 my-10'>
+          <div className='grid gap-8 my-6 sm:my-8 md:my-10'>
             {helps.map(help => {
               const { id, description, title } = help;
 
               return (
                 <div key={id} className='grid gap-4'>
-                  <h1 className='font-semibold underline sm:text-lg md:text-xl'>
+                  <h1 className='font-semibold w-fit relative sm:text-lg md:text-xl'>
                     {title}
+                    <span className='w-full block bottom-0 bg-white absolute h-0.5 '></span>
                   </h1>
                   <div>
                     <svg

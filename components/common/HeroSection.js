@@ -12,7 +12,7 @@ const HeroSection = ({
 }) => {
   return (
     <div className=''>
-      <h1 className='text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-black text-opacity-80  sm:!leading-[48px] lg:!leading-[70px] max-w-4xl font-semibold xl:!leading-[87.14px] z-10'>
+      <h1 className='text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-black text-opacity-80  sm:!leading-[48px] lg:!leading-[70px] max-w-[303px] sm:max-w-4xl xl:!leading-[87.14px] z-10'>
         {content}
       </h1>
       {description && (
@@ -20,10 +20,10 @@ const HeroSection = ({
           {description}
         </p>
       )}
-      {/* <div className='absolute  top-[25%] lg:top-[75%] z-[-10] right-[-5%] xl:right-0  '>
+      <div className='absolute top-[-5%]   sm:top-[5%] md:top-[20%] lg:top-[71%] z-[-10] right-[-5%] xl:right-[2%]  '>
         <HeroTextSVG />
-      </div> */}
-      <div className='absolute right-0 top-[-200px] sm:top-[-350px] z-[-10] '>
+      </div>
+      <div className='absolute right-0 top-[-200px] sm:top-[-500px] z-[-10] '>
         <GreenRight />
       </div>
       <div className='absolute bottom-[-150px] sm:bottom-[-1350px] left-0 z-[-10]'>

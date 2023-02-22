@@ -20,7 +20,7 @@ const HeroVideo = () => {
 
   return (
     <div className='relative'>
-      <div className=' z-10 mb-10     rounded-md '>
+      <div className=' z-10 md:mt-40 mb-10     rounded-md '>
         <div className=' container mx-auto w-full'>
           <div className='relative'>
             <video

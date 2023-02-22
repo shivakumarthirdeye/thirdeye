@@ -15,12 +15,12 @@ const processStep = [
     to: '/development',
     background: `linear-gradient(42.36deg, #C67DFF 1.63%, #6D2890 100%), #FFFFFF`,
   },
-  {
-    id: 2,
-    title: 'Marketing',
-    to: '/marketing',
-    background: `linear-gradient(42.36deg, #AAF0E4 1.63%, #147267 100%), #FFFFFF`,
-  },
+  // {
+  //   id: 3,
+  //   title: 'Marketing',
+  //   to: '/marketing',
+  //   background: `linear-gradient(42.36deg, #AAF0E4 1.63%, #147267 100%), #FFFFFF`,
+  // },
 ];
 
 const process = () => {

@@ -71,7 +71,7 @@ const megaMenuItems = [
       },
       {
         id: 4,
-        name: 'Websites',
+        name: 'Website',
       },
       // {
       //   id: 5,

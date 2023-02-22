@@ -152,14 +152,14 @@ const IndustriesWeServe = () => {
       </div>
       <div className='container  '>
         <h1 className='heading'>Industries we serve</h1>
-        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
+        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-8 md:gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
           {industries.map(item => {
             const { description, id, img, title } = item;
 
             return (
-              <div key={id} className='flex gap-3 space-x-4'>
+              <div key={id} className='flex   space-x-4'>
                 <div className='w-auto'>
-                  <img loading='lazy' src={img} className='' alt='' />
+                  <img loading='lazy' className='w-12 h-12' src={img} alt='' />
                 </div>
                 <div className='flex-1 '>
                   <h1 className='text-2xl font-medium text-black text-opacity-80'>

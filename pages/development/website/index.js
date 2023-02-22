@@ -9,6 +9,7 @@ import OurWorks from '@/components/common/OurWorks';
 import Testimonial from '@/components/common/Testimonial';
 import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
+import WebsiteWorks from '@/components/sub-services/website-works/WebsiteWorks';
 // Hero Images
 import hero1 from '/public/assets/gif/sub-services/website/1.gif';
 import hero2 from '/public/assets/gif/sub-services/website/2.gif';
@@ -125,7 +126,8 @@ const Websites = () => {
 
       <Clients />
       <Awards awards={awards} />
-      <OurWorks title={'Website Works'} tag='WEBSITE' />
+      <WebsiteWorks limit={4} />
+      {/* <OurWorks title={'Website Works'} tag='WEBSITE' /> */}
       <ImpactCreated />
       <Blogs />
       <Testimonial testimonials={testimonials} />

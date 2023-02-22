@@ -20,6 +20,16 @@ body {
   font-weight: 400;
   overflow-x: hidden;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  line-height: 135% !important;
+}
 img {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -46,14 +56,14 @@ img {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
 }
-@media (min-width: 1350px) {
+/* @media (min-width: 1350px) {
   .container {
     width: 1320px;
   }
-}
+} */
 
 svg {
   pointer-events: none;
@@ -63,7 +73,7 @@ svg {
 }
 
 section {
-  @apply !my-12 md:!my-16 lg:!my-[100px];
+  @apply !my-12 md:!my-16 lg:my-20 xl:!my-[90px];
 }
 
 .heading {

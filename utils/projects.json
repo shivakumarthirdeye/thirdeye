@@ -11,7 +11,8 @@
       "tag": "Design & Development",
       "tags": [
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -105,7 +106,8 @@
       "tag": "Design & Development",
       "tags": [
         "MOBILE",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -194,7 +196,8 @@
       "tags": [
         "MOBILE",
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -300,7 +303,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/20712603-LynkTown-App-and-website-a-social-commerce-platform"
         }
       ]
     },
@@ -308,12 +311,14 @@
       "id": 2,
       "title": "LYNKE Mobile App",
       "smallTitle": "LYNKE App",
+      "featured": true,
       "thumbnail": "/assets/images/case-study/lynke/thumbnail.png",
       "slug": "lynke",
       "tag": "Design & Development",
       "tags": [
         "MOBILE",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -418,7 +423,6 @@
       "slug": "gigsasa",
       "tag": "",
       "tags": [
-        "PERFORMANCE",
         "MOBILE"
       ],
       "devDetails": [
@@ -517,7 +521,8 @@
       "tags": [
         "MOBILE",
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -645,7 +650,8 @@
       "tag": "Design & Development",
       "tags": [
         "MOBILE",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1026,7 +1032,8 @@
       "tag": "Design & Development",
       "tags": [
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1239,7 +1246,8 @@
       "tag": "Design & Development",
       "tags": [
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1427,7 +1435,8 @@
       "tag": "Design & Development",
       "tags": [
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1519,7 +1528,8 @@
       "tag": "Design & Development",
       "tags": [
         "MOBILE",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1594,7 +1604,8 @@
       "tag": "Design & Development",
       "tags": [
         "WEBAPPLICATION",
-        "DESIGN"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {

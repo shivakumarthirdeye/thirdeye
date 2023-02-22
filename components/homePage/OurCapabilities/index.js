@@ -65,7 +65,7 @@ const subDevelopment = [
         organizational functioning.
       </>
     ),
-    to: '/development/websites',
+    to: '/development/website',
   },
   {
     id: 2,

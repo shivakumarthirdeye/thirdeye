@@ -75,7 +75,7 @@ const TechStack = ({ description, classes, homePage }) => {
                 <img
                   title={name}
                   loading='lazy'
-                  className='w-auto mx-auto mix-blend-multiply'
+                  className='object-cover sm:w-auto h-20 sm:h-auto mx-auto mix-blend-multiply'
                   src={img}
                   key={id}
                 />
@@ -123,7 +123,7 @@ const TechStack = ({ description, classes, homePage }) => {
           </div>
         )} */}
       </div>
-      <div className='absolute left-0 top-[-200px] z-[-10] overflow-hidden '>
+      <div className='absolute left-0 hidden md:block top-[-200px] z-[-10] overflow-hidden '>
         <GreenLeft />
       </div>
     </section>

@@ -9,17 +9,18 @@ const Hero = () => {
           <HeroSection
             content={
               <>
-                Third Eye Innovations crafting digital solutions to drive real
-                business results.
+                Third Eye Innovations <br className='hidden xs:block' />{' '}
+                crafting digital solutions <br className='hidden xs:block' /> to
+                drive real business <br className='hidden xs:block' /> results.
               </>
             }
           />
         </div>
       </section>
       <HeroVideo />
-      <section className='my-10  md:my-30'>
+      <section className='!my-5 md:my-10  lg:my-30'>
         <div className=' container   '>
-          <h2 className='max-w-[877px] text-base sm:text-xl md:text-3xl lg:text-4xl text-black text-opacity-[94]  sm:leading-[30px] md:leading-[40px] lg:leading-[48.6px] z-10'>
+          <h2 className='max-w-[877px] text-sm sm:text-base md:text-xl lg:text-3xl xl:text-4xl text-black text-opacity-[94]  sm:leading-[30px] md:leading-[40px] lg:leading-[48.6px] z-10'>
             Third Eye Innovations is a design, development, and marketing
             company focused on developing high-performance, intuitive, secure,
             and best-in-class digital solutions. Through in-depth research and

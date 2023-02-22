@@ -33,7 +33,7 @@ const HowWeWork = ({ steps, title }) => {
   return (
     <section className=' relative px-4 '>
       <div className='container mx-auto'>
-        <h1 className='heading lg:text-[64px]'>
+        <h1 className='heading text-center sm:text-left lg:text-[64px]'>
           {title || 'How we Develop Incredible Products '}
         </h1>
 
@@ -49,7 +49,7 @@ const HowWeWork = ({ steps, title }) => {
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-3xl text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-[90px]'>
+                  <h1 className='text-[32px] text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-[90px]'>
                     <span className='sm:hidden'> 0{id} </span>
                     {title}
                   </h1>
@@ -65,16 +65,16 @@ const HowWeWork = ({ steps, title }) => {
           })}
         </div>
       </div>
-      <div className='absolute right-0 top-[300px] sm:top-[0%] z-[-10] overflow-hidden '>
+      <div className='absolute right-0 top-[0px] sm:top-[0%] z-[-10] overflow-hidden '>
         <GreenRight />
       </div>
-      <div className='absolute top-[-50px] left-0 z-[-10]  overflow-hidden'>
+      <div className='absolute hidden md:block top-[-50px] left-0 z-[-10]  overflow-hidden'>
         <VioletLeft />
       </div>
       <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
         <RightCircle />
       </div>
-      <div className='absolute  top-[25%] sm:top-[75%] left-0 z-[-10]  overflow-hidden'>
+      <div className='absolute  top-[5%] sm:top-[75%] left-0 z-[-10]  overflow-hidden'>
         <LeftCircle />
       </div>
     </section>
