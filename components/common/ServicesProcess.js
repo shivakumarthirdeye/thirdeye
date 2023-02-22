@@ -167,11 +167,8 @@ const ServicesProcess = ({ works = ourProcess }) => {
           const { id, icon, title, description, to } = item;
 
           return (
-            <Link href={to}>
-              <div
-                key={id}
-                className='grid flex-1  cursor-pointer gap-3 md:gap-5 my-3 sm:my-5'
-              >
+            <Link key={id} href={to}>
+              <div className='grid flex-1  cursor-pointer gap-3 md:gap-5 my-3 sm:my-5'>
                 {icon}
                 <h1 className=' text-[32px] lg:text-4xl   font-medium'>
                   {title}
