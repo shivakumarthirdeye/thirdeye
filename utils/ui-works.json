@@ -1,0 +1,104 @@
+{
+  "uiworks": [
+    {
+      "id": 1,
+      "name": "Fashion Ecommerce Website",
+      "slug": "fashion-ecommerce",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "smallImg": "/assets/images/subServices/ui/works/fashionEcommerce/small1.png",
+          "bigImg": "/assets/images/subServices/ui/works/fashionEcommerce/big1.jpg"
+        },
+        {
+          "id": 2,
+          "smallImg": "/assets/images/subServices/ui/works/fashionEcommerce/small2.png",
+          "bigImg": "/assets/images/subServices/ui/works/fashionEcommerce/big2.jpg"
+        },
+        {
+          "id": 3,
+          "smallImg": "/assets/images/subServices/ui/works/fashionEcommerce/small3.png",
+          "bigImg": "/assets/images/subServices/ui/works/fashionEcommerce/big3.jpg"
+        },
+        {
+          "id": 4,
+          "smallImg": "/assets/images/subServices/ui/works/fashionEcommerce/small4.png",
+          "bigImg": "/assets/images/subServices/ui/works/fashionEcommerce/big4.jpg"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/fashionEcommerce/thumbnail.png"
+    },
+    {
+      "id": 2,
+      "name": "Food Ecommerce App",
+      "slug": "food-ecommerce",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "bigImg": "/assets/images/subServices/ui/works/foodEcommerce/big1.png"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/foodEcommerce/thumbnail.png"
+    },
+    {
+      "id": 3,
+      "name": "Watch Ecommerce App",
+      "slug": "watch-ecommerce",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "bigImg": "/assets/images/subServices/ui/works/watchEcommerce/big1.png"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/watchEcommerce/thumbnail.png"
+    },
+    {
+      "id": 4,
+      "name": "Ecommerce Web App",
+      "slug": "ecommerce",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "smallImg": "/assets/images/subServices/ui/works/ecommerce/small1.png",
+          "bigImg": "/assets/images/subServices/ui/works/ecommerce/big1.png"
+        },
+        {
+          "id": 2,
+          "smallImg": "/assets/images/subServices/ui/works/ecommerce/small2.png",
+          "bigImg": "/assets/images/subServices/ui/works/ecommerce/big2.png"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/ecommerce/thumbnail.png"
+    },
+    {
+      "id": 5,
+      "name": "Realestate Website",
+      "slug": "realestate",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "bigImg": "/assets/images/subServices/ui/works/realestate/big1.png"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/realestate/thumbnail.png"
+    },
+    {
+      "id": 6,
+      "name": "Travel Booking App",
+      "slug": "travel-booking",
+      "description": "The UI design services aimed to create visually appealing, brand-building digital interfaces that attract and retain users.",
+      "images": [
+        {
+          "id": 1,
+          "bigImg": "/assets/images/subServices/ui/works/travelBooking/big1.png"
+        }
+      ],
+      "thumbnail": "/assets/images/subServices/ui/works/travelBooking/thumbnail.png"
+    }
+  ]
+}

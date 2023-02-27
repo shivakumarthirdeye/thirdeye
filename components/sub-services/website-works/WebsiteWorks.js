@@ -11,6 +11,7 @@ import work10 from 'public/assets/images/subServices/website-works/10.png';
 import work11 from 'public/assets/images/subServices/website-works/11.png';
 import work12 from 'public/assets/images/subServices/website-works/12.png';
 import Link from 'next/link';
+import Card from '../Card';
 
 const websiteWorks = [
   {
@@ -97,27 +98,9 @@ const WebsiteWorks = ({ limit = websiteWorks.length }) => {
           <h1 className='heading'>{'Website Works'}</h1>
         </div>
       )}
-      <div className='container mx-auto grid gap-x-20  justify-center md:grid-cols-2 max-w-7xl'>
+      <div className='container mx-auto gap-y-5 md:gap-y-0 grid gap-x-20  justify-center md:grid-cols-2 max-w-7xl'>
         {websiteWorks.slice(0, limit).map(item => {
-          const { description, id, image, name } = item;
-
-          return (
-            <div
-              key={id}
-              className='max-w-[578px] w-full'
-              style={{
-                marginTop: ` ${id % 2 === 0 && 80}px`,
-              }}
-            >
-              <img src={image.src} alt='' className='w-full max-h-[650px]' />
-              <div className='my-4'>
-                <h1 className='text-[54px]'>{name}</h1>
-                <p className='mt-2 max-w-[491px] text-black text-opacity-80 text-2xl'>
-                  {description}
-                </p>
-              </div>
-            </div>
-          );
+          return <Card key={item.id} {...item} image={item.image.src} />;
         })}
       </div>
       {limit !== websiteWorks.length && (

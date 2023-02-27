@@ -1,5 +1,6 @@
 import { GreenRight } from './ShadeSVGs';
 import CountUp, { useCountUp } from 'react-countup';
+import { useEffect } from 'react';
 
 const impacts = [
   { id: 1, ending: '+', amount: 10, description: 'Years of experience' },
@@ -14,8 +15,9 @@ const ImpactCreated = () => {
     enableScrollSpy: true,
     scrollSpyDelay: 1000,
   });
+
   return (
-    <div className='relative '>
+    <div id='counter' className='relative '>
       <div className='container  overflow-hidden'>
         <h1 className='heading'>Impact Created</h1>
 
@@ -26,7 +28,12 @@ const ImpactCreated = () => {
             return (
               <div key={id}>
                 <h1 className='text-3xl md:text-4xl lg:text-5xl'>
-                  <CountUp end={amount} start={0} enableScrollSpy />
+                  <CountUp
+                    id='counter'
+                    end={amount}
+                    start={0}
+                    enableScrollSpy
+                  />
                   {ending}
                   {/* {amount}+ */}
                 </h1>

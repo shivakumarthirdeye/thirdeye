@@ -110,105 +110,105 @@ const subDevelopment = [
     to: '/development/mvp',
   },
 ];
-const subMarketing = [
-  {
-    id: 1,
-    title: 'Social Media',
-    description: (
-      <>
-        With Third Eye Innovations' <b>social media services</b>, you can
-        increase your return on investment (ROI) from sites like Facebook,
-        Instagram, and LinkedIn. With our affordable social media management
-        services, your company can begin increasing brand awareness and revenue
-        through social media.
-      </>
-    ),
-    to: '/marketing/social-media-management',
-  },
-  {
-    id: 2,
-    title: 'SEO',
-    description: (
-      <>
-        Third Eye Innovations is the world's best <b> SEO services company</b>.
-        Our SEO services include a personalised strategy, cutting-edge
-        technology, and an elite SEO team. We focus on increasing revenue for
-        our clients and provide all of the services and technology required for
-        your company to grow with SEO.
-      </>
-    ),
-    to: '/marketing/seo',
-  },
-  {
-    id: 3,
-    title: 'Brand Marketing',
-    description: (
-      <>
-        Proven <b>marketing strategies</b> are in place to build, improve, and
-        strengthen the value and reputation of your brand. We create visual and
-        communication elements for your brand that resonate deeply with your
-        target audience and generate the desired perception.
-      </>
-    ),
-    to: '/marketing/brand-marketing',
-  },
-  {
-    id: 4,
-    title: 'Performance Marketing ',
-    description: (
-      <>
-        Chasing performance may be difficult, but it is doable with the right
-        <b> performance marketing tactics</b>. Third Eye Innovations is a
-        performance marketing agency with solidified skills to provide you with
-        absolute value. We implement effective strategies and deliver ROI with
-        measurable results.
-      </>
-    ),
-    to: '/marketing/performance-marketing',
-  },
-  {
-    id: 5,
-    title: 'PPC',
-    description: (
-      <>
-        The tides of digital marketing are changing, and many businesses are
-        looking for quick and efficient ways to position their brands in front
-        of high-converting customers. With Third Eye Innovations'{' '}
-        <b>PPC management services</b>, you can increase your search engine
-        visibility and get immediate results.
-      </>
-    ),
-    to: '/marketing/ppc',
-  },
-  {
-    id: 6,
-    title: 'Content Writing ',
-    description: (
-      <>
-        To <b>create great content</b>, you need knowledge, expertise, and time.
-        That is exactly what we do. Create great content that is addictively
-        enjoyable and performs well in natural search results. So, if you need
-        content writing services, we are your best bet. There are no overheads,
-        no restrictions, and only high-quality content is delivered.
-      </>
-    ),
-    to: '/marketing/ppc',
-  },
-  {
-    id: 6,
-    title: 'Email Marketing',
-    description: (
-      <>
-        Third Eye Innovations provides a wide range of{' '}
-        <b> email marketing services</b>
-        that are tailored to your brand's needs, financial capabilities, and
-        target market segments. Schedule a consultation with our company and
-        we'll talk about how important services are in achieving your goals.
-      </>
-    ),
-    to: '/marketing/ppc',
-  },
-];
+// const subMarketing = [
+//   {
+//     id: 1,
+//     title: 'Social Media',
+//     description: (
+//       <>
+//         With Third Eye Innovations' <b>social media services</b>, you can
+//         increase your return on investment (ROI) from sites like Facebook,
+//         Instagram, and LinkedIn. With our affordable social media management
+//         services, your company can begin increasing brand awareness and revenue
+//         through social media.
+//       </>
+//     ),
+//     to: '/marketing/social-media-management',
+//   },
+//   {
+//     id: 2,
+//     title: 'SEO',
+//     description: (
+//       <>
+//         Third Eye Innovations is the world's best <b> SEO services company</b>.
+//         Our SEO services include a personalised strategy, cutting-edge
+//         technology, and an elite SEO team. We focus on increasing revenue for
+//         our clients and provide all of the services and technology required for
+//         your company to grow with SEO.
+//       </>
+//     ),
+//     to: '/marketing/seo',
+//   },
+//   {
+//     id: 3,
+//     title: 'Brand Marketing',
+//     description: (
+//       <>
+//         Proven <b>marketing strategies</b> are in place to build, improve, and
+//         strengthen the value and reputation of your brand. We create visual and
+//         communication elements for your brand that resonate deeply with your
+//         target audience and generate the desired perception.
+//       </>
+//     ),
+//     to: '/marketing/brand-marketing',
+//   },
+//   {
+//     id: 4,
+//     title: 'Performance Marketing ',
+//     description: (
+//       <>
+//         Chasing performance may be difficult, but it is doable with the right
+//         <b> performance marketing tactics</b>. Third Eye Innovations is a
+//         performance marketing agency with solidified skills to provide you with
+//         absolute value. We implement effective strategies and deliver ROI with
+//         measurable results.
+//       </>
+//     ),
+//     to: '/marketing/performance-marketing',
+//   },
+//   {
+//     id: 5,
+//     title: 'PPC',
+//     description: (
+//       <>
+//         The tides of digital marketing are changing, and many businesses are
+//         looking for quick and efficient ways to position their brands in front
+//         of high-converting customers. With Third Eye Innovations'{' '}
+//         <b>PPC management services</b>, you can increase your search engine
+//         visibility and get immediate results.
+//       </>
+//     ),
+//     to: '/marketing/ppc',
+//   },
+//   {
+//     id: 6,
+//     title: 'Content Writing ',
+//     description: (
+//       <>
+//         To <b>create great content</b>, you need knowledge, expertise, and time.
+//         That is exactly what we do. Create great content that is addictively
+//         enjoyable and performs well in natural search results. So, if you need
+//         content writing services, we are your best bet. There are no overheads,
+//         no restrictions, and only high-quality content is delivered.
+//       </>
+//     ),
+//     to: '/marketing/ppc',
+//   },
+//   {
+//     id: 6,
+//     title: 'Email Marketing',
+//     description: (
+//       <>
+//         Third Eye Innovations provides a wide range of{' '}
+//         <b> email marketing services</b>
+//         that are tailored to your brand's needs, financial capabilities, and
+//         target market segments. Schedule a consultation with our company and
+//         we'll talk about how important services are in achieving your goals.
+//       </>
+//     ),
+//     to: '/marketing/ppc',
+//   },
+// ];
 
 const OurCapabilities = () => {
   useEffect(() => {
@@ -320,9 +320,9 @@ const OurCapabilities = () => {
         },
         ease: 'power4.inOut',
       });
-      scrollTl2.to('#container', {
-        background: `linear-gradient(223.64deg, #137266 21.73%, #BCFFF3 109.36%)`,
-      });
+      // scrollTl2.to('#container', {
+      //   background: `linear-gradient(223.64deg, #137266 21.73%, #BCFFF3 109.36%)`,
+      // });
 
       scrollTl2.to(
         '#titleText2',
@@ -362,24 +362,24 @@ const OurCapabilities = () => {
         '<='
       );
 
-      scrollTl2.to(
-        '#SVG2',
+      // scrollTl2.to(
+      //   '#SVG2',
 
-        {
-          opacity: 0,
-        },
-        '<='
-      );
-      scrollTl2.fromTo(
-        '#SVG3',
-        {
-          opacity: 0,
-        },
-        {
-          opacity: 1,
-        },
-        '<='
-      );
+      //   {
+      //     opacity: 0,
+      //   },
+      //   '<='
+      // );
+      // scrollTl2.fromTo(
+      //   '#SVG3',
+      //   {
+      //     opacity: 0,
+      //   },
+      //   {
+      //     opacity: 1,
+      //   },
+      //   '<='
+      // );
     };
 
     scrollAnim(
@@ -413,12 +413,12 @@ const OurCapabilities = () => {
                       >
                         Development
                       </h2>
-                      <h2
+                      {/* <h2
                         className='heading !text-white pb-4 absolute top-0'
                         id='titleText3'
                       >
                         Marketing
-                      </h2>
+                      </h2> */}
                     </div>
                     <div className='relative p-5 xl:p-0'>
                       <Link href='/design'>
@@ -468,7 +468,7 @@ const OurCapabilities = () => {
                 <Circle3 />
                 <PenSVG />
                 <BoxSVG />
-                <TvSVG />
+                {/* <TvSVG /> */}
               </div>
             </div>
             <div
@@ -490,13 +490,13 @@ const OurCapabilities = () => {
                     return <Item key={id} item={dev} />;
                   })}
                 </div>
-                <div id='market-section'>
+                {/* <div id='market-section'>
                   {subMarketing.map(market => {
                     const { id, description, title, to } = market;
 
                     return <Item key={id} item={market} />;
                   })}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
