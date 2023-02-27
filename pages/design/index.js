@@ -118,7 +118,7 @@ const ourProcess = [
 
 const design = () => {
   return (
-    <Layout>
+    <Layout noFooter>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
         <div className=' container   '>
           <HeroSection

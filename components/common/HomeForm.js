@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { HiChevronDown } from 'react-icons/hi';
 import Select from 'react-select';
 import * as Yup from 'yup';
+import BookMeet from '../casestudy/BookMeet';
+import Footer from '../Layout/Footer';
 
 const countiesList = [
   {
@@ -874,9 +876,14 @@ const HomeForm = () => {
   });
 
   return (
-    <section className='py-5 lg:py-10 px-2 sm:px-4 '>
-      <div className='container   mx-auto sm:border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between  sm:p-6 md:p-10 lg:p-16 '>
+    <div
+      style={{
+        background: `linear-gradient(74.78deg, #3545D1 0%, #31A4C9 100%)`,
+      }}
+      className='py-4 lg:py-16 !pb-0 px-2 sm:px-4 !my-0 '
+    >
+      <div className='container bg-white   mx-auto sm:border border-[#309FC9]  rounded-lg '>
+        <div className=' lg:flex  justify-between  py-4 sm:p-6 md:p-10 lg:p-12 '>
           <div className='flex-1'>
             <h1 className='heading'>
               Let’s create <br className='hidden sm:block' /> something{' '}
@@ -1056,7 +1063,7 @@ const HomeForm = () => {
                         {msg => <p className='text-red-500 py-3'>{msg}*</p>}
                       </ErrorMessage>
 
-                      <div className='mt-5'>
+                      {/* <div className='mt-5'>
                         <label className='flex space-x-2 items-center'>
                           <Field
                             type='checkbox'
@@ -1067,25 +1074,27 @@ const HomeForm = () => {
                             Stay up to date with trends in Design
                           </span>
                         </label>
-                      </div>
+                      </div> */}
                     </div>
 
-                    <div className='w-full flex justify-end '>
+                    <div className='w-full flex  '>
                       <button
-                        className='bg-black max-w-[135px] w-full h-12 text-sm md:text-base md:h-14 text-white lg:text-xl  rounded-[4px]'
+                        className='bg-black  w-full h-12 text-sm md:text-base md:h-14 text-white lg:text-xl  rounded-[4px]'
                         type='submit'
                       >
-                        Send
+                        Enquire now
                       </button>
                     </div>
                   </Form>
                 );
               }}
             </Formik>
+            <BookMeet />
           </div>
         </div>
       </div>
-    </section>
+      <Footer noBg />
+    </div>
   );
 };
 

@@ -256,7 +256,7 @@ const testimonials = [
 
 const development = () => {
   return (
-    <Layout>
+    <Layout noFooter>
       <section className='my-5 sm:my-10 lg:my-20 relative overflow-x-clip mb-10 sm:mb-24 md: lg:mb-60'>
         <div className=' container   '>
           <HeroSection

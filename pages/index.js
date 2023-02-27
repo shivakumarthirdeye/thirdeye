@@ -14,6 +14,7 @@ import HomeForm from '@/components/common/HomeForm';
 export default function Home() {
   return (
     <Layout
+      noFooter
       description={
         'We are a design, development & marketing studio creating an impact'
       }
@@ -33,9 +34,7 @@ export default function Home() {
       <HowWeWork title='How we work' />
       <TechStack homePage />
       <Testimonial />
-      <section>
-        <HomeForm />
-      </section>
+      <HomeForm />
     </Layout>
   );
 }
