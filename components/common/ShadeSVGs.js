@@ -10,7 +10,7 @@ export const GreenRight = () => {
         xmlns='http://www.w3.org/2000/svg'
       >
         <g filter='url(#filter0_f_1988_36363)'>
-          <circle cx='560' cy='560' r='185' fill='#00FFE0' fillOpacity='0.52' />
+          <circle cx='560' cy='560' r='185' fill='#00FFE0' fillOpacity='0.50' />
         </g>
         <defs>
           <filter
@@ -51,7 +51,7 @@ export const GreenRight = () => {
             cy='564.5'
             r='189.5'
             fill='#00FFE0'
-            fillOpacity='0.52'
+            fillOpacity='0.50'
           />
         </g>
         <defs>
@@ -99,7 +99,7 @@ export const VioletLeft = () => {
             cy='132.411'
             r='48.4109'
             fill='#0029FF'
-            fillOpacity='0.42'
+            fillOpacity='0.50'
           />
         </g>
         <defs>
@@ -141,7 +141,7 @@ export const VioletLeft = () => {
             cy='592.5'
             r='217.5'
             fill='#0029FF'
-            fillOpacity='0.62'
+            fillOpacity='0.50'
           />
         </g>
         <defs>
@@ -188,7 +188,7 @@ export const VioletRight = () => {
             cy='132.411'
             r='48.4109'
             fill='#0029FF'
-            fillOpacity='0.42'
+            fillOpacity='0.32'
           />
         </g>
         <defs>
@@ -236,7 +236,7 @@ export const GreenLeft = () => {
             cy='126.288'
             r='42.1787'
             fill='#00FFE0'
-            fillOpacity='0.52'
+            fillOpacity='0.40'
           />
         </g>
         <defs>
@@ -277,7 +277,7 @@ export const GreenLeft = () => {
             cy='564.5'
             r='189.5'
             fill='#00FFE0'
-            fillOpacity='0.52'
+            fillOpacity='0.40'
           />
         </g>
         <defs>
@@ -345,7 +345,7 @@ export const RightCircle = () => {
   return (
     <>
       <svg
-        className='md:hidden '
+        className='md:hidden  '
         width='85'
         height='171'
         viewBox='0 0 85 171'

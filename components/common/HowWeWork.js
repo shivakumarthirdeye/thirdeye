@@ -28,12 +28,16 @@ const howWork = [
   },
 ];
 
-const HowWeWork = ({ steps, title }) => {
+const HowWeWork = ({ steps, title, homePage }) => {
   const ourWorks = steps || howWork;
   return (
     <section className=' relative px-4 '>
       <div className='container mx-auto'>
-        <h1 className='heading text-center sm:text-left lg:text-[64px]'>
+        <h1
+          className={`${
+            homePage ? 'lg:text-[64px]' : 'lg:text-5xl'
+          } heading text-center sm:text-left `}
+        >
           {title || 'How we Develop Incredible Products '}
         </h1>
 
@@ -65,16 +69,26 @@ const HowWeWork = ({ steps, title }) => {
           })}
         </div>
       </div>
-      <div className='absolute right-0 top-[0px] sm:top-[0%] z-[-10] overflow-hidden '>
-        <GreenRight />
-      </div>
+
       <div className='absolute hidden md:block top-[-50px] left-0 z-[-10]  overflow-hidden'>
         <VioletLeft />
       </div>
-      <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
-        <RightCircle />
-      </div>
-      <div className='absolute  top-[5%] sm:top-[75%] left-0 z-[-10]  overflow-hidden'>
+      {homePage ? (
+        <div className='absolute right-0 top-[0px] sm:top-[0%] z-[-10] overflow-hidden '>
+          <GreenRight />
+        </div>
+      ) : (
+        <div className='absolute right-0 top-[0px] sm:top-[50%] z-[-10] overflow-hidden '>
+          <GreenRight />
+        </div>
+      )}
+
+      {!homePage && (
+        <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
+          <RightCircle />
+        </div>
+      )}
+      <div className='absolute  top-[5%] sm:top-[80%] left-0 z-[-10]  overflow-hidden'>
         <LeftCircle />
       </div>
     </section>

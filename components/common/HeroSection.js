@@ -16,22 +16,34 @@ const HeroSection = ({
         {content}
       </h1>
       {description && (
-        <p className='mt-3 max-w-3xl xl:mt-6 text-xl lg:!leading-[35.4px]  sm:text-xl  xl:text-2xl text-black text-opacity-80'>
+        <p
+          style={{
+            maxWidth: '619px',
+          }}
+          className='mt-3 xl:mt-6 text-xl lg:!leading-[35.4px]  sm:text-xl  xl:text-2xl text-black text-opacity-80'
+        >
           {description}
         </p>
       )}
-      <div className='absolute top-[-5%]   sm:top-[5%] md:top-[20%] lg:top-[71%] z-[-10] right-[-5%] xl:right-[2%]  '>
-        <HeroTextSVG />
+      <div
+        className={`${
+          description ? 'mt-5' : ''
+        }  relative h-[0px] md:h-[80px] lg:h-[100px] xl:h-[150.88px]`}
+      >
+        <div className='absolute right-[-420px]  md:right-[-25vw] lg:right-[-22vw] xl:right-[-10vw] 2xl:right-[-9vw] top-[-150px] md:top-[-90px]'>
+          <HeroTextSVG />
+        </div>
       </div>
+
       <div className='absolute right-0 top-[-200px] sm:top-[-500px] z-[-10] '>
         <GreenRight />
       </div>
-      <div className='absolute bottom-[-150px] sm:bottom-[-1350px] left-0 z-[-10]'>
+      <div className='absolute bottom-[-150px] sm:bottom-[-130%] left-0 z-[-10]'>
         <VioletLeft />
       </div>
-      <div className='hidden lg:block'>
+      <div className='hidden lg:block mt-[-100px]'>
         {hero1 && (
-          <div className='container h-[50vw] sm:h-[400px] lg:h-[480px] xl:h-[600px] mt-10  max-w-7xl mb-[10px]  lg:mt-[100px]  mx-auto relative '>
+          <div className='container h-[50vw] sm:h-[400px] lg:h-[480px] xl:h-[600px] mt-10  max-w-7xl mb-[10px]   mx-auto relative '>
             <div className='absolute  sm:left-0'>
               <img
                 loading='lazy'

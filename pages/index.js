@@ -31,7 +31,7 @@ export default function Home() {
       <Clients svg />
       <IndustriesWeServe />
       <OurHelp />
-      <HowWeWork title='How we work' />
+      <HowWeWork title='How we work' homePage />
       <TechStack homePage />
       <Testimonial />
       <HomeForm />

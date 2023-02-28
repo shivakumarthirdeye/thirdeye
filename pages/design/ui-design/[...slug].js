@@ -1,3 +1,4 @@
+import { GreenRight } from '@/components/common/ShadeSVGs';
 import Layout from '@/components/Layout';
 import content from '@/utils/ui-works.json';
 import { useState } from 'react';
@@ -11,44 +12,50 @@ const UiWorks = ({ page }) => {
 
   return (
     <Layout>
-      <section className='container'>
-        <div className='flex flex-wrap xl:flex-nowrap items-center lg:space-x-10'>
-          <div>
-            <h1 className='text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium  '>
-              {name}
-            </h1>
-            <p className='text-black my-5 text-opacity-80 md:text-lg lg:text-xl max-w-[514px]'>
-              {description}
-            </p>
-          </div>
-          <div className='flex justify-center w-full xl:w-auto  space-x-4 lg:space-x-6 xl:space-x-8 items-center'>
-            {images &&
-              images.map((img, idx) => {
-                return (
-                  <>
-                    {img.smallImg && (
-                      <button
-                        key={img.id}
-                        onClick={() => {
-                          setCurrentImg(idx);
-                        }}
-                        className={`${
-                          currentImg === idx
-                            ? 'border-4 rounded-sm border-[#9cd0e2]'
-                            : ''
-                        } `}
-                      >
-                        <img src={img.smallImg} />
-                      </button>
-                    )}
-                  </>
-                );
-              })}
-          </div>
+      <section className=' relative'>
+        <div className='absolute right-0 top-[-200px] sm:top-[-500px] z-[-10] '>
+          <GreenRight />
         </div>
-        <section>
-          <img src={images[currentImg]?.bigImg} alt='' />
-        </section>
+        <div className='container'>
+          <div className='flex flex-wrap xl:flex-nowrap items-center lg:space-x-10'>
+            <div>
+              <h1 className='text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium  '>
+                {name}
+              </h1>
+              <p className='text-black my-5 text-opacity-80 md:text-lg lg:text-xl max-w-[514px]'>
+                {description}
+              </p>
+            </div>
+            <div className='flex justify-center w-full xl:w-auto  space-x-4 lg:space-x-6 xl:space-x-8 items-center'>
+              {images &&
+                images.map((img, idx) => {
+                  return (
+                    <>
+                      {img.smallImg && (
+                        <button
+                          key={img.id}
+                          onClick={() => {
+                            setCurrentImg(idx);
+                          }}
+                          className={`${
+                            currentImg === idx
+                              ? 'border-4 rounded-sm border-[#9cd0e2]'
+                              : ''
+                          } `}
+                        >
+                          <img src={img.smallImg} />
+                        </button>
+                      )}
+                    </>
+                  );
+                })}
+            </div>
+          </div>
+
+          <section>
+            <img src={images[currentImg]?.bigImg} alt='' />
+          </section>
+        </div>
       </section>
     </Layout>
   );

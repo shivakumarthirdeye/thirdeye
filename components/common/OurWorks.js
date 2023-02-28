@@ -159,9 +159,9 @@ const OurWorks = ({ title, currentPage, tag }) => {
             </Swiper>
           </div>
         </div>
-        <div className='absolute z-[-1]  left-0 top-0'>
+        {/* <div className='absolute z-[-1]  left-0 top-0'>
           <VioletLeft />
-        </div>
+        </div> */}
       </section>
     </>
   );

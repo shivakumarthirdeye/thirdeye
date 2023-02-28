@@ -10,6 +10,7 @@ import logo9 from '/public/assets/images/subServices/graphic-works/works/logo-de
 import logo10 from '/public/assets/images/subServices/graphic-works/works/logo-design/10.png';
 import logo11 from '/public/assets/images/subServices/graphic-works/works/logo-design/11.png';
 import Card from './Card';
+import { GreenRight, VioletLeft } from '@/components/common/ShadeSVGs';
 
 const logosInfo = [
   {
@@ -93,10 +94,34 @@ const logosInfo = [
 
 const LogoDesign = () => {
   return (
-    <section className='container px-4'>
-      {logosInfo.map((logo, index) => (
-        <Card key={logo.id} item={logo} />
-      ))}
+    <section className='relative px-4'>
+      <div className='container'>
+        <div className='absolute right-0 top-[100px] z-[-10] '>
+          <GreenRight />
+        </div>
+        <div className='absolute right-0 top-[1800px] z-[-10] '>
+          <GreenRight />
+        </div>
+        <div className='absolute right-0 top-[3600px] z-[-10] '>
+          <GreenRight />
+        </div>
+        <div className='absolute right-0 top-[5000px] z-[-10] '>
+          <GreenRight />
+        </div>
+        <div className='absolute bottom-[500px] left-0 z-[-10]'>
+          <VioletLeft />
+        </div>
+        <div className='absolute bottom-[1500px] left-0 z-[-10]'>
+          <VioletLeft />
+        </div>
+        <div className='absolute bottom-[3000px] left-0 z-[-10]'>
+          <VioletLeft />
+        </div>
+
+        {logosInfo.map((logo, index) => (
+          <Card key={logo.id} item={logo} />
+        ))}
+      </div>
     </section>
   );
 };

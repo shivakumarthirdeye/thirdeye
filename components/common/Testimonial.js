@@ -96,7 +96,7 @@ const Testimonial = ({ testimonials = testimonialInfo }) => {
             const { id, img, review, name, userId, date } = item;
             return (
               <SwiperSlide key={id} className=' w-full select-none'>
-                <div className='border p-4 sm:p-5 rounded-xl font-poppins'>
+                <div className='border p-4 sm:p-5 rounded-xl bg-white font-poppins'>
                   <div className='flex gap-4'>
                     <div>
                       <img
