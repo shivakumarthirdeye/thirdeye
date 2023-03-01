@@ -1,6 +1,7 @@
 import { GreenRight } from './ShadeSVGs';
 import CountUp, { useCountUp } from 'react-countup';
 import { useEffect } from 'react';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const impacts = [
   { id: 1, ending: '+', amount: 10, description: 'Years of experience' },
@@ -17,9 +18,9 @@ const ImpactCreated = () => {
   });
 
   return (
-    <div id='counter' className='relative '>
+    <div className='relative '>
       <div className='container  overflow-hidden'>
-        <h1 className='heading'>Impact Created</h1>
+        <h1 className='smallHeading'>Impact Created</h1>
 
         <div className='grid grid-cols-2 gap-y-5 lg:grid-cols-4 my-10 lg:my-20'>
           {impacts.map(impact => {
@@ -28,12 +29,13 @@ const ImpactCreated = () => {
             return (
               <div key={id}>
                 <h1 className='text-3xl md:text-4xl lg:text-5xl'>
-                  <CountUp
-                    id='counter'
-                    end={amount}
-                    start={0}
-                    enableScrollSpy
-                  />
+                  <CountUp id='counter' end={amount} start={0}>
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start}>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
                   {ending}
                   {/* {amount}+ */}
                 </h1>

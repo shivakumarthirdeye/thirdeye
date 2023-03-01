@@ -20,7 +20,7 @@ const Awards = ({ awards = allAwards }) => {
   return (
     <div>
       <div className='container mx-auto pb-10  px-4'>
-        <h1 className='heading '>Awards & Recognition</h1>
+        <h1 className='smallHeading '>Awards & Recognition</h1>
         <Swiper
           slidesPerView={2}
           spaceBetween={30}

@@ -31,9 +31,7 @@ const OurHelp = () => {
         className='text-white  lg:hidden py-10    px-4'
       >
         <div className='container mx-auto'>
-          <h1 className='heading lg:text-[64px] !text-white'>
-            How can we help you
-          </h1>
+          <h1 className='heading !text-white'>How can we help you</h1>
           <div className='grid gap-8 my-6 sm:my-8 md:my-10'>
             {helps.map(help => {
               const { id, description, title } = help;

@@ -17,7 +17,7 @@ const OurWorks = ({ title, currentPage, tag }) => {
 
       <section className='hidden sm:block my-20 relative'>
         <div className='container  overflow-hidden'>
-          <h1 className='heading'>{title || 'Our Works'}</h1>
+          <h1 className='heading font-medium'>{title || 'Our Works'}</h1>
           <div className='my-20  sm:px-0 container  mx-auto'>
             <Swiper
               spaceBetween={30}

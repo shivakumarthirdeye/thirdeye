@@ -26,14 +26,14 @@ export default function Home() {
       }
     >
       <Hero />
-      <OurWork featured={true} />
+      <OurWork featured={true} homePage />
       <OurCapabilities />
-      <Clients svg />
+      <Clients svg homePage />
       <IndustriesWeServe />
-      <OurHelp />
+      <OurHelp homePage />
       <HowWeWork title='How we work' homePage />
       <TechStack homePage />
-      <Testimonial />
+      <Testimonial homePage />
       <HomeForm />
     </Layout>
   );

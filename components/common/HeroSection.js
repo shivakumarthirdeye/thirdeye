@@ -20,7 +20,7 @@ const HeroSection = ({
           style={{
             maxWidth: '619px',
           }}
-          className='mt-3 xl:mt-6 text-xl lg:!leading-[35.4px]  sm:text-xl  xl:text-2xl text-black text-opacity-80'
+          className='mt-3 xl:mt-6 text-xl lg:!leading-[33.4px]  font-light sm:text-xl  xl:text-2xl text-black text-opacity-80'
         >
           {description}
         </p>

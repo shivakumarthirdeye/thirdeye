@@ -162,13 +162,13 @@ const ourProcess = [
 const ServicesProcess = ({ works = ourProcess }) => {
   return (
     <section className=' relative  px-4'>
-      <div className='container  mx-auto flex gap-3 sm:gap-5   flex-wrap xl:flex-nowrap '>
+      <div className='container  mx-auto flex flex-col sm:flex-row gap-3 sm:gap-5   flex-wrap xl:flex-nowrap '>
         {works.map(item => {
           const { id, icon, title, description, to } = item;
 
           return (
             <Link key={id} href={to}>
-              <div className='grid flex-1  cursor-pointer gap-3 md:gap-5 my-3 sm:my-5'>
+              <div className='grid flex-1  sm:min-w-[300px]  cursor-pointer gap-3 md:gap-5 my-3 sm:my-5'>
                 {icon}
                 <h1 className=' text-[32px] lg:text-4xl   font-medium'>
                   {title}

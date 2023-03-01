@@ -62,7 +62,7 @@ const Blogs = props => {
   return (
     <section className='overflow-hidden'>
       <div className='container mx-auto  px-4'>
-        <h1 className='heading '>Blogs</h1>
+        <h1 className='smallHeading '>Blogs</h1>
         <div className='my-20  sm:px-0 container   mx-auto'>
           <Swiper
             spaceBetween={10}

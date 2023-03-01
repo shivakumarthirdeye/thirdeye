@@ -4,7 +4,7 @@ import { Autoplay } from 'swiper';
 
 const { clients } = allClients;
 
-const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
+const Clients = ({ svg, tag, title = 'Selected Clients', homePage }) => {
   return (
     <div className='relative py-5 sm:py-10    overflow-hidden'>
       {svg && (
@@ -25,7 +25,7 @@ const Clients = ({ svg, tag, title = 'Selected Clients' }) => {
       )}
 
       <div className='container mx-auto  px-4'>
-        <h1 className='heading lg:text-[64px] '>{title}</h1>
+        <h1 className={`${homePage ? 'heading' : 'smallHeading'} `}>{title}</h1>
         <Swiper
           slidesPerView={2}
           spaceBetween={30}

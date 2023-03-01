@@ -35,8 +35,8 @@ const HowWeWork = ({ steps, title, homePage }) => {
       <div className='container mx-auto'>
         <h1
           className={`${
-            homePage ? 'lg:text-[64px]' : 'lg:text-5xl'
-          } heading text-center sm:text-left `}
+            homePage ? 'heading' : 'smallHeading'
+          } text-center sm:text-left`}
         >
           {title || 'How we Develop Incredible Products '}
         </h1>
