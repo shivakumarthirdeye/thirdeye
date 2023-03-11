@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const ourProcess = [
   {
     id: 4,
@@ -159,20 +161,26 @@ const ourProcess = [
 
 const ServicesProcess = ({ works = ourProcess }) => {
   return (
-    <section className='container gap-5 grid  sm:grid-cols-2 lg:grid-cols-4 mx-auto  px-4'>
-      {works.map(item => {
-        const { id, icon, title, description } = item;
+    <section className=' relative  px-4'>
+      <div className='container  mx-auto flex flex-col sm:flex-row gap-3 sm:gap-5   flex-wrap xl:flex-nowrap '>
+        {works.map(item => {
+          const { id, icon, title, description, to } = item;
 
-        return (
-          <div key={id} className='grid gap-3 md:gap-5 md:my-10 lg:my-20'>
-            {icon}
-            <h1 className=' text-2xl lg:text-3xl   font-medium'>{title}</h1>
-            <p className='text-sm sm:text-base md:text-lg lg:text-xl text-black text-opacity-60'>
-              {description}
-            </p>
-          </div>
-        );
-      })}
+          return (
+            <Link key={id} href={to}>
+              <div className='grid flex-1  sm:min-w-[300px]  cursor-pointer gap-3 md:gap-5 my-3 sm:my-5'>
+                {icon}
+                <h1 className=' text-[32px] lg:text-4xl   font-medium'>
+                  {title}
+                </h1>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl text-black text-opacity-60'>
+                  {description}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
     </section>
   );
 };

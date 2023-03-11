@@ -14,6 +14,7 @@ import HomeForm from '@/components/common/HomeForm';
 export default function Home() {
   return (
     <Layout
+      noFooter
       description={
         'We are a design, development & marketing studio creating an impact'
       }
@@ -25,17 +26,15 @@ export default function Home() {
       }
     >
       <Hero />
-      <OurWork featured={true} />
+      <OurWork featured={true} homePage />
       <OurCapabilities />
-      <Clients svg />
+      <Clients svg homePage />
       <IndustriesWeServe />
-      <OurHelp />
-      <HowWeWork title='How we work' />
+      <OurHelp homePage />
+      <HowWeWork title='How we work' homePage />
       <TechStack homePage />
-      <Testimonial />
-      <section>
-        <HomeForm />
-      </section>
+      <Testimonial homePage />
+      <HomeForm />
     </Layout>
   );
 }

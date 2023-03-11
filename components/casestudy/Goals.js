@@ -3,65 +3,69 @@ import { VioletRight } from '../common/ShadeSVGs';
 
 const Goals = ({ points, img, noId }) => {
   return (
-    <section className='relative px-4'>
-      <div className='container  mx-auto'>
-        <div>
-          <h2 className='text-sm md:text-base lg:text-xl xl:text-2xl text-purple '>
-            Project Goals
-          </h2>
-          <div className='lg:flex  grid gap-5 lg:gap-3 max-w-7xl my-5'>
-            {points.slice(0, 2).map(point => {
-              return <Points key={point.id} noId={noId} {...point} />;
-            })}
-          </div>
-          <div className=' mx-auto my-5 md:my-10'>
-            <img
-              loading='lazy'
-              src={img}
-              className='w-full h-full max-h-[763.42px] object-cover '
-              alt=''
-            />
-          </div>
-          <div>
-            {points.slice(2, points.length).map((point, idx) => {
-              return (
-                <div
-                  key={point.id}
-                  className='lg:flex grid gap-10 lg:gap-0 justify-between   my-10 lg:my-24'
-                >
-                  <div
-                    className={`${
-                      idx % 2 !== 0 && 'lg:!order-2 lg:ml-10'
-                    } lg:mr-10  flex-[0.7]`}
-                  >
-                    <Points {...point} />
-                  </div>
-                  {point.img && (
-                    <div className={`  w-full lg:w-[500px]  xl:w-[600px]`}>
-                      <img
-                        loading='lazy'
-                        src={point.img}
-                        className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[600px]'
-                        alt=''
-                      />
+    <>
+      {points?.length > 0 && (
+        <section className='relative px-4'>
+          <div className='container  mx-auto'>
+            <div>
+              <h2 className='text-sm md:text-base lg:text-xl xl:text-2xl text-purple '>
+                Project Goals
+              </h2>
+              <div className='lg:flex  grid gap-5 lg:gap-3 max-w-7xl my-5'>
+                {points.slice(0, 2).map(point => {
+                  return <Points key={point.id} noId={noId} {...point} />;
+                })}
+              </div>
+              <div className=' mx-auto my-5 md:my-10'>
+                <img
+                  loading='lazy'
+                  src={img}
+                  className='w-full h-full max-h-[763.42px] object-cover '
+                  alt=''
+                />
+              </div>
+              <div>
+                {points.slice(2, points.length).map((point, idx) => {
+                  return (
+                    <div
+                      key={point.id}
+                      className='lg:flex grid gap-10 lg:gap-0 justify-between   my-10 lg:my-24'
+                    >
+                      <div
+                        className={`${
+                          idx % 2 !== 0 && 'lg:!order-2 lg:ml-10'
+                        } lg:mr-10  flex-[0.7]`}
+                      >
+                        <Points {...point} />
+                      </div>
+                      {point.img && (
+                        <div className={`  w-full lg:w-[500px]  xl:w-[600px]`}>
+                          <img
+                            loading='lazy'
+                            src={point.img}
+                            className='w-full h-full max-h-[345px] lg:max-h-[500px] object-cover xl:max-h-[600px]'
+                            alt=''
+                          />
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-              );
-            })}
+                  );
+                })}
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className='absolute z-[-1]  right-0 top-[200px]'>
-        <VioletRight />
-      </div>
-      <div className='absolute z-[-1]  right-0 bottom-[1100px]'>
-        <VioletRight />
-      </div>
-      <div className='absolute z-[-1]  right-0 bottom-[300px]'>
-        <VioletRight />
-      </div>
-    </section>
+          <div className='absolute z-[-1]  right-0 top-[200px]'>
+            <VioletRight />
+          </div>
+          <div className='absolute z-[-1]  right-0 bottom-[1100px]'>
+            <VioletRight />
+          </div>
+          <div className='absolute z-[-1]  right-0 bottom-[300px]'>
+            <VioletRight />
+          </div>
+        </section>
+      )}
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
 import ImgSwiperInfinite from '@/components/common/ImgSwiperInfinite';
+import { GreenRight, VioletLeft } from '@/components/common/ShadeSVGs';
 import React from 'react';
 
 import lynktownImg1 from '/public/assets/images/subServices/graphic-works/works/social-media/lynktown/1.png';
@@ -33,7 +34,13 @@ const spoclearnImages = [
 
 const SocialMedia = () => {
   return (
-    <>
+    <div className='relative'>
+      <div className='absolute right-0 top-[100px] z-[-10] '>
+        <GreenRight />
+      </div>
+      <div className='absolute  top-[100%] left-0 z-[-10]'>
+        <VioletLeft />
+      </div>
       <ImgSwiperInfinite
         images={spoclearnImages}
         className='bg-[#F6F6F6]'
@@ -46,7 +53,7 @@ const SocialMedia = () => {
         title='LynkTown'
         description={`At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth? Do you need more consumers to buy your product? `}
       />
-    </>
+    </div>
   );
 };
 

@@ -62,11 +62,13 @@ const testimonialInfo = [
   },
 ];
 
-const Testimonial = ({ testimonials = testimonialInfo }) => {
+const Testimonial = ({ testimonials = testimonialInfo, homePage }) => {
   return (
     <section>
-      <div className='container mx-auto px-4'>
-        <h1 className='heading lg:[64px]'>What people say about us</h1>
+      <div className='container '>
+        <h1 className={homePage ? 'heading' : 'smallHeading'}>
+          What people say about us
+        </h1>
       </div>{' '}
       <div className='my-10 md:my-20 px-4 sm:px-0'>
         <Swiper
@@ -96,7 +98,7 @@ const Testimonial = ({ testimonials = testimonialInfo }) => {
             const { id, img, review, name, userId, date } = item;
             return (
               <SwiperSlide key={id} className=' w-full select-none'>
-                <div className='border p-4 sm:p-5 rounded-xl font-poppins'>
+                <div className='border p-4 sm:p-5 rounded-xl bg-white font-poppins'>
                   <div className='flex gap-4'>
                     <div>
                       <img

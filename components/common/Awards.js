@@ -1,3 +1,4 @@
+import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Award1 from '/public/assets/images/award/award1.png';
 import Award2 from '/public/assets/images/award/award2.png';
@@ -19,10 +20,15 @@ const Awards = ({ awards = allAwards }) => {
   return (
     <div>
       <div className='container mx-auto pb-10  px-4'>
-        <h1 className='heading '>Awards & Recognition</h1>
+        <h1 className='smallHeading '>Awards & Recognition</h1>
         <Swiper
-          slidesPerView={1.2}
-          spaceBetween={10}
+          slidesPerView={2}
+          spaceBetween={30}
+          autoplay={{
+            delay: 750,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
           className='mt-10 items-center client-swiper justify-center '
           breakpoints={{
             400: {
@@ -77,7 +83,7 @@ const Awards = ({ awards = allAwards }) => {
                 <img
                   title={name}
                   loading='lazy'
-                  className='w-auto mx-auto mix-blend-multiply'
+                  className='h-[110px] md:w-[150px] md:h-[135px] cover mx-auto mix-blend-multiply'
                   src={img}
                   key={id}
                 />

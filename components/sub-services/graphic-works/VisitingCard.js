@@ -1,3 +1,4 @@
+import { GreenRight, VioletLeft } from '@/components/common/ShadeSVGs';
 import Card from './Card';
 import card1 from '/public/assets/images/subServices/graphic-works/works/visiting-card/1.png';
 import card2 from '/public/assets/images/subServices/graphic-works/works/visiting-card/2.png';
@@ -37,10 +38,21 @@ const cardsInfo = [
 
 const VisitingCard = () => {
   return (
-    <section className='container px-4'>
-      {cardsInfo.map((card, index) => (
-        <Card key={card.id} item={card} />
-      ))}
+    <section className='relative px-4'>
+      <div className='absolute right-0 top-[100px] z-[-10] '>
+        <GreenRight />
+      </div>
+      <div className='absolute right-0 top-[1800px] z-[-10] '>
+        <GreenRight />
+      </div>
+      <div className='absolute bottom-[500px] left-0 z-[-10]'>
+        <VioletLeft />
+      </div>
+      <div className='container'>
+        {cardsInfo.map((card, index) => (
+          <Card key={card.id} item={card} />
+        ))}
+      </div>
     </section>
   );
 };

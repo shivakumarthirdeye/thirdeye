@@ -115,7 +115,7 @@ const Header = ({ showHeaderBtn = true }) => {
               <img
                 loading='lazy'
                 src={logo.src}
-                className='max-w-[131] w-full max-h-[55px]'
+                className='max-w-[131px] w-[131px] max-h-[71px]'
                 alt='logo'
               />
             </a>

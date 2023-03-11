@@ -5,8 +5,8 @@ import { HiChevronDown } from 'react-icons/hi';
 import { useMediaQuery } from 'react-responsive';
 import Select, { components } from 'react-select';
 import * as Yup from 'yup';
-import CalendlyModal from '../CalendlyModal';
-import meetingImg from '/public/assets/meeting.png';
+import BookMeet from '../casestudy/BookMeet';
+import Footer from '../Layout/Footer';
 
 const countiesList = [
   {
@@ -868,13 +868,16 @@ const ProjectRequirementForm = () => {
     service: Yup.string().required('Service is required'),
     country: Yup.string().required('Country is required'),
   });
-  const [book, setBook] = useState(false);
 
   return (
-    <section className='py-5 lg:py-10 '>
-      <CalendlyModal open={book} toggleModal={() => setBook(prev => !prev)} />
-      <div className='container px-4  mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between p-16 '>
+    <div
+      style={{
+        background: `linear-gradient(74.78deg, #3545D1 0%, #31A4C9 100%)`,
+      }}
+      className='py-5 lg:py-10 pt-10 lg:!pt-16 xl:!pt-24 !pb-0  sm:px-0 '
+    >
+      <div className='container bg-white  mx-auto sm:border border-[#309FC9]  rounded-lg '>
+        <div className=' lg:flex  justify-between  py-4 sm:p-9 md:p-10 lg:p-12 '>
           <div className='flex-1'>
             <h1 className='heading'>
               Let’s create <br /> something great
@@ -894,14 +897,14 @@ const ProjectRequirementForm = () => {
                 const { values, setFieldValue } = formik;
 
                 return (
-                  <Form className='flex-1 max-w-[570px] mx-auto md:max-w-max  my-10 md:my-0 grid gap-8 lg:gap-12'>
+                  <Form className='flex-1 max-w-[570px] mx-auto md:max-w-max  my-10 md:my-0 grid gap-8'>
                     <div className='md:flex  md:space-x-5'>
                       <div className='w-full mb-8'>
                         <Field
                           type='text'
                           name='name'
                           placeholder='What’s your name?'
-                          className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='name'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -913,7 +916,7 @@ const ProjectRequirementForm = () => {
                           type='email'
                           name='email'
                           placeholder='Your Email?'
-                          className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='email'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -922,7 +925,7 @@ const ProjectRequirementForm = () => {
                     </div>
                     <div className='md:flex  md:space-x-5'>
                       <div className='relative w-full mb-8'>
-                        <div className='absolute z-10 top-2 right-0'>
+                        <div className='absolute z-10 top-2 right-0 pointer-events-none'>
                           <HiChevronDown className='text-2xl text-black text-opacity-60' />
                         </div>
 
@@ -943,7 +946,8 @@ const ProjectRequirementForm = () => {
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
                               fontSize: '18px',
-                              paddingBottom: '14px',
+                              paddingBottom: '17.1px',
+                              cursor: 'pointer',
                               '&:hover': {
                                 borderRadius: 0,
                                 borderColor: '#e5e7eb',
@@ -953,6 +957,7 @@ const ProjectRequirementForm = () => {
                               ...style,
                               fontSize: '18px',
                               color: '#9ca3af',
+                              margin: '0',
                             }),
                           }}
                         />
@@ -966,7 +971,7 @@ const ProjectRequirementForm = () => {
                           type='text'
                           name='company'
                           placeholder='Company Name'
-                          className='py-1 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full'
+                          className='py-1 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full'
                         />
                         <ErrorMessage name='company'>
                           {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -996,7 +1001,7 @@ const ProjectRequirementForm = () => {
                             borderBottom: '2px solid #e5e7eb',
                             boxShadow: 'none',
                             fontSize: '18px',
-                            paddingBottom: '6px',
+                            paddingBottom: '16px',
                             '&:hover': {
                               borderRadius: 0,
                               borderColor: '#e5e7eb',
@@ -1004,8 +1009,9 @@ const ProjectRequirementForm = () => {
                           }),
                           placeholder: style => ({
                             ...style,
-                            paddingBottom: '14px',
+                            fontSize: '18px',
                             color: '#9ca3af',
+                            margin: '0',
                           }),
                         }}
                       />
@@ -1024,7 +1030,7 @@ const ProjectRequirementForm = () => {
                         as='textarea'
                         name='message'
                         placeholder='Tell us about your project :)'
-                        className='py-2 pb-4 md:placeholder:text-xl  text-lg  outline-none border-b-2 w-full h-[150px] resize-none'
+                        className='py-2 pb-4 placeholder:text-lg  text-lg  outline-none border-b-2 w-full h-[150px] resize-none'
                       />
                       <ErrorMessage name='message'>
                         {msg => <p className='text-red-500 py-3'>{msg}*</p>}
@@ -1056,43 +1062,12 @@ const ProjectRequirementForm = () => {
                 );
               }}
             </Formik>
-            <div>
-              <div className='flex items-center space-x-1 md:space-x-2 my-8'>
-                <div className='bg-black h-[0.5px] md:h-[1px] flex-1'></div>
-                <p className='text-xs text-lg'>or</p>
-                <div className='bg-black h-[0.5px] md:h-[1px] flex-1'></div>
-              </div>
-              <div className='flex justify-between items-center'>
-                <div className='flex space-x-5 items-center'>
-                  <img
-                    loading='lazy'
-                    src={meetingImg.src}
-                    alt=''
-                    className='w-12 h-12 md:w-auto md:h-auto rounded-md  md:rounded-3xl'
-                  />
-                  <div>
-                    <p className='text-xs sm:text-sm md:text-base font-medium'>
-                      Arrange a chat with marin,
-                      <br /> our head of marketing
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <button
-                    onClick={() => {
-                      setBook(prev => !prev);
-                    }}
-                    className='p-2 md:py-4 md:px-7 border text-xs sm:text-sm md:text-base border-blue text-blue rounded'
-                  >
-                    Book a time
-                  </button>
-                </div>
-              </div>
-            </div>
+            <BookMeet />
           </div>
         </div>
       </div>
-    </section>
+      <Footer noBg />
+    </div>
   );
 };
 

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { HiChevronDown } from 'react-icons/hi';
 import Select from 'react-select';
 import * as Yup from 'yup';
+import BookMeet from '../casestudy/BookMeet';
+import Footer from '../Layout/Footer';
 
 const countiesList = [
   {
@@ -867,21 +869,25 @@ const HomeForm = () => {
         /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
         'Phone number is not valid'
       ),
-    website: Yup.string()
-      .required('Website is required')
-      .matches(
-        /((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/,
-        'Website Url is not valid!'
-      ),
+    website: Yup.string().matches(
+      /((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/,
+      'Website Url is not valid!'
+    ),
   });
 
   return (
-    <section className='py-5 lg:py-10 px-4 '>
-      <div className='container   mx-auto border border-[#309FC9]  rounded-lg '>
-        <div className=' lg:flex  justify-between p-4 sm:p-8 md:p-10 lg:p-16 '>
+    <div
+      style={{
+        background: `linear-gradient(74.78deg, #3545D1 0%, #31A4C9 100%)`,
+      }}
+      className='py-4 lg:py-16 !pb-0 px-2 sm:px-4 !my-0 '
+    >
+      <div className='container bg-white   mx-auto sm:border border-[#309FC9]  rounded-lg '>
+        <div className=' lg:flex  justify-between  py-4 sm:p-6 md:p-10 lg:p-12 '>
           <div className='flex-1'>
             <h1 className='heading'>
-              Let’s create <br /> something great
+              Let’s create <br className='hidden sm:block' /> something{' '}
+              <br className='block sm:hidden' /> great
             </h1>
             <div className='text-sm sm:text-base lg:text-xl text-black text-opacity-80 font-light my-5 md:leading-[30px]'>
               <p>hello@thirdeye.com </p>
@@ -937,7 +943,7 @@ const HomeForm = () => {
                         </ErrorMessage>
                       </div>
                       <div className='relative w-full '>
-                        <div className='absolute z-10 top-2 right-0'>
+                        <div className='absolute z-10 top-2 right-0 cursor-pointer pointer-events-none'>
                           <HiChevronDown className='text-2xl text-black text-opacity-60' />
                         </div>
 
@@ -958,7 +964,8 @@ const HomeForm = () => {
                               borderBottom: '2px solid #e5e7eb',
                               boxShadow: 'none',
                               fontSize: '18px',
-                              paddingBottom: '13px',
+                              paddingBottom: '16px',
+                              cursor: 'pointer',
                               '&:hover': {
                                 borderRadius: 0,
                                 borderColor: '#e5e7eb',
@@ -968,6 +975,7 @@ const HomeForm = () => {
                               ...style,
                               fontSize: '18px',
                               color: '#9ca3af',
+                              margin: '0',
                             }),
                           }}
                         />
@@ -1002,7 +1010,7 @@ const HomeForm = () => {
                     </div>
 
                     <div className='relative'>
-                      <div className='absolute z-10 top-2 right-0'>
+                      <div className='absolute z-10 top-2 right-0 pointer-events-none'>
                         <HiChevronDown className='text-2xl text-black text-opacity-60' />
                       </div>
 
@@ -1023,7 +1031,9 @@ const HomeForm = () => {
                             borderBottom: '2px solid #e5e7eb',
                             boxShadow: 'none',
                             fontSize: '18px',
-                            paddingBottom: '6px',
+                            paddingBottom: '15px',
+                            cursor: 'pointer',
+
                             '&:hover': {
                               borderRadius: 0,
                               borderColor: '#e5e7eb',
@@ -1033,6 +1043,7 @@ const HomeForm = () => {
                             ...style,
                             paddingBottom: '13px',
                             color: '#9ca3af',
+                            margin: '0',
                           }),
                         }}
                       />
@@ -1052,7 +1063,7 @@ const HomeForm = () => {
                         {msg => <p className='text-red-500 py-3'>{msg}*</p>}
                       </ErrorMessage>
 
-                      <div className='mt-5'>
+                      {/* <div className='mt-5'>
                         <label className='flex space-x-2 items-center'>
                           <Field
                             type='checkbox'
@@ -1063,25 +1074,27 @@ const HomeForm = () => {
                             Stay up to date with trends in Design
                           </span>
                         </label>
-                      </div>
+                      </div> */}
                     </div>
 
-                    <div className='w-full flex justify-end '>
+                    <div className='w-full flex  '>
                       <button
-                        className='bg-black max-w-[135px] w-full h-12 text-sm md:text-base md:h-14 text-white lg:text-xl  rounded-[4px]'
+                        className='bg-black  w-full h-12 text-sm md:text-base md:h-14 text-white lg:text-xl  rounded-[4px]'
                         type='submit'
                       >
-                        Send
+                        Enquire now
                       </button>
                     </div>
                   </Form>
                 );
               }}
             </Formik>
+            <BookMeet />
           </div>
         </div>
       </div>
-    </section>
+      <Footer noBg />
+    </div>
   );
 };
 

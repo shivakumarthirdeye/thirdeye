@@ -16,8 +16,8 @@ const OurWorks = ({ title, currentPage, tag }) => {
       </div>
 
       <section className='hidden sm:block my-20 relative'>
-        <div className='container mx-auto px-4 overflow-hidden'>
-          <h1 className='heading'>{title || 'Our Works'}</h1>
+        <div className='container  overflow-hidden'>
+          <h1 className='heading font-medium'>{title || 'Our Works'}</h1>
           <div className='my-20  sm:px-0 container  mx-auto'>
             <Swiper
               spaceBetween={30}
@@ -159,9 +159,9 @@ const OurWorks = ({ title, currentPage, tag }) => {
             </Swiper>
           </div>
         </div>
-        <div className='absolute z-[-1]  left-0 top-0'>
+        {/* <div className='absolute z-[-1]  left-0 top-0'>
           <VioletLeft />
-        </div>
+        </div> */}
       </section>
     </>
   );

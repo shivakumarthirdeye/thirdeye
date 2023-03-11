@@ -28,12 +28,71 @@ const awards = [
   { id: 4, img: Award4.src, name: 'National excellence winner 2021' },
   { id: 5, img: Award5.src, name: 'Top digital agency 2021' },
 ];
+const testimonials = [
+  {
+    id: 1,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Their dedication to raising design standards and their promise of
+        on-time delivery make them a dependable partner.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 2,
+    name: 'Joseph',
+    // img: testimonial1.src,
+    userId: '@Joseph',
+    review: (
+      <>
+        "They created ideas. The product displayed information clearly and
+        smoothly tracked user data.
+        <br />
+        <br /> Third Eye Innovations UX design distinguishes itself through
+        efficient coding practices and stunning design concepts.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 3,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "It's an excellent Web design and development firm. The Third Eye
+        Innovations team advised us on current trends and provided us with smart
+        content.
+      </>
+    ),
+    date: '23rd April ',
+  },
+  {
+    id: 4,
+    name: 'Stephanie',
+    // img: testimonial.src,
+    userId: '@staphania',
+    review: (
+      <>
+        "Working with Third eye Innovations has been an absolute pleasure
+        because of their excellent technical skills and creative insights. They
+        encouraged the concept to completion, and the outcome is stunning.
+      </>
+    ),
+    date: '23rd April ',
+  },
+];
 
 const WebApplication = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+      <section className=' relative overflow-x-clip !mb-0 '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -45,31 +104,23 @@ const WebApplication = () => {
             }
             description={
               <>
-                With years of experience taking on the most challenging web
-                application development projects, our
-                <b>web app development company</b> is well-known in the IT
-                industry. To better meet changing user needs and technological
-                advancements, we can also completely redesign web interfaces.
+                With years of experience taking on the most challenging{' '}
+                <b>web application development</b> projects, our web app
+                development company is well-known in the IT industry.
               </>
             }
+            smallDescription={` To better meet changing user needs and technological advancements, we can also completely redesign web interfaces. You can always rely on us for custom web application development services because we offer flexible teams, ensure a transparent development process, and respond quickly to changing requirements.`}
           />
         </div>
       </section>
 
-      <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
-        <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          You can always rely on us for custom web application development
-          services because we offer flexible teams, ensure a transparent
-          development process, and respond quickly to changing requirements.
-        </h3>
-      </div>
       <Clients tag='WEBAPP' />
       <Awards awards={awards} />
       <OurWorks title={'Web Application Works'} tag='WEBAPPLICATION' />
       {/* <GrowWithUs /> */}
       <ImpactCreated />
       <Blogs />
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
       <FAQs />
     </Layout>
   );

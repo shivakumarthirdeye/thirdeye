@@ -62,7 +62,7 @@ const pricing = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-10  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>

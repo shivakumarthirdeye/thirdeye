@@ -10,9 +10,9 @@ import Testimonial from '@/components/common/Testimonial';
 import Layout from '@/components/Layout';
 // Hero Images
 
-import hero1 from '/public/assets/images/subServices/ux/hero1.png';
-import hero2 from '/public/assets/images/subServices/ux/hero2.png';
-import hero3 from '/public/assets/images/subServices/ux/hero3.png';
+import hero1 from '/public/assets/gif/sub-services/graphic-design/1.gif';
+import hero2 from '/public/assets/gif/sub-services/graphic-design/2.gif';
+import hero3 from '/public/assets/gif/sub-services/graphic-design/3.gif';
 
 const testimonials = [
   {
@@ -66,34 +66,29 @@ const GraphicDesign = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
             hero3={hero3}
             content={
               <span className='text-3xl md:text-4xl lg:text-6xl xl:text-7xl'>
-                DESIGN IS NOT ABOUT HOW IT LOOKS, BUT ABOUT HOW IT WORKS.
+                Graphic Design
               </span>
             }
             description={
               <>
-                In the market for creative designing services agencies, Third
-                Eye Innovations is a reputable service provider of graphic
-                design services. Prospective customers may remember your brand
-                for a long time due to our graphic designs.
+                Design is not about how it looks, but how it works. In the
+                market for creative designing services agencies, Third Eye
+                Innovations is a reputable service provider of graphic design
+                services.
               </>
             }
+            smallDescription={`Prospective customers may remember your brand for a long time due to our graphic designs. Our talented designers can produce an outstanding online presence for your business by combining professionalism with incredible creativity.`}
           />
         </div>
       </section>
 
-      <div className='mt-6 sm:mt-10 lg:mt-28 mb-10 container mx-auto px-4'>
-        <h3 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[954px] lg:leading-[48.6px] text-black text-opacity-80'>
-          Our talented designers can produce an outstanding online presence for
-          your business by combining professionalism with incredible creativity.
-        </h3>
-      </div>
       <Clients title='Selected Clients' />
       <Awards />
       <GraphicDesignWorks />

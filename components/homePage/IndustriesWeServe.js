@@ -30,40 +30,42 @@ const IndustriesWeServe = () => {
       img: industry3.src,
       description: `We have designed and built products that are simple to launch and scale quickly, ranging from complex data visualization to assistive CRM and ERP solutions.`,
     },
+
+    {
+      id: 5,
+      title: 'Food Tech',
+      img: industry5.src,
+      description: `From food delivery apps to recipe apps, we have developed all digital solutions for the food industry.`,
+    },
+    {
+      id: 6,
+      title: 'Telecom',
+      img: industry6.src,
+      description: `Our industry experts are dedicated to strategically innovating digital initiatives and transformations to build for the future today.`,
+    },
+    {
+      id: 7,
+      title: 'Social Media',
+      img: industry7.src,
+      description: `We are a group of enthusiastic social media experts. We understand the most effective techniques and strategies to increase ROI.`,
+    },
+    {
+      id: 8,
+      title: 'Marketing',
+      img: industry8.src,
+      description: `We offer 360-degree digital marketing services. We create and manage high-performing campaigns for businesses.
+`,
+    },
     {
       id: 4,
       title: 'Retail',
       img: industry4.src,
       description: `Drive retail digital transformation innovation. We offer a wide range of services, including consulting, design, development, marketing, and product validation. `,
     },
-    {
-      id: 5,
-      title: 'Food Tech',
-      img: industry5.src,
-      description: `At Third Eye, we’re all about action. What are the specific actions that fuel your company's growth`,
-    },
-    {
-      id: 6,
-      title: 'Telecom',
-      img: industry6.src,
-      description: `Third Eye Innovations has had unprecedented success in developing new digital solutions for global media and communication firms. Our industry experts are dedicated to strategically innovating digital initiatives and transformations so that you can build for the future today.`,
-    },
-    {
-      id: 7,
-      title: 'Social Media',
-      img: industry7.src,
-      description: `We are a group of social media experts who are enthusiastic about what we do. We understand the most effective techniques and strategies for optimizing your social media strategy for increased ROI.`,
-    },
-    {
-      id: 8,
-      title: 'Marketing',
-      img: industry8.src,
-      description: `We offer social media services, search engine services, email marketing services, digital marketing services, and more. We create and manage high-performing social media campaigns for businesses, making us the best digital marketing company.`,
-    },
   ];
 
   return (
-    <section className='relative py-10 md:py-16 lg:py-28  mt-10 my-0'>
+    <section className='relative py-10 md:py-16 lg:py-28  !m-0'>
       <div className='hidden sm:block absolute left-0 top-0 z-[-1] '>
         <svg
           width='361'
@@ -148,16 +150,16 @@ const IndustriesWeServe = () => {
           </defs>
         </svg>
       </div>
-      <div className='container mx-auto px-4 '>
+      <div className='container  '>
         <h1 className='heading'>Industries we serve</h1>
-        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
+        <div className='grid  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-8 md:gap-10 lg:gap-12 my-10 md:gap-y-16 lg:gap-y-24 '>
           {industries.map(item => {
             const { description, id, img, title } = item;
 
             return (
-              <div key={id} className='flex gap-3 space-x-4'>
+              <div key={id} className='flex   space-x-4'>
                 <div className='w-auto'>
-                  <img loading='lazy' src={img} className='' alt='' />
+                  <img loading='lazy' className='w-12 h-12' src={img} alt='' />
                 </div>
                 <div className='flex-1 '>
                   <h1 className='text-2xl font-medium text-black text-opacity-80'>

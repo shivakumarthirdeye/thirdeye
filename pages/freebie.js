@@ -89,7 +89,7 @@ const Freebie = () => {
         item={currentItem}
       />{' '}
       <section className='my-10 relative overflow-x-clip mb-10  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -103,7 +103,7 @@ const Freebie = () => {
           />
         </div>
       </section>
-      <div className='my-8 md:my-16 lg:my-20 container mx-auto px-4 '>
+      <div className='my-8 md:my-16 lg:my-20 container  '>
         <div className='flex flex-col lg:flex-row items-center  lg:space-x-9 h-full'>
           <div className='space-x-5 md:space-x-9 h-full lg:hidden mb-5 md:mb-8 flex'>
             <div className='w-[1.22px] self-end md:self-center h-[100px] bg-black '></div>

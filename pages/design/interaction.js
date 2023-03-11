@@ -28,7 +28,7 @@ const Interaction = () => {
   return (
     <Layout>
       <section className=' relative overflow-x-clip '>
-        <div className=' container mx-auto px-4  '>
+        <div className=' container   '>
           <HeroSection
             content={
               <span className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl'>

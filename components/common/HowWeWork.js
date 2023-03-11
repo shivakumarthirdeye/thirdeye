@@ -28,12 +28,16 @@ const howWork = [
   },
 ];
 
-const HowWeWork = ({ steps, title }) => {
+const HowWeWork = ({ steps, title, homePage }) => {
   const ourWorks = steps || howWork;
   return (
     <section className=' relative px-4 '>
       <div className='container mx-auto'>
-        <h1 className='heading lg:text-[64px]'>
+        <h1
+          className={`${
+            homePage ? 'heading' : 'smallHeading'
+          } text-center sm:text-left`}
+        >
           {title || 'How we Develop Incredible Products '}
         </h1>
 
@@ -44,16 +48,16 @@ const HowWeWork = ({ steps, title }) => {
             return (
               <div className='flex  sm:my-8 lg:my-16' key={id}>
                 <div className='flex-[0.14]  hidden sm:block'>
-                  <h3 className='text-xl mt-8 sm:text-3xl md:text-4xl xl:text-5xl'>
+                  <h3 className='text-xl mt-8 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
                     0{id}
                   </h3>
                 </div>
                 <div className='flex-1 max-w-[819px]'>
-                  <h1 className='text-3xl text-center sm:text-left sm:text-6xl md:text-7xl xl:text-8xl'>
+                  <h1 className='text-[32px] text-center  sm:text-left sm:text-4xl md:text-5xl lg:text-7xl xl:text-[90px]'>
                     <span className='sm:hidden'> 0{id} </span>
                     {title}
                   </h1>
-                  <p className='my-5  sm:text-xl text-center sm:text-left lg:text-2xl max-w-[583px] text-black text-opacity-80'>
+                  <p className='my-5  md:text-xl text-center sm:text-left lg:text-2xl max-w-[583px] text-black text-opacity-80'>
                     {description}
                   </p>
                   {idx !== howWork.length - 1 && (
@@ -65,16 +69,26 @@ const HowWeWork = ({ steps, title }) => {
           })}
         </div>
       </div>
-      <div className='absolute right-0 top-[300px] sm:top-[0%] z-[-10] overflow-hidden '>
-        <GreenRight />
-      </div>
-      <div className='absolute top-[-50px] left-0 z-[-10]  overflow-hidden'>
+
+      <div className='absolute hidden md:block top-[-50px] left-0 z-[-10]  overflow-hidden'>
         <VioletLeft />
       </div>
-      <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
-        <RightCircle />
-      </div>
-      <div className='absolute  top-[25%] sm:top-[75%] left-0 z-[-10]  overflow-hidden'>
+      {homePage ? (
+        <div className='absolute right-0 top-[0px] sm:top-[0%] z-[-10] overflow-hidden '>
+          <GreenRight />
+        </div>
+      ) : (
+        <div className='absolute right-0 top-[0px] sm:top-[50%] z-[-10] overflow-hidden '>
+          <GreenRight />
+        </div>
+      )}
+
+      {!homePage && (
+        <div className='absolute top-[75%] sm:top-[25%] right-0 sm:right-0 z-[-10]  overflow-hidden'>
+          <RightCircle />
+        </div>
+      )}
+      <div className='absolute  top-[5%] sm:top-[80%] left-0 z-[-10]  overflow-hidden'>
         <LeftCircle />
       </div>
     </section>

@@ -1,6 +1,191 @@
 {
   "projects": [
     {
+      "id": 9,
+      "title": "SpocLearn website",
+      "featured": true,
+      "smallTitle": "SpocLearn",
+      "featuredVideo": "/assets/images/case-study/spoc/featured.mp4",
+      "thumbnail": "/assets/images/case-study/spoc/thumbnail.png",
+      "slug": "spoclearn",
+      "tag": "Design & Development",
+      "tags": [
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Web",
+          "value": "App & Web"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "eLearning"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "One-stop solution for training and certification courses",
+      "summary": {
+        "heading": "One-stop solution for training and  certification courses.",
+        "points": [
+          "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
+          "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
+        ],
+        "img": "/assets/images/case-study/spoc/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this app?",
+        "points": [
+          "Users were disappointed because they did not receive the exact product shown on the websites.",
+          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
+          "There were no product recommendations while browsing",
+          "Policy complexity."
+        ],
+        "img": "/assets/images/case-study/spoc/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/spoc/project1.png",
+        "points": [
+          {
+            "id": 1,
+            "heading": "Impress with Efficient UX/UI Design",
+            "description": "We strived to provide stunning UX/UI solutions within simple yet effective eLearning segment website."
+          },
+          {
+            "id": 2,
+            "heading": "Developing knowledge",
+            "description": "Professional certification courses are required for a group of mid-level experienced professionals.To target 190+ countries, To generate 3 Cr + revenue for the 1st year of operation, Increase team size to be 25+"
+          }
+        ]
+      },
+      "solutions": {
+        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
+        "solutionPoints": [
+          {
+            "id": 1,
+            "title": "User Panel",
+            "points": [
+              "We created a high-quality user interface for this website for users to find relevant information.",
+              "Through a learning partner, provide certification training.",
+              "Professional certification courses are required for a group of mid-level experienced professionals.",
+              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
+            ],
+            "img": "/assets/images/case-study/spoc/solution1.png"
+          }
+        ]
+      },
+      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
+      "font": "/assets/images/case-study/spoc/font.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://dribbble.com/shots/19887930-SPOCLEARN-UI-UX-design-case-study-Web-Application-Design"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kakud With a robust farming App, we implemented a future-ready technology to explore more challenging areas.",
+      "featured": true,
+      "smallTitle": "Kakud",
+      "thumbnail": "/assets/images/case-study/kakud/thumbnail.png",
+      "slug": "kakud",
+      "tag": "Design & Development",
+      "tags": [
+        "MOBILE",
+        "DESIGN",
+        "UX"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "App"
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Agriculture"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
+      "summary": {
+        "heading": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
+        "points": [
+          "Farming now becomes easier no matter where you are, either in the urban city or the traditional farmer in the village."
+        ],
+        "img": "/assets/images/case-study/kakud/summary.png"
+      },
+      "problem": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/kakud/problems.png"
+      },
+      "goals": {
+        "img": "/assets/images/case-study/kakud/project1.png",
+        "noId": true,
+        "points": [
+          {
+            "id": 1,
+            "heading": "Minimalist e-commerce app  that is easy to use farmers.",
+            "points": [
+              "Our main objective was to focus on key issues by using a User-Centred Design process.",
+              "Create a simple, minimalist e-commerce app that is easy to use.",
+              "To find how we as a society can help farmers to make the switch"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
+        "img": "/assets/images/case-study/kakud/solution1.png"
+      },
+      "results": {
+        "points": [
+          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
+          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
+          "Accurate and relevant information is displayed."
+        ],
+        "img": "/assets/images/case-study/kakud/solution2.png"
+      },
+      "review": "I appreciate Third Eye Innovations Team's work quality and commitment to completing agreed-upon project work on time and with quality.",
+      "font": "/assets/images/case-study/kakud/font.png",
+      "tech": "/assets/images/case-study/kakud/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://www.dribbble.com/"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "LynkTown App and  website",
       "featured": true,
@@ -9,13 +194,10 @@
       "slug": "lynktown",
       "tag": "Design & Development",
       "tags": [
-        "SEO",
-        "SOCIAL",
-        "PCC",
-        "BRAND",
-        "CONTENT",
-        "DEVELOPMENT",
-        "DESIGN"
+        "MOBILE",
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -121,7 +303,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/20712603-LynkTown-App-and-website-a-social-commerce-platform"
         }
       ]
     },
@@ -129,9 +311,15 @@
       "id": 2,
       "title": "LYNKE Mobile App",
       "smallTitle": "LYNKE App",
+      "featured": true,
       "thumbnail": "/assets/images/case-study/lynke/thumbnail.png",
       "slug": "lynke",
       "tag": "Design & Development",
+      "tags": [
+        "MOBILE",
+        "DESIGN",
+        "UX"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -223,7 +411,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888022-Modern-corporate-business-card-Business-card-generator"
         }
       ]
     },
@@ -233,9 +421,9 @@
       "smallTitle": "Gigsasa App",
       "thumbnail": "/assets/images/case-study/gigsasa/thumbnail.png",
       "slug": "gigsasa",
-      "tag": "Design",
+      "tag": "",
       "tags": [
-        "PERFORMANCE"
+        "MOBILE"
       ],
       "devDetails": [
         {
@@ -251,7 +439,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": ""
         }
       ],
       "description": "Gigsasa is the job listing and  searching application for SMBs ",
@@ -331,12 +519,10 @@
       "slug": "u2",
       "tag": "Design & Development",
       "tags": [
-        "WEBSITE",
-        "WEBAPPLICATION",
         "MOBILE",
-        "MVP",
-        "UI",
-        "GRAPHIC"
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -451,7 +637,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19871375-U2-Fashion-Store-UI-UX-design-case-study-Fashion-App"
         }
       ]
     },
@@ -463,8 +649,9 @@
       "slug": "instabytes",
       "tag": "Design & Development",
       "tags": [
-        "UI",
-        "GRAPHIC"
+        "MOBILE",
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -550,7 +737,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888631-Instabyte-App-Stocks-Cryptocurrency-Trade-Finance-App"
         }
       ]
     },
@@ -562,9 +749,7 @@
       "slug": "dentotabs",
       "tag": "Design & Development",
       "tags": [
-        "SOCIAL",
-        "DESIGN",
-        "PERFORMANCE"
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -650,7 +835,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888671-Dentotabs-Job-Search-Hiring-Marketplace-Website"
         }
       ]
     },
@@ -675,7 +860,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": "Design + Development"
         }
       ],
       "description": "Amaar property offers high-quality apartments and office spaces",
@@ -754,9 +939,8 @@
       "slug": "ajyal",
       "tag": "Design & Development",
       "tags": [
-        "PCC",
-        "BRAND",
-        "CONTENT"
+        "MOBILE",
+        "WEBAPPLICATION"
       ],
       "devDetails": [
         {
@@ -772,7 +956,7 @@
         {
           "id": 3,
           "title": "Service Provided",
-          "value": "Design"
+          "value": "Design + Development"
         }
       ],
       "description": "Ajyal is a digital ecosystem mobile app and website for the e-commerce industry.",
@@ -835,189 +1019,7 @@
         {
           "id": 2,
           "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "SpocLearn website",
-      "featured": true,
-      "smallTitle": "SpocLearn website",
-      "featuredVideo": "/assets/images/case-study/spoc/featured.mp4",
-      "thumbnail": "/assets/images/case-study/spoc/thumbnail.png",
-      "slug": "spoclearn",
-      "tag": "Design & Development",
-      "tags": [
-        "SEO",
-        "SOCIAL",
-        "DEVELOPMENT",
-        "UI",
-        "GRAPHIC"
-      ],
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Web",
-          "value": "App & Web"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "eLearning"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "Design + Development"
-        }
-      ],
-      "description": "One-stop solution for training and certification courses",
-      "summary": {
-        "heading": "One-stop solution for training and  certification courses.",
-        "points": [
-          "Spoclearn is a website and one-stop solution for globally recognised training and certification courses across industry sectors. Spoclearn, as the name implies, is a single point of contact for all Learning requirements.",
-          "As a training organisation, they have already delivered certification courses globally through their learning partners, training and certifying over 25000 professionals.Spoclearn provides the option to customise the training programme to individual learnings and enterprise business requirements."
-        ],
-        "img": "/assets/images/case-study/spoc/summary.png"
-      },
-      "problem": {
-        "heading": "Why to design this app?",
-        "points": [
-          "Users were disappointed because they did not receive the exact product shown on the websites.",
-          "A better UI & UX of the app so users can search and use filters effectively to find their desired products",
-          "There were no product recommendations while browsing",
-          "Policy complexity."
-        ],
-        "img": "/assets/images/case-study/spoc/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/spoc/project1.png",
-        "points": [
-          {
-            "id": 1,
-            "heading": "Impress with Efficient UX/UI Design",
-            "description": "We strived to provide stunning UX/UI solutions within simple yet effective eLearning segment website."
-          },
-          {
-            "id": 2,
-            "heading": "Developing knowledge",
-            "description": "Professional certification courses are required for a group of mid-level experienced professionals.To target 190+ countries, To generate 3 Cr + revenue for the 1st year of operation, Increase team size to be 25+"
-          }
-        ]
-      },
-      "solutions": {
-        "heading": "The product is designed to lower the cognitive load by simplifying existing screens",
-        "solutionPoints": [
-          {
-            "id": 1,
-            "title": "User Panel",
-            "points": [
-              "We created a high-quality user interface for this website for users to find relevant information.",
-              "Through a learning partner, provide certification training.",
-              "Professional certification courses are required for a group of mid-level experienced professionals.",
-              "We also ensured that features were placed in places where users would expect them to be, that booking a training slot was simple, that the price was reasonable, and that the user experience was much more intuitive"
-            ],
-            "img": "/assets/images/case-study/spoc/solution1.png"
-          }
-        ]
-      },
-      "review": "They've analyzed what we need and had provided us with a design of an innovative, functional & user-friendly website",
-      "font": "/assets/images/case-study/spoc/font.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Kakud With a robust farming App, we implemented a future-ready technology to explore more challenging areas.",
-      "featured": true,
-      "smallTitle": "Kakud",
-      "thumbnail": "/assets/images/case-study/kakud/thumbnail.png",
-      "slug": "kakud",
-      "tag": "Design & Development",
-      "devDetails": [
-        {
-          "id": 1,
-          "title": "Platform",
-          "value": "App"
-        },
-        {
-          "id": 2,
-          "title": "Industry",
-          "value": "Agriculture"
-        },
-        {
-          "id": 3,
-          "title": "Service Provided",
-          "value": "Design + Development"
-        }
-      ],
-      "description": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
-      "summary": {
-        "heading": "The Kakud App can help you find the best fertiliser for your plants, and information on how to treat diseases and pests, and farmers can easily place an order if they need a specific product.",
-        "points": [
-          "Farming now becomes easier no matter where you are, either in the urban city or the traditional farmer in the village."
-        ],
-        "img": "/assets/images/case-study/kakud/summary.png"
-      },
-      "problem": {
-        "points": [
-          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
-          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
-          "Accurate and relevant information is displayed."
-        ],
-        "img": "/assets/images/case-study/kakud/problems.png"
-      },
-      "goals": {
-        "img": "/assets/images/case-study/kakud/project1.png",
-        "noId": true,
-        "points": [
-          {
-            "id": 1,
-            "heading": "Minimalist e-commerce app  that is easy to use farmers.",
-            "points": [
-              "Our main objective was to focus on key issues by using a User-Centred Design process.",
-              "Create a simple, minimalist e-commerce app that is easy to use.",
-              "To find how we as a society can help farmers to make the switch"
-            ]
-          }
-        ]
-      },
-      "solutions": {
-        "description": "Our team created a high-quality UI/UX app with numerous features. The addition of e-commerce to the application will help farmers in their search for the right product. Farmers in rural areas can easily access a user-friendly interface and a simple user experience. This project's main UI elements are all accented with white and blue. The colours do not detract from vivid product photos.",
-        "img": "/assets/images/case-study/kakud/solution1.png"
-      },
-      "results": {
-        "points": [
-          "The solution comprises an application that creates a strong network between farmers and sellers where the farmers can buy the products without any hassle or worry of getting paid more and the farmers can buy the product from vendors without doubting the authenticity of the product.",
-          "Quick and responsive app with slick loading speed.Building a knowledgeable community.",
-          "Accurate and relevant information is displayed."
-        ],
-        "img": "/assets/images/case-study/kakud/solution2.png"
-      },
-      "review": "I appreciate Third Eye Innovations Team's work quality and commitment to completing agreed-upon project work on time and with quality.",
-      "font": "/assets/images/case-study/kakud/font.png",
-      "tech": "/assets/images/case-study/kakud/tech.png",
-      "social": [
-        {
-          "id": 1,
-          "img": "/assets/images/case-study/behance.png",
-          "href": "https://www.behance.net/"
-        },
-        {
-          "id": 2,
-          "img": "/assets/images/case-study/dribbble.png",
-          "href": "https://www.dribbble.com/"
+          "href": "https://dribbble.com/shots/19888582-Ajayal-Fashion-Store-Mobile-App-Fashion-Ecommerce-Application"
         }
       ]
     },
@@ -1029,10 +1031,9 @@
       "slug": "iwowd",
       "tag": "Design & Development",
       "tags": [
-        "WEBSITE",
         "WEBAPPLICATION",
-        "MOBILE",
-        "MVP"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1122,6 +1123,9 @@
       "thumbnail": "/assets/images/case-study/trade-square/thumbnail.png",
       "slug": "trade-square",
       "tag": "Design & Development",
+      "tags": [
+        "DESIGN"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1241,10 +1245,9 @@
       "slug": "agrinia",
       "tag": "Design & Development",
       "tags": [
-        "PCC",
-        "EMAIL",
-        "BRAND",
-        "CONTENT"
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
@@ -1339,7 +1342,7 @@
       "slug": "poornatva",
       "tag": "Design & Development",
       "tags": [
-        "PERFORMANCE"
+        "DESIGN"
       ],
       "devDetails": [
         {
@@ -1430,6 +1433,11 @@
       "thumbnail": "/assets/images/case-study/rfq/thumbnail.png",
       "slug": "rfq",
       "tag": "Design & Development",
+      "tags": [
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
+      ],
       "devDetails": [
         {
           "id": 1,
@@ -1512,30 +1520,27 @@
       ]
     },
     {
-      "id": 15,
-      "title": "The clever corp",
-      "smallTitle": "The clever corp",
-      "featured": true,
-      "featuredVideo": "/assets/images/case-study/clever-crop/featured.m4v",
-      "thumbnail": "/assets/images/case-study/clever-crop/thumbnail.png",
-      "slug": "clever-crop",
-      "tag": "Design",
+      "id": 16,
+      "title": "Catch Wheel",
+      "smallTitle": "Catch Wheel",
+      "thumbnail": "/assets/images/case-study/catch/thumbnail.png",
+      "slug": "catch",
+      "tag": "Design & Development",
       "tags": [
-        "WEBSITE",
-        "WEBAPPLICATION",
         "MOBILE",
-        "MVP"
+        "DESIGN",
+        "UX"
       ],
       "devDetails": [
         {
           "id": 1,
           "title": "Platform",
-          "value": "Web App"
+          "value": "App"
         },
         {
           "id": 2,
           "title": "Industry",
-          "value": "Engineering Company"
+          "value": "Agriculture"
         },
         {
           "id": 3,
@@ -1543,57 +1548,134 @@
           "value": "Design + Development"
         }
       ],
-      "description": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
+      "description": "Catch Wheel is an app that allows drivers and users to find vehicles based on their needs in a specific location. This app features agricultural, construction, and taxi vehicles. The goal of the catch wheel was to connect customers and drivers for them to obtain necessary vehicle information and fulfil their needs.",
       "summary": {
-        "heading": "RFQ is a B2B Web Application to provide a total procurement solution for engineering companies and industries a like.",
-        "points": [
-          "They require a platform for buyers and sellers where the customer can give his requirement, the admin reviews it and passes it on to suppliers, suppliers submit bids to the admin, and the admin processes it and gives the customer a quote. When a customer accepts the quote and makes the payment on the RFQ platform, the supplier is notified and the work begins. When the work is finished, the customer marks the request as complete."
-        ],
-        "img": "/assets/images/case-study/rfq/summary.png"
+        "heading": "Catch Wheel is an app that allows drivers and users to find vehicles based on their needs in a specific location. This app features agricultural, construction, and taxi vehicles. The goal of the catch wheel was to connect customers and drivers for them to obtain necessary vehicle information and fulfil their needs.",
+        "img": "/assets/images/case-study/catch/summary.png"
       },
       "problem": {
         "heading": "Why to design this Website?",
         "points": [
-          "The client wants a home page that includes information about them, how to contact them, why they should choose them, customer FAQs, supplier FAQs, and a slider section. It should also include registration buttons for customers and suppliers.",
-          "Improve overall aesthetic and user experience and make the site more authentic and engaging.",
-          "Drive conversion of site visitors into contacts and ultimately customers.",
-          "Establish SEO foundations to increase search engine traffic and drive future growth.",
-          "An impressive UI that’s uncluttered and simple to use with neatly designed dashboards.",
-          "A growing platform requires expertise on multiple fronts, requiring a dedicated software team to be available at all times."
+          "Our team discovered that there was a communication problem with the driver, as well as problems such as the driver accepting the ride but failing to show up on time, so we came up with the idea of developing an app that will be useful for both the driver and the customers. You can obtain vehicles for agricultural purposes, construction, or taxis."
         ],
-        "img": "/assets/images/case-study/rfq/problems.png"
+        "img": "/assets/images/case-study/catch/problems.png"
+      },
+      "solutions": {
+        "description": "Our team created the app in such a way that",
+        "points": [
+          "The user can search for a vehicle in their immediate vicinity.",
+          "When the user searches, the app displays vehicles that are within 10 kilometres of him.",
+          "The driver is required to enter vehicle information into the app, which the user can view, and the user can contact the driver via the call-to-action option.Drivers need to have a subscription plan to use the application",
+          "Drivers need to have a subscription plan to use the application."
+        ],
+        "big": true,
+        "img": "/assets/images/case-study/catch/solution.png"
+      },
+      "results": {
+        "points": [
+          "Vehicles are easily found in nearby locations.",
+          "The user experience is straightforward to grasp.",
+          "And we're currently working on automating live location with a single click."
+        ],
+        "img": "/assets/images/case-study/catch/result.png"
+      },
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a user-friendly website on time.",
+      "font": "/assets/images/case-study/catch/font.png",
+      "tech": "/assets/images/case-study/catch/tech.png",
+      "social": [
+        {
+          "id": 1,
+          "img": "/assets/images/case-study/behance.png",
+          "href": "https://www.behance.net/"
+        },
+        {
+          "id": 2,
+          "img": "/assets/images/case-study/dribbble.png",
+          "href": "https://dribbble.com/shots/19874921-Catch-Wheels-Mobile-App-Development-Case-Study"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Third Eye Innovations increases lead conversion by 300% and organic traffic to the website by 150% for a Matrimony company",
+      "smallTitle": "Annette Matrimony",
+      "thumbnail": "/assets/images/case-study/annette-matrimony/thumbnail.png",
+      "slug": "annette",
+      "tag": "Design & Development",
+      "tags": [
+        "WEBAPPLICATION",
+        "DESIGN",
+        "UX"
+      ],
+      "devDetails": [
+        {
+          "id": 1,
+          "title": "Platform",
+          "value": "Web App "
+        },
+        {
+          "id": 2,
+          "title": "Industry",
+          "value": "Matrimonial website"
+        },
+        {
+          "id": 3,
+          "title": "Service Provided",
+          "value": "Design + Development"
+        }
+      ],
+      "description": "Agrinia company: an e-commerce website design and app based on agricultural and gardening knowledge",
+      "summary": {
+        "heading": "Here is our most recent work on a matrimonial website called Annette Matrimony. This website is a Malayalee matrimony platform.",
+        "points": [
+          "They provide you with a list of potential and eligible partners from both genders of the Malayalee Christian community. If you are looking for a perfect match for you, it is well worth registering with."
+        ],
+        "img": "/assets/images/case-study/annette-matrimony/summary.png"
+      },
+      "problem": {
+        "heading": "Why to design this Website?",
+        "points": [
+          "To earn the trust of the users, the company needed to maintain the authenticity of the profiles on the platform.",
+          "Registration must be made easy through an online mode of payment which is transparent and truly affordable.",
+          "Design and develop a highly effective management system for the website.",
+          "Design a user-friendly interface.",
+          "Packaging and Distribution",
+          "Construct a scalable, high-performance data analytics platform that takes advantage of existing business processing and hardware infrastructure. To continue serving a large and growing community of users at scale, Annette Matrimony's database would play a critical role in its website.",
+          "Eye-catching matrimonial website design earns more repeat visitors and more revenue for website owners."
+        ],
+        "img": "/assets/images/case-study/annette-matrimony/problems.png"
       },
       "goals": {
-        "img": "/assets/images/case-study/rfq/project1.png",
+        "img": "/assets/images/case-study/annette-matrimony/project1.png",
         "noId": true,
         "points": [
           {
             "id": 1,
-            "heading": "Provide a total procurement solution for engineering companies and industries.",
+            "heading": "Annette Matrimony aims to assist you in taking on the responsibility of finding your soul mate.",
             "points": [
-              "They require a web application to provide a total procurement solution for engineering companies and industries.",
-              "The home page should have a section about us, contact us, why choose us, Customer FAQ, Supplier FAQ and a slider section.",
-              "It should also contain buttons for customer and supplier registration.",
-              "Easily navigable website to make it useful for farmers."
+              "Digital solutions built with features and designs to provide matrimony services are known for making clients' and users' matrimonial dreams a sweet reality.",
+              "Annette Matrimony aims to assist you in taking on the responsibility of finding your soul mate.",
+              "They wanted excellent tools for people seeking new ways to look for or reconceptualize the marriage concept.",
+              "Segregated search options for the users based on industry, country, keyword, etc."
             ]
           }
         ]
       },
       "solutions": {
-        "description": "We planned the user testing sessions and the main screens that needed to be created for those testing days. We created a platform for buyers and sellers where the customer can submit his requirements, the admin reviews them and forwards them to suppliers, suppliers submit bids to the admin, and the admin processes them and provides a quote to the customer. When the customer accepts the quote and pays on the RFQ platform, the supplier is notified, and the work begins. When the work is finished, the customer marks the request as completed.",
-        "img": "/assets/images/case-study/rfq/solution.png"
+        "description": "This web design helps you find a perfect match with all the necessary information. Registration is made easy through an online mode of payment which is transparent and truly affordable. This bureau provides a list of eligible candidates from all work profile businesses ness, NRI to choose from which is updated periodically to provide you with an aesthetic search. We believe that a successful matrimony app must have the right features of an ideal matrimony app. They must ensure the safety of users while also offering convenience and reliability as they connect with people with ease.",
+        "img": "/assets/images/case-study/annette-matrimony/solution.png"
       },
       "results": {
         "points": [
-          "Boost site speed to 97% during launch; boost conversion rate to 9.7%.Enhanced user productivity.",
-          "Sales have increased.",
-          "Lower customer support costs."
+          "Reduced time for users to get photos on profiles by 95%",
+          "Improved data-warehouse search performance by 30%",
+          "Provided greater visibility into service health and user experience with real-time feeds."
         ],
-        "img": "/assets/images/case-study/rfq/result.png"
+        "img": "/assets/images/case-study/annette-matrimony/result.png"
       },
-      "review": "To provide a great user experience, you must remain relevant to what people are looking for and then build your website around that, which I believe you did and which has allowed us to achieve these successful results.",
-      "font": "/assets/images/case-study/rfq/font.png",
-      "tech": "/assets/images/case-study/rfq/tech.png",
+      "review": "Third Eye Innovations' services are highly responsive, and I would strongly recommend them. I discovered them via Google and was impressed by their client feedback. I contacted them and received a ser-friendly website on time.",
+      "font": "/assets/images/case-study/annette-matrimony/font.png",
+      "tech": "/assets/images/case-study/annette-matrimony/tech.png",
       "social": [
         {
           "id": 1,

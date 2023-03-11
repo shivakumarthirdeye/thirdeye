@@ -58,10 +58,10 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
         <VioletLeft />
       </div>
 
-      <div className='container mx-auto px-4'>
+      <div className='container '>
         {!noTitle && (
           <div>
-            <h1 className='heading '>{title || 'Our Works'}</h1>
+            <h1 className='heading !font-semibold '>{title || 'Our Works'}</h1>
           </div>
         )}
         <div>
@@ -90,19 +90,20 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
                 tag,
                 slug,
                 description,
+                summary,
                 featuredVideo,
               } = work;
 
               return (
                 <div
                   key={id}
-                  className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-32 my-8 md:my-16  items-center'
+                  className='flex flex-col  lg:flex-row gap-8 sm:gap-12 lg:gap-20 my-8 md:my-16  items-center'
                 >
                   <div
                     className={`${idx % 2 !== 0 ? 'lg:!order-2' : ''} flex-1`}
                   >
                     {featured && featuredVideo ? (
-                      <div className='w-fit object-cover  max-w-[400px]  md:max-w-none lg:h-[550px]   rounded-[32px] overflow-hidden    relative'>
+                      <div className='w-fit object-cover  max-w-[400px] h-[398px]   md:h-[500px] xl:h-[675px]   rounded-2xl lg:rounded-[32px] overflow-hidden  md:max-w-[579px]   relative'>
                         <video
                           src={featuredVideo}
                           autoPlay
@@ -115,19 +116,17 @@ const OurWork = ({ ourWorks, currentPage, featured, tag, noTitle, title }) => {
                       <img
                         loading='lazy'
                         src={thumbnail}
-                        className='h-[398px] max-w-[400px] md:max-w-none w-full   sm:h-[450px] sm:w-full lg:h-[550px]  object-cover  rounded-[32px]'
+                        className='w-[90vw] h-[400px] sm:h-[500px] object-cover sm:max-w-[600px] sm:min-w-max lg-max-w-[500px] lg:w-full lg:h-[500px] xl:max-w-[579px] xl:w-full xl:h-[675px] rounded-2xl lg:rounded-[32px]'
                         alt=''
                       />
                     )}
                   </div>
                   <div className='flex-1 my-5 lg:my-0 flex  flex-col justify-start'>
-                    <h4 className='text-[#4E53B7] font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
+                    <h4 className='text-[#4E53B7] mt-2 font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl'>
                       {tag}
                     </h4>
-                    <h1 className='heading lg:text-[64px] capitalize'>
-                      {smallTitle}
-                    </h1>
-                    <p className='sm:text-lg md:text-xl  lg:text-2xl  text-black text-opacity-60'>
+                    <h1 className='heading  capitalize'>{smallTitle}</h1>
+                    <p className='text-sm mt-3 sm:text-base md:text-lg lg:text-xl  xl:text-2xl  text-black text-opacity-60'>
                       {description}
                     </p>
                     <Link href={`/case-study/${slug}`}>

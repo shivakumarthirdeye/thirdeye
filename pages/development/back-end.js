@@ -15,8 +15,8 @@ import hero2 from '/public/assets/images/subServices/frontend/hero2.png';
 const Backend = () => {
   return (
     <Layout>
-      <section className=' relative overflow-x-clip mb-16  lg:mb-60'>
-        <div className=' container mx-auto px-4  '>
+      <section className=' relative overflow-x-clip'>
+        <div className=' container   '>
           <HeroSection
             hero1={hero1}
             hero2={hero2}
@@ -33,19 +33,14 @@ const Backend = () => {
                 need more consumers to buy your product?
               </>
             }
-          />
-        </div>
-      </section>
-
-      <div className='sm:mt-24 mt-14  my-10 container mx-auto px-4'>
-        <h3 className='lg:mt-6 text-lg  sm:text-xl lg:text-2xl text-black text-opacity-80'>
-          At Third Eye, we’re all about action. What are the specific actions
+            smallDescription={`At Third Eye, we’re all about action. What are the specific actions
           that fuel your company's growth? Do you need more consumers to buy
           your product? Or perhaps your goal is simply to generate more leads
           for your products and services? Whatever actions you're targeting,
-          Third Eye can help.
-        </h3>
-      </div>
+          Third Eye can help.`}
+          />
+        </div>
+      </section>
 
       <TechStack
         description={
