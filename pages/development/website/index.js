@@ -11,9 +11,9 @@ import TechStack from '@/components/homePage/TechStack';
 import Layout from '@/components/Layout';
 import WebsiteWorks from '@/components/sub-services/website-works/WebsiteWorks';
 // Hero Images
-import hero1 from '/public/assets/gif/sub-services/website/1.gif';
-import hero2 from '/public/assets/gif/sub-services/website/2.gif';
-import hero3 from '/public/assets/gif/sub-services/website/3.gif';
+import hero1 from '/public/assets/gif/sub-services/website/1.webm';
+import hero2 from '/public/assets/gif/sub-services/website/2.webm';
+import hero3 from '/public/assets/gif/sub-services/website/1.gif';
 // Award Images
 import Award1 from '/public/assets/images/award/website/1.png';
 import Award2 from '/public/assets/images/award/website/2.png';

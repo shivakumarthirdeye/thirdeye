@@ -10,6 +10,7 @@ const HeroSection = ({
   hero3,
   smallDescription,
 }) => {
+  // const hero1Type = hero1.src.slice(-3);
   return (
     <div className=''>
       <h1 className='text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-black text-opacity-80  sm:!leading-[48px] lg:!leading-[70px] max-w-[303px] sm:max-w-4xl xl:!leading-[87.14px] z-10'>
@@ -45,20 +46,44 @@ const HeroSection = ({
         {hero1 && (
           <div className='container h-[50vw] sm:h-[400px] lg:h-[480px] xl:h-[600px] mt-10  max-w-7xl mb-[10px]   mx-auto relative '>
             <div className='absolute  sm:left-0'>
-              <img
-                loading='lazy'
-                className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
-                src={hero1?.src}
-                alt=''
-              />
+              {hero1?.src ? (
+                <img
+                  loading='lazy'
+                  className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
+                  src={hero1?.src}
+                  alt=''
+                />
+              ) : (
+                <div className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'>
+                  <video
+                    src={hero2}
+                    autoPlay
+                    loop
+                    muted
+                    // className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
+                  ></video>
+                </div>
+              )}
             </div>
             <div className='absolute left-2/4 translate-y-2/3 -translate-x-2/4'>
-              <img
-                loading='lazy'
-                className='min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px]  object-cover'
-                src={hero2?.src}
-                alt=''
-              />
+              {hero2?.src ? (
+                <img
+                  loading='lazy'
+                  className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
+                  src={hero2?.src}
+                  alt=''
+                />
+              ) : (
+                <div className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'>
+                  <video
+                    src={hero1}
+                    autoPlay
+                    loop
+                    muted
+                    // className=' min-w-[120px] max-w-[33vw] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[520px] xl:min-w-[520px] w-full   xl:h-[389px] object-cover'
+                  ></video>
+                </div>
+              )}
             </div>
             <div className='absolute right-0 top-0'>
               <img
